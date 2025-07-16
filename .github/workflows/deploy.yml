@@ -39,6 +39,9 @@ jobs:
           VITE_EMAIL:        ${{ vars.VITE_EMAIL }}
           VITE_LINKEDIN_URL: ${{ vars.VITE_LINKEDIN_URL }}
 
+      - name: Replace URLs
+        run: grep -rl "/giovannidoni.github.io/" dist/ | xargs sed -i 's|/giovannidoni.github.io/|/|g'
+
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
