@@ -19,5 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: './',
+  base: mode === 'production' ? '/giovanni-doni-website/' : '/',
 }));
