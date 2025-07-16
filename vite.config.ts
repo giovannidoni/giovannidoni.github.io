@@ -19,13 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: mode === 'production' ? '/giovanni-doni-website/' : '/',
-  build: {
-    assetsDir: 'assets',
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
-    },
-  },
+  base: './',
 }));
