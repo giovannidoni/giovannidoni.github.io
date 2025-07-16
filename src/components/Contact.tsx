@@ -1,3 +1,4 @@
+
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -31,13 +32,18 @@ const Contact = () => {
     }
   ];
 
+  // Working URLs - replace these with your actual URLs
+  const calendlyUrl = import.meta.env.VITE_CALENDLY_URL || "https://calendly.com/giovanni-doni";
+  const linkedinUrl = import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/giovanni-doni";
+  const emailAddress = import.meta.env.VITE_EMAIL || "giovanni.doni@example.com";
+
   const contactMethods = [
     {
       icon: Calendar,
       title: "Book a Call",
       description: "Schedule a consultation or mentoring session",
       action: "Book via Calendly",
-      href: import.meta.env.VITE_CALENDLY_URL || "#calendly",
+      href: calendlyUrl,
       primary: true
     },
     {
@@ -45,7 +51,7 @@ const Contact = () => {
       title: "LinkedIn",
       description: "Connect for professional networking",
       action: "Connect on LinkedIn",
-      href: import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/giovanni-doni",
+      href: linkedinUrl,
       primary: false
     },
     {
@@ -53,7 +59,7 @@ const Contact = () => {
       title: "Email",
       description: "For detailed inquiries and collaborations",
       action: "Send Email",
-      href: `mailto:${import.meta.env.VITE_EMAIL || 'giovanni@example.com'}`,
+      href: `mailto:${emailAddress}`,
       primary: false
     },
     {
@@ -61,10 +67,22 @@ const Contact = () => {
       title: "Coffee Chat",
       description: "Informal meetups in London",
       action: "Suggest a Spot",
-      href: "#coffee",
+      href: `mailto:${emailAddress}?subject=Coffee Chat in London&body=Hi Giovanni, I'd love to meet for coffee in London. When works best for you?`,
       primary: false
     }
   ];
+
+  const handleContactClick = (href: string) => {
+    if (href.startsWith('mailto:')) {
+      window.location.href = href;
+    } else {
+      window.open(href, '_blank', 'noopener,noreferrer');
+    }
+  };
+
+  const handleServiceBooking = () => {
+    window.open(calendlyUrl, '_blank', 'noopener,noreferrer');
+  };
 
   return (
     <section id="contact" className="py-20 bg-background">
@@ -130,7 +148,7 @@ const Contact = () => {
                         <Clock className="h-4 w-4" />
                         {service.duration}
                       </span>
-                      <Button variant="outline" size="sm">
+                      <Button variant="outline" size="sm" onClick={handleServiceBooking}>
                         Book Session
                       </Button>
                     </div>
@@ -148,6 +166,7 @@ const Contact = () => {
                 className={`p-6 text-center hover:shadow-medium transition-all duration-300 group cursor-pointer ${
                   method.primary ? 'ring-2 ring-accent/20 bg-gradient-to-b from-accent/5 to-accent/10' : ''
                 }`}
+                onClick={() => handleContactClick(method.href)}
               >
                 <div className="space-y-4">
                   <div className={`mx-auto w-12 h-12 rounded-full flex items-center justify-center ${
@@ -187,7 +206,7 @@ const Contact = () => {
                   variant="accent" 
                   size="lg" 
                   className="shadow-strong"
-                  onClick={() => window.open(import.meta.env.VITE_CALENDLY_URL || 'https://calendly.com/giovanni-doni', '_blank')}
+                  onClick={() => window.open(calendlyUrl, '_blank', 'noopener,noreferrer')}
                 >
                   <Calendar className="h-5 w-5" />
                   Open Calendly Scheduler

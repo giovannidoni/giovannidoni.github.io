@@ -1,9 +1,14 @@
+
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Mountain, Linkedin, Mail, Heart, Code, Coffee } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  // Working URLs - replace these with your actual URLs
+  const linkedinUrl = import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/giovanni-doni";
+  const emailAddress = import.meta.env.VITE_EMAIL || "giovanni.doni@example.com";
 
   const quickLinks = [
     { name: "About", href: "#about" },
@@ -13,14 +18,22 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/giovanni-doni", label: "LinkedIn" },
-    { icon: Mail, href: `mailto:${import.meta.env.VITE_EMAIL || 'giovanni@example.com'}`, label: "Email" }
+    { icon: Linkedin, href: linkedinUrl, label: "LinkedIn" },
+    { icon: Mail, href: `mailto:${emailAddress}`, label: "Email" }
   ];
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId.replace("#", ""));
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleSocialClick = (href: string) => {
+    if (href.startsWith('mailto:')) {
+      window.location.href = href;
+    } else {
+      window.open(href, '_blank', 'noopener,noreferrer');
     }
   };
 
@@ -78,7 +91,7 @@ const Footer = () => {
                     variant="ghost"
                     size="sm"
                     className="justify-start p-0 h-auto text-white/80 hover:text-accent"
-                    onClick={() => window.open(social.href, "_blank")}
+                    onClick={() => handleSocialClick(social.href)}
                   >
                     <social.icon className="h-4 w-4 mr-2" />
                     {social.label}
