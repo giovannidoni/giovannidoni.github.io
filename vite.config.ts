@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: mode === 'production' ? '/giovanni-doni-website/' : '/',
+  base: mode === 'production' ? '/giovannidoni.github.io/' : '/',
   build: {
     rollupOptions: {
       output: {
