@@ -20,4 +20,14 @@ export default defineConfig(({ mode }) => ({
     },
   },
   base: mode === 'production' ? '/giovanni-doni-website/' : '/',
+  build: {
+    rollupOptions: {
+      output: {
+        format: 'es',
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]'
+      }
+    }
+  },
 }));
