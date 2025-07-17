@@ -31,7 +31,7 @@ jobs:
         VITE_LINKEDIN_URL: ${{ vars.VITE_LINKEDIN_URL }}
 
     - name: Replace URLs
-      run: grep -rl "." "./dist" | xargs sed -i 's|/giovannidoni.github.io/|/|g'
+      run: grep -rl "giovannidoni.github.io" ./dist | xargs sed -i 's|/giovannidoni.github.io/|/|g'
 
     - name: Add .nojekyll file
       run: touch dist/.nojekyll
