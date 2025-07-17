@@ -115,7 +115,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Mountain className="h-5 w-5 text-accent" />
-                  <span className="font-medium">Heart in the Dolomites</span>
+                  <span className="font-medium">Peak performance</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="h-5 w-5 text-accent" />

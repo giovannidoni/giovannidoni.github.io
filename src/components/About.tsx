@@ -49,9 +49,7 @@ const About = () => {
               </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Italian by heritage, mountain lover by passion. 
-              I combine the precision of mountain hiking with the innovation of ML and AI 
-              to solve complex technical challenges at scale.
+              Innovation that climbs. Honed precision delivering peak‑performance through ML/AI.
             </p>
           </div>
 
