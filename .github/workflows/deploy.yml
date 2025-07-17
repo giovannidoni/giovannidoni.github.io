@@ -30,11 +30,11 @@ jobs:
         VITE_EMAIL: ${{ vars.VITE_EMAIL }}
         VITE_LINKEDIN_URL: ${{ vars.VITE_LINKEDIN_URL }}
 
-      - name: Replace URLs
-        run: grep -rl "." "./dist" | xargs sed -i 's|/giovannidoni.github.io/|/|g'
+    - name: Replace URLs
+    run: grep -rl "." "./dist" | xargs sed -i 's|/giovannidoni.github.io/|/|g'
 
-      - name: Add .nojekyll file
-        run: touch dist/.nojekyll
+    - name: Add .nojekyll file
+    run: touch dist/.nojekyll
         
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
