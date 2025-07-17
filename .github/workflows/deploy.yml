@@ -1,12 +1,12 @@
 name: Deploy to GitHub Pages
 
 on:
-  permissions:
-    contents: write
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
