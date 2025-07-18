@@ -106,6 +106,16 @@ const Footer = () => {
                   <Coffee className="h-4 w-4 mr-2" />
                   Coffee Chat
                 </Button>
+                
+                {/* LinkedIn Follow Button */}
+                <a
+                  href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=giovanni-doni"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col justify-center items-center p-2 text-center text-white bg-[#0A66C2] w-[200px] h-8 rounded-2xl font-medium text-sm hover:bg-[#004182] transition-colors"
+                >
+                  Follow on LinkedIn
+                </a>
               </div>
             </div>
           </div>

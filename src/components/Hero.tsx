@@ -49,6 +49,18 @@ const Hero = () => {
             </Button>
           </div>
 
+          {/* LinkedIn Follow Button */}
+          <div className="flex justify-center mt-6">
+            <a
+              href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=giovanni-doni"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col justify-center items-center p-2 text-center text-white bg-[#0A66C2] w-[200px] h-8 rounded-2xl font-medium text-sm hover:bg-[#004182] transition-colors shadow-medium"
+            >
+              Follow on LinkedIn
+            </a>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 text-center">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
               <div className="text-3xl font-bold text-accent">£20M+</div>
