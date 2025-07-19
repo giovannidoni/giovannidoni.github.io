@@ -61,28 +61,22 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mt-8 md:mt-12 text-center">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
-              <div className="text-2xl md:text-3xl font-bold text-accent">£20M+</div>
-              <div className="text-xs md:text-sm text-white/80">Cost Savings Delivered</div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 mt-6 md:mt-12 text-center">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-6 border border-white/20">
+              <div className="text-xl md:text-2xl lg:text-3xl font-bold text-accent">£20M+</div>
+              <div className="text-xs md:text-sm text-white/80 leading-tight">Cost Savings Delivered</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
-              <div className="text-2xl md:text-3xl font-bold text-accent">10+</div>
-              <div className="text-xs md:text-sm text-white/80">Years at Scale</div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-6 border border-white/20">
+              <div className="text-xl md:text-2xl lg:text-3xl font-bold text-accent">10+</div>
+              <div className="text-xs md:text-sm text-white/80 leading-tight">Years at Scale</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
-              <div className="text-2xl md:text-3xl font-bold text-accent">PhD</div>
-              <div className="text-xs md:text-sm text-white/80">Physics, King's College</div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-6 border border-white/20">
+              <div className="text-xl md:text-2xl lg:text-3xl font-bold text-accent">PhD</div>
+              <div className="text-xs md:text-sm text-white/80 leading-tight">Physics, King's College</div>
             </div>
           </div>
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <button onClick={() => scrollToSection("about")} className="text-white/70 hover:text-white transition-colors">
-            <ArrowDown className="h-6 w-6" />
-          </button>
-        </div>
       </div>
     </section>;
 };

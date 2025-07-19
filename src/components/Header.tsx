@@ -74,10 +74,12 @@ const Header = () => {
               <Button
                 variant="accent"
                 size="sm"
-                onClick={() => scrollToSection("contact")}
+                asChild
               >
-                <Mail className="h-4 w-4" />
-                Get in Touch
+                <a href={`mailto:${import.meta.env.VITE_EMAIL || "giovanni.doni@example.com"}`}>
+                  <Mail className="h-4 w-4" />
+                  Get in Touch
+                </a>
               </Button>
             </div>
           </nav>
@@ -130,10 +132,12 @@ const Header = () => {
                 <Button
                   variant="accent"
                   size="sm"
-                  onClick={() => scrollToSection("contact")}
+                  asChild
                 >
-                  <Mail className="h-4 w-4" />
-                  Get in Touch
+                  <a href={`mailto:${import.meta.env.VITE_EMAIL || "giovanni.doni@example.com"}`}>
+                    <Mail className="h-4 w-4" />
+                    Get in Touch
+                  </a>
                 </Button>
               </div>
             </nav>
