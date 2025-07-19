@@ -14,20 +14,38 @@ const Index = () => {
 
   useEffect(() => {
     const checkMobile = () => {
-      // Use both viewport width and device characteristics for better mobile detection
-      const isMobileViewport = window.innerWidth < 768;
-      const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-      const isZoomedMobile = window.innerWidth < 1024 && isTouchDevice;
+      // More robust mobile detection that accounts for zoom
+      const viewportWidth = window.innerWidth;
+      const screenWidth = window.screen.width;
+      const devicePixelRatio = window.devicePixelRatio || 1;
       
-      setIsMobile(isMobileViewport || isZoomedMobile);
+      // Detect if zoomed (viewport much smaller than screen)
+      const isZoomed = viewportWidth < (screenWidth / devicePixelRatio) * 0.8;
+      
+      // Primary mobile detection
+      const isMobileSize = viewportWidth < 768;
+      
+      // Secondary detection for tablets/zoomed desktop
+      const isTabletOrZoomed = viewportWidth < 1024 && (
+        'ontouchstart' in window || 
+        navigator.maxTouchPoints > 0 || 
+        isZoomed
+      );
+      
+      setIsMobile(isMobileSize || isTabletOrZoomed);
     };
     
     checkMobile();
     window.addEventListener('resize', checkMobile);
     window.addEventListener('orientationchange', checkMobile);
+    
+    // Also check on visibility change (handles zoom better)
+    document.addEventListener('visibilitychange', checkMobile);
+    
     return () => {
       window.removeEventListener('resize', checkMobile);
       window.removeEventListener('orientationchange', checkMobile);
+      document.removeEventListener('visibilitychange', checkMobile);
     };
   }, []);
 
