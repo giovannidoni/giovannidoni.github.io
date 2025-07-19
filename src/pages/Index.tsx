@@ -14,12 +14,21 @@ const Index = () => {
 
   useEffect(() => {
     const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768);
+      // Use both viewport width and device characteristics for better mobile detection
+      const isMobileViewport = window.innerWidth < 768;
+      const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+      const isZoomedMobile = window.innerWidth < 1024 && isTouchDevice;
+      
+      setIsMobile(isMobileViewport || isZoomedMobile);
     };
     
     checkMobile();
     window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
+    window.addEventListener('orientationchange', checkMobile);
+    return () => {
+      window.removeEventListener('resize', checkMobile);
+      window.removeEventListener('orientationchange', checkMobile);
+    };
   }, []);
 
   if (!isMobile) {
