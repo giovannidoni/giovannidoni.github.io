@@ -1,6 +1,12 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Building2, Calendar, Trophy, ExternalLink } from "lucide-react";
+import { Building2, Calendar, Trophy, ExternalLink, ChevronDown } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const Experience = () => {
   const experiences = [
@@ -106,57 +112,65 @@ const Experience = () => {
           </div>
 
           {/* Professional Experience */}
-          <div className="space-y-8 mb-16">
+          <div className="mb-16">
             <h3 className="text-2xl font-bold text-foreground mb-8">Professional Journey</h3>
-            {experiences.map((exp, index) => (
-              <Card key={index} className="p-8 hover:shadow-medium transition-all duration-300 border-l-4 border-l-accent">
-                <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-4">
-                  <div className="lg:flex-1">
-                    <div className="flex items-center gap-2 mb-2">
-                      <h4 className="text-xl font-bold text-foreground">{exp.role}</h4>
-                      <ExternalLink className="h-4 w-4 text-muted-foreground" />
+            <Accordion type="multiple" className="space-y-4">
+              {experiences.map((exp, index) => (
+                <AccordionItem key={index} value={`experience-${index}`} className="border rounded-lg border-l-4 border-l-accent">
+                  <AccordionTrigger className="px-6 py-4 hover:no-underline">
+                    <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between w-full text-left">
+                      <div className="lg:flex-1">
+                        <div className="flex items-center gap-2 mb-2">
+                          <h4 className="text-xl font-bold text-foreground">{exp.role}</h4>
+                          <ExternalLink className="h-4 w-4 text-muted-foreground" />
+                        </div>
+                        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-muted-foreground">
+                          <span className="font-semibold text-accent">{exp.company}</span>
+                          <span className="flex items-center gap-1">
+                            <Calendar className="h-4 w-4" />
+                            {exp.period}
+                          </span>
+                          <span>{exp.location}</span>
+                        </div>
+                      </div>
                     </div>
-                    <div className="flex items-center gap-4 text-muted-foreground mb-2">
-                      <span className="font-semibold text-accent">{exp.company}</span>
-                      <span className="flex items-center gap-1">
-                        <Calendar className="h-4 w-4" />
-                        {exp.period}
-                      </span>
-                      <span>{exp.location}</span>
-                    </div>
-                    <p className="text-muted-foreground mb-4">{exp.description}</p>
-                  </div>
-                </div>
+                  </AccordionTrigger>
+                  <AccordionContent className="px-6 pb-6">
+                    <div className="space-y-6">
+                      <p className="text-muted-foreground">{exp.description}</p>
+                      
+                      <div className="grid lg:grid-cols-3 gap-6">
+                        <div className="lg:col-span-2">
+                          <h5 className="font-semibold text-foreground mb-3 flex items-center gap-2">
+                            <Trophy className="h-4 w-4 text-accent" />
+                            Key Achievements
+                          </h5>
+                          <ul className="space-y-2">
+                            {exp.achievements.map((achievement, achievementIndex) => (
+                              <li key={achievementIndex} className="text-muted-foreground flex items-start gap-2">
+                                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2.5 flex-shrink-0"></span>
+                                <span>{achievement}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
 
-                <div className="grid lg:grid-cols-3 gap-6">
-                  <div className="lg:col-span-2">
-                    <h5 className="font-semibold text-foreground mb-3 flex items-center gap-2">
-                      <Trophy className="h-4 w-4 text-accent" />
-                      Key Achievements
-                    </h5>
-                    <ul className="space-y-2">
-                      {exp.achievements.map((achievement, achievementIndex) => (
-                        <li key={achievementIndex} className="text-muted-foreground flex items-start gap-2">
-                          <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2.5 flex-shrink-0"></span>
-                          <span>{achievement}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h5 className="font-semibold text-foreground mb-3">Technologies</h5>
-                    <div className="flex flex-wrap gap-2">
-                      {exp.tech.map((tech, techIndex) => (
-                        <Badge key={techIndex} variant="secondary" className="text-xs">
-                          {tech}
-                        </Badge>
-                      ))}
+                        <div>
+                          <h5 className="font-semibold text-foreground mb-3">Technologies</h5>
+                          <div className="flex flex-wrap gap-2">
+                            {exp.tech.map((tech, techIndex) => (
+                              <Badge key={techIndex} variant="secondary" className="text-xs">
+                                {tech}
+                              </Badge>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </Card>
-            ))}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
 
           {/* Education */}

@@ -43,9 +43,9 @@ const About = () => {
               About Me
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Bridging Mountains and{" "}
+              Peak Performance in{" "}
               <span className="bg-gradient-accent bg-clip-text text-transparent">
-                Machine Learning
+                AI / Machine Learning
               </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">

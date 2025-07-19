@@ -163,26 +163,6 @@ const Blog = () => {
             </div>
           </div>
 
-          <div className="text-center">
-            <div className="bg-white/50 backdrop-blur-sm rounded-lg p-8 border border-accent/20">
-              <h3 className="text-xl font-bold text-foreground mb-4">
-                More Articles Coming Soon
-              </h3>
-              <p className="text-muted-foreground mb-6">
-                I'm currently working on more in-depth articles about ML engineering, 
-                technical leadership, and the intersection of outdoor adventures with professional growth.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button variant="accent" size="lg">
-                  <BookOpen className="h-5 w-5" />
-                  Subscribe for Updates
-                </Button>
-                <Button variant="outline" size="lg">
-                  Suggest a Topic
-                </Button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
