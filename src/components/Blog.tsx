@@ -1,8 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { BookOpen, Clock, ArrowRight, Calendar, Tag, Linkedin, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
+import linkedinPostsData from "@/data/linkedin-posts.json";
 
 const Blog = () => {
   // Placeholder blog posts - these would come from a CMS or markdown files
@@ -33,29 +35,8 @@ const Blog = () => {
     }
   ];
 
-  // LinkedIn posts with embedded content
-  const linkedinPosts = [
-    {
-      title: "The Future of ML Engineering: From Models to Production",
-      excerpt: "Just deployed our latest LLM system at scale. Here's what I learned about the gap between research and production...",
-      date: "2024-01-20",
-      engagement: "127 likes, 23 comments",
-      tags: ["MLOps", "Production", "Engineering"],
-      url: "https://linkedin.com/posts/yourprofile/activity-123456789",
-      type: "linkedin",
-      embedCode: `<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7339301481948311552?collapsed=1" height="552" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>`
-    },
-    {
-      title: "Leadership Lessons from 8000ft: Managing Remote ML Teams",
-      excerpt: "Back from the Alps with fresh perspectives on leading distributed teams. The parallels between mountain leadership and tech leadership are striking...",
-      date: "2024-01-10",
-      engagement: "89 likes, 15 comments",
-      tags: ["Leadership", "Remote Work", "Mountains"],
-      url: "https://linkedin.com/posts/yourprofile/activity-123456790",
-      type: "linkedin",
-      embedCode: `<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7339579159720910848?collapsed=1" height="583" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>`
-    }
-  ];
+  // LinkedIn posts loaded from JSON file
+  const linkedinPosts = linkedinPostsData.sort((a, b) => a.index - b.index);
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
@@ -93,18 +74,24 @@ const Blog = () => {
               <Linkedin className="h-5 w-5 text-accent" />
               <h3 className="text-2xl font-bold text-foreground">Latest LinkedIn Posts</h3>
             </div>
-            <div className="grid md:grid-cols-2 gap-6">
-              {linkedinPosts.map((post, index) => (
-                <Card key={`linkedin-${index}`} className="p-4">
-                  <div className="flex justify-center">
-                    <div 
-                      className="linkedin-embed"
-                      dangerouslySetInnerHTML={{ __html: post.embedCode }}
-                    />
-                  </div>
-                </Card>
-              ))}
-            </div>
+            <Carousel className="w-full max-w-6xl mx-auto">
+              <CarouselContent>
+                {linkedinPosts.map((post, index) => (
+                  <CarouselItem key={`linkedin-${index}`} className="basis-full md:basis-1/2">
+                    <Card className="p-4 h-full">
+                      <div className="flex justify-center">
+                        <div 
+                          className="linkedin-embed w-full max-w-[504px]"
+                          dangerouslySetInnerHTML={{ __html: post.embedCode }}
+                        />
+                      </div>
+                    </Card>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
           </div>
 
           {/* Blog Articles */}
