@@ -64,7 +64,7 @@ const Hero = () => {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-6 border border-white/20">
               <div className="text-xl md:text-2xl lg:text-3xl font-bold text-accent">10+</div>
-              <div className="text-xs md:text-sm text-white/80 leading-tight">Years at Scale</div>
+              <div className="text-xs md:text-sm text-white/80 leading-tight">year of experience</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-6 border border-white/20">
               <div className="text-xl md:text-2xl lg:text-3xl font-bold text-accent">PhD</div>
