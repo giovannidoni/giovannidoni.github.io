@@ -34,15 +34,15 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-gradient-hero">
+    <section id="about" className="py-16 md:py-20 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12 md:mb-16">
             <Badge variant="outline" className="mb-4">
               <Globe className="h-4 w-4 mr-2" />
               About Me
             </Badge>
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Peak Performance in{" "}
               <span className="bg-gradient-accent bg-clip-text text-transparent">
                 AI / Machine Learning
@@ -53,7 +53,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+          <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center mb-12 md:mb-16">
             <div className="space-y-6">
               <h3 className="text-2xl font-bold text-foreground">My Journey</h3>
               <div className="space-y-4 text-muted-foreground">
@@ -85,9 +85,9 @@ const About = () => {
           </div>
 
           {/* Values */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-12 md:mb-16">
             {values.map((value, index) => (
-              <Card key={index} className="p-6 text-center hover:shadow-medium transition-all duration-300 group">
+              <Card key={index} className="p-4 md:p-6 text-center hover:shadow-medium transition-all duration-300 group">
                 <div className="mb-4">
                   <value.icon className="h-8 w-8 text-accent mx-auto group-hover:scale-110 transition-transform duration-300" />
                 </div>
@@ -100,9 +100,9 @@ const About = () => {
           {/* Skills */}
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-8 text-center">Technical Expertise</h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
               {skills.map((skillGroup, index) => (
-                <Card key={index} className="p-6 hover:shadow-medium transition-all duration-300">
+                <Card key={index} className="p-4 md:p-6 hover:shadow-medium transition-all duration-300">
                   <div className="flex items-center mb-4">
                     <Code2 className="h-5 w-5 text-accent mr-2" />
                     <h4 className="font-semibold text-foreground">{skillGroup.category}</h4>
