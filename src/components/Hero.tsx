@@ -22,7 +22,6 @@ const Hero = () => {
           <div className="space-y-3 md:space-y-4">
             <Badge variant="secondary" className="bg-white/20 text-white border-white/30 backdrop-blur-sm text-xs md:text-sm px-3 py-1.5 md:px-4 md:py-2">
               <Mountain className="h-3 w-3 md:h-4 md:w-4 mr-1.5 md:mr-2 flex-shrink-0" />
-              <span className="text-center leading-tight">Senior ML and AI Engineer • PhD • Tech Professional</span>
             </Badge>
             
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight">
