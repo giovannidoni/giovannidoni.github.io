@@ -20,9 +20,6 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto space-y-4 md:space-y-8">
           <div className="space-y-3 md:space-y-4">
-            <Badge variant="secondary" className="bg-white/20 text-white border-white/30 backdrop-blur-sm text-xs md:text-sm px-3 py-1.5 md:px-4 md:py-2">
-              <Mountain className="h-3 w-3 md:h-4 md:w-4 mr-1.5 md:mr-2 flex-shrink-0" />
-            </Badge>
             
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight">
               Giovanni{" "}
