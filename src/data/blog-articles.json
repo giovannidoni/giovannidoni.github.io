@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Scaling LLMs in Production: Lessons from Deliveroo",
+    "excerpt": "A deep dive into the challenges and solutions for deploying large language models at scale in production environments.",
+    "date": "2024-01-15",
+    "readTime": "8 min",
+    "tags": ["LLMs", "Production", "MLOps"],
+    "slug": "scaling-llms-production-deliveroo"
+  },
+  {
+    "title": "From the Dolomites to Data: What Mountains Teach Us About ML",
+    "excerpt": "Drawing parallels between mountain climbing and machine learning - patience, preparation, and the importance of taking one step at a time.",
+    "date": "2023-12-20",
+    "readTime": "5 min",
+    "tags": ["Career", "Philosophy", "Mountains"],
+    "slug": "dolomites-data-mountains-ml"
+  },
+  {
+    "title": "Building Robust ML Pipelines with Kubernetes and Argo",
+    "excerpt": "A practical guide to orchestrating machine learning workflows using modern container orchestration tools.",
+    "date": "2023-11-28",
+    "readTime": "12 min",
+    "tags": ["Kubernetes", "MLOps", "Infrastructure"],
+    "slug": "robust-ml-pipelines-kubernetes-argo"
+  }
+]

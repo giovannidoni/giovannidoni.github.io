@@ -2,33 +2,22 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Mail, Calendar, Linkedin, MessageSquare, MapPin, Coffee, Mountain, Clock } from "lucide-react";
+import { Mail, Calendar, Linkedin, MessageSquare, MapPin, Mountain, Clock } from "lucide-react";
 
 const Contact = () => {
-  const services = [
+
+  const serviceOptions = [
     {
-      title: "ML Strategy Consulting",
-      description: "Strategic guidance on ML initiatives, from proof-of-concept to production deployment.",
-      duration: "60 min",
-      type: "Strategy Session"
+      title: "ML Strategy & Implementation",
+      description: "End-to-end machine learning solutions from concept to production deployment"
     },
     {
-      title: "Technical Architecture Review",
-      description: "Deep dive into your ML infrastructure, identifying optimization opportunities and best practices.",
-      duration: "90 min",
-      type: "Technical Review"
+      title: "Career Mentoring Sessions", 
+      description: "Personal guidance for data scientists and ML engineers advancing their careers"
     },
     {
-      title: "Career Mentoring",
-      description: "One-on-one mentoring for data scientists and ML engineers looking to advance their careers.",
-      duration: "45 min",
-      type: "Mentoring"
-    },
-    {
-      title: "Speaking & Workshops",
-      description: "Technical talks and workshops on ML engineering, leadership, and scaling data teams.",
-      duration: "Custom",
-      type: "Speaking"
+      title: "Team Leadership Consulting",
+      description: "Building and scaling high-performing data science and engineering teams"
     }
   ];
 
@@ -36,49 +25,6 @@ const Contact = () => {
   const calendlyUrl = import.meta.env.VITE_CALENDLY_URL || "https://calendly.com/giovanni-doni";
   const linkedinUrl = import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/giovanni-doni";
   const emailAddress = import.meta.env.VITE_EMAIL || "giovanni.doni@example.com";
-
-  const contactMethods = [
-    {
-      icon: Calendar,
-      title: "Book a Call",
-      description: "Schedule a consultation or mentoring session",
-      action: "Book via Calendly",
-      href: calendlyUrl,
-      primary: true
-    },
-    {
-      icon: Linkedin,
-      title: "LinkedIn",
-      description: "Connect for professional networking",
-      action: "Connect on LinkedIn",
-      href: linkedinUrl,
-      primary: false
-    },
-    {
-      icon: Mail,
-      title: "Email",
-      description: "For detailed inquiries and collaborations",
-      action: "Send Email",
-      href: `mailto:${emailAddress}`,
-      primary: false
-    },
-    {
-      icon: Coffee,
-      title: "Coffee Chat",
-      description: "Informal meetups in London",
-      action: "Suggest a Spot",
-      href: `mailto:${emailAddress}?subject=Coffee Chat in London&body=Hi Giovanni, I'd love to meet for coffee in London. When works best for you?`,
-      primary: false
-    }
-  ];
-
-  const handleContactClick = (href: string) => {
-    if (href.startsWith('mailto:')) {
-      window.location.href = href;
-    } else {
-      window.open(href, '_blank', 'noopener,noreferrer');
-    }
-  };
 
   const handleServiceBooking = () => {
     window.open(calendlyUrl, '_blank', 'noopener,noreferrer');
@@ -101,119 +47,86 @@ const Contact = () => {
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Whether you're looking to scale your ML initiatives, need strategic guidance, 
-              or want to discuss the latest in AI over a coffee in London, I'd love to hear from you.
+              or want to discuss the latest in AI, I'd love to hear from you.
             </p>
           </div>
 
-          {/* Location Banner */}
-          <div className="mb-12">
-            <Card className="p-6 bg-gradient-to-r from-accent/5 to-accent/10 border-accent/20">
-              <div className="flex items-center justify-center gap-8 text-center">
-                <div className="flex items-center gap-2">
+          {/* Combined Contact Section */}
+          <div className="max-w-4xl mx-auto">
+            <Card className="p-8 md:p-12 bg-gradient-to-br from-accent/5 via-accent/10 to-accent/5 border-accent/20 hover:shadow-medium transition-all duration-300">
+              {/* Location Info Header */}
+              <div className="flex flex-wrap items-center justify-center gap-6 mb-8 pb-8 border-b border-accent/20">
+                <div className="flex items-center gap-2 text-foreground">
                   <MapPin className="h-5 w-5 text-accent" />
                   <span className="font-medium">Based in London</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 text-foreground">
                   <Mountain className="h-5 w-5 text-accent" />
                   <span className="font-medium">Peak performance</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 text-foreground">
                   <Clock className="h-5 w-5 text-accent" />
                   <span className="font-medium">GMT Timezone</span>
                 </div>
               </div>
-            </Card>
-          </div>
 
-          {/* Services */}
-          <div className="mb-16">
-            <h3 className="text-2xl font-bold text-foreground mb-8 text-center">Services & Expertise</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              {services.map((service, index) => (
-                <Card key={index} className="p-6 hover:shadow-medium transition-all duration-300 group">
-                  <div className="space-y-4">
-                    <div className="flex items-start justify-between">
-                      <h4 className="font-bold text-foreground group-hover:text-accent transition-colors">
-                        {service.title}
-                      </h4>
-                      <Badge variant="secondary" className="text-xs">
-                        {service.type}
-                      </Badge>
-                    </div>
-                    <p className="text-muted-foreground text-sm">
-                      {service.description}
-                    </p>
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm text-muted-foreground flex items-center gap-1">
-                        <Clock className="h-4 w-4" />
-                        {service.duration}
-                      </span>
-                      <Button variant="outline" size="sm" onClick={handleServiceBooking}>
-                        Book Session
-                      </Button>
-                    </div>
-                  </div>
-                </Card>
-              ))}
-            </div>
-          </div>
+              {/* Main Contact Content */}
+              <div className="text-center space-y-8">
+                <div className="mx-auto w-20 h-20 rounded-full bg-gradient-to-br from-accent to-accent/80 text-accent-foreground flex items-center justify-center shadow-strong">
+                  <Calendar className="h-10 w-10" />
+                </div>
+                
+                <div>
+                  <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                    Book a Consultation
+                  </h3>
+                  <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+                    Strategic guidance and technical expertise across these key areas:
+                  </p>
+                </div>
 
-          {/* Contact Methods */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            {contactMethods.map((method, index) => (
-              <Card 
-                key={index} 
-                className={`p-6 text-center hover:shadow-medium transition-all duration-300 group cursor-pointer ${
-                  method.primary ? 'ring-2 ring-accent/20 bg-gradient-to-b from-accent/5 to-accent/10' : ''
-                }`}
-                onClick={() => handleContactClick(method.href)}
-              >
-                <div className="space-y-4">
-                  <div className={`mx-auto w-12 h-12 rounded-full flex items-center justify-center ${
-                    method.primary ? 'bg-accent text-accent-foreground' : 'bg-secondary'
-                  } group-hover:scale-110 transition-transform duration-300`}>
-                    <method.icon className="h-6 w-6" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground mb-2">{method.title}</h4>
-                    <p className="text-sm text-muted-foreground mb-3">{method.description}</p>
-                    <Button 
-                      variant={method.primary ? "accent" : "outline"}
-                      size="sm"
-                      className="w-full"
-                    >
-                      {method.action}
-                    </Button>
+                {/* Services Grid */}
+                <div className="bg-background/60 backdrop-blur-sm rounded-xl p-6 mb-8 border border-accent/10">
+                  <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    {serviceOptions.map((service, index) => (
+                      <div key={index} className="bg-background/40 rounded-lg p-4 border border-accent/10 hover:border-accent/20 transition-colors">
+                        <div className="flex items-start gap-3">
+                          <div className="w-3 h-3 bg-gradient-to-r from-accent to-accent/80 rounded-full shadow-sm mt-1 flex-shrink-0" />
+                          <div className="space-y-2">
+                            <h4 className="font-semibold text-foreground text-sm leading-tight">{service.title}</h4>
+                            <p className="text-xs text-muted-foreground leading-relaxed">{service.description}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
-              </Card>
-            ))}
-          </div>
 
-          {/* Calendly Integration Placeholder */}
-          <div className="text-center">
-            <Card className="p-8 bg-gradient-hero border-accent/20">
-              <h3 className="text-xl font-bold text-foreground mb-4">
-                Ready to Schedule?
-              </h3>
-              <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Choose a time that works for you. I'm available for consultations, mentoring sessions, 
-                and technical discussions. All calls are conducted with the same attention to detail 
-                I bring to Alpine expeditions.
-              </p>
-              <div className="space-y-4">
-                <Button 
-                  variant="accent" 
-                  size="lg" 
-                  className="shadow-strong"
-                  onClick={() => window.open(calendlyUrl, '_blank', 'noopener,noreferrer')}
-                >
-                  <Calendar className="h-5 w-5" />
-                  Open Calendly Scheduler
-                </Button>
+                {/* Action Buttons */}
+                <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
+                  <Button 
+                    variant="accent" 
+                    size="lg" 
+                    className="flex-1 shadow-strong hover-scale text-base py-6"
+                    onClick={handleServiceBooking}
+                  >
+                    <Calendar className="h-5 w-5 mr-2" />
+                    Schedule via Calendly
+                  </Button>
+                  <Button 
+                    variant="outline" 
+                    size="lg"
+                    className="flex-1 border-accent/30 hover:border-accent text-base py-6"
+                    onClick={() => window.open(linkedinUrl, '_blank', 'noopener,noreferrer')}
+                  >
+                    <Linkedin className="h-5 w-5 mr-2" />
+                    Connect on LinkedIn
+                  </Button>
+                </div>
               </div>
             </Card>
           </div>
+
         </div>
       </div>
     </section>

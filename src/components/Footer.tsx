@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Mountain, Linkedin, Mail, Heart, Code, Coffee } from "lucide-react";
+import { Mountain, Linkedin, Mail, Heart, Code } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -84,38 +84,31 @@ const Footer = () => {
             {/* Connect */}
             <div>
               <h4 className="font-semibold mb-4">Connect</h4>
-              <div className="space-y-3">
+              <div className="flex flex-col space-y-4">
                 {socialLinks.map((social, index) => (
                   <Button
                     key={index}
                     variant="ghost"
                     size="sm"
-                    className="justify-start p-0 h-auto text-white/80 hover:text-accent"
+                    className="justify-start p-0 h-auto text-white/80 hover:text-accent w-fit"
                     onClick={() => handleSocialClick(social.href)}
                   >
                     <social.icon className="h-4 w-4 mr-2" />
                     {social.label}
                   </Button>
                 ))}
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="justify-start p-0 h-auto text-white/80 hover:text-accent"
-                  onClick={() => scrollToSection("#contact")}
-                >
-                  <Coffee className="h-4 w-4 mr-2" />
-                  Coffee Chat
-                </Button>
                 
                 {/* LinkedIn Follow Button */}
-                <a
-                  href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=giovanni-doni"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex flex-col justify-center items-center p-2 text-center text-white bg-[#0A66C2] w-[200px] h-8 rounded-2xl font-medium text-sm hover:bg-[#004182] transition-colors"
-                >
-                  Follow on LinkedIn
-                </a>
+                <div className="pt-2">
+                  <a
+                    href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=giovanni-doni"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block text-center text-white bg-[#0A66C2] w-[200px] h-10 leading-10 rounded-2xl font-medium text-sm hover:bg-[#004182] transition-colors"
+                  >
+                    Follow on LinkedIn
+                  </a>
+                </div>
               </div>
             </div>
           </div>
