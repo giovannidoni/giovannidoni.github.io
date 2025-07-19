@@ -10,7 +10,7 @@ const Hero = () => {
       });
     }
   };
-  return <section className="relative h-[85vh] md:h-[90vh] flex items-center justify-center overflow-hidden pt-16">
+  return <section className="relative min-h-[calc(100vh-4rem)] flex items-center justify-center overflow-hidden pt-16">
       {/* Background Image */}
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('/lovable-uploads/6069157c-16af-41e6-a698-637aa684d8eb.png')`

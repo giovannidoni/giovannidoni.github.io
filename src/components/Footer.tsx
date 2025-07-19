@@ -115,18 +115,21 @@ const Footer = () => {
 
           {/* Bottom Bar */}
           <div className="border-t border-white/20 pt-8">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-              <div className="flex items-center gap-2 text-white/60 text-sm">
-                <span>© {currentYear} Giovanni Doni. Built with</span>
-                <Heart className="h-4 w-4 text-red-400" />
-                <span>and React in London</span>
+            <div className="flex flex-col items-center justify-between gap-4">
+              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 text-white/60 text-sm text-center">
+                <span>© {currentYear} Giovanni Doni.</span>
+                <div className="flex items-center gap-1">
+                  <span>Built with</span>
+                  <Heart className="h-4 w-4 text-red-400" />
+                  <span>and React in London</span>
+                </div>
               </div>
               
-              <div className="flex items-center gap-6 text-sm text-white/60">
+              <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6 text-xs sm:text-sm text-white/60 text-center">
                 <span>Hosted on GitHub Pages</span>
-                <span>•</span>
+                <span className="hidden sm:inline">•</span>
                 <span>Minimal tracking</span>
-                <span>•</span>
+                <span className="hidden sm:inline">•</span>
                 <span>Privacy focused</span>
               </div>
             </div>
