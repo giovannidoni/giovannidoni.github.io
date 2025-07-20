@@ -125,11 +125,11 @@ const Footer = () => {
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6 text-xs sm:text-sm text-white/60 text-center">
+              <div className="hidden sm:flex flex-row items-center gap-6 text-sm text-white/60 text-center">
                 <span>Hosted on GitHub Pages</span>
-                <span className="hidden sm:inline">•</span>
+                <span>•</span>
                 <span>Minimal tracking</span>
-                <span className="hidden sm:inline">•</span>
+                <span>•</span>
                 <span>Privacy focused</span>
               </div>
             </div>
