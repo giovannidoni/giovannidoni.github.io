@@ -72,9 +72,13 @@ const Contact = () => {
 
               {/* Main Contact Content */}
               <div className="text-center space-y-6 md:space-y-8">
-                <div className="mx-auto w-16 h-16 md:w-20 md:h-20 rounded-full bg-gradient-to-br from-accent to-accent/80 text-accent-foreground flex items-center justify-center shadow-strong">
+                <button 
+                  className="mx-auto w-16 h-16 md:w-20 md:h-20 rounded-full bg-gradient-to-br from-accent to-accent/80 text-accent-foreground flex items-center justify-center shadow-strong hover:scale-105 transition-transform cursor-pointer"
+                  onClick={handleServiceBooking}
+                  aria-label="Book a consultation via Calendly"
+                >
                   <Calendar className="h-8 w-8 md:h-10 md:w-10" />
-                </div>
+                </button>
                 
                 <div>
                   <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4">
