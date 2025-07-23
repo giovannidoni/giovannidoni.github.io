@@ -11,6 +11,7 @@ import { useState, useEffect } from "react";
 
 const Index = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [openAccordions, setOpenAccordions] = useState<string[]>(["contact"]);
 
   useEffect(() => {
     const checkMobile = () => {
@@ -35,9 +36,53 @@ const Index = () => {
       setIsMobile(isMobileSize || isTabletOrZoomed);
     };
     
+    // Handle accordion opening events from Hero component
+    const handleAccordionOpen = (event: CustomEvent) => {
+      const { sectionId } = event.detail;
+      
+      console.log('handleAccordionOpen called with:', sectionId);
+      console.log('Current openAccordions:', openAccordions);
+      console.log('Is mobile layout active?', isMobile);
+      console.log('Accordion container exists?', document.querySelector('.accordion-container'));
+      console.log('All elements with data-value:', document.querySelectorAll('[data-value]'));
+      
+      // Add the section to open accordions if not already open
+      setOpenAccordions(prev => {
+        const newAccordions = prev.includes(sectionId) ? prev : [...prev, sectionId];
+        console.log('Setting openAccordions to:', newAccordions);
+        return newAccordions;
+      });
+      
+      // Wait for the accordion to open and then scroll
+      setTimeout(() => {
+        console.log('After timeout - checking DOM again...');
+        // Fix: Use the correct Radix accordion selector
+        const accordionItem = document.querySelector(`[data-state="open"][data-value="${sectionId}"]`) || 
+                             document.querySelector(`[value="${sectionId}"]`) ||
+                             document.querySelector(`#${sectionId}`);
+        console.log('Target accordion:', accordionItem);
+        
+        if (accordionItem) {
+          console.log('Found accordion, scrolling to:', accordionItem);
+          accordionItem.scrollIntoView({ 
+            behavior: "smooth", 
+            block: "start" 
+          });
+        } else {
+          console.log('Still no accordion found. Trying alternative scroll...');
+          // Fallback: scroll to the section container
+          const container = document.querySelector('.accordion-container');
+          if (container) {
+            container.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        }
+      }, 250);
+    };
+    
     checkMobile();
     window.addEventListener('resize', checkMobile);
     window.addEventListener('orientationchange', checkMobile);
+    window.addEventListener('openAccordionSection', handleAccordionOpen as EventListener);
     
     // Also check on visibility change (handles zoom better)
     document.addEventListener('visibilitychange', checkMobile);
@@ -45,11 +90,13 @@ const Index = () => {
     return () => {
       window.removeEventListener('resize', checkMobile);
       window.removeEventListener('orientationchange', checkMobile);
+      window.removeEventListener('openAccordionSection', handleAccordionOpen as EventListener);
       document.removeEventListener('visibilitychange', checkMobile);
     };
-  }, []);
+  }, [openAccordions]);
 
   if (!isMobile) {
+    console.log('Desktop mode - not rendering accordion');
     return (
       <div className="min-h-screen">
         <Header />
@@ -68,9 +115,8 @@ const Index = () => {
       <Header />
       <Hero />
       
-      {/* Mobile Accordion Layout */}
-      <div className="bg-background">
-        <Accordion type="multiple" defaultValue={["contact"]} className="w-full">
+      <div className="bg-background accordion-container">
+        <Accordion type="multiple" value={openAccordions} onValueChange={setOpenAccordions} className="w-full accordion-wrapper">
           <AccordionItem value="about" className="border-b border-border/50">
             <AccordionTrigger className="px-4 py-6 hover:no-underline [&[data-state=open]>svg]:rotate-180">
               <div className="flex items-center gap-3">

@@ -15,6 +15,37 @@ const Header = () => {
   }, []);
 
   const scrollToSection = (sectionId: string) => {
+    // Use the same mobile detection logic as Hero component
+    const viewportWidth = window.innerWidth;
+    const screenWidth = window.screen.width;
+    const devicePixelRatio = window.devicePixelRatio || 1;
+    
+    // Detect if zoomed (viewport much smaller than screen)
+    const isZoomed = viewportWidth < (screenWidth / devicePixelRatio) * 0.8;
+    
+    // Primary mobile detection
+    const isMobileSize = viewportWidth < 768;
+    
+    // Secondary detection for tablets/zoomed desktop
+    const isTabletOrZoomed = viewportWidth < 1024 && (
+      'ontouchstart' in window || 
+      navigator.maxTouchPoints > 0 || 
+      isZoomed
+    );
+    
+    const isMobile = isMobileSize || isTabletOrZoomed;
+    
+    if (isMobile) {
+      // On mobile, dispatch a custom event that the Index component can handle
+      const event = new CustomEvent('openAccordionSection', { 
+        detail: { sectionId } 
+      });
+      window.dispatchEvent(event);
+      setIsMenuOpen(false);
+      return;
+    }
+    
+    // Default behavior for desktop
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });

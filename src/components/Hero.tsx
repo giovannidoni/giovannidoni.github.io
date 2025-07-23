@@ -3,23 +3,36 @@ import { Badge } from "@/components/ui/badge";
 import { ArrowDown, Mountain, Calendar, FileText } from "lucide-react";
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
-    // Check if we're on mobile (accordion layout)
-    const isMobile = window.innerWidth < 768 || (window.innerWidth < 1024 && ('ontouchstart' in window || navigator.maxTouchPoints > 0));
+    // Use the same mobile detection logic as Index component
+    const viewportWidth = window.innerWidth;
+    const screenWidth = window.screen.width;
+    const devicePixelRatio = window.devicePixelRatio || 1;
     
-    if (isMobile && sectionId === "experience") {
-      // On mobile, trigger the experience accordion
-      const accordionTrigger = document.querySelector('[data-state] button[aria-controls="radix-:r1:-content-experience"]') as HTMLButtonElement;
-      if (accordionTrigger) {
-        accordionTrigger.click();
-        // Scroll to the accordion after a brief delay to allow it to open
-        setTimeout(() => {
-          const accordionItem = document.querySelector('[value="experience"]');
-          if (accordionItem) {
-            accordionItem.scrollIntoView({ behavior: "smooth" });
-          }
-        }, 100);
-        return;
-      }
+    // Detect if zoomed (viewport much smaller than screen)
+    const isZoomed = viewportWidth < (screenWidth / devicePixelRatio) * 0.8;
+    
+    // Primary mobile detection
+    const isMobileSize = viewportWidth < 768;
+    
+    // Secondary detection for tablets/zoomed desktop
+    const isTabletOrZoomed = viewportWidth < 1024 && (
+      'ontouchstart' in window || 
+      navigator.maxTouchPoints > 0 || 
+      isZoomed
+    );
+    
+    const isMobile = isMobileSize || isTabletOrZoomed;
+    
+    console.log('scrollToSection called with:', sectionId, 'isMobile:', isMobile);
+    
+    if (isMobile) {
+      // On mobile, dispatch a custom event that the Index component can handle
+      console.log('Dispatching openAccordionSection event for:', sectionId);
+      const event = new CustomEvent('openAccordionSection', { 
+        detail: { sectionId } 
+      });
+      window.dispatchEvent(event);
+      return;
     }
     
     // Default behavior for desktop or other sections
@@ -55,7 +68,7 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="accent" size="lg" onClick={() => scrollToSection("experience")} className="shadow-strong">
+            <Button variant="accent" size="lg" onClick={() => {console.log('Button clicked!'); scrollToSection("experience");}} className="shadow-strong">
               <FileText className="h-5 w-5" />
               View My Work
             </Button>
