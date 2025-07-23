@@ -3,6 +3,26 @@ import { Badge } from "@/components/ui/badge";
 import { ArrowDown, Mountain, Calendar, FileText } from "lucide-react";
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
+    // Check if we're on mobile (accordion layout)
+    const isMobile = window.innerWidth < 768 || (window.innerWidth < 1024 && ('ontouchstart' in window || navigator.maxTouchPoints > 0));
+    
+    if (isMobile && sectionId === "experience") {
+      // On mobile, trigger the experience accordion
+      const accordionTrigger = document.querySelector('[data-state] button[aria-controls="radix-:r1:-content-experience"]') as HTMLButtonElement;
+      if (accordionTrigger) {
+        accordionTrigger.click();
+        // Scroll to the accordion after a brief delay to allow it to open
+        setTimeout(() => {
+          const accordionItem = document.querySelector('[value="experience"]');
+          if (accordionItem) {
+            accordionItem.scrollIntoView({ behavior: "smooth" });
+          }
+        }, 100);
+        return;
+      }
+    }
+    
+    // Default behavior for desktop or other sections
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({
