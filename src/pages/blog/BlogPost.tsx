@@ -7,6 +7,18 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import blogArticles from '@/data/blog-articles.json';
 
+// Import markdown files directly
+import scalingLlmsContent from '@/data/blog-posts/scaling-llms-production-deliveroo.md?raw';
+import dolomitesContent from '@/data/blog-posts/dolomites-data-mountains-ml.md?raw';
+import kubernetesContent from '@/data/blog-posts/robust-ml-pipelines-kubernetes-argo.md?raw';
+
+// Create a mapping of content files to their imported content
+const contentMap: Record<string, string> = {
+  'scaling-llms-production-deliveroo.md': scalingLlmsContent,
+  'dolomites-data-mountains-ml.md': dolomitesContent,
+  'robust-ml-pipelines-kubernetes-argo.md': kubernetesContent,
+};
+
 interface BlogArticle {
   title: string;
   excerpt: string;
@@ -29,16 +41,14 @@ const BlogPost = () => {
     if (foundArticle) {
       setArticle(foundArticle);
       
-      // Load markdown content
-      import(`/src/data/blog-posts/${foundArticle.contentFile}?raw`)
-        .then((module) => {
-          setContent(module.default);
-          setLoading(false);
-        })
-        .catch((error) => {
-          console.error('Error loading blog post content:', error);
-          setLoading(false);
-        });
+      // Get markdown content from static imports
+      const markdownContent = contentMap[foundArticle.contentFile];
+      if (markdownContent) {
+        setContent(markdownContent);
+      } else {
+        console.error('Markdown content not found for:', foundArticle.contentFile);
+      }
+      setLoading(false);
     } else {
       setLoading(false);
     }
@@ -128,9 +138,28 @@ const BlogPost = () => {
             </div>
           </div>
 
-          <div className="prose prose-invert prose-lg max-w-none">
-            <ReactMarkdown>{content}</ReactMarkdown>
-          </div>
+          <article className="prose prose-invert prose-lg max-w-none">
+            <div className="text-white/95 space-y-6">
+              <ReactMarkdown 
+                components={{
+                  h1: () => null, // Skip h1 since we show title from metadata
+                  h2: ({children}) => <h2 className="text-2xl font-semibold text-white mt-8 mb-4">{children}</h2>,
+                  h3: ({children}) => <h3 className="text-xl font-semibold text-white mt-6 mb-3">{children}</h3>,
+                  p: ({children}) => <p className="text-white/90 leading-relaxed mb-4">{children}</p>,
+                  ul: ({children}) => <ul className="list-disc list-inside space-y-2 mb-4 text-white/90">{children}</ul>,
+                  ol: ({children}) => <ol className="list-decimal list-inside space-y-2 mb-4 text-white/90">{children}</ol>,
+                  li: ({children}) => <li className="text-white/90">{children}</li>,
+                  strong: ({children}) => <strong className="font-semibold text-white">{children}</strong>,
+                  code: ({children}) => <code className="bg-black/30 text-green-200 px-2 py-1 rounded text-sm">{children}</code>,
+                  pre: ({children}) => <pre className="bg-black/30 p-4 rounded-lg overflow-x-auto mb-4">{children}</pre>,
+                  a: ({children, href}) => <a href={href} className="text-blue-200 hover:text-blue-100 underline">{children}</a>,
+                  blockquote: ({children}) => <blockquote className="border-l-4 border-white/30 pl-4 italic text-white/80 mb-4">{children}</blockquote>
+                }}
+              >
+                {content}
+              </ReactMarkdown>
+            </div>
+          </article>
         </Card>
       </div>
     </div>
