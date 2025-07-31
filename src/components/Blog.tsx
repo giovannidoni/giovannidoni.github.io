@@ -57,7 +57,7 @@ const Blog = () => {
                     <Card className="p-4 h-full">
                       <div className="flex justify-center">
                         <div 
-                          className="linkedin-embed w-full max-w-[504px]"
+                          className="linkedin-embed w-full max-w-[504px] [&_iframe]:w-full [&_iframe]:max-w-full [&_iframe]:h-auto [&_iframe]:min-h-[400px] sm:[&_iframe]:min-h-[500px]"
                           dangerouslySetInnerHTML={{ __html: post.embedCode }}
                         />
                       </div>
