@@ -155,7 +155,8 @@ const BlogPost = () => {
                   code: ({children}) => <code className="bg-black/30 text-green-200 px-2 py-1 rounded text-sm">{children}</code>,
                   pre: ({children}) => <pre className="bg-black/30 p-4 rounded-lg overflow-x-auto mb-4">{children}</pre>,
                   a: ({children, href}) => <a href={href} className="text-blue-200 hover:text-blue-100 underline">{children}</a>,
-                  blockquote: ({children}) => <blockquote className="border-l-4 border-white/30 pl-4 italic text-white/80 mb-4">{children}</blockquote>
+                  blockquote: ({children}) => <blockquote className="border-l-4 border-white/30 pl-4 italic text-white/80 mb-4">{children}</blockquote>,
+                  img: ({src, alt}) => <div className="flex justify-center my-6"><img src={src} alt={alt} className="max-w-full h-auto rounded-lg" /></div>
                 }}
               >
                 {content}
