@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script>
-    // Simple redirect to index.html while preserving the path
-    // This allows React Router to handle the routing client-side
-    window.location.replace('/');
+    // Redirect to index.html while preserving the path for React Router
+    const path = window.location.pathname + window.location.search;
+    window.location.replace('/' + '?redirect=' + encodeURIComponent(path));
   </script>
 </head>
 <body>
