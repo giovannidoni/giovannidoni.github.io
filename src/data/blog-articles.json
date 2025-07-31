@@ -1,5 +1,14 @@
 [
   {
+    "title": "Fitting intelligence",
+    "excerpt": "The case for a modular stack for selective LLMs for reasoning, and privacy-safe orchestration.",
+    "date": "2025-07-31",
+    "readTime": "15 min",
+    "tags": ["SLMs", "Agentic", "Strategy"],
+    "slug": "fitting-intelligence",
+    "contentFile": "fitting-intelligence.md"
+  },
+  {
     "title": "Scaling LLMs in Production: Lessons from Deliveroo",
     "excerpt": "A deep dive into the challenges and solutions for deploying large language models at scale in production environments.",
     "date": "2024-01-15",
