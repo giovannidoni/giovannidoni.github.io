@@ -11,12 +11,14 @@ import blogArticles from '@/data/blog-articles.json';
 import scalingLlmsContent from '@/data/blog-posts/scaling-llms-production-deliveroo.md?raw';
 import dolomitesContent from '@/data/blog-posts/dolomites-data-mountains-ml.md?raw';
 import kubernetesContent from '@/data/blog-posts/robust-ml-pipelines-kubernetes-argo.md?raw';
+import fittingIntelligenceContent from '@/data/blog-posts/fitting-intelligence.md?raw';
 
 // Create a mapping of content files to their imported content
 const contentMap: Record<string, string> = {
   'scaling-llms-production-deliveroo.md': scalingLlmsContent,
   'dolomites-data-mountains-ml.md': dolomitesContent,
   'robust-ml-pipelines-kubernetes-argo.md': kubernetesContent,
+  'fitting-intelligence.md': fittingIntelligenceContent,
 };
 
 interface BlogArticle {
