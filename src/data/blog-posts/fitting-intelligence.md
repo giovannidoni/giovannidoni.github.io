@@ -2,6 +2,8 @@
 
 ## A pragmatic, modular AI stack—smaller models, privacy-safe orchestration, and control without a monolith.
 
+![Image](/lovable-uploads/monolith_16x9_top_1920x1080.jpg)
+
 Not long ago I was thinking that intelligence comes in different forms and sizes. You get a spectrum of intelligences that are often optimised for carrying out a specific set of tasks, often quite fruitful 🐝.
 
 If we compared the neural system of a bee to that of a human, we would not be all that surprised by the difference in sizes: 100B vs 1M - about 5 orders of magnitude - and I expect the difference to increase by a few more orders when counting the connections. And yet, regardless of the generalisation capabilities of human intelligence, an insect performs quite effectively at what it does - e.g. pollinating, reproducing, and surviving. Sounds fairly intelligence to me.
