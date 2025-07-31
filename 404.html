@@ -4,11 +4,9 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script>
-    // Redirect to index.html with the current path as a query parameter
+    // Simple redirect to index.html while preserving the path
     // This allows React Router to handle the routing client-side
-    const path = window.location.pathname.replace('/giovannidoni.github.io', '');
-    const query = window.location.search;
-    window.location.replace('/' + '?redirect=' + encodeURIComponent(path + query));
+    window.location.replace('/');
   </script>
 </head>
 <body>
