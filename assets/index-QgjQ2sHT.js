@@ -623,11 +623,11 @@ As (almost) everyone else, I’m really impressed by the power of the most capab
 
 Let’s take a step back first. In order of complexity, I identify three levels in practice:
 
-1. The first level is the ability to process sources much faster than a human and find information that is already available in the context - i.e. **Extraction & Retrieval**.
+1. The first level is the ability to process sources much faster than a human and find information that is already available in the context - i.e. **Extraction**.
 
 2. The second level requires the model’s ability to perform somewhat complex transformations following directives - i.e. **Patterned Inference**.
 
-2. The third level is planning - the model’s capacity to break down a complex task into smaller steps that can lead to solving a problem - i.e. **Planning & Decomposition**.
+2. The third level is planning - the model’s capacity to break down a complex task into smaller steps that can lead to solving a problem - i.e. **Planning**.
 
 Let’s consider the first level. Information retrieval is one of the biggest problems people inside an organisation face, and often one of the largest sources of inefficiency. This is where current AI systems really shine: they add power to pattern recognition systems with increased flexibility - what I call “**ctrl + f 2.0**”.
 
@@ -635,74 +635,29 @@ Bring it up a notch, and you can apply some degree of predictivity based on the 
 
 But if the bar is rising, so are our expectations: as they increase, we start entering into a domain where complex requests might or might not receive accurate responses. What’s needed then is to break problems into manageable tasks - thus avoiding information bottlenecks - while anticipating outcomes or potential issues. This, in essence, is one of the ways we reason - and it’s where the structuring of agents into workflows can play a role.
 
-There’s been a lot of talk recently about agentic AI implementing entire workflows, replacing middle management, scientists, etc. While I recognise the power this technology might unleash, I’m more hesitant to assert that:
+## The extraction-reasoning-planning tradeoff
 
-1. we can retain control simply by hiding complexity under the carpet; and
+As AI systems become more capable, the temptation grows to centralise tasks into a single model or agent. This can have some advantages, but not necessarily for all. In practical business operations, most AI use cases fall somewhere along a spectrum of extraction, reasoning, and planning. Understanding the trade-offs along this spectrum is key to building successful, simple yet powerful and transparent intelligent automation systems.
 
-2. that all this intelligence is, in fact, so widely in demand.
+Let me spell them out for you again:
 
-## The behavioural side of things
-Let me start on the first point: the entropy (the granularity of information needed) required for describing a task can be quite high. And I’ve rarely heard anyone express much enthusiasm for reading or writing a manual; practical demonstrations are usually preferred. I don’t think we can rely on an intelligent system to perform the work without a human spending time on instruction and supervision - unless we’re comfortable fully delegating. 
+1. **Extraction**: low-risk and well-defined; parsing forms, reading tables, or graphs. These can often be handled by smaller, faster models with high reliability, minimal context requirements, low cost and easily self-served.
 
-Sure, the focus is rapidly shifting toward expert guidance and evaluation strategies as substitutes for manuals and direct oversight. But beyond that optimism, I believe we’re still far from being able to relinquish control - especially when considering crucial factors like responsibility (which is essential in high-risk domains) and, above all, human psychology.
+2. **Inference**: tasks that require bridging across inputs and applying logic or heuristics - e.g. summarising information, or resolving ambiguity in a process. Delegating these tasks can be more error-prone, not necessarily because of the task complexity itself, but due to the need to translate instruction, context, and prompts into the right framing - and to monitor the outcome through observability by design.
 
-Is all this intelligence really needed? Personally, I’ve found LLMs most useful for level 1 tasks. More recently, I’ve increasingly used them for level 2 work: helping navigate new frameworks, replacing much of the need to copy and paste boilerplate code, and assisting with bug fixing and refactoring. AI assistants capable of handling these level 2 tasks are becoming increasingly common - something that I believe extends across many industries and professions.
+3. **Planning** is where things get complex - and riskier. Breaking down multi-step tasks, choosing optimal sequences, coordinating agents. These tasks carry the highest potential for automation, and the highest cost of failure. While things are rapidly evolving in this space, success often hinges on robust testing and evaluation strategies, transparency throughout the workflow, clarity on the objective, and a bias for simplicity.
 
-Still, I find myself questioning how much long-term value there really is in delegating higher cognitive-load activities compared to lower ones. And beyond speculation about efficiency, what effect does this have on people’s behaviour and organisations?
+The further right you move on the spectrum, the more powerful the model you need - but also the more context, control, and validation you must implement. Most businesses don't need (nor can they safely manage) autonomous planning across all operations. What they do need is a balanced intelligence stack. Thinking in terms of this trade-off allows us to design AI systems that are pragmatic, composable, and privacy-conscious - rather than defaulting to a single black-box LLM for every task.
 
-Surely, what matters most is empirically verifying, over time, the concrete advantages AI brings to people - and in which settings. At the moment, I’m torn between two observations:
+What about agents?
 
-- AI is highly effective at low-cognitive, time-consuming tasks. Delegating these frees up time for people to focus on what truly matters, making them more productive and allowing them to retain their sense of agency;
+Agents come into play when you combine level-3 planning with level-1 and level-2 operators. However, in most organizations, the greatest value will likely come not from agents but from workflows (for a good description, read here). The distinction is that, with workflows, you - the company, manager, or senior IC - define the process, which is then executed autonomously; with agents, the process is determined autonomously. The processes you already have represent consolidated (level-3) intelligence. They'll remain valuable for some time, so don't throw that investment under the bus.
 
-- On the other hand, low-cognitive tasks provide an attention buffer that might help balance higher cognitive load - something whose consequences are still uncertain. Who said that virtually unproductive tasks are inherently negative? After all, we spend about 30% of our lives sleeping, and roughly 80% of our DNA appears to have no clear function - yet both are likely essential.
 
-Recent studies (Schulz et al., 2024; Lee et al., 2025; Gerlich, 2025) show that while generative AI tools do automate routine work and reduce surface-level effort, they often increase cognitive load elsewhere - particularly along dimensions of critical thinking, decision-making, quality control, and mental monitoring. A toll to pay.
-
-## Are we biting more than we can chew?
-I happened to watch an interesting video exploring the topic of metabolism in professional cyclists, and it rang a bell for a striking underlying analogy.
-
-What is the bottleneck for professional cyclists when they reach their limit? It isn’t the power they can exert through pedalling - they could race faster - but how quickly they can assimilate the food they eat. 
-
-Are we becoming accustomed to relying on ever more “intelligence” without knowing whether we can actually process it? What trade-off are organisations implicitly making when they’re tempted to replace processes and know-how with automated agents?
-
-I think it might be a bit too early to guess the answer to these questions, as the ground seems to be shifting under our feet with some insistence. Results in the literature are still heavily debated, and highly dependent on the sample, context, and framing.
-
-One thing that strikes me, though, is the clear bias for complexity and verbosity that foundational models exhibit. Asking a simple query too often results in a blurb of notions, as if we all needed to be impressed - and this might very well be the rationale designed to support greater adoption. What stands out is how much this contrasts with the bias for simplicity that’s well entrenched in business practices. Unless prompt setups are designed to give more precise directives to LLMs, query results tend to reproduce content which, in most problem-solving tasks, can only be skimmed - much like browsing a webpage in search of the trail that leads to a possible solution. It feels like chat interfaces are often simulating the web, which ends up being a rather less direct and efficient approach (“no wait, let me clarify…”) that we could otherwise probably expect.
-
-This also applies to coding assistants. It’s often impossible to get agents to edit just a small portion of code without them going berserk, and it’s difficult to impose sequential changes by default (update: Openai has just made step into this direction with the [study mode](https://openai.com/index/chatgpt-study-mode/)). For this reason, I’m not a strong advocate of agents—certainly not in production, not yet. That said, the temptation is widespread. Development barriers are being lowered, making rapid prototyping and exploration of new application domains much easier, with far less time spent gathering information or setting up templates. 
-
-This trend will likely continue. But the more you use these tools, the more it becomes clear: they often enable people to build things they can barely maintain or modify—often at the cost of burning through tokens for seemingly minor tweaks.
-
-Many questions are on the table, and we’re probably just at the beginning of a significant shift in the “tools of production” - one that will likely bring substantial changes to how we organise work and society.
-
-## Privacy
-Let’s talk about privacy, shall we? 
-
-Every time you run a query, it’s processed by a cluster and flows through several systems; it’s likely logged and stored for various reasons - most of which are buried deep in the terms and conditions. There have been multiple reports of LLMs spitting out seemingly sensitive information like passwords. While I don’t find most of these claims particularly well-substantiated, try asking the LLMs you use regularly to guess your password (bypassing their guardrails), and you might be surprised by how close they get - thanks to decent memory and strong inference capabilities.
-
-More importantly, as the use of LLMs spreads, we’re providing more and more information. This is a real problem for many companies, which are understandably anything but excited about the potential risk of exposing confidential data to third parties.
-
-Larger companies have likely been flexing their legal teams muscle to setup of processes to evaluate providers and draft agreements that ensure data is protected and safe. Similarly, providers have started offering solutions to meet these requirements, such as:
-
-- Private cloud or on-premise models
-
-- Model and data isolation
-
-- Access control
-
-- Data minimisation and smart routing
-
-Solutions like these can satisfy specific needs, but the landscape is multifaceted. Much depends on the organisation’s appetite for innovation, governance setup, and the specific regulatory frameworks involved - especially in sensitive fields like healthcare and finance.
-
-What about smaller companies? 
-
-This is where the waters get murkier. The rapidly evolving landscape leaves little room for a comprehensive understanding of how to safely integrate LLMs into operations. Innovation is coming weekly at a questionable signal to noise ratio, the maturity landscape of tools is evolving, and it’s easy to get carried away - by either enthusiasm or concern.
-
-Wishful thinking? Maybe. More upside? Surely.
+## More upside? Yes, they say.
 As an ML/AI practitioner, I’ve worked for the better part of the last 10 years across different companies, and the evidence has consistently been that ML is most often deployed to improve efficiencies. Although there are undoubtedly notable examples - chiefly in the advertising space - I’ve rarely seen AI/ML serve as core components of a product from day one (plenty of notable exceptions here, but the minority nonetheless). More often, the creation of tools using ML/AI has aimed at producing incremental gains over pre-existing solutions or processes.
 
 With the advancements in AI over the past few years, we’re now witnessing the creation of entirely new products built around AI from the ground up. This marks a significant shift, clearly reflected in how companies are reorienting their investment focus - from profitability to growth - driven by AI’s tailwinds and promises. 
-
 
 ![Image](/lovable-uploads/graph-statistics-survey.png)
 *source: https://www.bondcao.com/report/pdf/Trends_Artificial_Intelligence.pdf*
@@ -724,12 +679,31 @@ Let me spell them out for you again:
 
 The further right you move on the spectrum, the more powerful the model you need - but also the more context, control, and validation you must implement. Most businesses don’t need (nor can they safely manage) autonomous planning across all operations. What they do need is a balanced intelligence stack. Thinking in terms of this trade-off allows us to design AI systems that are pragmatic, composable, and privacy-conscious - rather than defaulting to a single black-box LLM for every task.
 
-## So what: Intelligence Infra for Mid-Market companies
-If there’s one gap that’s becoming increasingly visible, it’s the lack of AI-native infrastructure tailored to the needs of mid-market companies. While large enterprises have the legal and financial resources to adopt and adapt foundational models with privacy-preserving infrastructure, mid-market companies are left with far less space of manoeuvre.
+## The elephant in the room
+Let's talk about privacy, shall we? GDPR and the upcoming AI Act have thrust safety and security to the core of the generative-AI wave - and every leader of a mature organisation knows why. Every query you run is processed across clusters and systems, then logged and stored under opaque terms buried in lengthy agreements. Reports of LLMs leaking sensitive data - like passwords - keep surfacing. While many of those claims aren't rock-solid, try bypassing your go-to model's guardrails and asking it to guess your password. Thanks to its memory and inference power, you might be surprised how close it gets.
 
-A more pragmatic view is starting to take shape: the most effective solutions for won’t come from monolithic LLMs, but from modular, hybrid systems - intelligent, yet purposefully constrained. These systems will combine smaller models trained on a company’s internal processes with foundational models used selectively for reasoning and planning—within clear boundaries. Crucially, they’ll need to operate without indiscriminately pushing sensitive data to the cloud.
+More importantly, as the use of LLMs spreads, we're providing more and more information. This is a real problem for many companies, which are understandably anything but excited about the potential risk of exposing confidential data to third parties.
+Larger companies have likely been flexing their legal teams muscle to set up processes to evaluate providers and draft agreements that ensure data is protected and safe. Similarly, providers have started offering solutions to meet these requirements, such as:
 
-The aim isn’t just to build smarter assistants, but systems that can reliably operate within a company’s internal context - its workflows, domain knowledge, and operational quirks. And its people.
+- Private cloud or on-premise models
+- Model and data isolation
+- Access control
+- Data minimisation and smart routing
+
+Solutions like these can satisfy specific needs, but the landscape is multifaceted. Much depends on the organisation's appetite for innovation, governance setup, and the specific regulatory frameworks involved - especially in sensitive fields like healthcare and finance.
+
+![Image](/lovable-uploads/chart.png)
+
+What about smaller companies?
+
+This is where the waters get murkier. The rapidly evolving landscape leaves little room for a comprehensive understanding of how to safely integrate LLMs into operations. Innovation is coming weekly at a questionable signal to noise ratio, the maturity landscape of tools is evolving, and it's easy to get carried away - by either enthusiasm or concern.
+
+## So what: shaping the Intelligence Stack
+If there's one gap that's becoming increasingly visible, it's the lack of AI-native infrastructure tailored to the needs of mid-market companies. While large enterprises have the legal and financial resources to adopt and adapt foundational models with privacy-preserving infrastructure, mid-market companies are left with far less space of manoeuvre.
+
+A more pragmatic view is starting to take shape: the most effective solutions won't come from monolithic LLMs, but from modular, hybrid systems - intelligent, yet purposefully constrained. These systems will combine smaller models trained on a company's internal processes with foundational models used selectively for reasoning and planning - within clear boundaries. Crucially, they'll need to operate without indiscriminately pushing sensitive data to the cloud.
+
+The aim isn't just to build smarter assistants, but systems that can reliably operate within a company's internal context - its workflows, domain knowledge, and operational quirks.
 
 A privacy-safe, locally adapted stack combining:
 
@@ -739,6 +713,5 @@ A privacy-safe, locally adapted stack combining:
 
 - An orchestration layer to blend reasoning, retrieval, and human-in-the-loop
 
-- We don’t need general artificial intelligence everywhere. What we need is precision intelligence stack - where plenty of fruit comes just thanks to bees that pollinates with just 1 million neurons.
-
+We don't need general artificial intelligence everywhere. What we need is an intelligence stack - where plenty of fruit comes just thanks to bees that pollinates with just 1 million neurons.
 `,KI={"scaling-llms-production-deliveroo.md":HI,"dolomites-data-mountains-ml.md":WI,"robust-ml-pipelines-kubernetes-argo.md":qI,"fitting-intelligence.md":QI},GI=()=>{const{slug:e}=C2(),[t,n]=b.useState(null),[r,i]=b.useState(""),[o,s]=b.useState(!0);if(b.useEffect(()=>{const a=g0.find(u=>u.slug===e);if(a){n(a);const u=KI[a.contentFile];u?i(u):console.error("Markdown content not found for:",a.contentFile),s(!1)}else s(!1)},[e]),o)return h.jsx("div",{className:"min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-12 px-4",children:h.jsx("div",{className:"max-w-4xl mx-auto",children:h.jsxs("div",{className:"animate-pulse",children:[h.jsx("div",{className:"h-8 bg-white/10 rounded mb-4 w-32"}),h.jsx("div",{className:"h-12 bg-white/10 rounded mb-6"}),h.jsxs("div",{className:"space-y-4",children:[h.jsx("div",{className:"h-4 bg-white/10 rounded"}),h.jsx("div",{className:"h-4 bg-white/10 rounded w-3/4"}),h.jsx("div",{className:"h-4 bg-white/10 rounded w-1/2"})]})]})})});if(!t)return h.jsx("div",{className:"min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-12 px-4",children:h.jsxs("div",{className:"max-w-4xl mx-auto text-center",children:[h.jsx("h1",{className:"text-4xl font-bold text-white mb-4",children:"Blog Post Not Found"}),h.jsx("p",{className:"text-white/70 mb-8",children:"The blog post you're looking for doesn't exist."}),h.jsx(Bc,{to:"/#blog",children:h.jsxs(et,{variant:"outline",className:"text-white border-white/20 hover:bg-white/10",children:[h.jsx(Pc,{className:"mr-2 h-4 w-4"}),"Back to Blog"]})})]})});const l=a=>new Date(a).toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"});return h.jsx("div",{className:"min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-12 px-4",children:h.jsxs("div",{className:"max-w-4xl mx-auto",children:[h.jsxs(Bc,{to:"/#blog",className:"inline-flex items-center text-white/70 hover:text-white mb-8 transition-colors",children:[h.jsx(Pc,{className:"mr-2 h-4 w-4"}),"Back to Blog"]}),h.jsxs(Vn,{className:"bg-white/5 backdrop-blur-sm border-white/10 p-8",children:[h.jsxs("div",{className:"mb-6",children:[h.jsxs("div",{className:"flex flex-wrap items-center gap-4 text-sm text-white/60 mb-4",children:[h.jsxs("div",{className:"flex items-center gap-1",children:[h.jsx(Wi,{className:"h-4 w-4"}),h.jsx("span",{children:l(t.date)})]}),h.jsxs("div",{className:"flex items-center gap-1",children:[h.jsx(ef,{className:"h-4 w-4"}),h.jsx("span",{children:t.readTime})]})]}),h.jsx("h1",{className:"text-3xl md:text-4xl font-bold text-white mb-4",children:t.title}),h.jsxs("div",{className:"flex items-center gap-2 mb-6",children:[h.jsx(Dv,{className:"h-4 w-4 text-white/60"}),h.jsx("div",{className:"flex flex-wrap gap-2",children:t.tags.map(a=>h.jsx(En,{variant:"secondary",className:"bg-white/10 text-white border-white/20",children:a},a))})]})]}),h.jsx("article",{className:"prose prose-invert prose-lg max-w-none",children:h.jsx("div",{className:"text-white/95 space-y-6",children:h.jsx(FI,{components:{h1:()=>null,h2:({children:a})=>h.jsx("h2",{className:"text-2xl font-semibold text-white mt-8 mb-4",children:a}),h3:({children:a})=>h.jsx("h3",{className:"text-xl font-semibold text-white mt-6 mb-3",children:a}),p:({children:a})=>h.jsx("p",{className:"text-white/90 leading-relaxed mb-4",children:a}),ul:({children:a})=>h.jsx("ul",{className:"list-disc list-outside space-y-2 mb-4 text-white/90 pl-6",children:a}),ol:({children:a})=>h.jsx("ol",{className:"list-decimal list-outside space-y-2 mb-4 text-white/90 pl-6",children:a}),li:({children:a})=>h.jsx("li",{className:"text-white/90",children:a}),strong:({children:a})=>h.jsx("strong",{className:"font-semibold text-white",children:a}),code:({children:a})=>h.jsx("code",{className:"bg-black/30 text-green-200 px-2 py-1 rounded text-sm",children:a}),pre:({children:a})=>h.jsx("pre",{className:"bg-black/30 p-4 rounded-lg overflow-x-auto mb-4",children:a}),a:({children:a,href:u})=>h.jsx("a",{href:u,className:"text-blue-200 hover:text-blue-100 underline",children:a}),blockquote:({children:a})=>h.jsx("blockquote",{className:"border-l-4 border-white/30 pl-4 italic text-white/80 mb-4",children:a}),img:({src:a,alt:u})=>h.jsx("div",{className:"flex justify-center my-6",children:h.jsx("img",{src:a,alt:u,className:"max-w-full h-auto rounded-lg"})})},children:r})})})]})]})})},YI=new QE,XI=()=>{const e=Dx(),t=to();return b.useEffect(()=>{const r=new URLSearchParams(t.search).get("redirect");r&&e(r,{replace:!0})},[e,t.search]),null},ZI=()=>h.jsx(GE,{client:YI,children:h.jsxs(CE,{children:[h.jsx(wS,{}),h.jsx(GS,{}),h.jsxs(W2,{children:[h.jsx(XI,{}),h.jsxs(z2,{children:[h.jsx(pl,{path:"/",element:h.jsx(tP,{})}),h.jsx(pl,{path:"/blog/:slug",element:h.jsx(GI,{})}),h.jsx(pl,{path:"*",element:h.jsx(nP,{})})]})]}),h.jsx(rP,{})]})});rv(document.getElementById("root")).render(h.jsx(ZI,{}));
