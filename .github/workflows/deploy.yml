@@ -32,13 +32,13 @@ jobs:
         VITE_CALENDLY_URL: ${{ vars.VITE_CALENDLY_URL }}
         VITE_EMAIL: ${{ vars.VITE_EMAIL }}
         VITE_LINKEDIN_URL: ${{ vars.VITE_LINKEDIN_URL }}
+        VITE_GA_MEASUREMENT_ID: ${{ vars.VITE_GA_MEASUREMENT_ID }}
 
     - name: Replace URLs
       run: grep -rl "giovannidoni.github.io" ./dist | xargs sed -i 's|/giovannidoni.github.io/|/|g'
 
     - name: Add .nojekyll file
       run: touch dist/.nojekyll
-        VITE_GA_MEASUREMENT_ID: ${{ vars.VITE_GA_MEASUREMENT_ID }}
         
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
