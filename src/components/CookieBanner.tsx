@@ -56,7 +56,7 @@ export const CookieBanner = () => {
                     We use cookies
                   </h3>
                   <p className="text-xs text-muted-foreground mt-1">
-                    We use functional cookies to remember your preferences and analytics cookies to understand how you use our site. This helps us improve your experience.{" "}
+                    We use analytics cookies to understand how you use our site only if you allow us to.{" "}
                     <a href="/privacy" className="text-primary hover:underline">Read our Privacy Policy</a>.
                   </p>
                 </div>
