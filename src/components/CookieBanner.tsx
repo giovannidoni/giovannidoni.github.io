@@ -1,7 +1,9 @@
+
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { X, Cookie } from "lucide-react";
+import { updateGoogleAnalyticsConsent, initializeConsentFromStorage } from "@/utils/consentManager";
 
 const COOKIE_CONSENT_KEY = "cookie-consent";
 
@@ -9,6 +11,9 @@ export const CookieBanner = () => {
   const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
+    // Initialize consent from storage on app load
+    initializeConsentFromStorage();
+    
     // Check if user has already made a choice
     const consent = localStorage.getItem(COOKIE_CONSENT_KEY);
     if (!consent) {
@@ -20,11 +25,13 @@ export const CookieBanner = () => {
 
   const handleAccept = () => {
     localStorage.setItem(COOKIE_CONSENT_KEY, "accepted");
+    updateGoogleAnalyticsConsent(true);
     setShowBanner(false);
   };
 
   const handleDecline = () => {
     localStorage.setItem(COOKIE_CONSENT_KEY, "declined");
+    updateGoogleAnalyticsConsent(false);
     setShowBanner(false);
   };
 
@@ -49,7 +56,7 @@ export const CookieBanner = () => {
                     We use cookies
                   </h3>
                   <p className="text-xs text-muted-foreground mt-1">
-                    We use functional cookies to remember your preferences and improve your experience. No tracking or analytics cookies are used.
+                    We use functional cookies to remember your preferences and analytics cookies to understand how you use our site. This helps us improve your experience.
                   </p>
                 </div>
                 
