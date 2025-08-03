@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, useNavigate, useLocation } from "react-ro
 import { useEffect } from "react";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import CookieBanner from "./components/CookieBanner";
 import BlogPost from "./pages/blog/BlogPost";
 
@@ -37,6 +38,7 @@ const App = () => (
         <RedirectHandler />
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

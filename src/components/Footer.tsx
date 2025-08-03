@@ -125,12 +125,10 @@ const Footer = () => {
                 </div>
               </div>
               
-              <div className="hidden sm:flex flex-row items-center gap-6 text-sm text-white/60 text-center">
+              <div className="flex flex-row items-center gap-6 text-sm text-white/60 text-center">
                 <span>Hosted on GitHub Pages</span>
                 <span>•</span>
-                <span>Minimal tracking</span>
-                <span>•</span>
-                <span>Privacy focused</span>
+                <a href="/privacy" className="hover:text-accent transition-colors">Privacy Policy</a>
               </div>
             </div>
           </div>
