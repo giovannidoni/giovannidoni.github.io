@@ -98,7 +98,7 @@ const Header = () => {
               <Button
                 variant="ghost"
                 size="icon"
-                onClick={() => window.open(import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/giovanni-doni", "_blank")}
+                onClick={() => window.open(import.meta.env.VITE_LINKEDIN_URL, "_blank")}
               >
                 <Linkedin className="h-4 w-4" />
               </Button>
@@ -107,7 +107,7 @@ const Header = () => {
                 size="sm"
                 asChild
               >
-                <a href={`mailto:${import.meta.env.VITE_EMAIL || "giovanni.doni@example.com"}`}>
+                <a href={`mailto:${import.meta.env.VITE_EMAIL}`}>
                   <Mail className="h-4 w-4" />
                   Get in Touch
                 </a>
@@ -156,7 +156,7 @@ const Header = () => {
                 <Button
                   variant="ghost"
                   size="icon"
-                  onClick={() => window.open(import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/giovanni-doni", "_blank")}
+                  onClick={() => window.open(import.meta.env.VITE_LINKEDIN_URL, "_blank")}
                 >
                   <Linkedin className="h-4 w-4" />
                 </Button>
@@ -165,7 +165,7 @@ const Header = () => {
                   size="sm"
                   asChild
                 >
-                  <a href={`mailto:${import.meta.env.VITE_EMAIL || "giovanni.doni@example.com"}`}>
+                  <a href={`mailto:${import.meta.env.VITE_EMAIL}`}>
                     <Mail className="h-4 w-4" />
                     Get in Touch
                   </a>

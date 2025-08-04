@@ -7,8 +7,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   // Working URLs - replace these with your actual URLs
-  const linkedinUrl = import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/giovanni-doni";
-  const emailAddress = import.meta.env.VITE_EMAIL || "giovanni.doni@example.com";
+  const linkedinUrl = import.meta.env.VITE_LINKEDIN_URL;
+  const emailAddress = import.meta.env.VITE_EMAIL;
 
   const quickLinks = [
     { name: "About", href: "#about" },
