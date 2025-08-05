@@ -38,11 +38,11 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gradient-mountain text-white py-16">
+    <footer className="bg-gradient-mountain text-white py-6">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* Main Footer Content */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             {/* Brand */}
             <div className="lg:col-span-2 space-y-4">
               <div className="flex items-center space-x-2">
@@ -130,14 +130,11 @@ const Footer = () => {
                 <span>•</span>
                 <a href="/privacy" className="hover:text-accent transition-colors">Privacy Policy</a>
               </div>
+              
+              <p className="text-white/60 text-sm italic text-center">
+                "There is plenty of room at the top."
+              </p>
             </div>
-          </div>
-
-          {/* Back to Mountains */}
-          <div className="text-center mt-8 pt-8 border-t border-white/10">
-            <p className="text-white/60 text-sm italic">
-              "There is plenty of room at the top."
-            </p>
           </div>
         </div>
       </div>
