@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import NewContentBanner from "@/components/NewContentBanner";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
@@ -100,6 +101,7 @@ const Index = () => {
     return (
       <div className="min-h-screen">
         <Header />
+        <NewContentBanner />
         <Hero />
         <About />
         <Experience />
@@ -113,6 +115,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
+      <NewContentBanner />
       <Hero />
       
       <div className="bg-background accordion-container">

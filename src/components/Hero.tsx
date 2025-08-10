@@ -90,20 +90,6 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 mt-6 md:mt-12 text-center">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-6 border border-white/20">
-              <div className="text-xl md:text-2xl lg:text-3xl font-bold text-accent">£20M+</div>
-              <div className="text-xs md:text-sm text-white/80 leading-tight">Cost Savings Delivered</div>
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-6 border border-white/20">
-              <div className="text-xl md:text-2xl lg:text-3xl font-bold text-accent">10+</div>
-              <div className="text-xs md:text-sm text-white/80 leading-tight">year of experience</div>
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-6 border border-white/20">
-              <div className="text-xl md:text-2xl lg:text-3xl font-bold text-accent">PhD</div>
-              <div className="text-xs md:text-sm text-white/80 leading-tight">Physics, King's College</div>
-            </div>
-          </div>
         </div>
 
       </div>
