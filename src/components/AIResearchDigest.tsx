@@ -23,8 +23,14 @@ const AIResearchDigest = () => {
   useEffect(() => {
     const loadResearchData = async () => {
       try {
-        const response = await fetch('/src/data/summarised_results.json');
+        console.log('Attempting to fetch AI research data...');
+        const response = await fetch('/summarised_results.json');
+        console.log('Fetch response status:', response.status);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const data = await response.json();
+        console.log('Successfully loaded research data:', data);
         setResearchData(data);
       } catch (error) {
         console.error('Error loading research data:', error);
