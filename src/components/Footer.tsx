@@ -98,6 +98,16 @@ const Footer = () => {
                   </Button>
                 ))}
                 
+                {/* RSS Feed */}
+                <a 
+                  href="/rss/feed.xml" 
+                  target="_blank"
+                  className="flex items-center text-white/80 hover:text-accent transition-colors text-sm"
+                >
+                  <Code className="h-4 w-4 mr-2" />
+                  RSS Feed
+                </a>
+                
                 {/* LinkedIn Follow Button */}
                 <div className="pt-2">
                   <a

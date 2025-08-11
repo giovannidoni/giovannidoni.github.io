@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title><![CDATA[Giovanni Doni - Blog & Updates]]></title>
+    <description><![CDATA[Latest blog articles and LinkedIn updates on machine learning, AI, and technology]]></description>
+    <link>https://your-domain.com</link>
+    <atom:link href="https://your-domain.com/rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 11 Aug 2025 10:00:00 GMT</lastBuildDate>
+    <pubDate>Sun, 11 Aug 2025 10:00:00 GMT</pubDate>
+    <ttl>1440</ttl>
+    
+    <item>
+      <title><![CDATA[LinkedIn Post #1]]></title>
+      <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7355928384205422592?collapsed=1" height="566" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
+      <link>https://your-domain.com/#linkedin-post-1</link>
+      <guid isPermaLink="false">linkedin-post-1</guid>
+      <pubDate>Sun, 11 Aug 2025 10:00:00 GMT</pubDate>
+      <category>LinkedIn, Social Media</category>
+      <author>Your Name</author>
+    </item>
+    
+    <item>
+      <title><![CDATA[Fitting intelligence]]></title>
+      <description><![CDATA[The case for a modular stack for selective LLMs for reasoning, and privacy-safe orchestration.]]></description>
+      <link>https://your-domain.com/blog/fitting-intelligence</link>
+      <guid isPermaLink="true">https://your-domain.com/blog/fitting-intelligence</guid>
+      <pubDate>Wed, 31 Jul 2025 00:00:00 GMT</pubDate>
+      <category>SLMs, Agentic, Strategy</category>
+      <author>Your Name</author>
+    </item>
+    
+    <item>
+      <title><![CDATA[LinkedIn Post #2]]></title>
+      <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7355637024210530304" height="265" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
+      <link>https://your-domain.com/#linkedin-post-2</link>
+      <guid isPermaLink="false">linkedin-post-2</guid>
+      <pubDate>Sat, 10 Aug 2025 10:00:00 GMT</pubDate>
+      <category>LinkedIn, Social Media</category>
+      <author>Your Name</author>
+    </item>
+    
+    <item>
+      <title><![CDATA[LinkedIn Post #3]]></title>
+      <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7354061415579561985?collapsed=1" height="569" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
+      <link>https://your-domain.com/#linkedin-post-3</link>
+      <guid isPermaLink="false">linkedin-post-3</guid>
+      <pubDate>Fri, 09 Aug 2025 10:00:00 GMT</pubDate>
+      <category>LinkedIn, Social Media</category>
+      <author>Your Name</author>
+    </item>
+    
+    <item>
+      <title><![CDATA[LinkedIn Post #4]]></title>
+      <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7339301481948311552?collapsed=1" height="552" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
+      <link>https://your-domain.com/#linkedin-post-4</link>
+      <guid isPermaLink="false">linkedin-post-4</guid>
+      <pubDate>Thu, 08 Aug 2025 10:00:00 GMT</pubDate>
+      <category>LinkedIn, Social Media</category>
+      <author>Your Name</author>
+    </item>
+    
+    <item>
+      <title><![CDATA[LinkedIn Post #5]]></title>
+      <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7339579159720910848?collapsed=1" height="583" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
+      <link>https://your-domain.com/#linkedin-post-5</link>
+      <guid isPermaLink="false">linkedin-post-5</guid>
+      <pubDate>Wed, 07 Aug 2025 10:00:00 GMT</pubDate>
+      <category>LinkedIn, Social Media</category>
+      <author>Your Name</author>
+    </item>
+    
+    <item>
+      <title><![CDATA[LinkedIn Post #6]]></title>
+      <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7338097403826196481?collapsed=1" height="662" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
+      <link>https://your-domain.com/#linkedin-post-6</link>
+      <guid isPermaLink="false">linkedin-post-6</guid>
+      <pubDate>Tue, 06 Aug 2025 10:00:00 GMT</pubDate>
+      <category>LinkedIn, Social Media</category>
+      <author>Your Name</author>
+    </item>
+    
+    <item>
+      <title><![CDATA[Scaling LLMs in Production: Lessons from Deliveroo]]></title>
+      <description><![CDATA[A deep dive into the challenges and solutions for deploying large language models at scale in production environments.]]></description>
+      <link>https://your-domain.com/blog/scaling-llms-production-deliveroo</link>
+      <guid isPermaLink="true">https://your-domain.com/blog/scaling-llms-production-deliveroo</guid>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+      <category>LLMs, Production, MLOps</category>
+      <author>Your Name</author>
+    </item>
+    
+    <item>
+      <title><![CDATA[From the Dolomites to Data: What Mountains Teach Us About ML]]></title>
+      <description><![CDATA[Drawing parallels between mountain climbing and machine learning - patience, preparation, and the importance of taking one step at a time.]]></description>
+      <link>https://your-domain.com/blog/dolomites-data-mountains-ml</link>
+      <guid isPermaLink="true">https://your-domain.com/blog/dolomites-data-mountains-ml</guid>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 GMT</pubDate>
+      <category>Career, Philosophy, Mountains</category>
+      <author>Your Name</author>
+    </item>
+    
+    <item>
+      <title><![CDATA[Building Robust ML Pipelines with Kubernetes and Argo]]></title>
+      <description><![CDATA[A practical guide to orchestrating machine learning workflows using modern container orchestration tools.]]></description>
+      <link>https://your-domain.com/blog/robust-ml-pipelines-kubernetes-argo</link>
+      <guid isPermaLink="true">https://your-domain.com/blog/robust-ml-pipelines-kubernetes-argo</guid>
+      <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
+      <category>Kubernetes, MLOps, Infrastructure</category>
+      <author>Your Name</author>
+    </item>
+  </channel>
+</rss>
