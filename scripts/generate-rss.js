@@ -46,11 +46,11 @@ function generateRSSFeeds() {
     <atom:link href="https://giovanni-doni.github.io/rss/linkedin.xml" rel="self" type="application/rss+xml" />
     ${linkedinPosts.map(post => `
     <item>
-      <title>${post.title}</title>
+      <title>LinkedIn Post #${post.index}</title>
       <description><![CDATA[${post.embedCode}]]></description>
-      <link>${post.url}</link>
-      <guid>${post.url}</guid>
-      <pubDate>${new Date(post.date).toUTCString()}</pubDate>
+      <link>https://giovanni-doni.github.io/#linkedin-post-${post.index}</link>
+      <guid>https://giovanni-doni.github.io/#linkedin-post-${post.index}</guid>
+      <pubDate>${new Date().toUTCString()}</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>`).join('')}
@@ -60,7 +60,7 @@ function generateRSSFeeds() {
     // Generate combined RSS
     const allContent = [
       ...blogArticles.map(article => ({...article, type: 'blog'})),
-      ...linkedinPosts.map(post => ({...post, type: 'linkedin'}))
+      ...linkedinPosts.map(post => ({...post, type: 'linkedin', title: `LinkedIn Post #${post.index}`, date: new Date().toISOString(), url: `https://giovanni-doni.github.io/#linkedin-post-${post.index}`}))
     ].sort((a, b) => new Date(b.date) - new Date(a.date));
     
     const combinedRSS = `<?xml version="1.0" encoding="UTF-8"?>
