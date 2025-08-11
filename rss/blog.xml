@@ -5,12 +5,143 @@
     <description>Latest blog posts on machine learning, AI, and technology</description>
     <link>https://giovanni-doni.github.io/</link>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Aug 2025 11:10:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 Aug 2025 11:14:42 GMT</lastBuildDate>
     <atom:link href="https://giovanni-doni.github.io/rss/blog.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Fitting intelligence</title>
-      <description><![CDATA[The case for a modular stack for selective LLMs for reasoning, and privacy-safe orchestration.]]></description>
+      <description><![CDATA[# Fitting intelligence
+
+## A pragmatic, modular AI stack—smaller models, privacy-safe orchestration, and control without a monolith.
+
+![Image](/lovable-uploads/monolith_16x9_top_1920x1080.jpg)
+
+Not long ago I was thinking that intelligence comes in different forms and sizes. You get a spectrum of intelligences that are often optimised for carrying out a specific set of tasks, often quite fruitful 🐝.
+
+If we compared the neural system of a bee to that of a human, we would not be all that surprised by the difference in sizes: 100B vs 1M - about 5 orders of magnitude - and I expect the difference to increase by a few more orders when counting the connections. And yet, regardless of the generalisation capabilities of human intelligence, an insect performs quite effectively at what it does - e.g. pollinating, reproducing, and surviving. Sounds fairly intelligence to me.
+
+That led me to think that artificial intelligence should present itself with a similar spectrum of intelligences; after all, tasks often require a varying degree of specialisation vs generality trade-off that should leave plenty of space for both sides to coexist.
+
+## Fundation-ally
+As I was about to write about it a couple of months ago, I stumbled upon two posts that made me think. The [first](https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39) was about the news that Netflix released a foundational model for their recommendation system, followed by a [second one](https://stripe.com/gb/newsroom/news/sessions-2025) from Stripe, which also built a foundational model for all fraud detection applications. The hammer to all nails here is, needless to say, a transformer model.
+
+Beyond the all-encompassing effectiveness of transformers we’ve all gotten used to - what is the biggest advantage of this, I wondered? Well, I like to think about it in terms of **complexity management**: for companies of a certain size and maturity, it is more effective to centralise complexity into a single model than to leave it shallow but homogeneously distributed, and scattered across several models. This increases control and reduces management, communication, and attention-budget overhead.
+
+Often, in fact, companies offer products powered by hundreds of ML/AI models, which can make managing their lifecycle quite complex. In particular, there are some recurrent challenges I’ve experienced first-hand:
+
+- understanding the interactions between models and the consumers engaging with them, and the resulting feedback loops to consider for training them;
+
+- understanding interactions between models themselves, which can vary with seasonality or across different model iterations;
+
+- sharing responsibility across teams to monitor, detect, and address model interactions.
+
+Wouldn't it be nice if one main model could function as a primary entry point for all the different downstream applications? That seems to be the direction companies like Netflix and Stripe are heading. Naturally, they have the scale - both in skills and resources - to invest in foundational models.
+
+Further down this direction of the AI capabilities spectrum, we have LLM service providers and integrators offering Gemini, ChatGPT, and Claude at scale - a scale that few companies can afford. On the opposite side, we have the vast majority of companies, for whom tech investment is more of a tool than a product.
+
+All professionals working in companies of this latter group know that many tasks can now often be done well using one of these foundational models out of the box. It’s no wonder that the following question:
+
+> When do we actually need an ML engineer for a project?
+
+is being asked by many in leadership positions these days. The models are getting better, the costs are getting lower - and the impression is that a foundational model might take it all, real quick.
+
+## AI levels
+As (almost) everyone else, I’m really impressed by the power of the most capable models available today - particularly their apparent ability to compress all the knowledge there is. It feels quite natural to wonder and hypothesise how things will evolve. So let me chip in my 5 cents.
+
+Let’s take a step back first. In order of complexity, I identify three levels in practice:
+
+1. The first level is the ability to process sources much faster than a human and find information that is already available in the context - i.e. **Extraction**.
+
+2. The second level requires the model’s ability to perform somewhat complex transformations following directives - i.e. **Patterned Inference**.
+
+2. The third level is planning - the model’s capacity to break down a complex task into smaller steps that can lead to solving a problem - i.e. **Planning**.
+
+Let’s consider the first level. Information retrieval is one of the biggest problems people inside an organisation face, and often one of the largest sources of inefficiency. This is where current AI systems really shine: they add power to pattern recognition systems with increased flexibility - what I call “**ctrl + f 2.0**”.
+
+Bring it up a notch, and you can apply some degree of predictivity based on the information available in context and embedded within the LLM. You can also extend extraction tasks by providing additional capabilities in various forms e.g. mostly fine tuning. Importantly, as models improve - both in the size of the context they can use and the complexity of their inferences - we observe in the reports and in out practice the bar constantly rising.
+
+But if the bar is rising, so are our expectations: as they increase, we start entering into a domain where complex requests might or might not receive accurate responses. What’s needed then is to break problems into manageable tasks - thus avoiding information bottlenecks - while anticipating outcomes or potential issues. This, in essence, is one of the ways we reason - and it’s where the structuring of agents into workflows can play a role.
+
+## The extraction-reasoning-planning tradeoff
+
+As AI systems become more capable, the temptation grows to centralise tasks into a single model or agent. This can have some advantages, but not necessarily for all. In practical business operations, most AI use cases fall somewhere along a spectrum of extraction, reasoning, and planning. Understanding the trade-offs along this spectrum is key to building successful, simple yet powerful and transparent intelligent automation systems.
+
+Let me spell them out for you again:
+
+1. **Extraction**: low-risk and well-defined; parsing forms, reading tables, or graphs. These can often be handled by smaller, faster models with high reliability, minimal context requirements, low cost and easily self-served.
+
+2. **Inference**: tasks that require bridging across inputs and applying logic or heuristics - e.g. summarising information, or resolving ambiguity in a process. Delegating these tasks can be more error-prone, not necessarily because of the task complexity itself, but due to the need to translate instruction, context, and prompts into the right framing - and to monitor the outcome through observability by design.
+
+3. **Planning** is where things get complex - and riskier. Breaking down multi-step tasks, choosing optimal sequences, coordinating agents. These tasks carry the highest potential for automation, and the highest cost of failure. While things are rapidly evolving in this space, success often hinges on robust testing and evaluation strategies, transparency throughout the workflow, clarity on the objective, and a bias for simplicity.
+
+The further right you move on the spectrum, the more powerful the model you need - but also the more context, control, and validation you must implement. Most businesses don't need (nor can they safely manage) autonomous planning across all operations. What they do need is a balanced intelligence stack. Thinking in terms of this trade-off allows us to design AI systems that are pragmatic, composable, and privacy-conscious - rather than defaulting to a single black-box LLM for every task.
+
+What about agents?
+
+Agents come into play when you combine level-3 planning with level-1 and level-2 operators. However, in most organizations, the greatest value will likely come not from agents but from workflows (for a good description, read here). The distinction is that, with workflows, you - the company, manager, or senior IC - define the process, which is then executed autonomously; with agents, the process is determined autonomously. The processes you already have represent consolidated (level-3) intelligence. They'll remain valuable for some time, so don't throw that investment under the bus.
+
+
+## More upside? Yes, they say.
+As an ML/AI practitioner, I’ve worked for the better part of the last 10 years across different companies, and the evidence has consistently been that ML is most often deployed to improve efficiencies. Although there are undoubtedly notable examples - chiefly in the advertising space - I’ve rarely seen AI/ML serve as core components of a product from day one (plenty of notable exceptions here, but the minority nonetheless). More often, the creation of tools using ML/AI has aimed at producing incremental gains over pre-existing solutions or processes.
+
+With the advancements in AI over the past few years, we’re now witnessing the creation of entirely new products built around AI from the ground up. This marks a significant shift, clearly reflected in how companies are reorienting their investment focus - from profitability to growth - driven by AI’s tailwinds and promises. 
+
+![Image](/lovable-uploads/graph-statistics-survey.png)
+*source: https://www.bondcao.com/report/pdf/Trends_Artificial_Intelligence.pdf*
+
+How much of this investment will translate into real, incremental revenue is still to be seen.
+
+What is clear, though, is that this momentum is being met with great enthusiasm and energy - a mindset focused on upside potential, rather than the limited scope of the now-outdated “cost-saving” exercise.
+
+The extraction-reasoning-planning tradeoff
+As AI systems become more capable, the temptation grows to centralise tasks into a single model or agent. This can have some advantages, but not necessarily for all. In practical business operations, most AI use cases fall somewhere along a spectrum of extraction, reasoning, and planning. Understanding the trade-offs along this spectrum is key to building successful, simple yet powerful and transparent intelligent automation systems.
+
+Let me spell them out for you again:
+
+- **Extraction**: low-risk and well-defined; parsing forms, reading tables, or graphs. These can often be handled by smaller, faster models with high reliability, minimal context requirements, and strong explainability.
+
+- **Inference**: tasks that require bridging across inputs and applying logic or heuristics - e.g. summarising information, or resolving ambiguity in a process. Delegating these tasks can be more error-prone, not necessarily because of the task complexity itself, but due to the need to translate instruction, context, and prompts into the right framing - and to monitor the outcome through observability by design.
+
+- **Planning** is where things get complex - and riskier. Breaking down multi-step tasks, choosing optimal sequences, coordinating agents. These tasks carry the highest potential for automation, and the highest cost of failure. While things are rapidly evolving in this space, success often hinges on robust testing and evaluation strategies, transparency throughout the workflow, clarity on the objective, and a bias for simplicity (see Anthropic guide for building [agents](https://www.anthropic.com/engineering/building-effective-agents)).
+
+The further right you move on the spectrum, the more powerful the model you need - but also the more context, control, and validation you must implement. Most businesses don’t need (nor can they safely manage) autonomous planning across all operations. What they do need is a balanced intelligence stack. Thinking in terms of this trade-off allows us to design AI systems that are pragmatic, composable, and privacy-conscious - rather than defaulting to a single black-box LLM for every task.
+
+## The elephant in the room
+Let's talk about privacy, shall we? GDPR and the upcoming AI Act have thrust safety and security to the core of the generative-AI wave - and every leader of a mature organisation knows why. Every query you run is processed across clusters and systems, then logged and stored under opaque terms buried in lengthy agreements. Reports of LLMs leaking sensitive data - like passwords - keep surfacing. While many of those claims aren't rock-solid, try bypassing your go-to model's guardrails and asking it to guess your password. Thanks to its memory and inference power, you might be surprised how close it gets.
+
+More importantly, as the use of LLMs spreads, we're providing more and more information. This is a real problem for many companies, which are understandably anything but excited about the potential risk of exposing confidential data to third parties.
+Larger companies have likely been flexing their legal teams muscle to set up processes to evaluate providers and draft agreements that ensure data is protected and safe. Similarly, providers have started offering solutions to meet these requirements, such as:
+
+- Private cloud or on-premise models
+- Model and data isolation
+- Access control
+- Data minimisation and smart routing
+
+Solutions like these can satisfy specific needs, but the landscape is multifaceted. Much depends on the organisation's appetite for innovation, governance setup, and the specific regulatory frameworks involved - especially in sensitive fields like healthcare and finance.
+
+![Image](/lovable-uploads/chart.png)
+
+What about smaller companies?
+
+This is where the waters get murkier. The rapidly evolving landscape leaves little room for a comprehensive understanding of how to safely integrate LLMs into operations. Innovation is coming weekly at a questionable signal to noise ratio, the maturity landscape of tools is evolving, and it's easy to get carried away - by either enthusiasm or concern.
+
+## So what: shaping the Intelligence Stack
+If there's one gap that's becoming increasingly visible, it's the lack of AI-native infrastructure tailored to the needs of mid-market companies. While large enterprises have the legal and financial resources to adopt and adapt foundational models with privacy-preserving infrastructure, mid-market companies are left with far less space of manoeuvre.
+
+A more pragmatic view is starting to take shape: the most effective solutions won't come from monolithic LLMs, but from modular, hybrid systems - intelligent, yet purposefully constrained. These systems will combine smaller models trained on a company's internal processes with foundational models used selectively for reasoning and planning - within clear boundaries. Crucially, they'll need to operate without indiscriminately pushing sensitive data to the cloud.
+
+The aim isn't just to build smarter assistants, but systems that can reliably operate within a company's internal context - its workflows, domain knowledge, and operational quirks.
+
+A privacy-safe, locally adapted stack combining:
+
+- Open-source LLMs or distilled variants running on-prem / cloud VPC
+
+- Task-specific SMLs for extraction and prediction
+
+- An orchestration layer to blend reasoning, retrieval, and human-in-the-loop
+
+We don't need general artificial intelligence everywhere. What we need is an intelligence stack - where plenty of fruit comes just thanks to bees that pollinates with just 1 million neurons.
+]]></description>
       <link>https://giovanni-doni.github.io/blog/fitting-intelligence</link>
       <guid>https://giovanni-doni.github.io/blog/fitting-intelligence</guid>
       <pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate>
@@ -19,7 +150,69 @@
     </item>
     <item>
       <title>Scaling LLMs in Production: Lessons from Deliveroo</title>
-      <description><![CDATA[A deep dive into the challenges and solutions for deploying large language models at scale in production environments.]]></description>
+      <description><![CDATA[# Scaling LLMs in Production: Lessons from Deliveroo
+
+## The Challenge of Scale
+
+When we first started experimenting with large language models at Deliveroo, we quickly realized that the jump from prototype to production is significant. What works for a few hundred requests per day doesn't necessarily work for thousands or millions.
+
+The main challenges we encountered were:
+- **Latency requirements**: Our users expect fast responses, but LLMs can be slow
+- **Cost optimization**: Model inference can get expensive at scale
+- **Reliability**: We needed consistent performance even during peak hours
+- **Model drift**: Ensuring model performance doesn't degrade over time
+
+## Infrastructure Considerations
+
+### Model Serving Architecture
+
+We experimented with several approaches before settling on our current architecture:
+
+1. **Direct API calls**: Initially, we used third-party APIs directly from our application servers
+2. **Caching layer**: We added Redis caching for common queries
+3. **Model gateway**: Finally, we built a dedicated service to handle all ML model interactions
+
+The model gateway approach gave us several advantages:
+- Centralized monitoring and logging
+- Easy A/B testing of different models
+- Better cost tracking and optimization
+- Simplified fallback mechanisms
+
+### Monitoring and Observability
+
+Monitoring LLMs in production requires different metrics than traditional services:
+- **Token usage**: Critical for cost management
+- **Response quality**: Using automated evaluation metrics
+- **User satisfaction**: Tracking user feedback and engagement
+- **Model performance**: Latency, throughput, and error rates
+
+## Lessons Learned
+
+### 1. Start Simple
+
+Our first production deployment was overly complex. We tried to optimize everything from day one, which led to unnecessary complexity and bugs. Starting with a simple setup and iterating based on real usage patterns proved much more effective.
+
+### 2. Invest in Evaluation
+
+Building robust evaluation pipelines early is crucial. We learned this the hard way when a model update degraded performance for specific use cases that we hadn't properly tested.
+
+### 3. Cost Monitoring is Essential
+
+LLM costs can spiral quickly. We built detailed cost tracking into our system from the beginning, which helped us identify optimization opportunities and make informed decisions about model selection.
+
+### 4. Plan for Failures
+
+LLMs can fail in unexpected ways. Having proper fallback mechanisms and graceful degradation strategies is essential for maintaining service reliability.
+
+## Looking Forward
+
+As the LLM landscape continues to evolve rapidly, we're focusing on:
+- **Multi-model strategies**: Using different models for different tasks
+- **Edge deployment**: Moving some models closer to users for better latency
+- **Fine-tuning**: Customizing models for our specific use cases
+- **Cost optimization**: Continuously improving our cost per request
+
+The key to success with LLMs in production is treating them as part of a larger system, not as magic solutions. Proper engineering practices, monitoring, and gradual rollouts are just as important as choosing the right model.]]></description>
       <link>https://giovanni-doni.github.io/blog/scaling-llms-production-deliveroo</link>
       <guid>https://giovanni-doni.github.io/blog/scaling-llms-production-deliveroo</guid>
       <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
@@ -28,7 +221,84 @@
     </item>
     <item>
       <title>From the Dolomites to Data: What Mountains Teach Us About ML</title>
-      <description><![CDATA[Drawing parallels between mountain climbing and machine learning - patience, preparation, and the importance of taking one step at a time.]]></description>
+      <description><![CDATA[# From the Dolomites to Data: What Mountains Teach Us About ML
+
+## The Summit Mindset
+
+Standing at the base of a towering peak in the Dolomites, you're faced with a challenge that seems impossible. The summit is hidden by clouds, the path is unclear, and every step requires careful consideration. This feeling is remarkably similar to starting a complex machine learning project.
+
+## Lesson 1: Respect the Preparation
+
+In mountaineering, the most dangerous climbers are often those who underestimate the preparation required. They skip route planning, ignore weather forecasts, or bring inadequate gear. In machine learning, I've seen similar patterns:
+
+- **Data exploration shortcuts**: Jumping into modeling without understanding your data
+- **Infrastructure neglect**: Building models without considering deployment constraints
+- **Validation oversights**: Not setting up proper testing frameworks from the start
+
+Just as you wouldn't attempt a difficult climb without studying the route, don't start an ML project without thoroughly understanding your data landscape.
+
+## Lesson 2: One Step at a Time
+
+The most intimidating aspect of both mountain climbing and ML projects is the sheer scale of the challenge ahead. The secret is to focus on the next step, not the entire journey.
+
+In the mountains, this means:
+- Focus on reaching the next waypoint, not the summit
+- Check your progress regularly
+- Adjust your route based on current conditions
+
+In ML, this translates to:
+- Break projects into small, measurable milestones
+- Iterate quickly and validate assumptions early
+- Be prepared to pivot based on what you learn
+
+## Lesson 3: Know When to Turn Back
+
+Some of my most valuable mountain experiences have been the climbs where I turned back. A sudden weather change, unexpected difficulty, or equipment failure can make continuing dangerous. The mountain will be there tomorrow.
+
+In machine learning:
+- Not every approach will work, and that's okay
+- Sometimes the data isn't ready for the problem you're trying to solve
+- Technical debt can make continuing more dangerous than starting fresh
+
+The ability to recognize when to stop, reassess, and potentially start over is crucial for long-term success.
+
+## Lesson 4: The Importance of Base Camp
+
+Every serious mountain expedition relies on well-established base camps. These are safe spaces where you can rest, resupply, and plan your next move. In ML, your "base camp" is your infrastructure:
+
+- **Reliable data pipelines**: Your supply line to fresh, clean data
+- **Monitoring systems**: Your early warning system for problems
+- **Reproducible environments**: Your safety net for experiments
+
+Invest in building solid base camps before attempting the summit.
+
+## Lesson 5: Weather Changes Everything
+
+Mountain weather can change rapidly and dramatically. What started as a perfect climbing day can become dangerous within hours. Experienced mountaineers constantly monitor conditions and adapt their plans accordingly.
+
+In ML projects, your "weather" includes:
+- **Business requirements**: Shifting priorities and goals
+- **Data drift**: Changes in your input data over time
+- **Technical landscape**: New tools, frameworks, and best practices
+
+Stay flexible and be prepared to adapt your approach based on changing conditions.
+
+## The View from the Top
+
+When you finally reach a mountain summit, the view is spectacular. But the real reward isn't the view itself—it's the journey that got you there. The skills you developed, the confidence you gained, and the problems you solved along the way.
+
+The same is true for ML projects. The deployed model is just the summit. The real value lies in the data infrastructure you built, the domain knowledge you gained, and the processes you refined.
+
+## Back to Base Camp
+
+Every mountain climb ends with a descent back to base camp. This isn't the end of the adventure—it's preparation for the next one. You debrief what went well, what could be improved, and what you learned.
+
+Apply this same mindset to your ML projects:
+- Document what worked and what didn't
+- Share knowledge with your team
+- Identify areas for improvement in your next project
+
+The mountain will always be there, ready for your next attempt. And each climb makes you better prepared for the challenges ahead.]]></description>
       <link>https://giovanni-doni.github.io/blog/dolomites-data-mountains-ml</link>
       <guid>https://giovanni-doni.github.io/blog/dolomites-data-mountains-ml</guid>
       <pubDate>Wed, 20 Dec 2023 00:00:00 GMT</pubDate>
@@ -37,7 +307,213 @@
     </item>
     <item>
       <title>Building Robust ML Pipelines with Kubernetes and Argo</title>
-      <description><![CDATA[A practical guide to orchestrating machine learning workflows using modern container orchestration tools.]]></description>
+      <description><![CDATA[# Building Robust ML Pipelines with Kubernetes and Argo
+
+## The Need for Orchestration
+
+Machine learning workflows are inherently complex. Unlike traditional software applications, ML pipelines involve multiple stages: data ingestion, preprocessing, feature engineering, model training, validation, and deployment. Each stage has different computational requirements, dependencies, and failure modes.
+
+As teams scale their ML operations, managing these workflows manually becomes unsustainable. This is where container orchestration tools like Kubernetes and workflow engines like Argo come into play.
+
+## Architecture Overview
+
+Our ML pipeline architecture consists of several key components:
+
+### 1. Kubernetes as the Foundation
+
+Kubernetes provides the underlying infrastructure for running containerized workloads. For ML pipelines, this offers several advantages:
+
+- **Resource isolation**: Each pipeline step runs in its own container with defined resource limits
+- **Scalability**: Automatic scaling based on workload demands
+- **Fault tolerance**: Automatic restart of failed containers
+- **Consistency**: Same runtime environment across development, staging, and production
+
+### 2. Argo Workflows for Orchestration
+
+Argo Workflows acts as our workflow engine, defining the execution graph of ML pipeline steps. Key benefits include:
+
+- **DAG-based workflows**: Define complex dependencies between pipeline steps
+- **Conditional execution**: Skip or repeat steps based on previous results
+- **Artifact management**: Seamless passing of data between workflow steps
+- **Version control**: Workflows are defined in YAML and can be version controlled
+
+### 3. Data and Model Storage
+
+We use a combination of:
+- **Object storage**: For large datasets and model artifacts
+- **Container registry**: For versioned container images
+- **Metadata store**: For tracking experiments and model versions
+
+## Implementation Deep Dive
+
+### Pipeline Definition
+
+Here's a simplified example of how we define an ML pipeline using Argo Workflows:
+
+```yaml
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: ml-pipeline-
+spec:
+  entrypoint: ml-pipeline
+  templates:
+  - name: ml-pipeline
+    dag:
+      tasks:
+      - name: data-ingestion
+        template: data-ingestion-step
+      - name: preprocessing
+        template: preprocessing-step
+        dependencies: [data-ingestion]
+      - name: feature-engineering
+        template: feature-engineering-step
+        dependencies: [preprocessing]
+      - name: model-training
+        template: model-training-step
+        dependencies: [feature-engineering]
+      - name: model-validation
+        template: model-validation-step
+        dependencies: [model-training]
+      - name: model-deployment
+        template: model-deployment-step
+        dependencies: [model-validation]
+        when: "{{tasks.model-validation.outputs.parameters.accuracy}} > 0.85"
+```
+
+### Resource Management
+
+Each step in our pipeline can specify its resource requirements:
+
+```yaml
+- name: model-training-step
+  container:
+    image: ml-training:latest
+    resources:
+      requests:
+        memory: "8Gi"
+        cpu: "4"
+        nvidia.com/gpu: "1"
+      limits:
+        memory: "16Gi"
+        cpu: "8"
+        nvidia.com/gpu: "1"
+```
+
+This ensures that resource-intensive steps like model training get the resources they need without affecting other workloads.
+
+## Monitoring and Observability
+
+Effective monitoring is crucial for production ML pipelines. Our monitoring stack includes:
+
+### Pipeline Metrics
+
+- **Execution time**: Track how long each pipeline step takes
+- **Success rate**: Monitor pipeline failure rates and identify bottlenecks
+- **Resource utilization**: Ensure efficient use of computational resources
+- **Data quality**: Track data drift and quality metrics
+
+### Alerting
+
+We've set up alerts for:
+- Pipeline failures
+- Unusual execution times
+- Resource exhaustion
+- Data quality issues
+
+### Logging
+
+Centralized logging helps with debugging failed pipeline runs. We use structured logging to make it easy to correlate logs across different pipeline steps.
+
+## Best Practices We've Learned
+
+### 1. Design for Failure
+
+ML pipelines will fail. Design your workflows to handle failures gracefully:
+- Use retry policies for transient failures
+- Implement circuit breakers for external dependencies
+- Store intermediate results to avoid recomputing expensive steps
+- Have clear rollback procedures
+
+### 2. Version Everything
+
+Version control isn't just for code:
+- Container images should be tagged with semantic versions
+- Data should be versioned and immutable
+- Model artifacts should include metadata about training data and parameters
+- Pipeline definitions should be in version control
+
+### 3. Start Simple, Then Optimize
+
+Begin with a basic pipeline and add complexity gradually:
+- Start with sequential execution, then add parallelism where beneficial
+- Begin with basic monitoring, then add detailed observability
+- Use simple scheduling initially, then add complex triggers as needed
+
+### 4. Test at Multiple Levels
+
+Testing ML pipelines requires a multi-layered approach:
+- **Unit tests**: Test individual pipeline components
+- **Integration tests**: Test end-to-end pipeline execution
+- **Data tests**: Validate data quality and schema compliance
+- **Model tests**: Verify model performance meets requirements
+
+## Challenges and Solutions
+
+### Data Management
+
+Managing large datasets in Kubernetes can be challenging. We've addressed this through:
+- Using persistent volumes for data that needs to persist across pod restarts
+- Implementing data caching strategies to avoid redundant data transfers
+- Using streaming for real-time data processing
+
+### GPU Resource Management
+
+GPU resources are expensive and need careful management:
+- Implement resource quotas to prevent any single pipeline from monopolizing GPUs
+- Use node selectors to ensure GPU workloads run on appropriate nodes
+- Monitor GPU utilization to optimize resource allocation
+
+### Security
+
+ML pipelines often handle sensitive data:
+- Use Kubernetes secrets for storing credentials
+- Implement network policies to restrict pod-to-pod communication
+- Regular security scanning of container images
+- Data encryption in transit and at rest
+
+## Looking Forward
+
+As our ML operations continue to mature, we're exploring:
+
+### Multi-Cloud Deployments
+
+Using tools like Admiralty to distribute workloads across multiple cloud providers for:
+- Cost optimization
+- Improved fault tolerance
+- Regulatory compliance
+
+### GitOps for ML
+
+Implementing GitOps practices for ML pipeline deployment:
+- Pipeline definitions stored in Git
+- Automatic deployment of pipeline changes
+- Easy rollback capabilities
+
+### Advanced Orchestration
+
+Exploring more sophisticated orchestration patterns:
+- Event-driven pipelines that trigger based on data availability
+- Conditional workflows that adapt based on model performance
+- Cross-pipeline dependencies for complex ML workflows
+
+## Conclusion
+
+Building robust ML pipelines requires more than just good algorithms—it requires solid engineering practices and the right infrastructure. Kubernetes and Argo provide a powerful foundation for scalable, reliable ML operations.
+
+The key is to start simple and iterate. Focus on getting the basics right: version control, monitoring, and failure handling. As your needs grow, you can add more sophisticated features and optimizations.
+
+Remember that the goal isn't to build the most complex system possible, but to build a system that reliably delivers value to your users while being maintainable by your team.]]></description>
       <link>https://giovanni-doni.github.io/blog/robust-ml-pipelines-kubernetes-argo</link>
       <guid>https://giovanni-doni.github.io/blog/robust-ml-pipelines-kubernetes-argo</guid>
       <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
