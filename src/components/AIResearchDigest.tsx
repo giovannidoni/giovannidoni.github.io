@@ -145,7 +145,7 @@ const AIResearchDigest = () => {
                 
                 {showDigest && (
                   <div className="mt-2 p-2 md:p-3 rounded-lg bg-background/5 backdrop-blur-lg border border-border/10">
-                    <div className="space-y-1 md:space-y-2 max-h-40 md:max-h-60 overflow-y-auto">
+                    <div className="space-y-1 md:space-y-2 max-h-40 md:max-h-60 overflow-y-auto overflow-x-auto lg:overflow-x-visible whitespace-nowrap lg:whitespace-normal">
                       {formatDigest(researchData.digest)}
                     </div>
                   </div>
