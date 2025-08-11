@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 function generateRSSFeeds() {
   try {
@@ -100,15 +100,12 @@ function generateRSSFeeds() {
     console.log('- LinkedIn RSS: public/rss/linkedin.xml');
     console.log('- Combined RSS: public/rss/feed.xml');
     
-  } catch (error) {
-    console.error('Error generating RSS feeds:', error);
-    process.exit(1);
   }
 }
 
 // Run the script if called directly
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
   generateRSSFeeds();
 }
 
-module.exports = { generateRSSFeeds };
+export { generateRSSFeeds };
