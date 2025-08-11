@@ -3,25 +3,32 @@
 import fs from 'fs';
 import path from 'path';
 
+// Read blog articles metadata
+const blogArticlesPath = path.join(process.cwd(), 'src/data/blog-articles.json');
+const blogArticles = JSON.parse(fs.readFileSync(blogArticlesPath, 'utf8'));
+
+// Read LinkedIn posts metadata
+const linkedinPostsPath = path.join(process.cwd(), 'src/data/linkedin-posts.json');
+const linkedinPosts = JSON.parse(fs.readFileSync(linkedinPostsPath, 'utf8'));
+
+// Function to read markdown content from blog posts
+function readBlogContent(contentFile) {
+  const filePath = path.join(process.cwd(), 'src/data/blog-posts', contentFile);
+  try {
+    return fs.readFileSync(filePath, 'utf8');
+  } catch (error) {
+    console.warn(`Warning: Could not read ${contentFile}:`, error.message);
+    return '';
+  }
+}
+
 function generateRSSFeeds() {
   try {
-    // Read blog articles
-    const blogArticles = JSON.parse(fs.readFileSync('src/data/blog-articles.json', 'utf8'));
-    
-    // Read full content for each blog article
+    // Add full content to each blog article by reading from markdown files
     const blogArticlesWithContent = blogArticles.map(article => {
-      try {
-        const contentPath = `src/data/blog-posts/${article.contentFile}`;
-        const fullContent = fs.readFileSync(contentPath, 'utf8');
-        return { ...article, fullContent };
-      } catch (error) {
-        console.warn(`Could not read content for ${article.slug}:`, error.message);
-        return { ...article, fullContent: article.excerpt };
-      }
+      const fullContent = readBlogContent(article.contentFile);
+      return { ...article, fullContent };
     });
-    
-    // Read LinkedIn posts
-    const linkedinPosts = JSON.parse(fs.readFileSync('src/data/linkedin-posts.json', 'utf8'));
     
     // Generate blog RSS
     const blogRSS = `<?xml version="1.0" encoding="UTF-8"?>
