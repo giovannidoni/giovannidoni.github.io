@@ -20,7 +20,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: mode === 'production' ? '/giovannidoni.github.io/' : '/',
+  base: mode === 'production' ? '/' : '/',
   build: {
     rollupOptions: {
       output: {
