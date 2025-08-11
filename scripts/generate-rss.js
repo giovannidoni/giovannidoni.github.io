@@ -8,6 +8,18 @@ function generateRSSFeeds() {
     // Read blog articles
     const blogArticles = JSON.parse(fs.readFileSync('src/data/blog-articles.json', 'utf8'));
     
+    // Read full content for each blog article
+    const blogArticlesWithContent = blogArticles.map(article => {
+      try {
+        const contentPath = `src/data/blog-posts/${article.contentFile}`;
+        const fullContent = fs.readFileSync(contentPath, 'utf8');
+        return { ...article, fullContent };
+      } catch (error) {
+        console.warn(`Could not read content for ${article.slug}:`, error.message);
+        return { ...article, fullContent: article.excerpt };
+      }
+    });
+    
     // Read LinkedIn posts
     const linkedinPosts = JSON.parse(fs.readFileSync('src/data/linkedin-posts.json', 'utf8'));
     
@@ -21,10 +33,10 @@ function generateRSSFeeds() {
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="https://giovanni-doni.github.io/rss/blog.xml" rel="self" type="application/rss+xml" />
-    ${blogArticles.map(article => `
+    ${blogArticlesWithContent.map(article => `
     <item>
       <title>${article.title}</title>
-      <description><![CDATA[${article.excerpt}]]></description>
+      <description><![CDATA[${article.fullContent}]]></description>
       <link>https://giovanni-doni.github.io/blog/${article.slug}</link>
       <guid>https://giovanni-doni.github.io/blog/${article.slug}</guid>
       <pubDate>${new Date(article.date).toUTCString()}</pubDate>
@@ -59,7 +71,7 @@ function generateRSSFeeds() {
     
     // Generate combined RSS
     const allContent = [
-      ...blogArticles.map(article => ({...article, type: 'blog'})),
+      ...blogArticlesWithContent.map(article => ({...article, type: 'blog'})),
       ...linkedinPosts.map(post => ({...post, type: 'linkedin', title: `LinkedIn Post #${post.index}`, date: new Date().toISOString(), url: `https://giovanni-doni.github.io/#linkedin-post-${post.index}`}))
     ].sort((a, b) => new Date(b.date) - new Date(a.date));
     
@@ -75,7 +87,7 @@ function generateRSSFeeds() {
     ${allContent.map(item => `
     <item>
       <title>${item.title}</title>
-      <description><![CDATA[${item.type === 'blog' ? item.excerpt : item.embedCode}]]></description>
+      <description><![CDATA[${item.type === 'blog' ? item.fullContent : item.embedCode}]]></description>
       <link>${item.type === 'blog' ? `https://giovanni-doni.github.io/blog/${item.slug}` : item.url}</link>
       <guid>${item.type === 'blog' ? `https://giovanni-doni.github.io/blog/${item.slug}` : item.url}</guid>
       <pubDate>${new Date(item.date).toUTCString()}</pubDate>
