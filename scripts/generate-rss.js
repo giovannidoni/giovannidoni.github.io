@@ -100,6 +100,9 @@ function generateRSSFeeds() {
     console.log('- LinkedIn RSS: public/rss/linkedin.xml');
     console.log('- Combined RSS: public/rss/feed.xml');
     
+  } catch (error) {
+    console.error('Error generating RSS feeds:', error);
+    process.exit(1);
   }
 }
 
