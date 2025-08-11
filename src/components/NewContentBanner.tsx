@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Rss, X, ChevronLeft, ChevronRight } from "lucide-react";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, CarouselApi } from "@/components/ui/carousel";
 
 interface FeedItem {
   title: string;
@@ -36,6 +36,8 @@ const NewContentBanner = () => {
   ]);
   const [isVisible, setIsVisible] = useState(true);
   const [loading, setLoading] = useState(false);
+  const [mobileApi, setMobileApi] = useState<CarouselApi>();
+  const [desktopApi, setDesktopApi] = useState<CarouselApi>();
 
   useEffect(() => {
     const fetchFeeds = async () => {
@@ -106,6 +108,22 @@ const NewContentBanner = () => {
     setTimeout(fetchFeeds, 1000);
   }, []);
 
+  // Auto-scroll effect
+  useEffect(() => {
+    if (!mobileApi || !desktopApi) return;
+
+    const scrollInterval = setInterval(() => {
+      if (mobileApi) {
+        mobileApi.scrollNext();
+      }
+      if (desktopApi) {
+        desktopApi.scrollNext();
+      }
+    }, 4000); // Auto-scroll every 4 seconds
+
+    return () => clearInterval(scrollInterval);
+  }, [mobileApi, desktopApi]);
+
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
     const now = new Date();
@@ -124,20 +142,68 @@ const NewContentBanner = () => {
 
   return (
     <div className="bg-gradient-accent/10 border-b border-border/40 sticky top-16 z-40 backdrop-blur-sm">
-      <div className="container mx-auto px-4 py-3">
-        <div className="flex items-center justify-between">
+      <div className="container mx-auto px-3 sm:px-4 py-2 sm:py-3">
+        {/* Mobile Layout */}
+        <div className="flex sm:hidden items-start justify-between gap-3">
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-2 mb-2">
+              <Badge variant="secondary" className="bg-accent/20 text-accent text-xs">
+                <Rss className="h-2.5 w-2.5 mr-1" />
+                Fresh Reads
+              </Badge>
+            </div>
+            <Carousel className="w-full" setApi={setMobileApi}>
+              <CarouselContent>
+                {feedItems.map((item, index) => (
+                  <CarouselItem key={index}>
+                    <div className="pr-4">
+                      <a 
+                        href={item.link} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="group block hover:text-accent transition-colors"
+                      >
+                        <div className="text-sm font-medium leading-tight line-clamp-2 mb-1">
+                          {item.title}
+                        </div>
+                        <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                          <span className="truncate">{item.source}</span>
+                          <span>•</span>
+                          <span className="whitespace-nowrap">{formatDate(item.pubDate)}</span>
+                          <ExternalLink className="h-2.5 w-2.5 opacity-60 group-hover:opacity-100 ml-1 flex-shrink-0" />
+                        </div>
+                      </a>
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+            </Carousel>
+          </div>
+          
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => setIsVisible(false)}
+            className="h-7 w-7 p-0 hover:bg-background/80 flex-shrink-0 mt-0.5"
+          >
+            <X className="h-3.5 w-3.5" />
+          </Button>
+        </div>
+
+        {/* Desktop Layout */}
+        <div className="hidden sm:flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Badge variant="secondary" className="bg-accent/20 text-accent">
               <Rss className="h-3 w-3 mr-1" />
               Fresh Reads
             </Badge>
-            <div className="hidden sm:block text-sm text-muted-foreground">
+            <div className="hidden lg:block text-sm text-muted-foreground">
               Latest from engineering leadership
             </div>
           </div>
           
           <div className="flex-1 mx-4 max-w-2xl">
-            <Carousel className="w-full">
+            <Carousel className="w-full" setApi={setDesktopApi}>
               <CarouselContent>
                 {feedItems.map((item, index) => (
                   <CarouselItem key={index}>
@@ -164,10 +230,8 @@ const NewContentBanner = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <div className="hidden sm:block">
-                <CarouselPrevious className="h-6 w-6" />
-                <CarouselNext className="h-6 w-6" />
-              </div>
+              <CarouselPrevious className="h-6 w-6" />
+              <CarouselNext className="h-6 w-6" />
             </Carousel>
           </div>
 
