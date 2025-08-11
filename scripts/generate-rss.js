@@ -11,6 +11,10 @@ const blogArticles = JSON.parse(fs.readFileSync(blogArticlesPath, 'utf8'));
 const linkedinPostsPath = path.join(process.cwd(), 'src/data/linkedin-posts.json');
 const linkedinPosts = JSON.parse(fs.readFileSync(linkedinPostsPath, 'utf8'));
 
+// Read AI research data
+const aiResearchPath = path.join(process.cwd(), 'src/data/summarised_results.json');
+const aiResearchData = JSON.parse(fs.readFileSync(aiResearchPath, 'utf8'));
+
 // Function to read markdown content from blog posts
 function readBlogContent(contentFile) {
   const filePath = path.join(process.cwd(), 'src/data/blog-posts', contentFile);
@@ -79,14 +83,23 @@ function generateRSSFeeds() {
     // Generate combined RSS
     const allContent = [
       ...blogArticlesWithContent.map(article => ({...article, type: 'blog'})),
-      ...linkedinPosts.map(post => ({...post, type: 'linkedin', title: `LinkedIn Post #${post.index}`, date: new Date().toISOString(), url: `https://giovanni-doni.github.io/#linkedin-post-${post.index}`}))
+      ...linkedinPosts.map(post => ({...post, type: 'linkedin', title: `LinkedIn Post #${post.index}`, date: new Date().toISOString(), url: `https://giovanni-doni.github.io/#linkedin-post-${post.index}`})),
+      ...aiResearchData.picked_headlines.map((headline, index) => ({
+        type: 'ai-research',
+        title: `AI Research: ${headline.summary}`,
+        reason_for_choice: headline.reason_for_choice,
+        date: new Date(Date.now() - (index * 12 * 60 * 60 * 1000)).toISOString(),
+        link: headline.link,
+        guid: `ai-research-${headline.item_number}`,
+        category: 'AI Research, Machine Learning'
+      }))
     ].sort((a, b) => new Date(b.date) - new Date(a.date));
     
     const combinedRSS = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Giovanni Doni - Blog &amp; LinkedIn Updates</title>
-    <description>Latest blog posts and LinkedIn updates</description>
+    <title>Giovanni Doni - Blog, LinkedIn &amp; AI Research</title>
+    <description>Latest blog posts, LinkedIn updates, and AI research highlights</description>
     <link>https://giovanni-doni.github.io/</link>
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
@@ -94,11 +107,27 @@ function generateRSSFeeds() {
     ${allContent.map(item => `
     <item>
       <title>${item.title}</title>
-      <description><![CDATA[${item.type === 'blog' ? item.fullContent : item.embedCode}]]></description>
-      <link>${item.type === 'blog' ? `https://giovanni-doni.github.io/blog/${item.slug}` : item.url}</link>
-      <guid>${item.type === 'blog' ? `https://giovanni-doni.github.io/blog/${item.slug}` : item.url}</guid>
+      <description><![CDATA[${
+        item.type === 'blog' ? item.fullContent : 
+        item.type === 'ai-research' ? item.reason_for_choice : 
+        item.embedCode
+      }]]></description>
+      <link>${
+        item.type === 'blog' ? `https://giovanni-doni.github.io/blog/${item.slug}` : 
+        item.type === 'ai-research' ? item.link :
+        item.url
+      }</link>
+      <guid>${
+        item.type === 'blog' ? `https://giovanni-doni.github.io/blog/${item.slug}` : 
+        item.type === 'ai-research' ? item.guid :
+        item.url
+      }</guid>
       <pubDate>${new Date(item.date).toUTCString()}</pubDate>
-      <category>${item.type === 'blog' ? item.tags.join(', ') : 'LinkedIn'}</category>
+      <category>${
+        item.type === 'blog' ? item.tags.join(', ') : 
+        item.type === 'ai-research' ? item.category :
+        'LinkedIn'
+      }</category>
       <author>Giovanni Doni</author>
     </item>`).join('')}
   </channel>
@@ -117,7 +146,7 @@ function generateRSSFeeds() {
     console.log('RSS feeds generated successfully');
     console.log('- Blog RSS: public/rss/blog.xml');
     console.log('- LinkedIn RSS: public/rss/linkedin.xml');
-    console.log('- Combined RSS: public/rss/feed.xml');
+    console.log('- Combined RSS (includes AI research): public/rss/feed.xml');
     
   } catch (error) {
     console.error('Error generating RSS feeds:', error);

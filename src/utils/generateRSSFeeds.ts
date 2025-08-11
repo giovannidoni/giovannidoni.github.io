@@ -1,5 +1,6 @@
 import blogArticlesData from '../data/blog-articles.json';
 import linkedinPostsData from '../data/linkedin-posts.json';
+import aiResearchData from '../data/summarised_results.json';
 
 interface BlogArticle {
   title: string;
@@ -15,6 +16,16 @@ interface LinkedinPost {
   index: number;
   type: string;
   embedCode: string;
+}
+
+interface AIResearchData {
+  picked_headlines: Array<{
+    item_number: number;
+    summary: string;
+    link: string;
+    reason_for_choice: string;
+  }>;
+  digest: string;
 }
 
 const generateBlogRSSFeed = (): string => {
@@ -84,6 +95,7 @@ const generateLinkedInRSSFeed = (): string => {
 const generateCombinedRSSFeed = (): string => {
   const articles = blogArticlesData as BlogArticle[];
   const posts = linkedinPostsData as LinkedinPost[];
+  const research = aiResearchData as AIResearchData;
   const baseUrl = window.location.origin;
   const pubDate = new Date().toUTCString();
 
@@ -108,6 +120,16 @@ const generateCombinedRSSFeed = (): string => {
       guid: `linkedin-post-${post.index}`,
       date: new Date(Date.now() - (index * 24 * 60 * 60 * 1000)),
       category: 'LinkedIn, Social Media'
+    })),
+    // AI Research headlines
+    ...research.picked_headlines.map((headline, index) => ({
+      type: 'ai-research',
+      title: `AI Research: ${headline.summary}`,
+      description: headline.reason_for_choice,
+      link: headline.link,
+      guid: `ai-research-${headline.item_number}`,
+      date: new Date(Date.now() - (index * 12 * 60 * 60 * 1000)),
+      category: 'AI Research, Machine Learning'
     }))
   ].sort((a, b) => b.date.getTime() - a.date.getTime());
 
