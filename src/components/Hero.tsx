@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowDown, Mountain, Calendar, FileText } from "lucide-react";
+import AIResearchDigest from "@/components/AIResearchDigest";
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     // Use the same mobile detection logic as Index component
@@ -52,14 +53,13 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto space-y-4 md:space-y-8">
+          
+          {/* AI Research Digest */}
+          <div className="mb-6">
+            <AIResearchDigest />
+          </div>
+          
           <div className="space-y-3 md:space-y-4">
-            
-            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight">
-              Giovanni{" "}
-              <span className="bg-gradient-to-r from-accent to-earth-warm bg-clip-text text-transparent">
-                Doni
-              </span>
-            </h1>
             
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
               Passionate end-to-end data professional, delivering ML and AI solutions that scale. 
