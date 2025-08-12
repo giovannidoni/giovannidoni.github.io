@@ -137,10 +137,31 @@ const AIResearchDigest = () => {
                 {showDigest && (
                   <div className="mt-2 p-2 md:p-3 rounded-lg bg-background/5 backdrop-blur-lg border border-border/10">
                     <div className="space-y-1 md:space-y-2 max-h-40 md:max-h-60 overflow-y-auto overflow-x-auto lg:overflow-x-visible">
-                      <div className="whitespace-nowrap lg:whitespace-normal text-left">
-                        <pre className="text-xs text-white/90 whitespace-pre-wrap font-sans text-left">
-                          {researchData.digest.replace(/\*/g, '')}
-                        </pre>
+                      <div className="whitespace-nowrap lg:whitespace-normal text-left space-y-2">
+                        {researchData.digest.replace(/\*/g, '').split('\n').filter(line => line.trim()).map((line, index) => {
+                          // Extract URL from the line using regex
+                          const urlMatch = line.match(/(https?:\/\/[^\s\)]+)/);
+                          const url = urlMatch ? urlMatch[1] : null;
+                          
+                          return (
+                            <div key={index} className="flex items-start gap-2 text-xs text-white/90">
+                              <span className="flex-1 whitespace-pre-wrap font-sans">
+                                {line}
+                              </span>
+                              {url && (
+                                <a
+                                  href={url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="flex-shrink-0 p-1 hover:bg-primary/20 rounded transition-colors"
+                                  title="Read more"
+                                >
+                                  <ExternalLink className="h-3 w-3 text-primary" />
+                                </a>
+                              )}
+                            </div>
+                          );
+                        })}
                       </div>
                     </div>
                   </div>
