@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, ChevronDown, ChevronUp, Sparkles } from 'lucide-react';
+import { ExternalLink, ChevronDown, ChevronUp, Sparkles, RefreshCw } from 'lucide-react';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 
 interface AIResearchData {
@@ -19,25 +19,35 @@ const AIResearchDigest = () => {
   const [researchData, setResearchData] = useState<AIResearchData | null>(null);
   const [isOpen, setIsOpen] = useState(true);
   const [showDigest, setShowDigest] = useState(false);
+  const [isRefreshing, setIsRefreshing] = useState(false);
+
+  const loadResearchData = async () => {
+    try {
+      setIsRefreshing(true);
+      console.log('Attempting to fetch AI research data...');
+      // Add cache busting timestamp to ensure fresh data
+      const response = await fetch(`/summarised_results.json?t=${Date.now()}`);
+      console.log('Fetch response status:', response.status);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      console.log('Successfully loaded research data:', data);
+      setResearchData(data);
+    } catch (error) {
+      console.error('Error loading research data:', error);
+    } finally {
+      setIsRefreshing(false);
+    }
+  };
 
   useEffect(() => {
-    const loadResearchData = async () => {
-      try {
-        console.log('Attempting to fetch AI research data...');
-        const response = await fetch('/summarised_results.json');
-        console.log('Fetch response status:', response.status);
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
-        console.log('Successfully loaded research data:', data);
-        setResearchData(data);
-      } catch (error) {
-        console.error('Error loading research data:', error);
-      }
-    };
-
     loadResearchData();
+    
+    // Set up periodic refresh every 10 minutes
+    const interval = setInterval(loadResearchData, 10 * 60 * 1000);
+    
+    return () => clearInterval(interval);
   }, []);
 
   if (!researchData) return null;
@@ -90,6 +100,18 @@ const AIResearchDigest = () => {
                 <div className="flex items-center gap-2">
                   <Sparkles className="h-5 w-5 text-primary" />
                   <CardTitle className="text-sm md:text-base lg:text-lg">Latest AI Digest</CardTitle>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      loadResearchData();
+                    }}
+                    disabled={isRefreshing}
+                    className="h-6 w-6 p-0 ml-2"
+                  >
+                    <RefreshCw className={`h-3 w-3 ${isRefreshing ? 'animate-spin' : ''}`} />
+                  </Button>
                 </div>
                 {isOpen ? (
                   <ChevronUp className="h-4 w-4 text-muted-foreground" />
