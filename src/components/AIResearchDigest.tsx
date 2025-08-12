@@ -25,8 +25,14 @@ const AIResearchDigest = () => {
     try {
       setIsRefreshing(true);
       console.log('Attempting to fetch AI research data...');
-      // Add cache busting timestamp to ensure fresh data
-      const response = await fetch(`/summarised_results.json?t=${Date.now()}`);
+      // Add cache busting timestamp and headers to ensure fresh data
+      const response = await fetch(`/summarised_results.json?t=${Date.now()}`, {
+        cache: 'no-cache',
+        headers: {
+          'Cache-Control': 'no-cache',
+          'Pragma': 'no-cache'
+        }
+      });
       console.log('Fetch response status:', response.status);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -52,61 +58,6 @@ const AIResearchDigest = () => {
 
   if (!researchData) return null;
 
-  const formatDigest = (digest: string) => {
-    console.log('Raw digest:', digest);
-    
-    // Split by '- *' to get individual items, but handle the format correctly
-    const items = digest.split(/\n- \*/).filter(item => item.trim().length > 0);
-    console.log('Split items:', items);
-    
-    return items.map((item, index) => {
-      console.log(`Processing item ${index}:`, item);
-      
-      // For the first item, it might not have the leading '- *' so handle differently
-      let processedItem = item;
-      if (index === 0 && !item.startsWith('*')) {
-        // Skip if first item doesn't contain a title
-        return null;
-      }
-      
-      // Extract the title (text between asterisks)
-      const titleMatch = processedItem.match(/^([^*]*)\*/);
-      const title = titleMatch ? titleMatch[1].trim() : '';
-      
-      // Extract the description (text after asterisk until link indicators)
-      const descMatch = processedItem.match(/\* (.+?)(?:\s+(?:Read more|More details|Explore the study|Full article|Discover more|Check it out|Learn more|Details here):|$)/s);
-      const description = descMatch ? descMatch[1].trim() : '';
-      
-      // Extract the link
-      const linkMatch = processedItem.match(/https:\/\/[^\s]+/);
-      const link = linkMatch ? linkMatch[0] : '';
-
-      console.log(`Extracted - Title: "${title}", Description: "${description}", Link: "${link}"`);
-
-      if (!title || !description) {
-        console.log(`Skipping item ${index} - missing title or description`);
-        return null;
-      }
-
-      return (
-        <div key={index} className="border-l-2 border-primary/20 pl-3 mb-2">
-          <div className="flex items-start gap-2 text-xs">
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1 hover:text-white/80 transition-colors group"
-            >
-              <span className="font-medium text-white cursor-pointer">{title}</span>
-              <ExternalLink className="h-3 w-3 text-white/60 group-hover:text-white/80 transition-colors flex-shrink-0" />
-            </a>
-          </div>
-          <p className="text-white/90 text-xs mt-1">{description}</p>
-        </div>
-      );
-    }).filter(Boolean);
-  };
-
   return (
     <div className="w-full max-w-5xl md:max-w-6xl mx-auto mb-4">
       <Collapsible open={isOpen} onOpenChange={setIsOpen}>
@@ -116,7 +67,7 @@ const AIResearchDigest = () => {
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <Sparkles className="h-5 w-5 text-primary" />
-                  <CardTitle className="text-sm md:text-base lg:text-lg">Latest AI Digest</CardTitle>
+                  <CardTitle className="text-sm md:text-base lg:text-lg">Labnotes - Latest AI Digest</CardTitle>
                   <Button
                     variant="ghost"
                     size="sm"
@@ -185,8 +136,12 @@ const AIResearchDigest = () => {
                 
                 {showDigest && (
                   <div className="mt-2 p-2 md:p-3 rounded-lg bg-background/5 backdrop-blur-lg border border-border/10">
-                    <div className="space-y-1 md:space-y-2 max-h-40 md:max-h-60 overflow-y-auto overflow-x-auto lg:overflow-x-visible whitespace-nowrap lg:whitespace-normal">
-                      {formatDigest(researchData.digest)}
+                    <div className="space-y-1 md:space-y-2 max-h-40 md:max-h-60 overflow-y-auto overflow-x-auto lg:overflow-x-visible">
+                      <div className="whitespace-nowrap lg:whitespace-normal text-left">
+                        <pre className="text-xs text-white/90 whitespace-pre-wrap font-sans text-left">
+                          {researchData.digest.replace(/\*/g, '')}
+                        </pre>
+                      </div>
                     </div>
                   </div>
                 )}
