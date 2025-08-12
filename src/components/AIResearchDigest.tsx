@@ -25,14 +25,8 @@ const AIResearchDigest = () => {
     try {
       setIsRefreshing(true);
       console.log('Attempting to fetch AI research data...');
-      // Add cache busting timestamp and headers to ensure fresh data
-      const response = await fetch(`/summarised_results.json?t=${Date.now()}`, {
-        cache: 'no-cache',
-        headers: {
-          'Cache-Control': 'no-cache',
-          'Pragma': 'no-cache'
-        }
-      });
+      // Add cache busting timestamp to ensure fresh data
+      const response = await fetch(`/summarised_results.json?t=${Date.now()}`);
       console.log('Fetch response status:', response.status);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -191,10 +185,8 @@ const AIResearchDigest = () => {
                 
                 {showDigest && (
                   <div className="mt-2 p-2 md:p-3 rounded-lg bg-background/5 backdrop-blur-lg border border-border/10">
-                    <div className="space-y-1 md:space-y-2 max-h-40 md:max-h-60 overflow-y-auto overflow-x-auto lg:overflow-x-visible">
-                      <div className="whitespace-nowrap lg:whitespace-normal">
-                        {formatDigest(researchData.digest)}
-                      </div>
+                    <div className="space-y-1 md:space-y-2 max-h-40 md:max-h-60 overflow-y-auto overflow-x-auto lg:overflow-x-visible whitespace-nowrap lg:whitespace-normal">
+                      {formatDigest(researchData.digest)}
                     </div>
                   </div>
                 )}
