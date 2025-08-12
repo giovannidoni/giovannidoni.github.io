@@ -53,27 +53,44 @@ const AIResearchDigest = () => {
   if (!researchData) return null;
 
   const formatDigest = (digest: string) => {
-    // Split by either '\n- ' or just '- ' at the beginning
-    const items = digest.split(/(?:^|\n)- /).filter(item => item.trim().length > 0);
+    console.log('Raw digest:', digest);
+    
+    // Split by '- *' to get individual items, but handle the format correctly
+    const items = digest.split(/\n- \*/).filter(item => item.trim().length > 0);
+    console.log('Split items:', items);
+    
     return items.map((item, index) => {
+      console.log(`Processing item ${index}:`, item);
+      
+      // For the first item, it might not have the leading '- *' so handle differently
+      let processedItem = item;
+      if (index === 0 && !item.startsWith('*')) {
+        // Skip if first item doesn't contain a title
+        return null;
+      }
       
       // Extract the title (text between asterisks)
-      const titleMatch = item.match(/\*(.*?)\*/);
-      const title = titleMatch ? titleMatch[1] : '';
+      const titleMatch = processedItem.match(/^([^*]*)\*/);
+      const title = titleMatch ? titleMatch[1].trim() : '';
       
-      // Extract the description (text before "Read more:" or similar)
-      const descMatch = item.match(/\*(.*?)\* (.*?)(?:Read more:|More details:|Explore the study:|Full article:|Discover more:|Check it out:|Learn more:|Details here:)/);
-      const description = descMatch ? descMatch[2] : '';
+      // Extract the description (text after asterisk until link indicators)
+      const descMatch = processedItem.match(/\* (.+?)(?:\s+(?:Read more|More details|Explore the study|Full article|Discover more|Check it out|Learn more|Details here):|$)/s);
+      const description = descMatch ? descMatch[1].trim() : '';
       
       // Extract the link
-      const linkMatch = item.match(/https:\/\/[^\s]+/);
+      const linkMatch = processedItem.match(/https:\/\/[^\s]+/);
       const link = linkMatch ? linkMatch[0] : '';
 
-      if (!title || !description) return null;
+      console.log(`Extracted - Title: "${title}", Description: "${description}", Link: "${link}"`);
+
+      if (!title || !description) {
+        console.log(`Skipping item ${index} - missing title or description`);
+        return null;
+      }
 
       return (
         <div key={index} className="border-l-2 border-primary/20 pl-3 mb-2">
-          <div className="flex items-center gap-2 text-xs">
+          <div className="flex items-start gap-2 text-xs">
             <a
               href={link}
               target="_blank"
@@ -83,8 +100,8 @@ const AIResearchDigest = () => {
               <span className="font-medium text-white cursor-pointer">{title}</span>
               <ExternalLink className="h-3 w-3 text-white/60 group-hover:text-white/80 transition-colors flex-shrink-0" />
             </a>
-            <span className="text-white/90">- {description.trim()}</span>
           </div>
+          <p className="text-white/90 text-xs mt-1">{description}</p>
         </div>
       );
     }).filter(Boolean);
