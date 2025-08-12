@@ -1,23 +1,23 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "DKG-LLM integrates knowledge graphs and LLMs for accurate medical diagnosis.",
-      "link": "https://arxiv.org/abs/2508.06186",
-      "reason_for_choice": "This article presents a significant advancement in medical AI, offering potential improvements in healthcare delivery and personalized treatment."
+      "item_number": 3,
+      "summary": "Hybrid AI model forecasts commodity price shocks with high accuracy.",
+      "link": "https://arxiv.org/abs/2508.06497",
+      "reason_for_choice": "This article presents a practical application of AI in economic forecasting, relevant for stakeholders in finance and management."
     },
     {
-      "item_number": 8,
-      "summary": "Grid-Agent uses LLMs for real-time power grid control, enhancing adaptability.",
-      "link": "https://arxiv.org/abs/2508.05702",
-      "reason_for_choice": "The integration of LLMs in power grid management highlights the potential for AI to improve critical infrastructure efficiency and reliability."
+      "item_number": 49,
+      "summary": "ChatGPT-based in-vehicle agents enhance driving safety and experience.",
+      "link": "https://arxiv.org/abs/2508.08101",
+      "reason_for_choice": "This study highlights the integration of AI in consumer products, showcasing real-world applications that appeal to both technical and non-technical audiences."
     },
     {
-      "item_number": 44,
-      "summary": "Aggression detection boosts LLMs for cyberbullying detection, outperforming standard methods.",
-      "link": "https://arxiv.org/abs/2508.06360",
-      "reason_for_choice": "This research addresses a pressing societal issue, showcasing AI's role in enhancing online safety and moderation."
+      "item_number": 46,
+      "summary": "Lightweight CNN inspects dragon fruit quality in real-time on mobile.",
+      "link": "https://arxiv.org/abs/2508.07306",
+      "reason_for_choice": "This article demonstrates AI's role in agriculture and product quality control, offering insights into mobile-based AI applications."
     }
   ],
-  "digest": "- *Structural Embedding Projection* enhances LLM inference by refining token representations, improving coherence and efficiency with minimal overhead. Read more: https://arxiv.org/abs/2501.18826\n- *LMAR* enhances domain-specific knowledge retrieval using LLMs for data synthesis and efficient clustering, outperforming existing models. More details: https://arxiv.org/abs/2508.05672\n- *Few-Shot Deployment of Pretrained MRI Transformers* achieves state-of-the-art results in brain imaging tasks with limited data. Explore the study: https://arxiv.org/abs/2508.05783\n- *Safety of Embodied Navigation* survey analyzes safety in AI systems, exploring challenges and future research directions. Full article: https://arxiv.org/abs/2508.05855\n- *SoftmaxLoss@$K* optimizes NDCG@$K$ in recommender systems, improving performance and stability. Discover more: https://arxiv.org/abs/2508.05673\n- *MagicGUI* enhances mobile GUI agents with a scalable data pipeline and reinforcement learning. Check it out: https://arxiv.org/abs/2508.03700\n- *LoRR* enhances sample efficiency in LLMs using reset strategies and hybrid objectives. Learn more: https://arxiv.org/abs/2508.06412\n- *Open-Source Agentic Hybrid RAG Framework* enhances scientific literature reviews with dynamic query selection. Read the paper: https://arxiv.org/abs/2508.05660\n- *SIFThinker* uses spatial cues for attention correction in visual reasoning, outperforming existing methods. More information: https://arxiv.org/abs/2508.06259\n- *DONOD* introduces a novel data pruning method for fine-tuning LLMs, enhancing efficiency and robustness. Details here: https://arxiv.org/abs/2504.14810"
+  "digest": "- *Efficient Edge LLMs Deployment* explores deploying large models on edge devices using Hessian-Aware Quantization, enhancing performance on limited hardware. More at https://arxiv.org/abs/2508.07329.\n- *MASteer* introduces a framework to improve LLM trustworthiness, using adaptive strategies for better model reliability. Details at https://arxiv.org/abs/2508.06963.\n- *CognitiveArm* showcases a real-time EEG-controlled prosthetic arm, highlighting advances in AI-driven healthcare solutions. Read more at https://arxiv.org/abs/2508.07731.\n- *Multimodal AI Systems* enhance poultry welfare assessments, integrating diverse data streams for scalable monitoring. Learn more at https://arxiv.org/abs/2508.07628.\n- *BadPromptFL* warns of backdoor threats in federated learning, emphasizing security risks in AI systems. Explore the study at https://arxiv.org/abs/2508.08040.\n- *ComPEFT* achieves significant model compression, optimizing communication in parameter-efficient updates. More information at https://arxiv.org/abs/2311.13171."
 }
