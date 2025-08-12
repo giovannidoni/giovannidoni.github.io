@@ -43,8 +43,9 @@ const AIResearchDigest = () => {
   if (!researchData) return null;
 
   const formatDigest = (digest: string) => {
-    return digest.split('\n- ').map((item, index) => {
-      if (index === 0) return null; // Skip the first empty split
+    // Split by either '\n- ' or just '- ' at the beginning
+    const items = digest.split(/(?:^|\n)- /).filter(item => item.trim().length > 0);
+    return items.map((item, index) => {
       
       // Extract the title (text between asterisks)
       const titleMatch = item.match(/\*(.*?)\*/);
