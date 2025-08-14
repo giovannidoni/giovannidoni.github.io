@@ -61,13 +61,13 @@ const AIResearchDigest = () => {
   return (
     <div className="w-full max-w-5xl md:max-w-6xl mx-auto mb-4">
       <Collapsible open={isOpen} onOpenChange={setIsOpen}>
-        <Card className="bg-background/10 backdrop-blur-lg border-primary/20 shadow-lg">
+        <Card className="bg-card/90 backdrop-blur-lg border-border shadow-lg">
           <CollapsibleTrigger asChild>
-            <CardHeader className="cursor-pointer hover:bg-primary/5 transition-colors backdrop-blur-lg py-2 md:py-3 px-3 md:px-4">
+            <CardHeader className="cursor-pointer hover:bg-accent/50 transition-colors backdrop-blur-lg py-2 md:py-3 px-3 md:px-4">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <Sparkles className="h-5 w-5 text-primary" />
-                  <CardTitle className="text-sm md:text-base lg:text-lg">Labnotes - Latest AI Digest</CardTitle>
+                  <CardTitle className="text-sm md:text-base lg:text-lg text-foreground">Labnotes - Latest AI Digest</CardTitle>
                   <Button
                     variant="ghost"
                     size="sm"
@@ -87,7 +87,7 @@ const AIResearchDigest = () => {
                   <ChevronDown className="h-4 w-4 text-muted-foreground" />
                 )}
               </div>
-              <p className="text-xs md:text-sm text-white text-left">
+              <p className="text-xs md:text-sm text-muted-foreground text-left">
                 Curated highlights from the latest AI/ML news
               </p>
             </CardHeader>
@@ -100,19 +100,19 @@ const AIResearchDigest = () => {
                 {researchData.picked_headlines.map((headline, index) => (
                   <div
                     key={index}
-                    className="p-2 md:p-3 rounded-lg bg-background/10 backdrop-blur-lg border border-border/20 hover:border-primary/30 hover:bg-background/15 transition-all duration-200"
+                    className="p-2 md:p-3 rounded-lg bg-card backdrop-blur-lg border border-border hover:border-primary/50 hover:bg-accent/30 transition-all duration-200"
                   >
                     <a
                       href={headline.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="block hover:text-white/80 transition-colors"
+                      className="block hover:text-primary transition-colors"
                     >
-                      <h4 className="font-medium text-xs md:text-sm text-white mb-1 cursor-pointer">
+                      <h4 className="font-medium text-xs md:text-sm text-foreground mb-1 cursor-pointer">
                         {headline.summary}
                       </h4>
                     </a>
-                    <p className="text-xs md:text-sm text-white/90 mb-2">
+                    <p className="text-xs md:text-sm text-muted-foreground mb-2">
                       {headline.reason_for_choice}
                     </p>
                   </div>
@@ -124,18 +124,21 @@ const AIResearchDigest = () => {
                 <Button
                   variant="ghost"
                   onClick={() => setShowDigest(!showDigest)}
-                  className="w-full justify-between p-2 md:p-3 h-auto"
+                  className="w-full justify-between p-2 md:p-3 h-auto bg-gradient-to-r from-green-500/10 to-emerald-500/10 hover:from-green-500/20 hover:to-emerald-500/20 border border-green-500/30 rounded-lg"
                 >
-                  <span className="font-medium text-xs md:text-sm text-white">Additional highlight</span>
+                  <span className="font-medium text-xs md:text-sm text-foreground flex items-center gap-2">
+                    <div className="w-2 h-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-500"></div>
+                    Additional highlight
+                  </span>
                   {showDigest ? (
-                    <ChevronUp className="h-4 w-4" />
+                    <ChevronUp className="h-4 w-4 text-green-600" />
                   ) : (
-                    <ChevronDown className="h-4 w-4" />
+                    <ChevronDown className="h-4 w-4 text-green-600" />
                   )}
                 </Button>
                 
                 {showDigest && (
-                  <div className="mt-2 p-2 md:p-3 rounded-lg bg-background/5 backdrop-blur-lg border border-border/10">
+                  <div className="mt-2 p-2 md:p-3 rounded-lg bg-gradient-to-br from-card/80 to-green-500/5 backdrop-blur-lg shadow-lg shadow-green-500/10">
                     <div className="space-y-1 md:space-y-2 max-h-40 md:max-h-60 overflow-y-auto overflow-x-auto lg:overflow-x-visible">
                       <div className="whitespace-nowrap lg:whitespace-normal text-left space-y-2">
                         {researchData.digest.replace(/\*/g, '').split('\n').filter(line => line.trim()).map((line, index) => {
@@ -144,7 +147,7 @@ const AIResearchDigest = () => {
                           const url = urlMatch ? urlMatch[1] : null;
                           
                           return (
-                            <div key={index} className="flex items-start gap-2 text-xs text-white/90">
+                            <div key={index} className="flex items-start gap-2 text-xs text-foreground">
                               <span className="flex-1 whitespace-pre-wrap font-sans">
                                 {line}
                               </span>
@@ -153,7 +156,7 @@ const AIResearchDigest = () => {
                                   href={url}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="flex-shrink-0 p-1 hover:bg-primary/20 rounded transition-colors"
+                                  className="flex-shrink-0 p-1 hover:bg-accent rounded transition-colors"
                                   title="Read more"
                                 >
                                   <ExternalLink className="h-3 w-3 text-primary" />
