@@ -5,7 +5,7 @@
     <description>Latest blog posts, LinkedIn updates, and AI research highlights</description>
     <link>https://giovanni-doni.github.io/</link>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Aug 2025 07:39:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 16:15:54 GMT</lastBuildDate>
     <atom:link href="https://giovanni-doni.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -13,7 +13,7 @@
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7355928384205422592?collapsed=1" height="566" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
       <link>https://giovanni-doni.github.io/#linkedin-post-1</link>
       <guid>https://giovanni-doni.github.io/#linkedin-post-1</guid>
-      <pubDate>Thu, 14 Aug 2025 07:39:44 GMT</pubDate>
+      <pubDate>Thu, 14 Aug 2025 16:15:54 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -22,7 +22,7 @@
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7355637024210530304" height="265" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
       <link>https://giovanni-doni.github.io/#linkedin-post-2</link>
       <guid>https://giovanni-doni.github.io/#linkedin-post-2</guid>
-      <pubDate>Thu, 14 Aug 2025 07:39:44 GMT</pubDate>
+      <pubDate>Thu, 14 Aug 2025 16:15:54 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -31,7 +31,7 @@
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7354061415579561985?collapsed=1" height="569" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
       <link>https://giovanni-doni.github.io/#linkedin-post-3</link>
       <guid>https://giovanni-doni.github.io/#linkedin-post-3</guid>
-      <pubDate>Thu, 14 Aug 2025 07:39:44 GMT</pubDate>
+      <pubDate>Thu, 14 Aug 2025 16:15:54 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -40,7 +40,7 @@
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7339301481948311552?collapsed=1" height="552" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
       <link>https://giovanni-doni.github.io/#linkedin-post-4</link>
       <guid>https://giovanni-doni.github.io/#linkedin-post-4</guid>
-      <pubDate>Thu, 14 Aug 2025 07:39:44 GMT</pubDate>
+      <pubDate>Thu, 14 Aug 2025 16:15:54 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -49,7 +49,7 @@
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7339579159720910848?collapsed=1" height="583" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
       <link>https://giovanni-doni.github.io/#linkedin-post-5</link>
       <guid>https://giovanni-doni.github.io/#linkedin-post-5</guid>
-      <pubDate>Thu, 14 Aug 2025 07:39:44 GMT</pubDate>
+      <pubDate>Thu, 14 Aug 2025 16:15:54 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -58,7 +58,7 @@
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7338097403826196481?collapsed=1" height="662" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
       <link>https://giovanni-doni.github.io/#linkedin-post-6</link>
       <guid>https://giovanni-doni.github.io/#linkedin-post-6</guid>
-      <pubDate>Thu, 14 Aug 2025 07:39:44 GMT</pubDate>
+      <pubDate>Thu, 14 Aug 2025 16:15:54 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -67,7 +67,7 @@
       <description><![CDATA[This article presents a significant advancement in medical AI, offering potential improvements in healthcare delivery and personalized treatment.]]></description>
       <link>https://arxiv.org/abs/2508.06186</link>
       <guid>ai-research-0</guid>
-      <pubDate>Thu, 14 Aug 2025 07:39:44 GMT</pubDate>
+      <pubDate>Thu, 14 Aug 2025 16:15:54 GMT</pubDate>
       <category>AI Research, Machine Learning</category>
       <author>Giovanni Doni</author>
     </item>
@@ -76,7 +76,7 @@
       <description><![CDATA[The integration of LLMs in power grid management highlights the potential for AI to improve critical infrastructure efficiency and reliability.]]></description>
       <link>https://arxiv.org/abs/2508.05702</link>
       <guid>ai-research-8</guid>
-      <pubDate>Wed, 13 Aug 2025 19:39:44 GMT</pubDate>
+      <pubDate>Thu, 14 Aug 2025 04:15:54 GMT</pubDate>
       <category>AI Research, Machine Learning</category>
       <author>Giovanni Doni</author>
     </item>
@@ -85,7 +85,7 @@
       <description><![CDATA[This research addresses a pressing societal issue, showcasing AI's role in enhancing online safety and moderation.]]></description>
       <link>https://arxiv.org/abs/2508.06360</link>
       <guid>ai-research-44</guid>
-      <pubDate>Wed, 13 Aug 2025 07:39:44 GMT</pubDate>
+      <pubDate>Wed, 13 Aug 2025 16:15:54 GMT</pubDate>
       <category>AI Research, Machine Learning</category>
       <author>Giovanni Doni</author>
     </item>
