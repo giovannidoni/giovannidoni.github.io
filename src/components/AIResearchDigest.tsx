@@ -4,6 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, ChevronDown, ChevronUp, Sparkles, RefreshCw } from 'lucide-react';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 interface AIResearchData {
   picked_headlines: Array<{
@@ -16,8 +17,9 @@ interface AIResearchData {
 }
 
 const AIResearchDigest = () => {
+  const isMobile = useIsMobile();
   const [researchData, setResearchData] = useState<AIResearchData | null>(null);
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(!isMobile);
   const [showDigest, setShowDigest] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
 
