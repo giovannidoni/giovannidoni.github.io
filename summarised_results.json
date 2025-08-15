@@ -1,29 +1,29 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "NEFMind optimizes LLMs for telecom APIs, achieving 85% less overhead and high accuracy in API call identification.",
-      "link": "https://arxiv.org/abs/2508.09240",
-      "reason_for_choice": "This article highlights a practical application of AI in telecom, showcasing efficiency improvements with direct industry impact."
+      "item_number": 1,
+      "summary": "BitDecoding optimizes low-bit KV cache decoding for LLMs, boosting speed with Tensor Cores.",
+      "link": "https://arxiv.org/abs/2503.18773",
+      "reason_for_choice": "This article presents a significant advancement in LLM efficiency, appealing to both engineers and stakeholders interested in AI performance improvements."
     },
     {
-      "item_number": 6,
-      "summary": "Agoran is a novel AI-driven marketplace for 6G RAN automation, enhancing throughput and reducing latency through stakeholder collaboration.",
-      "link": "https://arxiv.org/abs/2508.09159",
-      "reason_for_choice": "The integration of AI in 6G networks is crucial for future communication technologies, making this a relevant topic for both technical and management audiences."
+      "item_number": 10,
+      "summary": "Project Chimera uses AI debates to improve code quality and reasoning.",
+      "link": "https://github.com/tomwolfe/project_chimera",
+      "reason_for_choice": "This project showcases innovative use of AI for software development, engaging both technical audiences and management interested in AI-driven productivity."
     },
     {
-      "item_number": 100,
-      "summary": "Faire's team developed 'Fairey', an AI code review agent, improving review speed and quality while fostering a culture shift in engineering productivity.",
-      "link": "https://newsletter.getdx.com/p/faire-automates-code-reviews-with-ai",
-      "reason_for_choice": "This article demonstrates AI's role in enhancing engineering workflows, appealing to both technical leaders and stakeholders interested in productivity gains."
+      "item_number": 49,
+      "summary": "Decentralized weather forecasting with Federated Learning and blockchain improves accuracy and security.",
+      "link": "https://arxiv.org/abs/2508.09299",
+      "reason_for_choice": "The integration of blockchain and AI in weather forecasting is a compelling topic for stakeholders interested in technological advancements in environmental monitoring."
     },
     {
-      "item_number": 99,
-      "summary": "Enabling Flash Attention on gpt-oss-120b significantly boosts inference speed on Apple silicon, improving performance from 10-15 t/s to ~50 t/s.",
-      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1mp92nc/flash_attention_massively_accelerate_gptoss120b/",
-      "reason_for_choice": "This technical advancement in AI model inference speed is significant for engineers focused on performance optimization."
+      "item_number": 87,
+      "summary": "A 12B model outperforms Claude 4 Sonnet in video captioning at a lower cost.",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1mqi092/we_built_a_12b_model_that_beats_claude_4_sonnet/",
+      "reason_for_choice": "This article highlights cost-effective AI solutions, appealing to both engineering teams and management focused on budget efficiency."
     }
   ],
-  "digest": "- *MLLM-CBench* benchmarks continual instruction tuning for multimodal LLMs, offering insights on learning algorithms: https://arxiv.org/abs/2508.08275\n- *VisCodex* merges vision and coding models for improved multimodal code generation: https://arxiv.org/abs/2508.09945\n- *Speed Always Wins* surveys efficient architectures for LLMs, focusing on improvements over transformers: https://arxiv.org/abs/2508.09834\n- *Synaptic Pruning* proposes a biologically inspired method for deep learning regularization: https://arxiv.org/abs/2508.09330\n- *Perceptual Reality Transformer* simulates neurological perception conditions, enhancing medical training: https://arxiv.org/abs/2508.09852\n- *MoQE* enhances quantization model performance without significant latency increases: https://arxiv.org/abs/2508.09204\n- *Memory Decoder* offers a plug-and-play memory for efficient domain adaptation in LLMs: https://arxiv.org/abs/2508.09874\n- *Motif 2.6B* is a new LLM with innovative features for improved performance: https://arxiv.org/abs/2508.09148\n- *Poison Once, Control Anywhere* introduces a clean-text backdoor attack on VLM-based mobile agents: https://arxiv.org/abs/2506.13205\n- *Block* improves load balancing in LLM serving through predictive scheduling: https://arxiv.org/abs/2508.03611"
+  "digest": "- *Training-Free Multimodal Large Language Model Orchestration* introduces a method to enhance AI systems without extra training, improving efficiency and interpretability. Read more: https://arxiv.org/abs/2508.10016\n- *PASS: Probabilistic Agentic Supernet Sampling* for Chest X-Ray reasoning improves safety and efficiency in medical AI. Details here: https://arxiv.org/abs/2508.10501\n- *REFN: A Reinforcement-Learning-From-Network Framework* autonomously generates network filters against vulnerabilities, enhancing scalability. Learn more: https://arxiv.org/abs/2508.10701\n- *PTQAT: A Hybrid Parameter-Efficient Quantization Algorithm* for 3D perception tasks improves efficiency by fine-tuning critical layers. Check it out: https://arxiv.org/abs/2508.10557\n- *SSRL: Self-Search Reinforcement Learning* reduces reliance on external searches, enhancing internal knowledge utilization. Explore further: https://arxiv.org/abs/2508.10874\n- *Grouped Sequency-arranged Rotation* optimizes quantization in LLMs, improving performance at low bit-widths. More info: https://arxiv.org/abs/2505.03810\n- *FreeKV: Boosting KV Cache Retrieval* for LLMs achieves 13x speedup while maintaining accuracy. Discover more: https://arxiv.org/abs/2505.13109\n- *Securing Agentic AI* discusses a framework for securing network monitoring AI, proposing a multilayered defense approach. Read here: https://arxiv.org/abs/2508.10043"
 }
