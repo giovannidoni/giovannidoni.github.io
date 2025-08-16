@@ -1,29 +1,29 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "BitDecoding optimizes low-bit KV cache decoding for LLMs, boosting speed with Tensor Cores.",
-      "link": "https://arxiv.org/abs/2503.18773",
-      "reason_for_choice": "This article presents a significant advancement in LLM efficiency, appealing to both engineers and stakeholders interested in AI performance improvements."
+      "item_number": 4,
+      "summary": "Puppeteer automates rigging and animation of 3D models, enhancing content creation efficiency.",
+      "link": "https://huggingface.co/papers/2508.10898",
+      "reason_for_choice": "This article highlights a practical application of AI in the creative industry, showcasing how technology can streamline complex processes like 3D animation."
     },
     {
-      "item_number": 10,
-      "summary": "Project Chimera uses AI debates to improve code quality and reasoning.",
-      "link": "https://github.com/tomwolfe/project_chimera",
-      "reason_for_choice": "This project showcases innovative use of AI for software development, engaging both technical audiences and management interested in AI-driven productivity."
+      "item_number": 13,
+      "summary": "Magicnode simplifies AI app development with a no-code platform, making it accessible to non-technical users.",
+      "link": "https://magicnode.ai/",
+      "reason_for_choice": "This topic is relevant for stakeholders interested in democratizing AI technology, providing insights into tools that lower the barrier to entry for AI development."
     },
     {
-      "item_number": 49,
-      "summary": "Decentralized weather forecasting with Federated Learning and blockchain improves accuracy and security.",
-      "link": "https://arxiv.org/abs/2508.09299",
-      "reason_for_choice": "The integration of blockchain and AI in weather forecasting is a compelling topic for stakeholders interested in technological advancements in environmental monitoring."
+      "item_number": 6,
+      "summary": "NextStep-1 improves text-to-image generation, achieving state-of-the-art results with continuous tokens.",
+      "link": "https://huggingface.co/papers/2508.10711",
+      "reason_for_choice": "This research article is significant for both technical audiences and stakeholders as it showcases advancements in AI's ability to generate and edit images, which has broad implications across industries."
     },
     {
-      "item_number": 87,
-      "summary": "A 12B model outperforms Claude 4 Sonnet in video captioning at a lower cost.",
-      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1mqi092/we_built_a_12b_model_that_beats_claude_4_sonnet/",
-      "reason_for_choice": "This article highlights cost-effective AI solutions, appealing to both engineering teams and management focused on budget efficiency."
+      "item_number": 21,
+      "summary": "Framework for measuring AI's impact on developer productivity, focusing on practical metrics.",
+      "link": "https://newsletter.getdx.com/p/measuring-ai-code-assistants-and",
+      "reason_for_choice": "This article is crucial for engineering leadership and management, offering a structured approach to evaluate AI tools' effectiveness in enhancing productivity."
     }
   ],
-  "digest": "- *Training-Free Multimodal Large Language Model Orchestration* introduces a method to enhance AI systems without extra training, improving efficiency and interpretability. Read more: https://arxiv.org/abs/2508.10016\n- *PASS: Probabilistic Agentic Supernet Sampling* for Chest X-Ray reasoning improves safety and efficiency in medical AI. Details here: https://arxiv.org/abs/2508.10501\n- *REFN: A Reinforcement-Learning-From-Network Framework* autonomously generates network filters against vulnerabilities, enhancing scalability. Learn more: https://arxiv.org/abs/2508.10701\n- *PTQAT: A Hybrid Parameter-Efficient Quantization Algorithm* for 3D perception tasks improves efficiency by fine-tuning critical layers. Check it out: https://arxiv.org/abs/2508.10557\n- *SSRL: Self-Search Reinforcement Learning* reduces reliance on external searches, enhancing internal knowledge utilization. Explore further: https://arxiv.org/abs/2508.10874\n- *Grouped Sequency-arranged Rotation* optimizes quantization in LLMs, improving performance at low bit-widths. More info: https://arxiv.org/abs/2505.03810\n- *FreeKV: Boosting KV Cache Retrieval* for LLMs achieves 13x speedup while maintaining accuracy. Discover more: https://arxiv.org/abs/2505.13109\n- *Securing Agentic AI* discusses a framework for securing network monitoring AI, proposing a multilayered defense approach. Read here: https://arxiv.org/abs/2508.10043"
+  "digest": "- *We-Math 2.0* enhances mathematical reasoning in MLLMs, offering a structured knowledge system and RL training for better performance. Read more at https://huggingface.co/papers/2508.10433.\n- *UI-Venus* achieves SOTA results in UI grounding and navigation, showcasing innovative frameworks for high-performance UI agents. Details at https://huggingface.co/papers/2508.10833.\n- *STream3R* leverages causal Transformers for efficient 3D reconstruction, outperforming traditional methods in dynamic scenes. More information at https://huggingface.co/papers/2508.10893.\n- *HumanSense* benchmarks MLLMs for empathetic interactions, emphasizing multimodal context and advanced reasoning. Explore the study at https://huggingface.co/papers/2508.10576.\n- *The LLM reality check* discusses the current understanding and unknowns of LLMs, highlighting advancements and ongoing debates in AI research. Check it out at https://www.reddit.com/r/ArtificialInteligence/comments/1mr8y0x/the_llm_reality_check_you_can_link_in_every/.\n- *Anthropic's Claude* can now end abusive chats, reflecting AI welfare concerns and user safety. Learn more at https://www.reddit.com/r/ArtificialInteligence/comments/1mrnj54/anthropic_now_lets_claude_end_abusive/."
 }
