@@ -1,29 +1,29 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "UI-Venus achieves SOTA in UI tasks using RFT, advancing practical AI applications.",
-      "link": "https://huggingface.co/papers/2508.10833",
-      "reason_for_choice": "This article highlights a significant advancement in AI applications, showcasing how UI-Venus achieves state-of-the-art performance in UI tasks. It bridges technical innovation with practical applications, making it relevant to both engineers and stakeholders interested in AI's real-world impact."
+      "item_number": 0,
+      "summary": "We-Math 2.0 enhances MLLMs' math reasoning with structured knowledge, data modeling, and RL.",
+      "link": "https://huggingface.co/papers/2508.10433",
+      "reason_for_choice": "This article presents a significant advancement in mathematical reasoning for AI, appealing to both technical audiences and stakeholders interested in AI's potential in education."
     },
     {
       "item_number": 4,
-      "summary": "Puppeteer automates 3D model rigging and animation, improving accuracy and efficiency.",
+      "summary": "Puppeteer automates 3D rigging and animation, improving efficiency over traditional methods.",
       "link": "https://huggingface.co/papers/2508.10898",
-      "reason_for_choice": "Puppeteer represents a breakthrough in 3D modeling, offering practical solutions for animators and engineers. Its focus on automation and efficiency makes it a valuable topic for stakeholders interested in product development and engineering innovation."
+      "reason_for_choice": "The automation of 3D rigging and animation is a breakthrough for industries relying on digital content creation, making it relevant for both technical and creative stakeholders."
+    },
+    {
+      "item_number": 12,
+      "summary": "NSF and NVIDIA's partnership with Ai2 aims to create open AI models, enhancing U.S. scientific innovation.",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ms0wov/nsf_and_nvidia_partnership_enables_ai2_to_develop/",
+      "reason_for_choice": "This partnership highlights a strategic move towards open AI development, crucial for stakeholders focused on innovation and technological advancement."
     },
     {
       "item_number": 13,
-      "summary": "Magicnode simplifies AI app creation for non-tech users with a no-code platform.",
-      "link": "https://magicnode.ai/",
-      "reason_for_choice": "Magicnode's no-code platform democratizes AI app development, making it accessible to non-technical users. This aligns with the interests of stakeholders aiming to broaden AI's reach and impact, while also engaging engineers in the development of user-friendly tools."
-    },
-    {
-      "item_number": 22,
-      "summary": "AI Measurement Framework evaluates AI's impact on developer productivity.",
-      "link": "https://newsletter.getdx.com/p/measuring-ai-code-assistants-and",
-      "reason_for_choice": "This article provides insights into measuring AI's impact on productivity, a crucial concern for engineering leadership and management. It offers practical metrics, making it relevant for decision-makers looking to assess AI's value in development processes."
+      "summary": "Docker Model Runner optimizes local model inference with GPU access and dynamic model management.",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ms7auo/docker_model_runner_is_really_neat/",
+      "reason_for_choice": "This tool is essential for engineers and developers seeking efficient resource management in AI model deployment."
     }
   ],
-  "digest": "- *We-Math 2.0* enhances MLLMs' math reasoning with structured knowledge, showing competitive benchmark performance. https://huggingface.co/papers/2508.10433\n- *STream3R* uses causal Transformer for efficient 3D reconstruction, outperforming traditional methods. https://huggingface.co/papers/2508.10893\n- *HumanSense* benchmarks MLLMs for human-like interaction, focusing on empathetic responses. https://huggingface.co/papers/2508.10576\n- *NextStep-1* enhances text-to-image generation with continuous tokens, achieving state-of-the-art results. https://huggingface.co/papers/2508.10711\n- *PRELUDE* tests AI's long-context reasoning, revealing gaps in model performance vs humans. https://huggingface.co/papers/2508.09848\n- *Anthropic* allows Claude to end abusive chats, emphasizing AI welfare and user safety. https://www.reddit.com/r/ArtificialInteligence/comments/1mrnj54/anthropic_now_lets_claude_end_abusive/\n- *AI Sustainability Wager* argues for treating AI as proto-minds for sustainable alignment with future ASI. https://www.reddit.com/r/ArtificialInteligence/comments/1mr4dz6/the_ai_sustainability_wager/"
+  "digest": "- *STream3R* uses a causal Transformer for efficient 3D reconstruction, outperforming existing methods in static and dynamic scenes: https://huggingface.co/papers/2508.10893\n- *UI-Venus* is a high-performance UI agent using RFT, achieving SOTA results in UI grounding and navigation: https://huggingface.co/papers/2508.10833\n- *HumanSense* benchmarks MLLMs for human-like interactions, focusing on multimodal context and empathetic responses: https://huggingface.co/papers/2508.10576\n- *NextStep-1* excels in text-to-image generation using continuous tokens, achieving state-of-the-art results: https://huggingface.co/papers/2508.10711\n- *PRELUDE* benchmark tests AI's long-context reasoning, revealing significant gaps in model performance: https://huggingface.co/papers/2508.09848\n- *FastFlowLM* enables exclusive LLM and VLM operation on AMD Ryzen AI NPU, enhancing efficiency and context length: https://www.reddit.com/r/LocalLLaMA/comments/1mrz5gd/running_llm_and_vlm_exclusively_on_amd_ryzen_ai/\n- Imagining a utopia where AI handles work, allowing free time for leisure, with questions on governance and social dynamics: https://www.reddit.com/r/ArtificialInteligence/comments/1mscxoi/where_do_we_party_describe_a_world_where_ai_does/"
 }
