@@ -1,29 +1,23 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "We-Math 2.0 enhances MLLMs' math reasoning with structured knowledge, data modeling, and RL.",
-      "link": "https://huggingface.co/papers/2508.10433",
-      "reason_for_choice": "This article presents a significant advancement in mathematical reasoning for AI, appealing to both technical audiences and stakeholders interested in AI's potential in education."
+      "item_number": 3,
+      "summary": "Hybrid AI model forecasts commodity price shocks with high accuracy.",
+      "link": "https://arxiv.org/abs/2508.06497",
+      "reason_for_choice": "This article presents a practical application of AI in economic forecasting, relevant for stakeholders in finance and management."
     },
     {
-      "item_number": 4,
-      "summary": "Puppeteer automates 3D rigging and animation, improving efficiency over traditional methods.",
-      "link": "https://huggingface.co/papers/2508.10898",
-      "reason_for_choice": "The automation of 3D rigging and animation is a breakthrough for industries relying on digital content creation, making it relevant for both technical and creative stakeholders."
+      "item_number": 49,
+      "summary": "ChatGPT-based in-vehicle agents enhance driving safety and experience.",
+      "link": "https://arxiv.org/abs/2508.08101",
+      "reason_for_choice": "This study highlights the integration of AI in consumer products, showcasing real-world applications that appeal to both technical and non-technical audiences."
     },
     {
-      "item_number": 12,
-      "summary": "NSF and NVIDIA's partnership with Ai2 aims to create open AI models, enhancing U.S. scientific innovation.",
-      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ms0wov/nsf_and_nvidia_partnership_enables_ai2_to_develop/",
-      "reason_for_choice": "This partnership highlights a strategic move towards open AI development, crucial for stakeholders focused on innovation and technological advancement."
-    },
-    {
-      "item_number": 13,
-      "summary": "Docker Model Runner optimizes local model inference with GPU access and dynamic model management.",
-      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ms7auo/docker_model_runner_is_really_neat/",
-      "reason_for_choice": "This tool is essential for engineers and developers seeking efficient resource management in AI model deployment."
+      "item_number": 46,
+      "summary": "Lightweight CNN inspects dragon fruit quality in real-time on mobile.",
+      "link": "https://arxiv.org/abs/2508.07306",
+      "reason_for_choice": "This article demonstrates AI's role in agriculture and product quality control, offering insights into mobile-based AI applications."
     }
   ],
-  "digest": "- *STream3R* uses a causal Transformer for efficient 3D reconstruction, outperforming existing methods in static and dynamic scenes: https://huggingface.co/papers/2508.10893\n- *UI-Venus* is a high-performance UI agent using RFT, achieving SOTA results in UI grounding and navigation: https://huggingface.co/papers/2508.10833\n- *HumanSense* benchmarks MLLMs for human-like interactions, focusing on multimodal context and empathetic responses: https://huggingface.co/papers/2508.10576\n- *NextStep-1* excels in text-to-image generation using continuous tokens, achieving state-of-the-art results: https://huggingface.co/papers/2508.10711\n- *PRELUDE* benchmark tests AI's long-context reasoning, revealing significant gaps in model performance: https://huggingface.co/papers/2508.09848\n- *FastFlowLM* enables exclusive LLM and VLM operation on AMD Ryzen AI NPU, enhancing efficiency and context length: https://www.reddit.com/r/LocalLLaMA/comments/1mrz5gd/running_llm_and_vlm_exclusively_on_amd_ryzen_ai/\n- Imagining a utopia where AI handles work, allowing free time for leisure, with questions on governance and social dynamics: https://www.reddit.com/r/ArtificialInteligence/comments/1mscxoi/where_do_we_party_describe_a_world_where_ai_does/"
+  "digest": "- *Efficient Edge LLMs Deployment* explores deploying large models on edge devices using Hessian-Aware Quantization, enhancing performance on limited hardware. More at https://arxiv.org/abs/2508.07329.\n- *MASteer* introduces a framework to improve LLM trustworthiness, using adaptive strategies for better model reliability. Details at https://arxiv.org/abs/2508.06963.\n- *CognitiveArm* showcases a real-time EEG-controlled prosthetic arm, highlighting advances in AI-driven healthcare solutions. Read more at https://arxiv.org/abs/2508.07731.\n- *Multimodal AI Systems* enhance poultry welfare assessments, integrating diverse data streams for scalable monitoring. Learn more at https://arxiv.org/abs/2508.07628.\n- *BadPromptFL* warns of backdoor threats in federated learning, emphasizing security risks in AI systems. Explore the study at https://arxiv.org/abs/2508.08040.\n- *ComPEFT* achieves significant model compression, optimizing communication in parameter-efficient updates. More information at https://arxiv.org/abs/2311.13171."
 }
