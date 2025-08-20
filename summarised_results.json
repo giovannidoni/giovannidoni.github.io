@@ -1,29 +1,29 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "RT-Cache enhances real-time robot manipulation without training.",
-      "link": "https://arxiv.org/abs/2505.09040",
-      "reason_for_choice": "This article presents a practical solution for engineering teams looking to improve robotic systems' efficiency and adaptability, making it relevant for both technical and management audiences."
+      "item_number": 0,
+      "summary": "DDD-GenDT uses generative AI for adaptive digital twins, enhancing industrial applications.",
+      "link": "https://arxiv.org/abs/2501.00051",
+      "reason_for_choice": "The framework offers significant industrial impact by reducing data needs and improving adaptability."
     },
     {
-      "item_number": 4,
-      "summary": "OPTIC-ER revolutionizes emergency response in Africa with RL.",
-      "link": "https://arxiv.org/abs/2508.12943",
-      "reason_for_choice": "The application of reinforcement learning in emergency response showcases the potential of AI in public service, appealing to stakeholders interested in societal impact and innovation."
+      "item_number": 3,
+      "summary": "UniECS improves multimodal e-commerce search with gated cross-modal fusion.",
+      "link": "https://arxiv.org/abs/2508.13843",
+      "reason_for_choice": "This framework enhances e-commerce efficiency, benefiting both technical and business stakeholders."
     },
     {
-      "item_number": 41,
-      "summary": "WeChat-YATT offers scalable RLHF training for large models.",
-      "link": "https://arxiv.org/abs/2508.07970",
-      "reason_for_choice": "This article highlights advancements in training frameworks, crucial for engineering teams and management focused on optimizing resources and improving model deployment."
+      "item_number": 8,
+      "summary": "Energy-efficient AI training via hardware-software co-design on advanced GPUs.",
+      "link": "https://arxiv.org/abs/2508.13163",
+      "reason_for_choice": "The focus on sustainability and performance in AI training is crucial for both engineers and managers."
     },
     {
-      "item_number": 95,
-      "summary": "AI reshapes careers, emphasizing creativity and emotional intelligence.",
-      "link": "https://news.ycombinator.com/item?id=44950188",
-      "reason_for_choice": "This topic is relevant for stakeholders and management, as it discusses the broader implications of AI on workforce dynamics and future skill requirements."
+      "item_number": 67,
+      "summary": "SBP-YOLO detects speed bumps and potholes in real-time on embedded systems.",
+      "link": "https://arxiv.org/abs/2508.01339",
+      "reason_for_choice": "This practical application of AI in transportation safety is relevant for engineering and product development."
     }
   ],
-  "digest": "- *AutoChemSchematic AI* automates chemical manufacturing schematics using physics-aware AI, addressing the synthesis gap in scaling discoveries. [Read more](https://arxiv.org/abs/2505.24584)\n- *TeleAntiFraud-28k* introduces a new dataset for telecom fraud detection, integrating audio and text for enhanced model training. [Read more](https://arxiv.org/abs/2503.24115)\n- *Atom-Searcher* enhances LLMs' reasoning with Atomic Thought and ATR, improving efficiency and interpretability in complex tasks. [Read more](https://arxiv.org/abs/2508.12800)\n- *Visual Perception Engine* optimizes robotic vision tasks by enabling efficient multi-head inference, reducing redundancy and improving GPU utilization. [Read more](https://arxiv.org/abs/2508.11584)\n- *Real Time Child Abduction And Detection System* uses Vision-Language Models for real-time detection, enhancing safety with quick alerts via Twilio. [Read more](https://arxiv.org/abs/2508.11690)\n- *ADMIRE-BayesOpt* uses Bayesian Optimization for efficient data mixture selection in language models, improving performance and reducing costs. [Read more](https://arxiv.org/abs/2508.11551)\n- *AI-Augmented Thyroid Scintigraphy* enhances classification accuracy using ResNet18, especially with expert prompts. [Read more](https://arxiv.org/abs/2503.00366)\n- *AI in Rural Healthcare* explores AI's potential to enhance rural healthcare, addressing challenges like infrastructure and ethics. [Read more](https://arxiv.org/abs/2508.11738)"
+  "digest": "- *Atom-Searcher* enhances LLM reasoning with Atomic Thought, improving task efficiency and interpretability. More at https://arxiv.org/abs/2508.12800\n- *DegDiT* offers controllable audio generation with dynamic event graphs, enhancing temporal accuracy. Read more at https://arxiv.org/abs/2508.13786\n- *InPars+* supercharges synthetic data generation for information retrieval, optimizing query quality. Details at https://arxiv.org/abs/2508.13930\n- *SmartPath-R1* integrates ROI and WSI tasks for pathology, improving reasoning without costly annotations. Explore at https://arxiv.org/abs/2507.17303\n- *TS-Agent* enhances financial time-series modeling with LLMs, improving adaptability and interpretability. Learn more at https://arxiv.org/abs/2508.13915\n- *CORENet* uses LiDAR for noise reduction in 4D radar detection, improving autonomous driving robustness. More info at https://arxiv.org/abs/2508.13485\n- *X-MoE* optimizes Mixture-of-Experts training on HPC platforms, enhancing performance across diverse systems. Check it out at https://arxiv.org/abs/2508.13337\n- *CIV* ensures token integrity in LLMs, offering a novel security architecture. Details at https://arxiv.org/abs/2508.09288\n- *MedKGent* constructs evolving medical knowledge graphs with LLMs, enhancing biomedical research accuracy. Read more at https://arxiv.org/abs/2508.12393\n- *RAPNet* introduces adaptive convolution for pansharpening, improving remote sensing image detail extraction. More at https://arxiv.org/abs/2507.10461"
 }
