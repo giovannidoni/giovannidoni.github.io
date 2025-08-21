@@ -1,29 +1,29 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "DDD-GenDT uses generative AI for adaptive digital twins, enhancing industrial applications.",
-      "link": "https://arxiv.org/abs/2501.00051",
-      "reason_for_choice": "The framework offers significant industrial impact by reducing data needs and improving adaptability."
+      "item_number": 9,
+      "summary": "NVIDIA's Nemotron-Nano-9B-v2 enhances reasoning efficiency by replacing self-attention layers, achieving high throughput and accuracy.",
+      "link": "https://huggingface.co/papers/2508.14444",
+      "reason_for_choice": "This product release showcases advancements in AI model efficiency, appealing to both engineers and stakeholders interested in cutting-edge technology."
     },
     {
-      "item_number": 3,
-      "summary": "UniECS improves multimodal e-commerce search with gated cross-modal fusion.",
-      "link": "https://arxiv.org/abs/2508.13843",
-      "reason_for_choice": "This framework enhances e-commerce efficiency, benefiting both technical and business stakeholders."
+      "item_number": 1,
+      "summary": "A low-cost CNN pipeline for segmenting live cell images, achieving high accuracy despite challenges in bright-field microscopy.",
+      "link": "https://arxiv.org/abs/2508.14106",
+      "reason_for_choice": "This research offers practical applications in healthcare, appealing to technical audiences and stakeholders interested in cost-effective medical solutions."
     },
     {
-      "item_number": 8,
-      "summary": "Energy-efficient AI training via hardware-software co-design on advanced GPUs.",
-      "link": "https://arxiv.org/abs/2508.13163",
-      "reason_for_choice": "The focus on sustainability and performance in AI training is crucial for both engineers and managers."
+      "item_number": 29,
+      "summary": "Action Engine automates FaaS workflow generation using LLMs, easing development for non-experts and enhancing cloud-native application efficiency.",
+      "link": "https://arxiv.org/abs/2411.19485",
+      "reason_for_choice": "This engineering-focused article highlights automation in cloud services, relevant to both technical teams and management looking to streamline operations."
     },
     {
-      "item_number": 67,
-      "summary": "SBP-YOLO detects speed bumps and potholes in real-time on embedded systems.",
-      "link": "https://arxiv.org/abs/2508.01339",
-      "reason_for_choice": "This practical application of AI in transportation safety is relevant for engineering and product development."
+      "item_number": 47,
+      "summary": "Organ-Agents simulates human physiology using LLMs, achieving high accuracy and realism for critical care applications and treatment strategies.",
+      "link": "https://arxiv.org/abs/2508.14357",
+      "reason_for_choice": "This research combines AI with healthcare, offering insights into innovative medical applications, appealing to both technical and healthcare stakeholders."
     }
   ],
-  "digest": "- *Atom-Searcher* enhances LLM reasoning with Atomic Thought, improving task efficiency and interpretability. More at https://arxiv.org/abs/2508.12800\n- *DegDiT* offers controllable audio generation with dynamic event graphs, enhancing temporal accuracy. Read more at https://arxiv.org/abs/2508.13786\n- *InPars+* supercharges synthetic data generation for information retrieval, optimizing query quality. Details at https://arxiv.org/abs/2508.13930\n- *SmartPath-R1* integrates ROI and WSI tasks for pathology, improving reasoning without costly annotations. Explore at https://arxiv.org/abs/2507.17303\n- *TS-Agent* enhances financial time-series modeling with LLMs, improving adaptability and interpretability. Learn more at https://arxiv.org/abs/2508.13915\n- *CORENet* uses LiDAR for noise reduction in 4D radar detection, improving autonomous driving robustness. More info at https://arxiv.org/abs/2508.13485\n- *X-MoE* optimizes Mixture-of-Experts training on HPC platforms, enhancing performance across diverse systems. Check it out at https://arxiv.org/abs/2508.13337\n- *CIV* ensures token integrity in LLMs, offering a novel security architecture. Details at https://arxiv.org/abs/2508.09288\n- *MedKGent* constructs evolving medical knowledge graphs with LLMs, enhancing biomedical research accuracy. Read more at https://arxiv.org/abs/2508.12393\n- *RAPNet* introduces adaptive convolution for pansharpening, improving remote sensing image detail extraction. More at https://arxiv.org/abs/2507.10461"
+  "digest": "- *Benchmarking Vector, Graph and Hybrid Retrieval Augmented Generation (RAG) Pipelines for Open Radio Access Networks (ORAN)*: GraphRAG and Hybrid GraphRAG outperform traditional RAG in key performance metrics. [Link](https://arxiv.org/abs/2507.03608)\n- *Comparing energy consumption and accuracy in text classification inference*: Highlights trade-offs and implications for sustainable AI development. [Link](https://arxiv.org/abs/2508.14170)\n- *The Hidden Cost of Readability: How Code Formatting Silently Consumes Your LLM Budget*: Code formatting increases LLM costs without enhancing performance. [Link](https://arxiv.org/abs/2508.13666)\n- *Effect of Data Augmentation on Conformal Prediction for Diabetic Retinopathy*: Emphasizes co-design for trustworthy AI in healthcare. [Link](https://arxiv.org/abs/2508.14266)\n- *An automatic patent literature retrieval system based on LLM-RAG*: Enhances patent retrieval accuracy, surpassing traditional methods. [Link](https://arxiv.org/abs/2508.14064)\n- *A Comprehensive Benchmark on Spectral GNNs*: Offers practical guidelines for deployment on large graphs. [Link](https://arxiv.org/abs/2406.09675)\n- *Each to Their Own: Exploring the Optimal Embedding in RAG*: Enhances Retrieval-Augmented Generation by improving response quality. [Link](https://arxiv.org/abs/2507.17442)\n- *Automated Optimization Modeling through Expert-Guided Large Language Model Reasoning*: Enhances optimization modeling using LLMs. [Link](https://arxiv.org/abs/2508.14410)\n- *Knowledge Graph-Infused Fine-Tuning for Structured Reasoning in Large Language Models*: Improves entity prediction and semantic understanding. [Link](https://arxiv.org/abs/2508.14427)\n- *MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers*: Introduces a new evaluation framework for AI applications. [Link](https://arxiv.org/abs/2508.14704)"
 }
