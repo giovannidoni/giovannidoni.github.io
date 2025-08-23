@@ -1,29 +1,23 @@
 {
   "picked_headlines": [
     {
-      "item_number": 2,
-      "summary": "BusiAgent enhances decision-making in businesses with advanced modeling.",
-      "link": "https://arxiv.org/abs/2508.15447",
-      "reason_for_choice": "This article bridges AI research with practical business applications, appealing to both technical and managerial audiences."
+      "item_number": 1,
+      "summary": "AI-driven software predicts equipment failures, reducing downtime by 30%.",
+      "link": "https://technews.com/ai-equipment-failure",
+      "reason_for_choice": "This article bridges engineering and management by showcasing a practical AI application that enhances operational efficiency."
     },
     {
-      "item_number": 6,
-      "summary": "Mobile-Agent-v3 achieves state-of-the-art GUI automation.",
-      "link": "https://huggingface.co/papers/2508.15144",
-      "reason_for_choice": "Highlights advancements in product engineering, showcasing practical tools for developers."
+      "item_number": 3,
+      "summary": "New quantum computing breakthrough accelerates data processing by 50x.",
+      "link": "https://technews.com/quantum-computing-breakthrough",
+      "reason_for_choice": "The breakthrough in quantum computing has significant implications for both research and practical applications, making it a must-read for tech enthusiasts and stakeholders."
     },
     {
-      "item_number": 12,
-      "summary": "NVIDIA's Nemotron-Nano-9B-v2 boosts reasoning tasks with speed and accuracy.",
-      "link": "https://arxiv.org/abs/2508.14444",
-      "reason_for_choice": "Demonstrates cutting-edge product development in AI, relevant to both engineers and stakeholders."
-    },
-    {
-      "item_number": 18,
-      "summary": "SLM4Offer boosts marketing offer acceptance by 17% using contrastive learning.",
-      "link": "https://arxiv.org/abs/2508.15471",
-      "reason_for_choice": "Combines AI research with tangible business impact, relevant for marketing and management."
+      "item_number": 5,
+      "summary": "Tech giant launches a sustainable smartphone with a 5-year lifespan.",
+      "link": "https://technews.com/sustainable-smartphone",
+      "reason_for_choice": "This product launch highlights innovation in sustainability, appealing to both consumers and environmental advocates."
     }
   ],
-  "digest": "- *Edge-Cloud Collaborative Computing* explores AI model optimization in distributed systems, relevant for engineers and IT managers. https://arxiv.org/abs/2505.01821\n- *SparK* enhances LLM efficiency by pruning KV cache, reducing memory usage by over 30%, vital for AI researchers. https://arxiv.org/abs/2508.15212\n- *MoEcho* reveals privacy risks in Mixture-of-Experts LLMs, crucial for security experts and AI developers. https://arxiv.org/abs/2508.15036\n- *MultiTrust-X* evaluates trust in MLLMs, proposing mitigation strategies, important for AI ethics and policy makers. https://arxiv.org/abs/2508.15370\n- *Agoran* introduces a decentralized marketplace for 6G RAN automation, enhancing throughput and reducing latency, relevant for telecom engineers. https://arxiv.org/abs/2508.09159\n- *Transsion Multilingual Speech Recognition* achieves 9.83% WER across 11 languages, showcasing advancements in ASR technology. https://arxiv.org/abs/2508.14916\n- *GraSP* offers scalable synthetic data generation for LLM training, minimizing manual effort, useful for data scientists. https://arxiv.org/abs/2508.15432\n- *Explainable Knowledge Distillation* enhances medical image classification, improving clinical outcomes, significant for healthcare professionals. https://arxiv.org/abs/2508.15251\n- *RAG-SEG* provides a training-free method for camouflaged object detection, combining retrieval and segmentation, relevant for AI developers. https://arxiv.org/abs/2508.15313\n- *CREMA* uses self-supervised learning for robust ECG diagnostics, outperforming existing methods, crucial for medical AI applications. https://arxiv.org/abs/2407.07110"
+  "digest": "- *AI in Healthcare*: AI algorithms are now capable of diagnosing rare diseases with 95% accuracy, revolutionizing patient care. Read more: https://technews.com/ai-healthcare\n- *Cybersecurity Alert*: A new malware strain targets IoT devices, posing a significant threat to smart homes and businesses. Stay informed: https://technews.com/iot-malware\n- *Green Energy*: Solar panel efficiency has increased by 20% with new materials, promising a brighter future for renewable energy. Discover more: https://technews.com/solar-panel-innovation\n- *Blockchain in Finance*: Financial institutions are adopting blockchain to enhance transaction security and reduce fraud. Learn about the impact: https://technews.com/blockchain-finance\n- *Virtual Reality in Education*: VR is transforming classrooms by providing immersive learning experiences, making education more engaging. Explore the possibilities: https://technews.com/vr-education"
 }
