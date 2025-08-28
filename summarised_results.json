@@ -1,29 +1,29 @@
 {
   "picked_headlines": [
     {
+      "item_number": 0,
+      "summary": "Spotlight Attention enhances LLM efficiency with non-linear hashing for KV cache retrieval.",
+      "link": "https://arxiv.org/abs/2508.19740",
+      "reason_for_choice": "This research offers a significant advancement in LLM efficiency, appealing to both engineers and researchers."
+    },
+    {
+      "item_number": 3,
+      "summary": "SALF framework improves fake news detection with symbolic learning.",
+      "link": "https://arxiv.org/abs/2508.19633",
+      "reason_for_choice": "Addresses a critical societal issue, making it relevant for stakeholders concerned with media integrity."
+    },
+    {
       "item_number": 9,
-      "summary": "NVIDIA's Nemotron-Nano-9B-v2 model enhances reasoning tasks with improved speed and accuracy, outperforming similar models.",
-      "link": "https://arxiv.org/abs/2508.14444",
-      "reason_for_choice": "This article highlights a significant advancement in AI product development, showcasing NVIDIA's innovation in improving model efficiency and accuracy, which is crucial for stakeholders interested in cutting-edge AI technology."
+      "summary": "Apple's multilingual AI models enhance device capabilities with privacy safeguards.",
+      "link": "https://arxiv.org/abs/2507.13575",
+      "reason_for_choice": "Highlights a major tech company's innovation, appealing to product developers and business leaders."
     },
     {
-      "item_number": 26,
-      "summary": "FALCON uses LLMs for real-time IDS rule generation from Cyber Threat Intelligence, improving accuracy and deployment speed in cybersecurity.",
-      "link": "https://arxiv.org/abs/2508.18684",
-      "reason_for_choice": "Cybersecurity is a critical area for both technical and managerial audiences. This article presents an impactful application of AI in enhancing security measures, relevant for stakeholders concerned with data protection."
-    },
-    {
-      "item_number": 2,
-      "summary": "AI agents can enhance software engineering beyond code generation, focusing on intent inference and automated verification for better workflows.",
-      "link": "https://arxiv.org/abs/2508.17343",
-      "reason_for_choice": "This research article provides insights into the future of software engineering, emphasizing AI's role in improving workflows, which is valuable for both engineers and managers."
-    },
-    {
-      "item_number": 48,
-      "summary": "DIVER optimizes ad headline generation for both quality and diversity using LLMs, improving CTR and advertiser value in real-world applications.",
-      "link": "https://arxiv.org/abs/2508.18739",
-      "reason_for_choice": "This article offers a practical application of AI in marketing, showcasing how LLMs can enhance advertising strategies, making it relevant for stakeholders in marketing and product development."
+      "item_number": 79,
+      "summary": "FlowDet improves real-time traffic detection with new architecture and dataset.",
+      "link": "https://arxiv.org/abs/2508.19565",
+      "reason_for_choice": "Offers practical engineering solutions for traffic management, relevant for urban planners and engineers."
     }
   ],
-  "digest": "- *APT-LLM* enhances LLM performance using novel data formats, achieving significant speedups on GPUs. Learn more at https://arxiv.org/abs/2508.19087\n- *pyFAST* offers a modular framework for efficient time series modeling, supporting sparse and multi-source data. Details at https://arxiv.org/abs/2508.18891\n- *REMO* integrates memory-driven optimization with prompt tuning for LLMs, enhancing performance over time. Explore at https://arxiv.org/abs/2508.18749\n- *YuLan-OneSim* uses LLMs for large-scale social simulations, improving research efficiency. Discover more at https://arxiv.org/abs/2505.07581\n- *VERIRL* boosts Verilog code generation using reinforcement learning, introducing new datasets and mechanisms. Read more at https://arxiv.org/abs/2508.18462\n- *ClusterFusion* optimizes LLM inference by reducing latency through on-chip communication. Check it out at https://arxiv.org/abs/2508.18850\n- *Emotion Omni* proposes a model for empathetic speech response generation, enhancing human-machine interaction. See more at https://arxiv.org/abs/2508.18655\n- *PRISM* enhances VLM safety with principled reasoning, achieving low attack rates. Code available at https://arxiv.org/abs/2508.18649"
+  "digest": "- *Heterogeneous LLM Methods for Ontology Learning* uses LLMs for ontology learning, achieving top results with novel methods. *https://arxiv.org/abs/2508.19428*\n- *Cross-Platform E-Commerce Product Categorization* enhances product categorization accuracy across platforms with a multimodal framework. *https://arxiv.org/abs/2508.20013*\n- *AgentCoMa* reveals a performance gap in LLMs for mixed commonsense and math reasoning tasks. *https://arxiv.org/abs/2508.19988*\n- *MIDAS* introduces a framework for real-time digital human video generation, improving multimodal control. *https://arxiv.org/abs/2508.19320*\n- *Gradient Inversion Attacks in Federated Learning* exposes vulnerabilities and offers insights for model privacy. *https://arxiv.org/abs/2508.19819*\n- *CORE* uses reinforcement learning for lossless compression in LLMs, enhancing performance. *https://arxiv.org/abs/2508.19282*\n- *SLIM* improves LLM reasoning by eliminating suboptimal subtrajectories. *https://arxiv.org/abs/2508.19502*\n- *Servant, Stalker, Predator* reveals vulnerabilities in MCP-based agents, highlighting potential harmful behaviors. *https://arxiv.org/abs/2508.19500*\n- *Gradient Rectification* proposes a framework for robust calibration under distribution shifts. *https://arxiv.org/abs/2508.19830*\n- *CoQuIR* introduces a benchmark for code quality-aware retrieval, focusing on correctness and efficiency. *https://arxiv.org/abs/2506.11066*"
 }
