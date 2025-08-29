@@ -1,29 +1,29 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "Spotlight Attention enhances LLM efficiency with non-linear hashing for KV cache retrieval.",
-      "link": "https://arxiv.org/abs/2508.19740",
-      "reason_for_choice": "This research offers a significant advancement in LLM efficiency, appealing to both engineers and researchers."
-    },
-    {
-      "item_number": 3,
-      "summary": "SALF framework improves fake news detection with symbolic learning.",
-      "link": "https://arxiv.org/abs/2508.19633",
-      "reason_for_choice": "Addresses a critical societal issue, making it relevant for stakeholders concerned with media integrity."
+      "item_number": 2,
+      "summary": "SNNDeep outperforms in liver disease diagnosis using CT imaging, showcasing AI's medical potential.",
+      "link": "https://arxiv.org/abs/2508.20125",
+      "reason_for_choice": "The article highlights a significant application of AI in healthcare, showcasing a practical use case with potential real-world impact."
     },
     {
       "item_number": 9,
-      "summary": "Apple's multilingual AI models enhance device capabilities with privacy safeguards.",
-      "link": "https://arxiv.org/abs/2507.13575",
-      "reason_for_choice": "Highlights a major tech company's innovation, appealing to product developers and business leaders."
+      "summary": "Generative model enhances real-time text summarization in web search, outperforming traditional methods.",
+      "link": "https://arxiv.org/abs/2508.20559",
+      "reason_for_choice": "This article presents a breakthrough in web search technology, relevant to both technical audiences and stakeholders interested in product innovation."
     },
     {
-      "item_number": 79,
-      "summary": "FlowDet improves real-time traffic detection with new architecture and dataset.",
-      "link": "https://arxiv.org/abs/2508.19565",
-      "reason_for_choice": "Offers practical engineering solutions for traffic management, relevant for urban planners and engineers."
+      "item_number": 29,
+      "summary": "SwizzlePerf optimizes GPU kernel performance with hardware-aware LLMs, improving efficiency.",
+      "link": "https://arxiv.org/abs/2508.20258",
+      "reason_for_choice": "The article addresses engineering challenges, offering insights into performance optimization, crucial for technical and managerial audiences."
+    },
+    {
+      "item_number": 28,
+      "summary": "ChatThero uses LLMs for addiction recovery, integrating CBT and MI for effective support.",
+      "link": "https://arxiv.org/abs/2508.20996",
+      "reason_for_choice": "This article demonstrates the integration of AI in mental health support, appealing to stakeholders focused on healthcare innovation."
     }
   ],
-  "digest": "- *Heterogeneous LLM Methods for Ontology Learning* uses LLMs for ontology learning, achieving top results with novel methods. *https://arxiv.org/abs/2508.19428*\n- *Cross-Platform E-Commerce Product Categorization* enhances product categorization accuracy across platforms with a multimodal framework. *https://arxiv.org/abs/2508.20013*\n- *AgentCoMa* reveals a performance gap in LLMs for mixed commonsense and math reasoning tasks. *https://arxiv.org/abs/2508.19988*\n- *MIDAS* introduces a framework for real-time digital human video generation, improving multimodal control. *https://arxiv.org/abs/2508.19320*\n- *Gradient Inversion Attacks in Federated Learning* exposes vulnerabilities and offers insights for model privacy. *https://arxiv.org/abs/2508.19819*\n- *CORE* uses reinforcement learning for lossless compression in LLMs, enhancing performance. *https://arxiv.org/abs/2508.19282*\n- *SLIM* improves LLM reasoning by eliminating suboptimal subtrajectories. *https://arxiv.org/abs/2508.19502*\n- *Servant, Stalker, Predator* reveals vulnerabilities in MCP-based agents, highlighting potential harmful behaviors. *https://arxiv.org/abs/2508.19500*\n- *Gradient Rectification* proposes a framework for robust calibration under distribution shifts. *https://arxiv.org/abs/2508.19830*\n- *CoQuIR* introduces a benchmark for code quality-aware retrieval, focusing on correctness and efficiency. *https://arxiv.org/abs/2506.11066*"
+  "digest": "- *CogVLA* enhances Vision-Language-Action models with efficient routing and sparsification, achieving state-of-the-art results with lower costs. [Link](https://huggingface.co/papers/2508.21046)\n- *EASI-RAG* is an agile method for deploying RAG tools in SMEs, enhancing implementation speed and user adoption in industrial settings. [Link](https://arxiv.org/abs/2508.21024)\n- *AI Agentic Vulnerability Injection* presents a novel AI framework for generating realistic vulnerabilities in code to improve automated detection systems. [Link](https://arxiv.org/abs/2508.20866)\n- *MIDAS* introduces a real-time autoregressive video generation framework for interactive digital humans, enhancing multimodal control and efficiency. [Link](https://arxiv.org/abs/2508.19320)\n- *CAMB* introduces a benchmark for evaluating LLMs in civil aviation maintenance, addressing gaps in domain knowledge and reasoning capabilities. [Link](https://arxiv.org/abs/2508.20420)\n- *Veritas* introduces a novel deepfake detector using pattern-aware reasoning and a new dataset, HydraFake, addressing real-world challenges. [Link](https://arxiv.org/abs/2508.21048)\n- *AI-SearchPlanner* enhances search efficiency by decoupling planning and QA tasks using RL, outperforming existing models in effectiveness and efficiency. [Link](https://arxiv.org/abs/2508.20368)\n- *MPFormer* enhances industrial recommendation systems by addressing multi-objective optimization misalignment with innovative Transformer mechanisms. [Link](https://arxiv.org/abs/2508.20400)\n- *IntentionReasoner* enhances LLM safety by using intent reasoning and query refinement, balancing safety and utility effectively. [Link](https://arxiv.org/abs/2508.20151)\n- *Improving Quantization* with post-training model expansion can enhance model quality in quantization without retraining, offering a new approach to optimize LLMs. [Link](https://arxiv.org/abs/2503.17513)"
 }
