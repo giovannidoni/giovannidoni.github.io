@@ -1,29 +1,29 @@
 {
   "picked_headlines": [
     {
-      "item_number": 2,
-      "summary": "SNNDeep outperforms in liver disease diagnosis using CT imaging, showcasing AI's medical potential.",
-      "link": "https://arxiv.org/abs/2508.20125",
-      "reason_for_choice": "The article highlights a significant application of AI in healthcare, showcasing a practical use case with potential real-world impact."
+      "item_number": 0,
+      "summary": "CogVLA enhances VLA models with efficient instruction-driven routing, achieving state-of-the-art results while reducing costs and latency.",
+      "link": "https://huggingface.co/papers/2508.21046",
+      "reason_for_choice": "The article presents a significant advancement in vision-language-action models, crucial for both technical and managerial stakeholders interested in cost-effective AI solutions."
     },
     {
-      "item_number": 9,
-      "summary": "Generative model enhances real-time text summarization in web search, outperforming traditional methods.",
-      "link": "https://arxiv.org/abs/2508.20559",
-      "reason_for_choice": "This article presents a breakthrough in web search technology, relevant to both technical audiences and stakeholders interested in product innovation."
+      "item_number": 5,
+      "summary": "OneReward introduces a unified framework for mask-guided image generation, enhancing efficiency and performance across multiple tasks without fine-tuning.",
+      "link": "https://huggingface.co/papers/2508.21066",
+      "reason_for_choice": "This article offers insights into a novel framework that improves image generation, appealing to product developers and engineers focused on AI efficiency."
     },
     {
-      "item_number": 29,
-      "summary": "SwizzlePerf optimizes GPU kernel performance with hardware-aware LLMs, improving efficiency.",
-      "link": "https://arxiv.org/abs/2508.20258",
-      "reason_for_choice": "The article addresses engineering challenges, offering insights into performance optimization, crucial for technical and managerial audiences."
+      "item_number": 10,
+      "summary": "ROSE is a novel video inpainting framework that removes objects and their side effects using synthetic data and diffusion transformers.",
+      "link": "https://huggingface.co/papers/2508.18633",
+      "reason_for_choice": "The article highlights a cutting-edge video processing technique, relevant for stakeholders in media and entertainment industries."
     },
     {
-      "item_number": 28,
-      "summary": "ChatThero uses LLMs for addiction recovery, integrating CBT and MI for effective support.",
-      "link": "https://arxiv.org/abs/2508.20996",
-      "reason_for_choice": "This article demonstrates the integration of AI in mental health support, appealing to stakeholders focused on healthcare innovation."
+      "item_number": 21,
+      "summary": "Meta embraces AI in interviews, while Amazon rejects it, raising questions about skill assessment and hiring practices in tech.",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1n3dn1s/meta_says_bring_ai_to_the_interview_amazon_says/",
+      "reason_for_choice": "This discussion on AI's role in hiring practices is crucial for HR and management stakeholders navigating the evolving tech landscape."
     }
   ],
-  "digest": "- *CogVLA* enhances Vision-Language-Action models with efficient routing and sparsification, achieving state-of-the-art results with lower costs. [Link](https://huggingface.co/papers/2508.21046)\n- *EASI-RAG* is an agile method for deploying RAG tools in SMEs, enhancing implementation speed and user adoption in industrial settings. [Link](https://arxiv.org/abs/2508.21024)\n- *AI Agentic Vulnerability Injection* presents a novel AI framework for generating realistic vulnerabilities in code to improve automated detection systems. [Link](https://arxiv.org/abs/2508.20866)\n- *MIDAS* introduces a real-time autoregressive video generation framework for interactive digital humans, enhancing multimodal control and efficiency. [Link](https://arxiv.org/abs/2508.19320)\n- *CAMB* introduces a benchmark for evaluating LLMs in civil aviation maintenance, addressing gaps in domain knowledge and reasoning capabilities. [Link](https://arxiv.org/abs/2508.20420)\n- *Veritas* introduces a novel deepfake detector using pattern-aware reasoning and a new dataset, HydraFake, addressing real-world challenges. [Link](https://arxiv.org/abs/2508.21048)\n- *AI-SearchPlanner* enhances search efficiency by decoupling planning and QA tasks using RL, outperforming existing models in effectiveness and efficiency. [Link](https://arxiv.org/abs/2508.20368)\n- *MPFormer* enhances industrial recommendation systems by addressing multi-objective optimization misalignment with innovative Transformer mechanisms. [Link](https://arxiv.org/abs/2508.20400)\n- *IntentionReasoner* enhances LLM safety by using intent reasoning and query refinement, balancing safety and utility effectively. [Link](https://arxiv.org/abs/2508.20151)\n- *Improving Quantization* with post-training model expansion can enhance model quality in quantization without retraining, offering a new approach to optimize LLMs. [Link](https://arxiv.org/abs/2503.17513)"
+  "digest": "- *CogVLA* enhances vision-language-action models with efficient instruction-driven routing, achieving state-of-the-art results while reducing costs and latency. Read more: https://huggingface.co/papers/2508.21046\n- *OneReward* introduces a unified framework for mask-guided image generation, enhancing efficiency and performance across multiple tasks without fine-tuning. Check it out: https://huggingface.co/papers/2508.21066\n- *ROSE* is a novel video inpainting framework that removes objects and their side effects using synthetic data and diffusion transformers. Discover more: https://huggingface.co/papers/2508.18633\n- *Meta embraces AI* in interviews, while Amazon rejects it, raising questions about skill assessment and hiring practices in tech. Explore the discussion: https://www.reddit.com/r/ArtificialInteligence/comments/1n3dn1s/meta_says_bring_ai_to_the_interview_amazon_says/\n- *rStar2-Agent* uses agentic RL for efficient math reasoning, achieving state-of-the-art results with minimal resources. Learn more: https://huggingface.co/papers/2508.20722\n- *Scaling Inference* offers insights on deploying multiple foundation models, focusing on inference optimization, batching, quantization, and CPU vs GPU strategies. Read the full article: https://www.reddit.com/r/MachineLearning/comments/1n3i2fx/d_scaling_inference_lessons_from_running_multiple/\n- *MAPLE* is a new open-source protocol for multi-agent communication, featuring unique resource management and security mechanisms. Find out more: https://www.reddit.com/r/MachineLearning/comments/1n3gfpt/p_opensource_protocol_designed_for_multiagent/\n- *Patched P2P NVIDIA driver* enables P2P functionality for multiple GPUs, improving bandwidth and latency significantly for 5090 and other models. More details: https://www.reddit.com/r/LocalLLaMA/comments/1n3qcqn/patched_p2p_nvidia_driver_now_works_with_multiple/"
 }
