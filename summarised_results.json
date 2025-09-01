@@ -2,28 +2,28 @@
   "picked_headlines": [
     {
       "item_number": 0,
-      "summary": "CogVLA optimizes VLA models with instruction-driven routing, boosting efficiency and reducing costs.",
-      "link": "https://huggingface.co/papers/2508.21046",
-      "reason_for_choice": "The model's efficiency improvements are significant for both technical and managerial audiences, showcasing cost-effective advancements in AI."
-    },
-    {
-      "item_number": 5,
-      "summary": "Multi-view 3D point tracking uses transformers for robust tracking with fewer cameras.",
-      "link": "https://huggingface.co/papers/2508.21060",
-      "reason_for_choice": "This innovation in 3D tracking is impactful for engineering applications, offering practical benefits in dynamic environments."
-    },
-    {
-      "item_number": 27,
-      "summary": "NextClip automates video editing for talking head videos, improving efficiency with AI-driven features.",
-      "link": "https://www.nextclip.pro/",
-      "reason_for_choice": "The product demonstrates practical AI applications in media production, appealing to stakeholders interested in AI-driven efficiency."
+      "summary": "zkLoRA integrates LoRA fine-tuning with zero-knowledge proofs for secure, efficient LLM adaptation.",
+      "link": "https://arxiv.org/abs/2508.21393",
+      "reason_for_choice": "The integration of zero-knowledge proofs with LLM fine-tuning addresses critical security and privacy concerns, appealing to both technical experts and stakeholders interested in data protection."
     },
     {
       "item_number": 21,
-      "summary": "Guide on fine-tuning YOLOX for license plate detection, with real-world application insights.",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1n4asaq/p_building_a_yolox_plate_detector_setup/",
-      "reason_for_choice": "This article provides actionable insights into AI deployment in real-world scenarios, valuable for both engineers and managers."
+      "summary": "Framework merges LLMs with network optimization for enhanced supply chain planning.",
+      "link": "https://arxiv.org/abs/2508.21622",
+      "reason_for_choice": "This article highlights practical applications of AI in supply chain management, offering insights into real-world decision support and efficiency improvements."
+    },
+    {
+      "item_number": 23,
+      "summary": "SLAC's SNL accelerates neural networks on FPGAs for real-time data reduction.",
+      "link": "https://arxiv.org/abs/2508.21739",
+      "reason_for_choice": "The focus on real-time data processing and efficiency in neural network acceleration is crucial for engineering and product development sectors."
+    },
+    {
+      "item_number": 80,
+      "summary": "Reinforcement learning transforms healthcare AI by enabling proactive interventions.",
+      "link": "https://arxiv.org/abs/2508.21101",
+      "reason_for_choice": "This article discusses the transformative potential of reinforcement learning in healthcare, appealing to management and stakeholders focused on innovation and ethical considerations."
     }
   ],
-  "digest": "- *rStar2-Agent* achieves state-of-the-art math reasoning with minimal resources, showcasing efficient use of agentic RL: https://huggingface.co/papers/2508.20722\n- *Pref-GRPO* addresses reward hacking in text-to-image generation, introducing a comprehensive benchmark: https://huggingface.co/papers/2508.20751\n- *AWorld* enhances agentic AI training by 14.6x, outperforming existing models: https://huggingface.co/papers/2508.20404\n- *Mixture of Contexts* improves long video generation using sparse attention: https://huggingface.co/papers/2508.21058\n- *USO* achieves top performance in style and subject generation through disentangled learning: https://huggingface.co/papers/2508.18966\n- *ROSE* effectively removes objects in videos using synthetic data and diffusion transformers: https://huggingface.co/papers/2508.18633\n- *Social-MAE* excels in emotion and laughter recognition with self-supervised learning: https://huggingface.co/papers/2508.17502\n- *FakeParts* introduces a new type of deepfake, challenging detection methods: https://huggingface.co/papers/2508.21052\n- *In-tool learning* enhances language models' factual recall, proving superior to memorization: https://huggingface.co/papers/2508.20755\n- *Qwen3 8B fine-tuning* hits a device mismatch error, raising questions about dataset and model changes: https://www.reddit.com/r/LocalLLaMA/comments/1n4px7g/qwen3_8b_finetuning_with_unslothlora_crashes/"
+  "digest": "- *zkLoRA* integrates LoRA fine-tuning with zero-knowledge proofs for secure, efficient LLM adaptation, ensuring privacy and correctness. Read more: https://arxiv.org/abs/2508.21393\n- *Integrating Large Language Models with Network Optimization* for enhanced supply chain planning through explainable AI and real-time decision support. More details: https://arxiv.org/abs/2508.21622\n- *SLAC's SNL* accelerates neural networks on FPGAs for real-time data reduction, outperforming existing tools in latency and resource efficiency. Learn more: https://arxiv.org/abs/2508.21739\n- *Beyond Prediction: Reinforcement Learning as the Defining Leap in Healthcare AI* transforms healthcare AI by enabling proactive interventions, integrating diverse data sources, and addressing ethical challenges. Explore further: https://arxiv.org/abs/2508.21101\n- *Atom-Searcher* enhances LLMs' reasoning with Atomic Thought and ATR, improving efficiency and interpretability in complex tasks. Discover more: https://arxiv.org/abs/2508.12800\n- *FedSEA-LLaMA* enhances federated learning for LLMs with improved security, efficiency, and adaptability, achieving significant performance gains. Check it out: https://arxiv.org/abs/2505.15683\n- *Med-RewardBench* introduces a benchmark for evaluating medical reward models and judges in multimodal large language models, addressing critical gaps. Read here: https://arxiv.org/abs/2508.21430\n- *TrustGeoGen* offers a verified data engine for geometric problem solving, addressing LLM limitations with robust benchmarks and multimodal integration. Find out more: https://arxiv.org/abs/2504.15780"
 }
