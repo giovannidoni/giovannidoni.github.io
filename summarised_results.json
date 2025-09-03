@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "SuperSimpleNet unifies surface defect detection across supervision types, offering high performance and low inference time for industrial applications.",
-      "link": "https://huggingface.co/papers/2508.19060",
-      "reason_for_choice": "This article presents a significant advancement in industrial applications, making it highly relevant for stakeholders interested in manufacturing and quality control. The model's versatility across different supervision regimes is a key highlight."
+      "item_number": 0,
+      "summary": "Efficient deep learning via principled approximations for model compression.",
+      "link": "https://arxiv.org/abs/2509.00174",
+      "reason_for_choice": "This article offers significant insights into optimizing deep learning models, which is crucial for both engineers and stakeholders looking to improve AI efficiency."
     },
     {
-      "item_number": 3,
-      "summary": "AgentSea offers a unified, private AI chat interface addressing subscription costs, context loss, and privacy concerns.",
-      "link": "https://agentsea.com",
-      "reason_for_choice": "AgentSea's innovative approach to AI chat interfaces addresses key user concerns, making it relevant for both technical audiences and stakeholders interested in AI product development and user privacy."
+      "item_number": 90,
+      "summary": "AI orchestration market to hit $34.16B by 2032, driven by multi-cloud and edge AI.",
+      "link": "https://news.ycombinator.com/item?id=45114189",
+      "reason_for_choice": "The rapid growth of the AI orchestration market is a critical development for stakeholders in tech and business, highlighting the increasing integration of AI in various sectors."
     }
   ],
-  "digest": "- *PVPO* enhances reinforcement learning with reference anchors and pre-sampling, achieving state-of-the-art performance with lower costs and better generalization. Learn more at https://huggingface.co/papers/2508.21104\n- *IRMA framework* improves tool usage accuracy in dynamic environments by reformulating queries with domain rules, outperforming existing methods. Explore the study at https://huggingface.co/papers/2508.20931\n- *AgentSea* offers a private AI chat interface, addressing subscription costs, context loss, and privacy concerns, making it a relevant tool for AI product development. Visit https://agentsea.com for details."
+  "digest": "- *TPTT* enhances pretrained Transformers with linearized attention, improving LLMs' performance without full retraining. Read more: https://arxiv.org/abs/2506.17671\n- *AppCopilot* tackles mobile agent challenges with a multimodal approach, enhancing generalization and efficiency. Details here: https://arxiv.org/abs/2509.02444\n- *Instruction-Level Weight Shaping* improves AI agents by refining instructions via user feedback, reducing hallucinations. More info: https://arxiv.org/abs/2509.00251\n- *LongCat-Flash* introduces a 560B-parameter MoE model for dynamic resource allocation, boosting efficiency. Explore: https://arxiv.org/abs/2509.01322\n- *ReCode* advances LLM-based code repair with fine-grained retrieval, enhancing accuracy and efficiency. Check it out: https://arxiv.org/abs/2509.02330\n- *Scaling Legal AI* benchmarks Mamba against transformers for statutory classification, showing superior performance. Learn more: https://arxiv.org/abs/2509.00141\n- *DPF-CM* improves Chinese medical LLM training with privacy-preserving vector databases, enhancing accuracy. Discover: https://arxiv.org/abs/2509.01354\n- *Tri-Accel* optimizes GPU usage by dynamically adjusting precision and batch size, improving training efficiency. Read further: https://arxiv.org/abs/2508.16905\n- *VerlTool* enhances Agentic Reinforcement Learning with modular frameworks for tool use efficiency. Details: https://huggingface.co/papers/2509.01055\n- *REFRAG* optimizes RAG decoding for LLMs, improving speed by 30.85% while maintaining accuracy. More here: https://arxiv.org/abs/2509.01092"
 }
