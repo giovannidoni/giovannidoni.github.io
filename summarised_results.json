@@ -2,16 +2,16 @@
   "picked_headlines": [
     {
       "item_number": 1,
-      "summary": "AI-driven tool transforms supply chain efficiency, reducing costs by 30%.",
-      "link": "https://example.com/ai-supply-chain",
-      "reason_for_choice": "This article highlights a significant technological advancement with direct implications for both engineering and management sectors, showcasing a real-world application of AI in optimizing processes."
+      "summary": "AI-driven tools revolutionize project management efficiency.",
+      "link": "https://example.com/ai-project-management",
+      "reason_for_choice": "This article bridges the gap between technology and management, showcasing how AI can optimize workflows and decision-making processes."
     },
     {
-      "item_number": 3,
-      "summary": "New sustainable material promises to revolutionize construction industry.",
-      "link": "https://example.com/sustainable-material",
-      "reason_for_choice": "This piece is crucial for stakeholders interested in sustainability and innovation, offering insights into future trends in product development and engineering."
+      "item_number": 4,
+      "summary": "New sustainable materials in engineering reduce carbon footprint.",
+      "link": "https://example.com/sustainable-materials",
+      "reason_for_choice": "This piece highlights innovative engineering solutions that address environmental concerns, appealing to both technical experts and stakeholders focused on sustainability."
     }
   ],
-  "digest": "- *AI in Healthcare*: AI algorithms are now diagnosing diseases with 95% accuracy, revolutionizing patient care. Read more at https://example.com/ai-healthcare\n- *Quantum Computing Breakthrough*: Researchers have achieved a new milestone in quantum computing, potentially accelerating advancements in cryptography and data processing. Details at https://example.com/quantum-computing\n- *Blockchain in Finance*: Financial institutions are adopting blockchain to enhance security and transparency in transactions, paving the way for a new era in banking. Explore further at https://example.com/blockchain-finance\n- *Renewable Energy Innovations*: Solar panel efficiency has increased by 20% due to new photovoltaic technology, promising a greener future. Discover more at https://example.com/solar-tech\n- *Cybersecurity Trends*: Emerging threats in cybersecurity are prompting companies to invest heavily in AI-driven defense systems. Learn more at https://example.com/cybersecurity-trends\n- *5G Network Expansion*: The rollout of 5G networks is transforming connectivity and enabling new applications in IoT and smart cities. Check out https://example.com/5g-expansion"
+  "digest": "- *AI in Healthcare*: AI algorithms are now capable of predicting patient outcomes with high accuracy, transforming patient care. Read more at https://example.com/ai-healthcare\n- *Quantum Computing Advances*: Recent breakthroughs in quantum computing promise to solve complex problems faster than ever before. Explore the details at https://example.com/quantum-computing\n- *Cybersecurity Trends*: As cyber threats evolve, new strategies in cybersecurity are emerging to protect sensitive data. Learn more at https://example.com/cybersecurity-trends\n- *Blockchain in Supply Chain*: Blockchain technology is enhancing transparency and efficiency in supply chain management. Discover how at https://example.com/blockchain-supply-chain\n- *Remote Work Tools*: Innovations in remote work tools are improving collaboration and productivity for distributed teams. Find out more at https://example.com/remote-work-tools"
 }
