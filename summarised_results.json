@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "AI-powered tool reduces software debugging time by 50%.",
-      "link": "https://technews.com/ai-debugging-tool",
-      "reason_for_choice": "This article highlights a breakthrough in software engineering, showcasing a tool that can significantly enhance productivity for developers and managers alike."
+      "item_number": 4,
+      "summary": "CyberRAG enhances cyber attack classification with modular RAG framework, reducing false positives and improving interpretability.",
+      "link": "https://arxiv.org/abs/2507.02424",
+      "reason_for_choice": "This article presents a practical engineering solution with significant implications for cybersecurity, appealing to both technical and managerial audiences."
     },
     {
-      "item_number": 5,
-      "summary": "New eco-friendly packaging reduces carbon footprint by 30%.",
-      "link": "https://sustainabilitynews.com/eco-packaging",
-      "reason_for_choice": "This piece is crucial for stakeholders interested in sustainable practices, offering insights into innovative product development that aligns with environmental goals."
+      "item_number": 3,
+      "summary": "Co-Investigator AI streamlines AML compliance with specialized agents, boosting SAR accuracy and efficiency.",
+      "link": "https://arxiv.org/abs/2509.08380",
+      "reason_for_choice": "This article highlights a product-focused innovation in AI, relevant for stakeholders interested in financial compliance and efficiency improvements."
     }
   ],
-  "digest": "- *AI in Healthcare*: AI algorithms are now capable of predicting patient outcomes with 85% accuracy, revolutionizing treatment plans. Read more: https://healthtechnews.com/ai-patient-outcomes\n- *Quantum Computing Advances*: Researchers have developed a quantum processor that can solve complex problems faster than traditional computers. More details: https://quantumnews.com/quantum-processor\n- *Blockchain in Supply Chain*: Blockchain technology is being used to enhance transparency and traceability in supply chains, reducing fraud and errors. Learn more: https://blockchainnews.com/supply-chain\n- *5G Technology*: The rollout of 5G networks is expected to boost IoT applications, providing faster and more reliable connectivity. Explore further: https://techupdates.com/5g-iot\n- *Remote Work Trends*: Studies show a 20% increase in productivity among remote workers, challenging traditional office setups. Discover more: https://workplacenews.com/remote-work-productivity"
+  "digest": "- *AgentGym-RL* introduces a novel RL framework for training LLM agents, emphasizing diverse behaviors without SFT. [Read more](https://huggingface.co/papers/2509.08755)\n- *SciGPT* enhances scientific literature understanding, improving research efficiency. [Read more](https://arxiv.org/abs/2509.08032)\n- *AntiDote* offers a bi-level adversarial training method for tamper-resistant LLMs. [Read more](https://arxiv.org/abs/2509.08000)\n- *MVPBench* evaluates LLMs' alignment with human values, aiding culturally adaptive AI development. [Read more](https://arxiv.org/abs/2509.08022)\n- *MachineLearningLM* boosts LLMs' many-shot learning via continued pretraining. [Read more](https://arxiv.org/abs/2509.06806)\n- *APML* introduces a new loss for 3D point cloud tasks, enhancing performance. [Read more](https://arxiv.org/abs/2509.08104)\n- *EvolKV* optimizes KV cache compression in LLMs, improving efficiency. [Read more](https://arxiv.org/abs/2509.08315)\n- *TransitReID* enhances passenger re-identification in transit systems, improving data collection. [Read more](https://arxiv.org/abs/2504.11500)\n- *Drivelology* challenges LLMs with interpreting nuanced nonsense, revealing gaps in understanding. [Read more](https://arxiv.org/abs/2509.03867)\n- *TweakLLM* improves cached responses for LLMs, enhancing query adaptation. [Read more](https://arxiv.org/abs/2507.23674)"
 }
