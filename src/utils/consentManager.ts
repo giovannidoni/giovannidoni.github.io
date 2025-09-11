@@ -10,7 +10,7 @@ export const updateGoogleAnalyticsConsent = (accepted: boolean) => {
     window.gtag("consent", "update", {
       analytics_storage: accepted ? "granted" : "denied",
       ad_storage: accepted ? "denied" : "denied",
-      ad_user_data: accepted ? "denied" : "denied",
+      ad_user_data: accepted ? "granted" : "denied",
       ad_personalization: accepted ? "denied" : "denied",
     });
     
