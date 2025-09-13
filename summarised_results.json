@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 5,
-      "summary": "AI's limited impact critiqued; proposes collaborative intelligence framework.",
-      "link": "https://arxiv.org/abs/2509.02853",
-      "reason_for_choice": "This article addresses the broader strategic implications of AI adoption, making it relevant for both technical and managerial audiences."
+      "item_number": 19,
+      "summary": "LLM system autonomously detects and patches vulnerabilities, featuring a public leaderboard.",
+      "link": "https://huggingface.co/papers/2509.07225",
+      "reason_for_choice": "This headline is impactful for both technical audiences and stakeholders, offering insights into automated security solutions and benchmarking, crucial for product development and engineering."
     },
     {
-      "item_number": 10,
-      "summary": "Framework generates Unity game templates from GDDs, boosting dev efficiency.",
-      "link": "https://arxiv.org/abs/2509.08847",
-      "reason_for_choice": "This article highlights a practical application of AI in game development, appealing to engineers and product managers alike."
+      "item_number": 38,
+      "summary": "Twilio's platform consolidation offers lessons on AI integration and developer experience.",
+      "link": "https://newsletter.getdx.com/p/lessons-from-twilios-multi-year-platform",
+      "reason_for_choice": "The article provides valuable insights into management and engineering challenges, making it relevant for technical leaders and stakeholders interested in strategic tech migrations."
     }
   ],
-  "digest": "- *Spotlight Attention* enhances LLM efficiency with non-linear hashing, improving precision and speed significantly. Read more: https://arxiv.org/abs/2508.19740\n- *ReT-2* uses recurrent Transformers for multimodal retrieval, enhancing performance in complex tasks. Details here: https://arxiv.org/abs/2509.08897\n- *MetaLLMiX* optimizes hyperparameters using meta-learning and XAI, reducing costs and training time. Explore further: https://arxiv.org/abs/2509.09387\n- *ENSI* introduces a secure inference framework for LLMs, optimizing cryptographic protocols. More info: https://arxiv.org/abs/2509.09424\n- *MagicGUI* enhances mobile GUI agents with a scalable data pipeline and reinforcement learning. Learn more: https://arxiv.org/abs/2508.03700\n- *GA-DMS* improves person retrieval in CLIP by enhancing data quality and model architecture. Discover more: https://tldr.takara.ai/p/2509.09118\n- *TreeGPT* offers an attention-free architecture for structured reasoning, achieving high accuracy. Check it out: https://arxiv.org/abs/2509.05550\n- *Compass-v3* scales LLMs for multilingual e-commerce in Southeast Asia, surpassing existing models. Read here: https://arxiv.org/abs/2509.09121\n- *Resource-Efficient Glioma Segmentation* achieves high accuracy with limited data, aiding clinical decisions. Find out more: https://arxiv.org/abs/2509.09469\n- *Adaptive Pareto-Optimal Token Merging* optimizes transformers for edge devices in 6G networks. Details: https://arxiv.org/abs/2509.09168"
+  "digest": "- *Gradient-Attention Guided Dual-Masking Synergetic Framework* enhances CLIP for person retrieval, achieving state-of-the-art results. Learn more: https://huggingface.co/papers/2509.09118\n- *MachineLearningLM* boosts LLMs with in-context ML from synthetic tasks, enhancing performance without task-specific training: https://huggingface.co/papers/2509.06806\n- *LoCoBench* benchmarks long-context LLMs for complex software tasks, revealing performance gaps: https://huggingface.co/papers/2509.09614\n- *VLA-Adapter* enhances vision-language-action models with minimal resources and fast inference: https://huggingface.co/papers/2509.09372\n- *HuMo* introduces a unified framework for human-centric video generation, enhancing multimodal control: https://huggingface.co/papers/2509.08519\n- *EchoX* bridges the acoustic-semantic gap in speech-to-speech LLMs, enhancing reasoning: https://huggingface.co/papers/2509.09174\n- *SpatialVID* provides a vast video dataset with rich 3D annotations, enhancing model performance in video and 3D vision research: https://huggingface.co/papers/2509.09676\n- *OmniEVA* enhances embodied intelligence with innovative 3D grounding and reasoning frameworks: https://huggingface.co/papers/2509.09332\n- *Cross-Domain Evaluation* improves vulnerability detection in code, addressing academic-industry gaps: https://huggingface.co/papers/2509.09313\n- *AU-Harness* is an open-source toolkit that improves evaluation of audio LLMs: https://huggingface.co/papers/2509.08031\n- *Visual Programmability* enhances chart understanding by selecting between code and visual reasoning methods: https://huggingface.co/papers/2509.09286\n- *Agents that control GUIs* are spreading to mobile, with insights into accessibility and speech recognition challenges: https://www.reddit.com/r/ArtificialInteligence/comments/1nf2ky3/agents_that_control_guis_are_spreading_browser/\n- *Larry Ellison* emphasizes that inference, not training, will drive revenue in AI: https://www.reddit.com/r/MachineLearning/comments/1nfav96/d_larry_ellison_inference_is_where_the_money_is/"
 }
