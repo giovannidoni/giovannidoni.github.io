@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 19,
-      "summary": "LLM-based system autonomously detects and patches vulnerabilities, showcasing significant advancements in automated security solutions.",
-      "link": "https://huggingface.co/papers/2509.07225",
-      "reason_for_choice": "This article highlights a breakthrough in cybersecurity, showcasing how AI can autonomously detect and patch vulnerabilities, which is crucial for both technical experts and stakeholders interested in AI-driven security solutions."
+      "item_number": 5,
+      "summary": "AI's limited impact critiqued; proposes transformative strategies for collaborative intelligence.",
+      "link": "https://arxiv.org/abs/2509.02853",
+      "reason_for_choice": "This article offers a strategic framework for AI transformation, appealing to both technical and managerial audiences, emphasizing collaborative intelligence over mere optimization."
     },
     {
-      "item_number": 25,
-      "summary": "Kodosumi is an open-source runtime for AI agents, enabling scalable, framework-agnostic deployment with real-time monitoring and minimal setup.",
-      "link": "https://www.kodosumi.io/",
-      "reason_for_choice": "Kodosumi offers a practical solution for deploying AI agents, appealing to engineers and product managers looking for scalable and efficient AI deployment solutions."
+      "item_number": 1,
+      "summary": "I-Segmenter: Efficient integer-only ViT for semantic segmentation, boosting speed and accuracy.",
+      "link": "https://arxiv.org/abs/2509.10334",
+      "reason_for_choice": "This article presents a significant advancement in product engineering, offering a practical solution for improving semantic segmentation efficiency, relevant to engineers and stakeholders alike."
     }
   ],
-  "digest": "- *Gradient-Attention Guided Dual-Masking Synergetic Framework* improves person retrieval, achieving state-of-the-art results. [Read more](https://huggingface.co/papers/2509.09118)\n- *MachineLearningLM* enhances LLMs with in-context ML capabilities, significantly improving performance. [Read more](https://huggingface.co/papers/2509.06806)\n- *LoCoBench* addresses gaps in codebase understanding for complex software tasks. [Read more](https://huggingface.co/papers/2509.09614)\n- *VLA-Adapter* achieves top performance in Vision-Language-Action models with minimal resources. [Read more](https://huggingface.co/papers/2509.09372)\n- *EchoX* bridges the acoustic-semantic gap in speech-to-speech LLMs, improving reasoning. [Read more](https://huggingface.co/papers/2509.09174)\n- *SpatialVID* provides a large-scale video dataset with rich 3D annotations, enhancing video and 3D vision research. [Read more](https://huggingface.co/papers/2509.09676)\n- *AU-Harness* improves evaluation of Large Audio Language Models, enhancing speed and task coverage. [Read more](https://huggingface.co/papers/2509.08031)\n- *Qwen-Image-Edit* outperforms GPT-5 in photo editing, offering practical coding guidance. [Read more](https://www.reddit.com/r/LocalLLaMA/comments/1ng6fg2/qwenimageedit_is_the_real_deal_case_simple_guide/)\n- *Local AI Workstation* guide details building a powerful AI workstation on a budget. [Read more](https://www.reddit.com/r/LocalLLaMA/comments/1ng8c2g/local_ai_workstation_on_a_3000_budget/)\n- *How to Spot AI Chatbots vs. Real Humans* offers 5 methods to distinguish AI chatbots from humans. [Read more](https://tolearn.blog/blog/ai-chatbot-detection-methods-2025)"
+  "digest": "- *UIO-LLMs* enhance long-context handling in LLMs, extending context windows with minimal parameter increase. Read more: https://arxiv.org/abs/2406.18173\n- *LMAR* improves domain-specific knowledge retrieval, outperforming existing models. Check it out: https://arxiv.org/abs/2508.05672\n- *Securing LLM-Generated Firmware* through AI-driven validation shows significant improvements in security. More details: https://arxiv.org/abs/2509.09970\n- *RefactorCoderQA* introduces a cloud-edge architecture for LLMs, enhancing multi-domain coding solutions. Learn more: https://arxiv.org/abs/2509.10436\n- *SmartCoder-R1* enhances secure smart contract generation with novel training methods. Explore: https://arxiv.org/abs/2509.09942\n- *Adaptive Token Merging* enhances transformer efficiency for edge devices, reducing costs while maintaining accuracy. Discover: https://arxiv.org/abs/2509.09955\n- *Scaling Arabic Medical Chatbots* using synthetic data improves scalability and accuracy in low-resource settings. Find out more: https://arxiv.org/abs/2509.10108\n- *Meta-Learning for Crypto-Return Prediction* shows promising results without human supervision. Read further: https://arxiv.org/abs/2509.09751\n- *DeepDive* enhances LLMs for deep search using knowledge graphs and multi-turn RL. Details here: https://arxiv.org/abs/2509.10446\n- *QuantAgent* is a novel multi-agent LLM framework for high-frequency trading, outperforming traditional systems. More info: https://huggingface.co/papers/2509.09995"
 }
