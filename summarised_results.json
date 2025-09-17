@@ -2,16 +2,16 @@
   "picked_headlines": [
     {
       "item_number": 4,
-      "summary": "Cross-Platform Scaling of VLA Models from Edge to Cloud GPUs.",
-      "link": "https://arxiv.org/abs/2509.11480",
-      "reason_for_choice": "This article provides insights into the performance and scalability of Vision-Language-Action models across different hardware platforms, making it relevant for both engineers and product managers looking to optimize AI deployments."
+      "summary": "Agentic AI enhances financial crime compliance with automation and explainability.",
+      "link": "https://arxiv.org/abs/2509.13137",
+      "reason_for_choice": "This article bridges AI technology with practical applications in compliance, making it relevant for both technical and managerial audiences."
     },
     {
-      "item_number": 6,
-      "summary": "Intelligent Reservoir Decision Support for Real-Time Petroleum Operations.",
-      "link": "https://arxiv.org/abs/2509.11376",
-      "reason_for_choice": "The integration of AI in petroleum operations showcases a practical application of advanced models, appealing to stakeholders interested in cost reduction and operational efficiency."
+      "item_number": 80,
+      "summary": "FastDriveVLA optimizes autonomous driving with efficient token pruning.",
+      "link": "https://arxiv.org/abs/2507.23318",
+      "reason_for_choice": "This article highlights advancements in autonomous driving technology, appealing to engineering and product development stakeholders."
     }
   ],
-  "digest": "- *Principled Approximation Methods* in deep learning can enhance model compression and architecture design, crucial for engineers focusing on optimization. [Read more](https://arxiv.org/abs/2509.00174)\n- *Role-Based Access Control* for AI agents in industrial applications addresses security vulnerabilities, a key concern for management. [Read more](https://arxiv.org/abs/2509.11431)\n- *VoltanaLLM* introduces energy-efficient serving for large language models, aligning with sustainability goals in tech. [Read more](https://arxiv.org/abs/2509.04827)\n- *D$^2$HScore* framework improves hallucination detection in language models, enhancing reliability in AI outputs. [Read more](https://arxiv.org/abs/2509.11569)\n- *ISACL* offers solutions to prevent copyrighted data leakage in AI, crucial for compliance and data privacy. [Read more](https://arxiv.org/abs/2508.17767)\n- *FlexBench* provides a modular AI benchmarking tool, aiding in system performance optimization. [Read more](https://arxiv.org/abs/2509.11413)\n- *Judge Q* improves information retention in language models, enhancing performance with minimal cost. [Read more](https://arxiv.org/abs/2509.10798)\n- *Hyperbolic Graph Neural Networks* for environmental claim detection outperform traditional models, offering a 30x parameter reduction. [Read more](https://arxiv.org/abs/2502.13628)\n- *GAPrune* focuses on domain-aware model pruning, achieving compression and performance improvements. [Read more](https://huggingface.co/papers/2509.10844)\n- *OmniWorld* dataset enhances 4D world modeling, improving reconstruction and video generation. [Read more](https://huggingface.co/papers/2509.12201)"
+  "digest": "- *YOLOv8 vs YOLOv11*: A comparative study on underwater vision tasks reveals YOLOv10's optimal speed-accuracy for AUVs. [Read more](https://arxiv.org/abs/2509.12682)\n- *MetaLLMix*: An XAI-aided meta-learning approach optimizes hyperparameters, reducing costs and training times. [Read more](https://arxiv.org/abs/2509.09387)\n- *LoRA/QLoRA Efficiency*: Benchmarks fine-tuning on RTX 4060, providing insights for LLMs on consumer GPUs. [Read more](https://arxiv.org/abs/2509.12229)\n- *Quantum-Inspired Diabetes Prediction*: Combines quantum techniques with ML for better accuracy in diabetes risk prediction. [Read more](https://arxiv.org/abs/2509.12259)\n- *TinyServe*: Enhances LLM serving efficiency with query-aware cache selection, achieving speed and memory savings. [Read more](https://arxiv.org/abs/2509.12211)\n- *Ratio1 AI Meta-OS*: A decentralized AI meta-OS using blockchain for secure, efficient AI model deployment. [Read more](https://arxiv.org/abs/2509.12223)\n- *Scaling Agents*: Introduces continual pre-training for agentic models, achieving state-of-the-art results. [Read more](https://arxiv.org/abs/2509.13310)\n- *LTA-thinker*: Enhances reasoning in LLMs by optimizing latent thought generation, achieving state-of-the-art performance. [Read more](https://arxiv.org/abs/2509.12875)\n- *ReSum*: Improves LLM agents by summarizing context for better long-horizon search. [Read more](https://arxiv.org/abs/2509.13313)\n- *Match Chat*: Enhances tennis fan experience with real-time AI, achieving high accuracy and uptime. [Read more](https://arxiv.org/abs/2509.12592)"
 }
