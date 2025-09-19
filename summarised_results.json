@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "Hybrid quantum-classical models outperform CNNs in image classification.",
-      "link": "https://arxiv.org/abs/2509.13353",
-      "reason_for_choice": "This article highlights a significant advancement in AI technology, showcasing the potential of hybrid models in improving image classification accuracy and efficiency, making it relevant for both technical and managerial audiences."
+      "item_number": 4,
+      "summary": "TableDART improves table understanding by integrating text and image modalities.",
+      "link": "https://arxiv.org/abs/2509.14671",
+      "reason_for_choice": "This article bridges AI research with practical applications in data processing, appealing to both technical and managerial audiences."
     },
     {
-      "item_number": 5,
-      "summary": "InfraMind: A new GUI framework for industrial management.",
-      "link": "https://arxiv.org/abs/2509.13704",
-      "reason_for_choice": "InfraMind addresses critical automation challenges in industrial management, offering innovative solutions that appeal to both engineers and stakeholders interested in operational efficiency and safety."
+      "item_number": 105,
+      "summary": "AI reshapes tech interviews, adapting processes to combat cheating and embrace AI-assisted evaluations.",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-146",
+      "reason_for_choice": "This headline is relevant for engineering leadership and HR stakeholders, highlighting the evolving landscape of tech recruitment."
     }
   ],
-  "digest": "- *Slim-SC* improves LLM efficiency by pruning redundant reasoning chains, maintaining accuracy. Learn more: https://arxiv.org/abs/2509.13990\n- *Co-Investigator AI* enhances AML compliance by generating accurate SARs faster. Discover the details: https://arxiv.org/abs/2509.08380\n- *$Agent^2$* automates RL agent design using LLMs, improving performance and accessibility. Explore further: https://arxiv.org/abs/2509.13368\n- *Evolution Meets Diffusion* combines evolutionary algorithms with diffusion models for efficient neural architecture generation. Read more: https://arxiv.org/abs/2504.17827\n- *Synthesizing Behaviorally-Grounded Reasoning Chains* for personal finance LLMs integrates behavioral finance for better advice. Check it out: https://arxiv.org/abs/2509.14180\n- *Uni-CoT* proposes a unified framework for multimodal reasoning, enhancing LLMs with efficient visual state transitions. More info: https://arxiv.org/abs/2508.05606\n- *Re-purposing SAM* into efficient visual projectors for RIS reduces token count by 93% while maintaining performance. Details here: https://arxiv.org/abs/2509.13676\n- *State Space Models over Directed Graphs* introduces DirGraphSSM, enhancing causal dependency learning. Learn more: https://arxiv.org/abs/2509.13735\n- *LLM Agents for Interactive Workflow Provenance* presents a novel architecture for analyzing complex workflow provenance data. Discover more: https://arxiv.org/abs/2509.13978\n- *MOCHA* enables efficient knowledge transfer from multimodal to lightweight object detectors. Explore further: https://arxiv.org/abs/2509.14001"
+  "digest": "- *Robust Agentic CUDA Kernel Benchmarking*: Introducing robust-kbench for better CUDA kernel evaluation and optimization with LLMs. [Read more](https://arxiv.org/abs/2509.14279)\n- *Patent Language Model Pretraining*: ModernBERT shows improved performance for patents, emphasizing domain-specific approaches. [Read more](https://arxiv.org/abs/2509.14926)\n- *Differentially Private Text Generation*: SynBench addresses privacy in sensitive domains with new evaluation metrics. [Read more](https://arxiv.org/abs/2509.14594)\n- *Online Malicious Intent Detection*: ADRAG achieves high performance with lower latency using a two-stage model. [Read more](https://arxiv.org/abs/2509.14622)\n- *Reliable Evaluation of Agentic Workflows*: AgentCompass enhances monitoring and debugging in LLM deployments. [Read more](https://arxiv.org/abs/2509.14647)\n- *Dynamic Data Optimization for LLM Fine-Tuning*: Middo improves accuracy by 7.15% through closed-loop learning. [Read more](https://arxiv.org/abs/2508.21589)\n- *Atypical Mitosis Classification*: Ensemble Pathology Models enhance accuracy in medical imaging. [Read more](https://arxiv.org/abs/2509.02591)\n- *Machine-Generated Text Detection*: DetectAnyLLM outperforms existing methods with Direct Discrepancy Learning. [Read more](https://arxiv.org/abs/2509.14268)\n- *Multilingual Synthetic Text & Audio Data*: SpeechWeave enhances TTS model training with diverse data generation. [Read more](https://arxiv.org/abs/2509.14270)\n- *AI as a Strategic Growth Catalyst for SMEs*: Framework for strategic AI adoption in small businesses. [Read more](https://arxiv.org/abs/2509.14532)"
 }
