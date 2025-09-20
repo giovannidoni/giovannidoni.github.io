@@ -52,18 +52,43 @@ const Blog = () => {
             </div>
             <Carousel className="w-full max-w-6xl mx-auto">
               <CarouselContent>
-                {linkedinPosts.map((post, index) => (
-                  <CarouselItem key={`linkedin-${index}`} className="basis-full md:basis-1/2">
-                    <Card className="p-4 h-full">
-                      <div className="flex justify-center">
-                        <div 
-                          className="linkedin-embed w-full max-w-[504px] [&_iframe]:w-full [&_iframe]:max-w-full [&_iframe]:h-auto [&_iframe]:min-h-[400px] sm:[&_iframe]:min-h-[500px]"
-                          dangerouslySetInnerHTML={{ __html: post.embedCode }}
-                        />
-                      </div>
-                    </Card>
-                  </CarouselItem>
-                ))}
+                {linkedinPosts.map((post, index) => {
+                  // Extract the share ID from the embed code
+                  const shareMatch = post.embedCode.match(/urn:li:share:(\d+)/);
+                  const shareId = shareMatch ? shareMatch[1] : null;
+                  const postUrl = shareId ? `https://www.linkedin.com/posts/giovanni-doni_${shareId}` : '#';
+
+                  return (
+                    <CarouselItem key={`linkedin-${index}`} className="basis-full md:basis-1/2">
+                      <Card className="p-6 h-full flex flex-col justify-between min-h-[300px] bg-gradient-to-br from-[#0077B5]/10 to-[#004471]/10 border-[#0077B5]/20">
+                        <div className="flex-1 flex flex-col items-center justify-center text-center space-y-4">
+                          <div className="bg-[#0077B5] p-4 rounded-full">
+                            <Linkedin className="h-8 w-8 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="text-lg font-semibold text-foreground mb-2">
+                              LinkedIn Post #{post.index}
+                            </h4>
+                            <p className="text-muted-foreground mb-4">
+                              Click to view this post on LinkedIn
+                            </p>
+                          </div>
+                        </div>
+                        <div className="mt-4">
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="w-full border-[#0077B5] text-[#0077B5] hover:bg-[#0077B5] hover:text-white"
+                            onClick={() => window.open(postUrl, '_blank', 'noopener,noreferrer')}
+                          >
+                            <ExternalLink className="h-4 w-4 mr-2" />
+                            View on LinkedIn
+                          </Button>
+                        </div>
+                      </Card>
+                    </CarouselItem>
+                  );
+                })}
               </CarouselContent>
               <CarouselPrevious />
               <CarouselNext />

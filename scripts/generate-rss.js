@@ -33,7 +33,19 @@ function generateRSSFeeds() {
     // Generate combined RSS only
     const allContent = [
       ...blogArticlesWithContent.map(article => ({...article, type: 'blog'})),
-      ...linkedinPosts.map(post => ({...post, type: 'linkedin', title: `LinkedIn Post #${post.index}`, date: new Date().toISOString(), url: `https://giovannidoni.github.io/#linkedin-post-${post.index}`})),
+      ...linkedinPosts.map(post => {
+        // Extract share ID from embed code for proper LinkedIn URL
+        const shareMatch = post.embedCode.match(/urn:li:share:(\d+)/);
+        const shareId = shareMatch ? shareMatch[1] : post.index;
+        return {
+          ...post,
+          type: 'linkedin',
+          title: `LinkedIn Post #${post.index}`,
+          date: new Date().toISOString(),
+          url: `https://www.linkedin.com/posts/giovanni-doni_${shareId}`,
+          description: `View LinkedIn Post #${post.index} by Giovanni Doni`
+        };
+      }),
     ].sort((a, b) => new Date(b.date) - new Date(a.date));
 
     const combinedRSS = `<?xml version="1.0" encoding="UTF-8"?>
@@ -50,7 +62,7 @@ function generateRSSFeeds() {
       <title>${item.title}</title>
       <description><![CDATA[${
         item.type === 'blog' ? item.fullContent :
-        item.embedCode
+        item.description || `LinkedIn Post #${item.index} by Giovanni Doni. View the full post on LinkedIn.`
       }]]></description>
       <link>${
         item.type === 'blog' ? `https://giovannidoni.github.io/blog/${item.slug}` :

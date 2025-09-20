@@ -29,6 +29,8 @@ export default defineConfig(({ mode }) => ({
         chunkFileNames: 'assets/[name]-[hash].js',
         assetFileNames: 'assets/[name]-[hash].[ext]'
       }
-    }
+    },
+    // Ensure assets are optimized for caching
+    assetsInlineLimit: 0, // Don't inline assets, keep them as separate files for better caching
   },
 }));

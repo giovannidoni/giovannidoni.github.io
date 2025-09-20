@@ -1,0 +1,55 @@
+# Cache static assets for 1 week (immutable due to hash in filename)
+/assets/*.js
+  Cache-Control: public, max-age=604800, immutable
+
+/assets/*.css
+  Cache-Control: public, max-age=604800, immutable
+
+# Cache images for 1 week (they have hashes in filenames)
+/assets/*.webp
+  Cache-Control: public, max-age=604800, immutable
+
+/assets/*.png
+  Cache-Control: public, max-age=604800, immutable
+
+/assets/*.jpg
+  Cache-Control: public, max-age=604800, immutable
+
+/assets/*.jpeg
+  Cache-Control: public, max-age=604800, immutable
+
+/assets/*.gif
+  Cache-Control: public, max-age=604800, immutable
+
+/assets/*.svg
+  Cache-Control: public, max-age=604800, immutable
+
+# Cache fonts for 1 week
+/assets/*.woff
+  Cache-Control: public, max-age=604800, immutable
+
+/assets/*.woff2
+  Cache-Control: public, max-age=604800, immutable
+
+# Cache HTML for shorter time (1 hour)
+/*.html
+  Cache-Control: public, max-age=3600
+
+# Cache root HTML for shorter time
+/
+  Cache-Control: public, max-age=3600
+
+# Cache service worker for shorter time
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Cache sitemap and RSS for 1 day
+/sitemap.xml
+  Cache-Control: public, max-age=86400
+
+/rss/feed.xml
+  Cache-Control: public, max-age=86400
+
+# Cache robots.txt for 1 day
+/robots.txt
+  Cache-Control: public, max-age=86400
