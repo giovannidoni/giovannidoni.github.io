@@ -32,6 +32,25 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  // Add fetch priority optimization for critical assets
+  const isCriticalAsset = /\/assets\/(index-.*\.(js|css)|6069157c-16af-41e6-a698-637aa684d8eb\.webp)$/.test(url.pathname);
+
+  if (isCriticalAsset && event.request.url.indexOf('?priority=high') === -1) {
+    // Clone the request to add priority hint
+    const modifiedRequest = new Request(event.request.url + '?priority=high', {
+      method: event.request.method,
+      headers: event.request.headers,
+      body: event.request.body,
+      mode: event.request.mode,
+      credentials: event.request.credentials,
+      cache: event.request.cache,
+      redirect: event.request.redirect,
+      referrer: event.request.referrer
+    });
+
+    event.request = modifiedRequest;
+  }
+
   const isLongCacheAsset = LONG_CACHE_PATTERNS.some(pattern => pattern.test(url.pathname));
   const isShortCacheAsset = SHORT_CACHE_PATTERNS.some(pattern => pattern.test(url.pathname));
 
