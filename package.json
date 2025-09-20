@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate:sitemap && npm run generate:rss && vite build",
-    "build:dev": "npm run generate:sitemap && npm run generate:rss && vite build --mode development",
+    "build": "npm run generate:google-verification && npm run generate:sitemap && npm run generate:rss && vite build",
+    "build:dev": "npm run generate:google-verification && npm run generate:sitemap && npm run generate:rss && vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
     "generate:sitemap": "node scripts/generate-sitemap.js",
     "generate:rss": "node scripts/generate-rss.js",
-    "generate:seo": "npm run generate:sitemap && npm run generate:rss"
+    "generate:seo": "npm run generate:sitemap && npm run generate:rss",
+    "generate:google-verification": "node scripts/generate-google-verification.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
