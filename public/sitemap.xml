@@ -1,21 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://giovannidoni.github.io/</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://giovannidoni.github.io/blog</loc>
+    <lastmod>2025-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://giovannidoni.github.io/privacy</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://giovannidoni.github.io/blog</loc>
-    <lastmod>2025-01-20</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://giovannidoni.github.io/blog/fitting-intelligence</loc>
+    <lastmod>2025-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://giovannidoni.github.io/blog/scaling-llms-production-deliveroo</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://giovannidoni.github.io/blog/dolomites-data-mountains-ml</loc>
+    <lastmod>2023-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://giovannidoni.github.io/blog/robust-ml-pipelines-kubernetes-argo</loc>
+    <lastmod>2023-11-28</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>

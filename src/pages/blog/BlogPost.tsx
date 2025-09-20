@@ -39,10 +39,55 @@ const BlogPost = () => {
 
   useEffect(() => {
     const foundArticle = blogArticles.find((article: BlogArticle) => article.slug === slug);
-    
+
     if (foundArticle) {
       setArticle(foundArticle);
-      
+
+      // Update page title and meta tags
+      document.title = `${foundArticle.title} | Giovanni Doni`;
+
+      // Update meta description
+      const metaDescription = document.querySelector('meta[name="description"]');
+      if (metaDescription) {
+        metaDescription.setAttribute('content', foundArticle.excerpt);
+      }
+
+      // Update Open Graph tags
+      const ogTitle = document.querySelector('meta[property="og:title"]');
+      if (ogTitle) {
+        ogTitle.setAttribute('content', foundArticle.title);
+      }
+
+      const ogDescription = document.querySelector('meta[property="og:description"]');
+      if (ogDescription) {
+        ogDescription.setAttribute('content', foundArticle.excerpt);
+      }
+
+      const ogUrl = document.querySelector('meta[property="og:url"]');
+      if (ogUrl) {
+        ogUrl.setAttribute('content', `https://giovannidoni.github.io/blog/${foundArticle.slug}`);
+      }
+
+      // Update Twitter tags
+      const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+      if (twitterTitle) {
+        twitterTitle.setAttribute('content', foundArticle.title);
+      }
+
+      const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+      if (twitterDescription) {
+        twitterDescription.setAttribute('content', foundArticle.excerpt);
+      }
+
+      // Update canonical URL
+      let canonical = document.querySelector('link[rel="canonical"]');
+      if (!canonical) {
+        canonical = document.createElement('link');
+        canonical.setAttribute('rel', 'canonical');
+        document.head.appendChild(canonical);
+      }
+      canonical.setAttribute('href', `https://giovannidoni.github.io/blog/${foundArticle.slug}`);
+
       // Get markdown content from static imports
       const markdownContent = contentMap[foundArticle.contentFile];
       if (markdownContent) {

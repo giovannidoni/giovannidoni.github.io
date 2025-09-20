@@ -19,9 +19,16 @@ interface AIResearchData {
 const AIResearchDigest = () => {
   const isMobile = useIsMobile();
   const [researchData, setResearchData] = useState<AIResearchData | null>(null);
-  const [isOpen, setIsOpen] = useState(!isMobile);
+  const [isOpen, setIsOpen] = useState(false);
   const [showDigest, setShowDigest] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
+
+  // Update isOpen based on mobile detection after initial render
+  useEffect(() => {
+    if (isMobile !== undefined) {
+      setIsOpen(!isMobile);
+    }
+  }, [isMobile]);
 
   const loadResearchData = async () => {
     try {

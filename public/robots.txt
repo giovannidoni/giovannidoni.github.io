@@ -13,6 +13,33 @@ User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
 
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# AI crawlers for training
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
 # Social media crawlers
 User-agent: Twitterbot
 Allow: /
@@ -23,5 +50,21 @@ Allow: /
 User-agent: LinkedInBot
 Allow: /
 
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Academic and research crawlers
+User-agent: ia_archiver
+Allow: /
+
+User-agent: Wayback
+Allow: /
+
 # Sitemap location
 Sitemap: https://giovannidoni.github.io/sitemap.xml
+
+# RSS feed location
+Sitemap: https://giovannidoni.github.io/rss/feed.xml
