@@ -43,13 +43,14 @@ const About = () => {
               About Me
             </Badge>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Peak Performance in{" "}
+              Senior ML Engineer &{" "}
               <span className="bg-gradient-accent bg-clip-text text-transparent">
-                AI / Machine Learning
+                AI Tech Lead
               </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Innovation that climbs. Honed precision delivering peak‑performance through ML/AI.
+              Senior Machine Learning Engineer and AI Tech Lead with 10+ years delivering scalable ML solutions.
+              PhD Data Scientist specializing in MLOps, LLMs, and AI system architecture that drives business value.
             </p>
           </div>
 

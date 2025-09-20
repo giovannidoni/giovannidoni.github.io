@@ -67,8 +67,8 @@ const Hero = () => {
           <div className="space-y-3 md:space-y-4">
             
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Passionate end-to-end data professional, delivering ML and AI solutions that scale. 
-              Bringing precision and innovation to complex technical challenges.
+              Senior Machine Learning Engineer, AI Engineer & Tech Lead.
+              Delivering production-scale ML solutions and leading high-performing AI teams that drive innovation.
             </p>
           </div>
 

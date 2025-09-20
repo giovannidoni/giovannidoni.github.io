@@ -5,7 +5,7 @@
     <description>Latest blog posts and LinkedIn updates from Giovanni Doni</description>
     <link>https://giovannidoni.github.io/</link>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Sep 2025 20:32:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Sep 2025 20:51:13 GMT</lastBuildDate>
     <atom:link href="https://giovannidoni.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -13,7 +13,7 @@
       <description><![CDATA[View LinkedIn Post #2 by Giovanni Doni]]></description>
       <link>https://www.linkedin.com/posts/giovanni-doni_7355637024210530304</link>
       <guid>https://www.linkedin.com/posts/giovanni-doni_7355637024210530304</guid>
-      <pubDate>Sat, 20 Sep 2025 20:32:29 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 20:51:13 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -22,7 +22,7 @@
       <description><![CDATA[View LinkedIn Post #3 by Giovanni Doni]]></description>
       <link>https://www.linkedin.com/posts/giovanni-doni_7354061415579561985</link>
       <guid>https://www.linkedin.com/posts/giovanni-doni_7354061415579561985</guid>
-      <pubDate>Sat, 20 Sep 2025 20:32:29 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 20:51:13 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -31,7 +31,7 @@
       <description><![CDATA[View LinkedIn Post #4 by Giovanni Doni]]></description>
       <link>https://www.linkedin.com/posts/giovanni-doni_7339301481948311552</link>
       <guid>https://www.linkedin.com/posts/giovanni-doni_7339301481948311552</guid>
-      <pubDate>Sat, 20 Sep 2025 20:32:29 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 20:51:13 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -40,7 +40,7 @@
       <description><![CDATA[View LinkedIn Post #5 by Giovanni Doni]]></description>
       <link>https://www.linkedin.com/posts/giovanni-doni_7339579159720910848</link>
       <guid>https://www.linkedin.com/posts/giovanni-doni_7339579159720910848</guid>
-      <pubDate>Sat, 20 Sep 2025 20:32:29 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 20:51:13 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -49,7 +49,7 @@
       <description><![CDATA[View LinkedIn Post #6 by Giovanni Doni]]></description>
       <link>https://www.linkedin.com/posts/giovanni-doni_7338097403826196481</link>
       <guid>https://www.linkedin.com/posts/giovanni-doni_7338097403826196481</guid>
-      <pubDate>Sat, 20 Sep 2025 20:32:29 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 20:51:13 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -58,12 +58,12 @@
       <description><![CDATA[View LinkedIn Post #1 by Giovanni Doni]]></description>
       <link>https://www.linkedin.com/posts/giovanni-doni_7355928384205422592</link>
       <guid>https://www.linkedin.com/posts/giovanni-doni_7355928384205422592</guid>
-      <pubDate>Sat, 20 Sep 2025 20:32:29 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 20:51:13 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
-      <title>Fitting intelligence</title>
+      <title>Fitting Intelligence: A Modular AI Stack for Machine Learning Engineers</title>
       <description><![CDATA[# Fitting intelligence
 
 ## A pragmatic, modular AI stack—smaller models, privacy-safe orchestration, and control without a monolith.
@@ -199,11 +199,11 @@ We don't need general artificial intelligence everywhere. What we need is an int
       <link>https://giovannidoni.github.io/blog/fitting-intelligence</link>
       <guid>https://giovannidoni.github.io/blog/fitting-intelligence</guid>
       <pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate>
-      <category>SLMs, Agentic, Strategy</category>
+      <category>AI Architecture, MLOps, Tech Leadership</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
-      <title>Scaling LLMs in Production: Lessons from Deliveroo</title>
+      <title>Scaling LLMs in Production: ML Engineer's Guide from Deliveroo Experience</title>
       <description><![CDATA[# Scaling LLMs in Production: Lessons from Deliveroo
 
 ## The Challenge of Scale
@@ -270,11 +270,11 @@ The key to success with LLMs in production is treating them as part of a larger 
       <link>https://giovannidoni.github.io/blog/scaling-llms-production-deliveroo</link>
       <guid>https://giovannidoni.github.io/blog/scaling-llms-production-deliveroo</guid>
       <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-      <category>LLMs, Production, MLOps</category>
+      <category>LLMs, Production MLOps, Tech Leadership</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
-      <title>From the Dolomites to Data: What Mountains Teach Us About ML</title>
+      <title>From the Dolomites to Data: What Mountains Teach ML Engineers About Success</title>
       <description><![CDATA[# From the Dolomites to Data: What Mountains Teach Us About ML
 
 ## The Summit Mindset
@@ -356,11 +356,11 @@ The mountain will always be there, ready for your next attempt. And each climb m
       <link>https://giovannidoni.github.io/blog/dolomites-data-mountains-ml</link>
       <guid>https://giovannidoni.github.io/blog/dolomites-data-mountains-ml</guid>
       <pubDate>Wed, 20 Dec 2023 00:00:00 GMT</pubDate>
-      <category>Career, Philosophy, Mountains</category>
+      <category>ML Career, Tech Leadership, Professional Growth</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
-      <title>Building Robust ML Pipelines with Kubernetes and Argo</title>
+      <title>Building Robust ML Pipelines: Senior Engineer's Guide to Kubernetes and Argo</title>
       <description><![CDATA[# Building Robust ML Pipelines with Kubernetes and Argo
 
 ## The Need for Orchestration
@@ -571,7 +571,7 @@ Remember that the goal isn't to build the most complex system possible, but to b
       <link>https://giovannidoni.github.io/blog/robust-ml-pipelines-kubernetes-argo</link>
       <guid>https://giovannidoni.github.io/blog/robust-ml-pipelines-kubernetes-argo</guid>
       <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
-      <category>Kubernetes, MLOps, Infrastructure</category>
+      <category>Kubernetes MLOps, AI Infrastructure, DevOps Engineering</category>
       <author>Giovanni Doni</author>
     </item>
   </channel>

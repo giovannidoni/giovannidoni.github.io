@@ -1,0 +1,66 @@
+# SEO Keywords and Content for Giovanni Doni
+# This file helps search engines understand the main topics and keywords
+
+## Primary Keywords
+Giovanni Doni
+Senior Machine Learning Engineer
+AI Engineer
+Tech Lead
+Data Scientist
+ML Engineer
+
+## Secondary Keywords
+Machine Learning Engineering
+Artificial Intelligence Engineer
+Technical Leadership
+MLOps Engineer
+Deep Learning Engineer
+AI Tech Lead
+Senior Data Scientist
+London ML Engineer
+UK AI Engineer
+Freelance ML Engineer
+
+## Skills and Technologies
+Python Machine Learning
+TensorFlow Engineering
+PyTorch Development
+AWS ML Solutions
+Kubernetes MLOps
+Docker Containers
+Spark Big Data
+Scala Programming
+SQL Data Engineering
+Computer Vision
+Natural Language Processing
+Large Language Models
+LLMs
+Deep Learning
+Neural Networks
+Data Science
+Statistical Modeling
+
+## Company Experience
+Deliveroo ML Engineer
+Tesco Data Scientist
+King's College London PhD
+PhD Data Science
+London Tech Industry
+
+## Services and Expertise
+ML System Architecture
+AI Solution Development
+Technical Team Leadership
+MLOps Implementation
+Production ML Deployment
+Scalable AI Systems
+Data Pipeline Engineering
+Model Training and Optimization
+AI Strategy Consulting
+
+## Location and Availability
+London ML Engineer
+UK AI Engineer
+Remote ML Consultant
+European AI Tech Lead
+Freelance ML Engineer London

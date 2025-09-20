@@ -14,9 +14,9 @@ function generateSitemap() {
 
     // Define static pages with their priorities and change frequencies
     const staticPages = [
-      { loc: '/', priority: '1.0', changefreq: 'weekly' },
-      { loc: '/blog', priority: '0.9', changefreq: 'weekly' },
-      { loc: '/privacy', priority: '0.3', changefreq: 'monthly' },
+      { loc: '/', priority: '1.0', changefreq: 'weekly', title: 'Giovanni Doni - Senior Machine Learning Engineer | AI Engineer & Tech Lead' },
+      { loc: '/blog', priority: '0.9', changefreq: 'weekly', title: 'Giovanni Doni - Blog | ML Engineering & AI Insights' },
+      { loc: '/privacy', priority: '0.3', changefreq: 'monthly', title: 'Privacy Policy - Giovanni Doni' },
     ];
 
     // Generate blog post URLs

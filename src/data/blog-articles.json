@@ -1,37 +1,37 @@
 [
   {
-    "title": "Fitting intelligence",
-    "excerpt": "The case for a modular stack for selective LLMs for reasoning, and privacy-safe orchestration.",
+    "title": "Fitting Intelligence: A Modular AI Stack for Machine Learning Engineers",
+    "excerpt": "Senior ML Engineer's guide to building modular AI stacks with selective LLMs, privacy-safe orchestration, and scalable intelligence systems for production environments.",
     "date": "2025-07-31",
     "readTime": "15 min",
-    "tags": ["SLMs", "Agentic", "Strategy"],
+    "tags": ["AI Architecture", "MLOps", "Tech Leadership"],
     "slug": "fitting-intelligence",
     "contentFile": "fitting-intelligence.md"
   },
   {
-    "title": "Scaling LLMs in Production: Lessons from Deliveroo",
-    "excerpt": "A deep dive into the challenges and solutions for deploying large language models at scale in production environments.",
+    "title": "Scaling LLMs in Production: ML Engineer's Guide from Deliveroo Experience",
+    "excerpt": "Senior ML Engineer's deep dive into challenges and solutions for deploying large language models at scale in production environments, with real-world lessons from leading tech companies.",
     "date": "2024-01-15",
     "readTime": "8 min",
-    "tags": ["LLMs", "Production", "MLOps"],
+    "tags": ["LLMs", "Production MLOps", "Tech Leadership"],
     "slug": "scaling-llms-production-deliveroo",
     "contentFile": "scaling-llms-production-deliveroo.md"
   },
   {
-    "title": "From the Dolomites to Data: What Mountains Teach Us About ML",
-    "excerpt": "Drawing parallels between mountain climbing and machine learning - patience, preparation, and the importance of taking one step at a time.",
+    "title": "From the Dolomites to Data: What Mountains Teach ML Engineers About Success",
+    "excerpt": "Senior ML Engineer's insights on drawing parallels between mountain climbing and machine learning career development - patience, preparation, and strategic thinking for tech leadership success.",
     "date": "2023-12-20",
     "readTime": "5 min",
-    "tags": ["Career", "Philosophy", "Mountains"],
+    "tags": ["ML Career", "Tech Leadership", "Professional Growth"],
     "slug": "dolomites-data-mountains-ml",
     "contentFile": "dolomites-data-mountains-ml.md"
   },
   {
-    "title": "Building Robust ML Pipelines with Kubernetes and Argo",
-    "excerpt": "A practical guide to orchestrating machine learning workflows using modern container orchestration tools.",
+    "title": "Building Robust ML Pipelines: Senior Engineer's Guide to Kubernetes and Argo",
+    "excerpt": "Comprehensive MLOps guide from a Senior ML Engineer on orchestrating production machine learning workflows using Kubernetes, Argo, and modern container orchestration for scalable AI systems.",
     "date": "2023-11-28",
     "readTime": "12 min",
-    "tags": ["Kubernetes", "MLOps", "Infrastructure"],
+    "tags": ["Kubernetes MLOps", "AI Infrastructure", "DevOps Engineering"],
     "slug": "robust-ml-pipelines-kubernetes-argo",
     "contentFile": "robust-ml-pipelines-kubernetes-argo.md"
   }
