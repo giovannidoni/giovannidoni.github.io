@@ -1,92 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Giovanni Doni - Blog, LinkedIn &amp; AI Research</title>
-    <description>Latest blog posts, LinkedIn updates, and AI research highlights</description>
-    <link>https://giovanni-doni.github.io/</link>
+    <title>Giovanni Doni - Blog &amp; LinkedIn</title>
+    <description>Latest blog posts and LinkedIn updates from Giovanni Doni</description>
+    <link>https://</link>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Sep 2025 12:46:29 GMT</lastBuildDate>
-    <atom:link href="https://giovanni-doni.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Sep 2025 20:23:18 GMT</lastBuildDate>
+    <atom:link href="https://rss/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>LinkedIn Post #1</title>
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7355928384205422592?collapsed=1" height="566" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
-      <link>https://giovanni-doni.github.io/#linkedin-post-1</link>
-      <guid>https://giovanni-doni.github.io/#linkedin-post-1</guid>
-      <pubDate>Sat, 20 Sep 2025 12:46:29 GMT</pubDate>
+      <link>https://#linkedin-post-1</link>
+      <guid>https://#linkedin-post-1</guid>
+      <pubDate>Sat, 20 Sep 2025 20:23:18 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
       <title>LinkedIn Post #2</title>
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7355637024210530304" height="265" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
-      <link>https://giovanni-doni.github.io/#linkedin-post-2</link>
-      <guid>https://giovanni-doni.github.io/#linkedin-post-2</guid>
-      <pubDate>Sat, 20 Sep 2025 12:46:29 GMT</pubDate>
+      <link>https://#linkedin-post-2</link>
+      <guid>https://#linkedin-post-2</guid>
+      <pubDate>Sat, 20 Sep 2025 20:23:18 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
       <title>LinkedIn Post #3</title>
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7354061415579561985?collapsed=1" height="569" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
-      <link>https://giovanni-doni.github.io/#linkedin-post-3</link>
-      <guid>https://giovanni-doni.github.io/#linkedin-post-3</guid>
-      <pubDate>Sat, 20 Sep 2025 12:46:29 GMT</pubDate>
+      <link>https://#linkedin-post-3</link>
+      <guid>https://#linkedin-post-3</guid>
+      <pubDate>Sat, 20 Sep 2025 20:23:18 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
       <title>LinkedIn Post #4</title>
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7339301481948311552?collapsed=1" height="552" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
-      <link>https://giovanni-doni.github.io/#linkedin-post-4</link>
-      <guid>https://giovanni-doni.github.io/#linkedin-post-4</guid>
-      <pubDate>Sat, 20 Sep 2025 12:46:29 GMT</pubDate>
+      <link>https://#linkedin-post-4</link>
+      <guid>https://#linkedin-post-4</guid>
+      <pubDate>Sat, 20 Sep 2025 20:23:18 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
       <title>LinkedIn Post #5</title>
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7339579159720910848?collapsed=1" height="583" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
-      <link>https://giovanni-doni.github.io/#linkedin-post-5</link>
-      <guid>https://giovanni-doni.github.io/#linkedin-post-5</guid>
-      <pubDate>Sat, 20 Sep 2025 12:46:29 GMT</pubDate>
+      <link>https://#linkedin-post-5</link>
+      <guid>https://#linkedin-post-5</guid>
+      <pubDate>Sat, 20 Sep 2025 20:23:18 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
       <title>LinkedIn Post #6</title>
       <description><![CDATA[<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7338097403826196481?collapsed=1" height="662" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>]]></description>
-      <link>https://giovanni-doni.github.io/#linkedin-post-6</link>
-      <guid>https://giovanni-doni.github.io/#linkedin-post-6</guid>
-      <pubDate>Sat, 20 Sep 2025 12:46:29 GMT</pubDate>
+      <link>https://#linkedin-post-6</link>
+      <guid>https://#linkedin-post-6</guid>
+      <pubDate>Sat, 20 Sep 2025 20:23:18 GMT</pubDate>
       <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>AI Research: DKG-LLM integrates knowledge graphs and LLMs for accurate medical diagnosis.</title>
-      <description><![CDATA[This article presents a significant advancement in medical AI, offering potential improvements in healthcare delivery and personalized treatment.]]></description>
-      <link>https://arxiv.org/abs/2508.06186</link>
-      <guid>ai-research-0</guid>
-      <pubDate>Sat, 20 Sep 2025 12:46:29 GMT</pubDate>
-      <category>AI Research, Machine Learning</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>AI Research: Grid-Agent uses LLMs for real-time power grid control, enhancing adaptability.</title>
-      <description><![CDATA[The integration of LLMs in power grid management highlights the potential for AI to improve critical infrastructure efficiency and reliability.]]></description>
-      <link>https://arxiv.org/abs/2508.05702</link>
-      <guid>ai-research-8</guid>
-      <pubDate>Sat, 20 Sep 2025 00:46:29 GMT</pubDate>
-      <category>AI Research, Machine Learning</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>AI Research: Aggression detection boosts LLMs for cyberbullying detection, outperforming standard methods.</title>
-      <description><![CDATA[This research addresses a pressing societal issue, showcasing AI's role in enhancing online safety and moderation.]]></description>
-      <link>https://arxiv.org/abs/2508.06360</link>
-      <guid>ai-research-44</guid>
-      <pubDate>Fri, 19 Sep 2025 12:46:29 GMT</pubDate>
-      <category>AI Research, Machine Learning</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
@@ -223,8 +196,8 @@ A privacy-safe, locally adapted stack combining:
 
 We don't need general artificial intelligence everywhere. What we need is an intelligence stack - where plenty of fruit comes just thanks to bees that pollinates with just 1 million neurons.
 ]]></description>
-      <link>https://giovanni-doni.github.io/blog/fitting-intelligence</link>
-      <guid>https://giovanni-doni.github.io/blog/fitting-intelligence</guid>
+      <link>https://blog/fitting-intelligence</link>
+      <guid>https://blog/fitting-intelligence</guid>
       <pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate>
       <category>SLMs, Agentic, Strategy</category>
       <author>Giovanni Doni</author>
@@ -294,8 +267,8 @@ As the LLM landscape continues to evolve rapidly, we're focusing on:
 - **Cost optimization**: Continuously improving our cost per request
 
 The key to success with LLMs in production is treating them as part of a larger system, not as magic solutions. Proper engineering practices, monitoring, and gradual rollouts are just as important as choosing the right model.]]></description>
-      <link>https://giovanni-doni.github.io/blog/scaling-llms-production-deliveroo</link>
-      <guid>https://giovanni-doni.github.io/blog/scaling-llms-production-deliveroo</guid>
+      <link>https://blog/scaling-llms-production-deliveroo</link>
+      <guid>https://blog/scaling-llms-production-deliveroo</guid>
       <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
       <category>LLMs, Production, MLOps</category>
       <author>Giovanni Doni</author>
@@ -380,8 +353,8 @@ Apply this same mindset to your ML projects:
 - Identify areas for improvement in your next project
 
 The mountain will always be there, ready for your next attempt. And each climb makes you better prepared for the challenges ahead.]]></description>
-      <link>https://giovanni-doni.github.io/blog/dolomites-data-mountains-ml</link>
-      <guid>https://giovanni-doni.github.io/blog/dolomites-data-mountains-ml</guid>
+      <link>https://blog/dolomites-data-mountains-ml</link>
+      <guid>https://blog/dolomites-data-mountains-ml</guid>
       <pubDate>Wed, 20 Dec 2023 00:00:00 GMT</pubDate>
       <category>Career, Philosophy, Mountains</category>
       <author>Giovanni Doni</author>
@@ -595,8 +568,8 @@ Building robust ML pipelines requires more than just good algorithms—it requir
 The key is to start simple and iterate. Focus on getting the basics right: version control, monitoring, and failure handling. As your needs grow, you can add more sophisticated features and optimizations.
 
 Remember that the goal isn't to build the most complex system possible, but to build a system that reliably delivers value to your users while being maintainable by your team.]]></description>
-      <link>https://giovanni-doni.github.io/blog/robust-ml-pipelines-kubernetes-argo</link>
-      <guid>https://giovanni-doni.github.io/blog/robust-ml-pipelines-kubernetes-argo</guid>
+      <link>https://blog/robust-ml-pipelines-kubernetes-argo</link>
+      <guid>https://blog/robust-ml-pipelines-kubernetes-argo</guid>
       <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
       <category>Kubernetes, MLOps, Infrastructure</category>
       <author>Giovanni Doni</author>
