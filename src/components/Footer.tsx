@@ -42,7 +42,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* Main Footer Content */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mb-8">
             {/* Brand */}
             <div className="lg:col-span-2 space-y-4">
               <div className="flex items-center space-x-2">
@@ -50,7 +50,7 @@ const Footer = () => {
                 <span className="text-2xl font-bold">Giovanni Doni</span>
               </div>
               <p className="text-white/80 max-w-md">
-                Senior ML and AI Engineer bridging the precision of Alpine adventures with 
+                Senior ML and AI Engineer bridging the precision of Alpine adventures with
                 the innovation of machine learning. Building scalable solutions that matter.
               </p>
               <div className="flex items-center gap-2">
@@ -65,24 +65,56 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Quick Links */}
-            <div>
-              <h4 className="font-semibold mb-4">Quick Links</h4>
-              <nav className="space-y-2">
-                {quickLinks.map((link, index) => (
-                  <button
-                    key={index}
-                    onClick={() => scrollToSection(link.href)}
-                    className="block text-white/80 hover:text-accent transition-colors"
+            {/* Quick Links and Connect - Side by Side on Mobile */}
+            <div className="grid grid-cols-2 lg:grid-cols-1 gap-8 lg:gap-0 lg:col-span-1">
+              {/* Quick Links */}
+              <div>
+                <h4 className="font-semibold mb-4">Quick Links</h4>
+                <nav className="space-y-2">
+                  {quickLinks.map((link, index) => (
+                    <button
+                      key={index}
+                      onClick={() => scrollToSection(link.href)}
+                      className="block text-white/80 hover:text-accent transition-colors"
+                    >
+                      {link.name}
+                    </button>
+                  ))}
+                </nav>
+              </div>
+
+              {/* Connect */}
+              <div className="lg:hidden">
+                <h4 className="font-semibold mb-4">Connect</h4>
+                <div className="flex flex-col space-y-4">
+                  {socialLinks.map((social, index) => (
+                    <Button
+                      key={index}
+                      variant="ghost"
+                      size="sm"
+                      className="justify-start p-0 h-auto text-white/80 hover:text-accent w-fit"
+                      onClick={() => handleSocialClick(social.href)}
+                    >
+                      <social.icon className="h-4 w-4 mr-2" />
+                      {social.label}
+                    </Button>
+                  ))}
+
+                  {/* RSS Feed */}
+                  <a
+                    href="/rss/feed.xml"
+                    target="_blank"
+                    className="flex items-center text-white/80 hover:text-accent transition-colors text-sm"
                   >
-                    {link.name}
-                  </button>
-                ))}
-              </nav>
+                    <Code className="h-4 w-4 mr-2" />
+                    RSS Feed
+                  </a>
+                </div>
+              </div>
             </div>
 
-            {/* Connect */}
-            <div>
+            {/* Connect - Desktop Only */}
+            <div className="hidden lg:block">
               <h4 className="font-semibold mb-4">Connect</h4>
               <div className="flex flex-col space-y-4">
                 {socialLinks.map((social, index) => (
@@ -97,28 +129,16 @@ const Footer = () => {
                     {social.label}
                   </Button>
                 ))}
-                
+
                 {/* RSS Feed */}
-                <a 
-                  href="/rss/feed.xml" 
+                <a
+                  href="/rss/feed.xml"
                   target="_blank"
                   className="flex items-center text-white/80 hover:text-accent transition-colors text-sm"
                 >
                   <Code className="h-4 w-4 mr-2" />
                   RSS Feed
                 </a>
-                
-                {/* LinkedIn Follow Button */}
-                <div className="pt-2">
-                  <a
-                    href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=giovanni-doni"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block text-center text-white bg-[#0A66C2] w-[200px] h-10 leading-10 rounded-2xl font-medium text-sm hover:bg-[#004182] transition-colors"
-                  >
-                    Follow on LinkedIn
-                  </a>
-                </div>
               </div>
             </div>
           </div>

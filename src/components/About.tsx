@@ -76,10 +76,12 @@ const About = () => {
               </div>
             </div>
 
-            <div 
+            <div
               className="rounded-2xl shadow-strong h-96 bg-cover bg-center"
+              role="img"
+              aria-label="Giovanni Doni - Data Science, Machine Learning and AI Expert"
               style={{
-                backgroundImage: `url('/lovable-uploads/d96abb46-95d6-4380-b1cc-4c796f725182.png')`
+                backgroundImage: `url('/assets/d96abb46-95d6-4380-b1cc-4c796f725182.webp')`
               }}
             />
           </div>
