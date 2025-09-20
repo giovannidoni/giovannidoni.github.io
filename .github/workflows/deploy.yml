@@ -49,7 +49,7 @@ jobs:
     - name: Generate SEO files (sitemap & RSS)
       run: npm run generate:seo
 
-    - name: Build with optimizations
+    - name: Build
       run: npm run build
       env:
         VITE_CALENDLY_URL: ${{ vars.VITE_CALENDLY_URL }}

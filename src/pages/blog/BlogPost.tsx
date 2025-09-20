@@ -201,21 +201,7 @@ const BlogPost = () => {
                   pre: ({children}) => <pre className="bg-muted p-4 rounded-lg overflow-x-auto mb-4">{children}</pre>,
                   a: ({children, href}) => <a href={href} className="text-primary hover:text-primary/80 underline">{children}</a>,
                   blockquote: ({children}) => <blockquote className="border-l-4 border-border pl-4 italic text-muted-foreground mb-4">{children}</blockquote>,
-                  img: ({src, alt}) => {
-                    // Add high priority to the first image (likely above fold)
-                    const isFirstImage = content.indexOf(`![${alt}](${src})`) === content.indexOf('![');
-                    return (
-                      <div className="flex justify-center my-6">
-                        <img
-                          src={src}
-                          alt={alt}
-                          className="max-w-full h-auto rounded-lg"
-                          fetchPriority={isFirstImage ? "high" : "low"}
-                          loading={isFirstImage ? "eager" : "lazy"}
-                        />
-                      </div>
-                    );
-                  }
+                  img: ({src, alt}) => <div className="flex justify-center my-6"><img src={src} alt={alt} className="max-w-full h-auto rounded-lg" /></div>
                 }}
               >
                 {content}
