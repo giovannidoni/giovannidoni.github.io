@@ -149,16 +149,8 @@ const Footer = () => {
               <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 text-white/60 text-sm text-center">
                 <span>© {currentYear} Giovanni Doni.</span>
                 <div className="flex items-center gap-1">
-                  <span>Built with</span>
-                  <Heart className="h-4 w-4 text-red-400" />
-                  <span>and React in London</span>
+                  <a href="/privacy" className="hover:text-accent transition-colors">Privacy Policy</a>
                 </div>
-              </div>
-              
-              <div className="flex flex-row items-center gap-6 text-sm text-white/60 text-center">
-                <span>Hosted on GitHub Pages</span>
-                <span>•</span>
-                <a href="/privacy" className="hover:text-accent transition-colors">Privacy Policy</a>
               </div>
               
               <p className="text-white/60 text-sm italic text-center">
