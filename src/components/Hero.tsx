@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowDown, Mountain, Calendar, FileText } from "lucide-react";
+import { ArrowDown, Mountain, Calendar, FileText, Linkedin } from "lucide-react";
 import AIResearchDigest from "@/components/AIResearchDigest";
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -58,14 +58,9 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto space-y-4 md:space-y-8">
-          
-          {/* AI Research Digest */}
-          <div className="mb-6">
-            <AIResearchDigest />
-          </div>
-          
+
           <div className="space-y-3 md:space-y-4">
-            
+
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
               Senior Machine Learning Engineer, AI Engineer & Tech Lead.
               Delivering production-scale ML solutions and leading high-performing AI teams that drive innovation.
@@ -73,11 +68,11 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="accent" size="lg" onClick={() => {console.log('Button clicked!'); scrollToSection("experience");}} className="shadow-strong">
+            <Button variant="accent" size="lg" onClick={() => {console.log('Button clicked!'); scrollToSection("experience");}} className="shadow-strong w-40">
               <FileText className="h-5 w-5" />
-              View My Work
+              My Work
             </Button>
-            <Button variant="outline" size="lg" className="bg-white/20 border-white/30 text-white hover:bg-white/30 backdrop-blur-sm" onClick={() => scrollToSection("contact")}>
+            <Button variant="outline" size="lg" className="bg-white/20 border-white/30 text-white hover:bg-white/30 backdrop-blur-sm w-40" onClick={() => scrollToSection("contact")}>
               <Calendar className="h-5 w-5" />
               Let's Chat
             </Button>
@@ -89,10 +84,16 @@ const Hero = () => {
               href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=giovanni-doni"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col justify-center items-center p-2 text-center text-white bg-[#0A66C2] w-[200px] h-8 rounded-2xl font-medium text-sm hover:bg-[#004182] transition-colors shadow-medium"
+              className="flex justify-center items-center w-12 h-12 bg-[#0A66C2] rounded-full hover:bg-[#004182] transition-colors shadow-medium"
+              aria-label="Follow on LinkedIn"
             >
-              Follow on LinkedIn
+              <Linkedin className="h-5 w-5 text-white fill-white" />
             </a>
+          </div>
+
+          {/* AI Research Digest */}
+          <div className="mt-6">
+            <AIResearchDigest />
           </div>
 
         </div>
