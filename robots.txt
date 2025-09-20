@@ -68,3 +68,9 @@ Sitemap: https://sitemap.xml
 
 # RSS feed location
 Sitemap: https://rss/feed.xml
+
+# Content keywords for better understanding
+# Giovanni Doni - Senior Machine Learning Engineer, AI Engineer, Tech Lead
+# Location: London, United Kingdom
+# Expertise: MLOps, Deep Learning, LLMs, Computer Vision, NLP
+# Industries: Technology, Artificial Intelligence, Data Science
