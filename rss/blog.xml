@@ -5,7 +5,7 @@
     <description>Latest blog posts on machine learning, AI, and technology</description>
     <link>https://giovanni-doni.github.io/</link>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Sep 2025 12:46:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Sep 2025 11:11:25 GMT</lastBuildDate>
     <atom:link href="https://giovanni-doni.github.io/rss/blog.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -14,7 +14,7 @@
 
 ## A pragmatic, modular AI stack—smaller models, privacy-safe orchestration, and control without a monolith.
 
-![Image](/lovable-uploads/monolith_16x9_top_1920x1080.jpg)
+![Image](/assets/monolith_16x9_top_1920x1080.jpg)
 
 Not long ago I was thinking that intelligence comes in different forms and sizes. You get a spectrum of intelligences that are often optimised for carrying out a specific set of tasks, often quite fruitful 🐝.
 
@@ -86,7 +86,7 @@ As an ML/AI practitioner, I’ve worked for the better part of the last 10 years
 
 With the advancements in AI over the past few years, we’re now witnessing the creation of entirely new products built around AI from the ground up. This marks a significant shift, clearly reflected in how companies are reorienting their investment focus - from profitability to growth - driven by AI’s tailwinds and promises. 
 
-![Image](/lovable-uploads/graph-statistics-survey.png)
+![Image](/assets/graph-statistics-survey.png)
 *source: https://www.bondcao.com/report/pdf/Trends_Artificial_Intelligence.pdf*
 
 How much of this investment will translate into real, incremental revenue is still to be seen.
@@ -119,7 +119,7 @@ Larger companies have likely been flexing their legal teams muscle to set up pro
 
 Solutions like these can satisfy specific needs, but the landscape is multifaceted. Much depends on the organisation's appetite for innovation, governance setup, and the specific regulatory frameworks involved - especially in sensitive fields like healthcare and finance.
 
-![Image](/lovable-uploads/chart.png)
+![Image](/assets/chart.webp)
 
 What about smaller companies?
 
