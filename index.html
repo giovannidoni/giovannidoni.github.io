@@ -11,8 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 
-    <!-- Preload critical resources -->
-    <link rel="preload" href="/assets/6069157c-16af-41e6-a698-637aa684d8eb.webp" as="image">
+    <!-- Preload critical resources with high priority -->
+    <link rel="preload" href="/assets/6069157c-16af-41e6-a698-637aa684d8eb.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="/assets/index-BUac79-s.css" as="style" fetchpriority="high">
+    <link rel="preload" href="/assets/index-B6eqrwfT.js" as="script" fetchpriority="high">
 
     <link rel="icon" href="/assets/d469aa7c-8c72-410f-aafe-a235e62f688e.webp" type="image/png">
     <meta name="description" content="Giovanni Doni: PhD Data Scientist specializing in Machine Learning, AI, and scalable data solutions. 5+ years delivering £20M+ business value through ML/AI innovation at Deliveroo & Tesco." />
@@ -117,8 +119,8 @@
         };
       }
     </script>
-    <script type="module" crossorigin src="/assets/index-CJ5BrtYY.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BUac79-s.css">
+    <script type="module" crossorigin src="/assets/index-B6eqrwfT.js" fetchpriority="high"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BUac79-s.css" fetchpriority="high">
   </head>
 
   <body>
