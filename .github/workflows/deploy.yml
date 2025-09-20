@@ -52,6 +52,8 @@ jobs:
     - name: Build
       run: npm run build
       env:
+        VITE_GOOGLE_VERIFICATION_CONTENT: ${{ vars.VITE_GOOGLE_VERIFICATION_CONTENT }}
+        VITE_GOOGLE_VERIFICATION_FILENAME: ${{ vars.VITE_GOOGLE_VERIFICATION_FILENAME }}
         VITE_CALENDLY_URL: ${{ vars.VITE_CALENDLY_URL }}
         VITE_EMAIL: ${{ vars.VITE_EMAIL }}
         VITE_LINKEDIN_URL: ${{ vars.VITE_LINKEDIN_URL }}
@@ -62,9 +64,7 @@ jobs:
 
     - name: Add .nojekyll file
       run: touch dist/.nojekyll
-        VITE_GOOGLE_VERIFICATION_CONTENT: ${{ vars.VITE_GOOGLE_VERIFICATION_CONTENT }}
-        VITE_GOOGLE_VERIFICATION_FILENAME: ${{ vars.VITE_GOOGLE_VERIFICATION_FILENAME }}
-        
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
