@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 5,
-      "summary": "LightRetriever enhances LLM-based text retrieval with a lightweight query encoder, achieving 1000x faster query inference and 10x throughput.",
-      "link": "https://arxiv.org/abs/2505.12260",
-      "reason_for_choice": "This article presents a significant advancement in text retrieval, crucial for both technical and business stakeholders. Its impact on efficiency and speed is highly relevant for engineering teams and product development."
+      "item_number": 0,
+      "summary": "Fractional-bit quantizers optimize LLM deployment on edge devices.",
+      "link": "https://arxiv.org/abs/2509.20214",
+      "reason_for_choice": "This article presents a significant advancement in deploying LLMs on edge devices, crucial for engineers and product developers focusing on resource optimization."
     },
     {
-      "item_number": 23,
-      "summary": "YOLOv10-nano for real-time fish detection in Indonesia, highlighting its efficiency and accuracy in marine conservation.",
-      "link": "https://arxiv.org/abs/2509.17406",
-      "reason_for_choice": "This article showcases an innovative product application in environmental conservation, appealing to stakeholders interested in sustainability and engineering teams focusing on real-time processing solutions."
+      "item_number": 51,
+      "summary": "RAG systems evaluated for real-world applications, revealing key insights.",
+      "link": "https://arxiv.org/abs/2506.20869",
+      "reason_for_choice": "This article provides practical insights into the design and evaluation of RAG systems, offering valuable information for both technical and managerial stakeholders interested in real-world AI applications."
     }
   ],
-  "digest": "- *Machine Learning-Driven Conversion*: Accelerates hydrodynamics processes with minimal accuracy loss, crucial for engineering applications. https://arxiv.org/abs/2412.07836\n- *PiMoE*: Enhances computation and reasoning in LLMs, improving accuracy and efficiency, relevant for AI researchers. https://arxiv.org/abs/2509.18169\n- *LEMUR Dataset*: Standardizes neural networks for AutoML, boosting model tuning and extensibility, beneficial for AI developers. https://arxiv.org/abs/2504.10552\n- *Medical AI Consensus*: Automates radiology report generation, integrating LLMs for improved clinical relevance, vital for healthcare stakeholders. https://arxiv.org/abs/2509.17353\n- *Dynamic Speculative Planning*: Optimizes AI agent performance, reducing costs significantly, appealing to management and technical teams. https://arxiv.org/abs/2509.01920\n- *BlockA2A*: Proposes secure agent interoperability, addressing vulnerabilities in multi-agent systems, important for cybersecurity experts. https://arxiv.org/abs/2508.01332\n- *Agentic AI for Software*: Explores AI agents in software engineering, enhancing code generation and validation, valuable for software developers. https://arxiv.org/abs/2508.17343\n- *SecureFixAgent*: Combines LLMs and static analysis for Python vulnerability repair, improving accuracy, crucial for software security teams. https://arxiv.org/abs/2509.16275\n- *AI Assistants for PETSc*: Enhances scientific computing support, improving user access to information, relevant for research and development teams. https://arxiv.org/abs/2506.20608"
+  "digest": "- *LEMUR Neural Network Dataset* enhances AutoML with standardized models, improving evaluation and optimization. Read more: https://arxiv.org/abs/2504.10552\n- *ShinkaEvolve* uses LLMs for efficient program evolution, boosting scientific discovery. More details: https://arxiv.org/abs/2509.19349\n- *STAF* automates security test generation from attack trees, enhancing automotive security testing. Explore here: https://arxiv.org/abs/2509.20190\n- *White-Basilisk* detects code vulnerabilities with a hybrid model, outperforming larger counterparts. Check it out: https://arxiv.org/abs/2507.08540\n- *CANDLE* integrates LLMs for interpretable sarcopenia diagnosis, improving clinical decision-making. Learn more: https://arxiv.org/abs/2507.21179\n- *EditVerse* unifies image and video editing, enhancing cross-modal learning. Discover more: https://huggingface.co/papers/2509.20360\n- *MediNotes* automates medical note creation, reducing physician burnout. Read further: https://arxiv.org/abs/2410.01841\n- *CSIYOLO* enhances scatter sensing in ISAC systems, ideal for existing setups. Details here: https://arxiv.org/abs/2509.19335\n- *OmniFed* offers a modular framework for federated learning, enhancing privacy and deployment. More info: https://arxiv.org/abs/2509.19396\n- *FragAtlas-62M* advances drug discovery with novel chemical fragments. Explore: https://arxiv.org/abs/2509.19586"
 }
