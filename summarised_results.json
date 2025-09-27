@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 5,
-      "summary": "Semantic Edge-Cloud Communication for Real-Time Urban Traffic Surveillance with ViT and LLMs over Mobile Networks",
-      "link": "https://arxiv.org/abs/2509.21259",
-      "reason_for_choice": "This article highlights a practical application of AI in urban traffic management, showcasing the integration of ViT and LLMs to enhance real-time surveillance. It's relevant for both technical audiences and stakeholders interested in smart city solutions."
+      "item_number": 0,
+      "summary": "EternaAI eases clinical documentation with real-time AI note-taking.",
+      "link": "https://eternaaihealth.com",
+      "reason_for_choice": "This headline highlights a product that leverages AI to solve a real-world problem in healthcare, appealing to both technical and management audiences."
     },
     {
-      "item_number": 8,
-      "summary": "Experience Deploying Containerized GenAI Services at an HPC Center",
-      "link": "https://arxiv.org/abs/2509.20603",
-      "reason_for_choice": "This article provides insights into deploying GenAI workloads in HPC environments, offering valuable lessons for engineers and management on integrating cloud and Kubernetes technologies."
+      "item_number": 1,
+      "summary": "DevProd teams adapt to AI, focusing on SDLC improvements.",
+      "link": "https://newsletter.getdx.com/p/the-evolving-role-of-devprod-teams",
+      "reason_for_choice": "This article is crucial for understanding how AI is reshaping engineering management and development processes, making it relevant for both engineers and stakeholders."
     }
   ],
-  "digest": "- *PLaMo 2* introduces efficient Japanese LLMs with hybrid architecture, achieving state-of-the-art results through innovative training methods. [Read more](https://arxiv.org/abs/2509.04897)\n- *VITA* is an AI-driven platform enhancing data science education with adaptive learning and formative assessments via a chatbot. [Read more](https://arxiv.org/abs/2509.20369)\n- *Recon-Act* is a self-evolving multi-agent system enhancing web task execution through a feedback loop of tool generation and action refinement. [Read more](https://arxiv.org/abs/2509.21072)\n- *PIRF* optimizes diffusion models by using physics-informed rewards, enhancing output fidelity and efficiency in scientific generative tasks. [Read more](https://arxiv.org/abs/2509.20570)\n- *DS-MoE* enhances transformer efficiency by using depth-specialized experts for tailored reasoning, improving speed and accuracy. [Read more](https://arxiv.org/abs/2509.20577)\n- *ButterflyQuant* introduces learnable butterfly transforms for better LLM quantization, improving performance with adaptive rotations. [Read more](https://arxiv.org/abs/2509.09679)\n- *Dual-Path Phishing Detection* combines NLP and URL analysis, improving accuracy and efficiency in identifying phishing threats. [Read more](https://arxiv.org/abs/2509.20972)\n- *SwasthLLM* is a novel framework for multilingual medical diagnosis, achieving high accuracy without language-specific tuning. [Read more](https://arxiv.org/abs/2509.20567)\n- *Semantic Edge-Cloud Communication* for efficient urban traffic surveillance using ViT and LLMs, reducing data transmission size significantly. [Read more](https://arxiv.org/abs/2509.21259)\n- *Experience Deploying Containerized GenAI Services* at an HPC Center, detailing integration with cloud, Kubernetes, and practical insights for future research. [Read more](https://arxiv.org/abs/2509.20603)"
+  "digest": "- *AI-designed antibodies* could revolutionize treatment options, offering hope for diseases previously considered untreatable. Read more at https://www.notboring.co/p/weekly-dose-of-optimism-163\n- *Cryopreservation advancements* are paving the way for long-term biological storage solutions, potentially transforming organ transplants and fertility treatments. More details at https://www.notboring.co/p/weekly-dose-of-optimism-163\n- *Huntington's disease treatment breakthrough* offers new hope for patients, with research indicating promising results. Discover more at https://www.notboring.co/p/weekly-dose-of-optimism-163"
 }
