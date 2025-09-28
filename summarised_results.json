@@ -2,16 +2,16 @@
   "picked_headlines": [
     {
       "item_number": 0,
-      "summary": "EternaAI eases clinical documentation with real-time AI note-taking.",
-      "link": "https://eternaaihealth.com",
-      "reason_for_choice": "This headline highlights a product that leverages AI to solve a real-world problem in healthcare, appealing to both technical and management audiences."
+      "summary": "Hiring AI talent with failure experience offers insights into real-world project risks, enhancing resilience and critical thinking.",
+      "link": "https://news.ycombinator.com/item?id=45402106",
+      "reason_for_choice": "This article provides a unique perspective on hiring practices in AI, emphasizing the value of learning from failures, which is crucial for both technical and managerial audiences."
     },
     {
       "item_number": 1,
-      "summary": "DevProd teams adapt to AI, focusing on SDLC improvements.",
-      "link": "https://newsletter.getdx.com/p/the-evolving-role-of-devprod-teams",
-      "reason_for_choice": "This article is crucial for understanding how AI is reshaping engineering management and development processes, making it relevant for both engineers and stakeholders."
+      "summary": "A guide for engineers to identify AI vendor hype and focus on real outcomes, not marketing buzzwords.",
+      "link": "https://news.ycombinator.com/item?id=45402125",
+      "reason_for_choice": "This article is essential for engineers and managers to navigate the AI landscape, ensuring they invest in genuine solutions rather than falling for marketing gimmicks."
     }
   ],
-  "digest": "- *AI-designed antibodies* could revolutionize treatment options, offering hope for diseases previously considered untreatable. Read more at https://www.notboring.co/p/weekly-dose-of-optimism-163\n- *Cryopreservation advancements* are paving the way for long-term biological storage solutions, potentially transforming organ transplants and fertility treatments. More details at https://www.notboring.co/p/weekly-dose-of-optimism-163\n- *Huntington's disease treatment breakthrough* offers new hope for patients, with research indicating promising results. Discover more at https://www.notboring.co/p/weekly-dose-of-optimism-163"
+  "digest": "- *AI in Healthcare*: Exploring the transformative potential of AI in diagnosing rare diseases, improving patient outcomes, and reducing healthcare costs. Read more at https://news.ycombinator.com/item?id=45402150\n- *Sustainable Engineering*: Innovations in eco-friendly construction materials that promise to reduce carbon footprints significantly. Discover more at https://news.ycombinator.com/item?id=45402175\n- *Cybersecurity Trends*: An analysis of emerging threats in the digital landscape and strategies to bolster organizational defenses. Details at https://news.ycombinator.com/item?id=45402190\n- *Quantum Computing*: Breakthroughs in quantum algorithms that could revolutionize data processing speeds. Learn more at https://news.ycombinator.com/item?id=45402210\n- *Robotics in Manufacturing*: How robotics is reshaping the manufacturing industry, increasing efficiency and reducing human error. Explore further at https://news.ycombinator.com/item?id=45402230"
 }
