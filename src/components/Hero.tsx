@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowDown, Mountain, Calendar, FileText, Linkedin } from "lucide-react";
 import AIResearchDigest from "@/components/AIResearchDigest";
+import profilePicture from "@/assets/profile-picture.png";
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     // Use the same mobile detection logic as Index component
@@ -60,6 +61,14 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto space-y-4 md:space-y-8">
 
           <div className="space-y-3 md:space-y-4">
+            {/* Profile Picture */}
+            <div className="flex justify-center mb-6">
+              <img 
+                src={profilePicture}
+                alt="Giovanni Doni - Senior ML Engineer & AI Tech Lead"
+                className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white/20 shadow-strong"
+              />
+            </div>
 
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
               Senior Machine Learning Engineer, AI Engineer & Tech Lead.
