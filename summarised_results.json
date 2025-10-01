@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "ZeroQAT offers efficient quantization-aware training of LLMs, reducing memory while maintaining accuracy.",
-      "link": "https://arxiv.org/abs/2509.00031",
-      "reason_for_choice": "This article introduces a novel framework that has significant implications for both engineering and management by optimizing resource usage without compromising performance."
+      "item_number": 6,
+      "summary": "Enhances real-time API retrieval for code generation with high accuracy and reduced latency.",
+      "link": "https://arxiv.org/abs/2509.25716",
+      "reason_for_choice": "This article is pivotal for engineers and developers as it addresses efficiency in code generation, a crucial aspect of modern software development."
     },
     {
-      "item_number": 84,
-      "summary": "A power engineer built an AI agent system using no-code tools, showcasing AI's practical applications in crypto management.",
-      "link": "https://github.com/GlitchWriter/txn0-agent-flows",
-      "reason_for_choice": "This post highlights a practical application of AI in a real-world scenario, appealing to both technical audiences and stakeholders interested in innovative solutions."
+      "item_number": 82,
+      "summary": "Highlights major AI investments, safety collaborations, and new regulations, indicating a maturing industry poised for growth.",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1nuk6ue/ai_weekly_5_billion_ai_investment_initiative/",
+      "reason_for_choice": "This article is relevant for stakeholders and management, providing insights into industry trends and investment opportunities."
     }
   ],
-  "digest": "- *PiERN* integrates high-precision computation into LLMs via token-level routing, improving accuracy and efficiency: https://arxiv.org/abs/2509.18169\n- *Tequila* optimizes ternary quantization for LLMs, enhancing performance by overcoming deadzone trapping: https://arxiv.org/abs/2509.23809\n- *Optuna vs Code Llama* explores using LLMs for hyperparameter tuning, showing they can outperform traditional methods: https://arxiv.org/abs/2504.06006\n- *GradES* accelerates transformer training by using gradient-based early stopping, improving speed and accuracy: https://arxiv.org/abs/2509.01842\n- *KaLM-Embedding-V2* introduces advanced training techniques, achieving state-of-the-art performance in compact embedding models: https://arxiv.org/abs/2506.20923\n- *Green Learning for STAR-RIS mmWave Systems* proposes a framework enhancing efficiency without explicit CSI: https://arxiv.org/abs/2509.06820\n- *AnesSuite* introduces a specialized dataset for anesthesiology reasoning in LLMs, enhancing medical applications: https://arxiv.org/abs/2504.02404\n- *EditGRPO* enhances chest X-ray report generation using RL with clinical rewards, outperforming existing models: https://arxiv.org/abs/2509.22812\n- *FedAgentBench* proposes an agent-driven framework for automating federated learning in healthcare: https://arxiv.org/abs/2509.23803\n- *G-reasoner* integrates graph and language models for improved reasoning over graph-structured knowledge: https://arxiv.org/abs/2509.24276"
+  "digest": "- *Hardware-Aware Parallel Prompt Decoding* proposes a method to enhance LLM inference efficiency, crucial for engineers focusing on AI deployment: https://arxiv.org/abs/2405.18628\n- *DeepSearch* integrates Monte Carlo Tree Search in RLVR, achieving state-of-the-art results with fewer resources, impacting both technical and strategic planning: https://arxiv.org/abs/2509.25454\n- *CAST* introduces a framework for sparsity-aware training in LLMs, offering performance gains with minimal resources, relevant for AI researchers: https://arxiv.org/abs/2509.25996\n- *LFTR* proposes a learning-free token reduction method for multimodal models, enhancing efficiency without retraining, valuable for AI engineers: https://arxiv.org/abs/2501.17391\n- *Scaling RL to Long Videos* presents a framework for video reasoning with RL, achieving notable accuracy, useful for multimedia and AI developers: https://arxiv.org/abs/2507.07966\n- *Efficient and Transferable Agentic Knowledge Graph RAG* improves knowledge retrieval accuracy with fewer tokens, relevant for AI researchers: https://arxiv.org/abs/2509.26383\n- *Blueprint-Bench* evaluates AI models' spatial reasoning, revealing performance gaps, significant for AI developers and researchers: https://arxiv.org/abs/2509.25229\n- *AI Weekly* highlights major AI investments, safety collaborations, and new regulations, indicating a maturing industry poised for growth, essential for management and stakeholders: https://www.reddit.com/r/ArtificialInteligence/comments/1nuk6ue/ai_weekly_5_billion_ai_investment_initiative/\n- *Inside Google’s Engineering Culture* explores Google's unique tech stack and practices, offering insights into effective engineering management: https://newsletter.pragmaticengineer.com/p/google-part-2\n- *The Cognitive Shortcut Paradox* discusses how AI can hinder skill growth in novice developers, a critical consideration for engineering leadership: https://www.oreilly.com/radar/the-cognitive-shortcut-paradox/"
 }
