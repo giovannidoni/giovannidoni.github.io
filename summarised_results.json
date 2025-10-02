@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 6,
-      "summary": "Enhances real-time API retrieval for code generation with high accuracy and reduced latency.",
-      "link": "https://arxiv.org/abs/2509.25716",
-      "reason_for_choice": "This article is pivotal for engineers and developers as it addresses efficiency in code generation, a crucial aspect of modern software development."
+      "item_number": 5,
+      "summary": "CNN enhances pneumonia detection from X-rays, improving clinical integration.",
+      "link": "https://arxiv.org/abs/2510.00035",
+      "reason_for_choice": "The article bridges AI and healthcare, showcasing a practical application of deep learning in medical diagnostics, appealing to both technical and managerial audiences."
     },
     {
-      "item_number": 82,
-      "summary": "Highlights major AI investments, safety collaborations, and new regulations, indicating a maturing industry poised for growth.",
-      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1nuk6ue/ai_weekly_5_billion_ai_investment_initiative/",
-      "reason_for_choice": "This article is relevant for stakeholders and management, providing insights into industry trends and investment opportunities."
+      "item_number": 87,
+      "summary": "Persify automates personalized order workflows for Etsy and Amazon sellers.",
+      "link": "https://persify.io",
+      "reason_for_choice": "This product-oriented article highlights AI's role in e-commerce, offering insights into automation and scalability, relevant to stakeholders and engineers alike."
     }
   ],
-  "digest": "- *Hardware-Aware Parallel Prompt Decoding* proposes a method to enhance LLM inference efficiency, crucial for engineers focusing on AI deployment: https://arxiv.org/abs/2405.18628\n- *DeepSearch* integrates Monte Carlo Tree Search in RLVR, achieving state-of-the-art results with fewer resources, impacting both technical and strategic planning: https://arxiv.org/abs/2509.25454\n- *CAST* introduces a framework for sparsity-aware training in LLMs, offering performance gains with minimal resources, relevant for AI researchers: https://arxiv.org/abs/2509.25996\n- *LFTR* proposes a learning-free token reduction method for multimodal models, enhancing efficiency without retraining, valuable for AI engineers: https://arxiv.org/abs/2501.17391\n- *Scaling RL to Long Videos* presents a framework for video reasoning with RL, achieving notable accuracy, useful for multimedia and AI developers: https://arxiv.org/abs/2507.07966\n- *Efficient and Transferable Agentic Knowledge Graph RAG* improves knowledge retrieval accuracy with fewer tokens, relevant for AI researchers: https://arxiv.org/abs/2509.26383\n- *Blueprint-Bench* evaluates AI models' spatial reasoning, revealing performance gaps, significant for AI developers and researchers: https://arxiv.org/abs/2509.25229\n- *AI Weekly* highlights major AI investments, safety collaborations, and new regulations, indicating a maturing industry poised for growth, essential for management and stakeholders: https://www.reddit.com/r/ArtificialInteligence/comments/1nuk6ue/ai_weekly_5_billion_ai_investment_initiative/\n- *Inside Google’s Engineering Culture* explores Google's unique tech stack and practices, offering insights into effective engineering management: https://newsletter.pragmaticengineer.com/p/google-part-2\n- *The Cognitive Shortcut Paradox* discusses how AI can hinder skill growth in novice developers, a critical consideration for engineering leadership: https://www.oreilly.com/radar/the-cognitive-shortcut-paradox/"
+  "digest": "- *DeepSearch* integrates Monte Carlo Tree Search into RLVR training, achieving state-of-the-art results with fewer resources. [https://arxiv.org/abs/2509.25454]\n- *KG-R1* enhances knowledge graph efficiency via reinforcement learning, improving adaptability. [https://arxiv.org/abs/2509.26383]\n- *DualTune* enhances local LLMs for better task automation accuracy. [https://arxiv.org/abs/2510.00229]\n- *Apriel-1.5-15b-Thinker* achieves high performance through innovative training methods. [https://arxiv.org/abs/2510.01141]\n- *Q-ROAR* improves quantized LLMs' long-context performance without retraining. [https://arxiv.org/abs/2510.00028]\n- *Sparse State Expansion* enhances linear attention in Transformers, achieving state-of-the-art results. [https://arxiv.org/abs/2507.16577]\n- *AdaBlock-dLLM* introduces adaptive block sizing for improved inference in diffusion LLMs. [https://arxiv.org/abs/2509.26432]\n- *GEM* is an open-source simulator for training LLMs through experience-based learning. [https://arxiv.org/abs/2510.01051]\n- *TransIP* introduces a novel Transformer-based approach for inter-atomic potentials, enhancing efficiency. [https://arxiv.org/abs/2510.00027]\n- *MULTI-TAP* improves image-text alignment across multiple objectives. [https://arxiv.org/abs/2510.00766]"
 }
