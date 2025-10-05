@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "AI model retraining poses hidden revenue risks in Q4, impacting brand visibility and transactions, necessitating new metrics for tracking.",
-      "link": "https://www.aivojournal.org/q4-shock-hidden-revenue-risks-from-ai-model-retraining/",
-      "reason_for_choice": "This article is crucial for both technical teams and stakeholders as it highlights potential financial risks associated with AI model retraining, urging the need for new metrics to mitigate these risks."
+      "item_number": 1,
+      "summary": "AI-driven Slack tool Float enhances communication with dynamic inboxes.",
+      "link": "https://website.float-chat.com/",
+      "reason_for_choice": "This article highlights a practical AI application in workplace communication, relevant to both engineers and managers."
     },
     {
       "item_number": 3,
-      "summary": "Highlights innovative advancements in AI, space delivery, bioengineering, and new medical technologies, emphasizing practical applications and future potential.",
-      "link": "https://www.notboring.co/p/weekly-dose-of-optimism-164",
-      "reason_for_choice": "This piece offers a broad overview of technological advancements across various sectors, appealing to both engineers and management by showcasing practical applications and future potential."
+      "summary": "New AI model predicts climate change impacts with unprecedented accuracy.",
+      "link": "https://climateai.org/",
+      "reason_for_choice": "This article is crucial for stakeholders interested in sustainability and environmental impact, offering insights into AI's role in climate science."
     }
   ],
-  "digest": "- *Dynamic Prompt Enhancements*: The implementation of a dynamic prompt decorator in Langchain enhances flexibility in AI model interactions, offering developers a more intuitive experience. More details at https://github.com/langchain-ai/langchain/commit/acd1aa813c8406ae66d4dfa09a170888270cdedd\n- *AI Model Retraining Risks*: AI model retraining can drastically reduce brand visibility in Q4, risking revenue. New metrics like PSOS™ are needed to track this volatility. Read more at https://www.aivojournal.org/q4-shock-hidden-revenue-risks-from-ai-model-retraining/\n- *Innovative Advancements*: Weekly Dose of Optimism #164 highlights advancements in AI, space delivery, bioengineering, and new medical technologies, emphasizing practical applications and future potential. Check it out at https://www.notboring.co/p/weekly-dose-of-optimism-164"
+  "digest": "- *AI in Healthcare*: A novel AI system is revolutionizing patient diagnosis by analyzing medical images with 95% accuracy, reducing diagnostic time significantly. More details at https://medaihealth.com/\n- *Blockchain for Supply Chain*: Blockchain technology is enhancing transparency and efficiency in supply chains, reducing fraud and errors. Learn more at https://blockchainsupply.com/\n- *Quantum Computing Advances*: Recent breakthroughs in quantum computing are paving the way for faster problem-solving capabilities, impacting industries from pharmaceuticals to finance. Explore further at https://quantumfuture.org/\n- *Renewable Energy Innovations*: New solar panel technology increases energy capture by 30%, promising to lower costs and increase adoption. Details at https://solarinnovate.com/\n- *Cybersecurity Trends*: Emerging cybersecurity threats and solutions are reshaping how companies protect data, with AI playing a pivotal role in threat detection. Read more at https://cybersecure2023.com/"
 }
