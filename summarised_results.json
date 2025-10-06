@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "AI-driven Slack tool Float enhances communication with dynamic inboxes.",
-      "link": "https://website.float-chat.com/",
-      "reason_for_choice": "This article highlights a practical AI application in workplace communication, relevant to both engineers and managers."
+      "item_number": 0,
+      "summary": "Litespark enhances LLM training efficiency, reducing energy use.",
+      "link": "https://arxiv.org/abs/2510.02483",
+      "reason_for_choice": "This article is crucial for both engineers and management as it addresses energy efficiency in AI, a key concern for sustainable tech development."
     },
     {
-      "item_number": 3,
-      "summary": "New AI model predicts climate change impacts with unprecedented accuracy.",
-      "link": "https://climateai.org/",
-      "reason_for_choice": "This article is crucial for stakeholders interested in sustainability and environmental impact, offering insights into AI's role in climate science."
+      "item_number": 59,
+      "summary": "SBP-YOLO detects road anomalies, enhancing vehicle systems.",
+      "link": "https://arxiv.org/abs/2508.01339",
+      "reason_for_choice": "This article highlights an engineering breakthrough in real-time road safety, relevant for product development and stakeholder interest."
     }
   ],
-  "digest": "- *AI in Healthcare*: A novel AI system is revolutionizing patient diagnosis by analyzing medical images with 95% accuracy, reducing diagnostic time significantly. More details at https://medaihealth.com/\n- *Blockchain for Supply Chain*: Blockchain technology is enhancing transparency and efficiency in supply chains, reducing fraud and errors. Learn more at https://blockchainsupply.com/\n- *Quantum Computing Advances*: Recent breakthroughs in quantum computing are paving the way for faster problem-solving capabilities, impacting industries from pharmaceuticals to finance. Explore further at https://quantumfuture.org/\n- *Renewable Energy Innovations*: New solar panel technology increases energy capture by 30%, promising to lower costs and increase adoption. Details at https://solarinnovate.com/\n- *Cybersecurity Trends*: Emerging cybersecurity threats and solutions are reshaping how companies protect data, with AI playing a pivotal role in threat detection. Read more at https://cybersecure2023.com/"
+  "digest": "- *Litespark* offers a framework for efficient LLM training, reducing energy use significantly: https://arxiv.org/abs/2510.02483\n- *SBP-YOLO* enhances vehicle suspension systems with real-time road anomaly detection: https://arxiv.org/abs/2508.01339\n- *MarketSenseAI 2.0* improves stock analysis accuracy using LLMs: https://arxiv.org/abs/2502.00415\n- *CHORD* optimizes on-device recommendation models, reducing retraining costs: https://arxiv.org/abs/2510.03038\n- *MobiLLM* enhances 6G O-RAN security with AI-driven threat mitigation: https://arxiv.org/abs/2509.21634\n- *ZeroShotOpt* introduces efficient black-box optimization models: https://arxiv.org/abs/2510.03051\n- *CLARITY* AI platform outperforms humans in healthcare triage: https://arxiv.org/abs/2510.02463\n- *Primus* offers open-source datasets for cybersecurity LLM training: https://arxiv.org/abs/2502.11191\n- *AutoMaAS* optimizes multi-agent systems using self-evolving frameworks: https://arxiv.org/abs/2510.02669\n- *HALO* accelerates low-batch LLM inference with a memory-centric design: https://arxiv.org/abs/2510.02675"
 }
