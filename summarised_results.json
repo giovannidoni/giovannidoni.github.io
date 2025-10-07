@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "Litespark enhances LLM training efficiency, reducing energy use.",
-      "link": "https://arxiv.org/abs/2510.02483",
-      "reason_for_choice": "This article is crucial for both engineers and management as it addresses energy efficiency in AI, a key concern for sustainable tech development."
+      "item_number": 2,
+      "summary": "EvoEngineer optimizes CUDA kernels using LLMs, achieving significant speedups while maintaining code validity.",
+      "link": "https://arxiv.org/abs/2510.03760",
+      "reason_for_choice": "This article bridges the gap between AI research and practical engineering applications, showcasing how LLMs can enhance performance in real-world systems."
     },
     {
-      "item_number": 59,
-      "summary": "SBP-YOLO detects road anomalies, enhancing vehicle systems.",
-      "link": "https://arxiv.org/abs/2508.01339",
-      "reason_for_choice": "This article highlights an engineering breakthrough in real-time road safety, relevant for product development and stakeholder interest."
+      "item_number": 9,
+      "summary": "TiMi is a novel multi-agent system for quantitative trading, enhancing decision-making while reducing emotional biases.",
+      "link": "https://arxiv.org/abs/2510.04787",
+      "reason_for_choice": "This article provides insights into the intersection of AI and finance, offering stakeholders a glimpse into innovative trading systems that leverage AI for improved outcomes."
     }
   ],
-  "digest": "- *Litespark* offers a framework for efficient LLM training, reducing energy use significantly: https://arxiv.org/abs/2510.02483\n- *SBP-YOLO* enhances vehicle suspension systems with real-time road anomaly detection: https://arxiv.org/abs/2508.01339\n- *MarketSenseAI 2.0* improves stock analysis accuracy using LLMs: https://arxiv.org/abs/2502.00415\n- *CHORD* optimizes on-device recommendation models, reducing retraining costs: https://arxiv.org/abs/2510.03038\n- *MobiLLM* enhances 6G O-RAN security with AI-driven threat mitigation: https://arxiv.org/abs/2509.21634\n- *ZeroShotOpt* introduces efficient black-box optimization models: https://arxiv.org/abs/2510.03051\n- *CLARITY* AI platform outperforms humans in healthcare triage: https://arxiv.org/abs/2510.02463\n- *Primus* offers open-source datasets for cybersecurity LLM training: https://arxiv.org/abs/2502.11191\n- *AutoMaAS* optimizes multi-agent systems using self-evolving frameworks: https://arxiv.org/abs/2510.02669\n- *HALO* accelerates low-batch LLM inference with a memory-centric design: https://arxiv.org/abs/2510.02675"
+  "digest": "- *Video-LMM Post-Training* explores post-training methods for Video-LMMs, detailing challenges in video understanding. More at https://huggingface.co/papers/2510.05034\n- *Small Language Models for Agentic Systems* surveys architectures and deployment strategies for small language models. Read more: https://arxiv.org/abs/2510.03847\n- *Solar Photovoltaic Assessment* uses LLMs for improved solar panel detection, addressing limitations in accuracy. Details at https://arxiv.org/abs/2507.19144\n- *ZSMerge* introduces a novel KV cache compression method for LLMs, enhancing memory efficiency. Learn more: https://arxiv.org/abs/2503.10714\n- *ReTiDe* offers an FPGA-based real-time denoising solution for video processing, enhancing efficiency. More info: https://arxiv.org/abs/2510.03812\n- *Reason-RFT* enhances visual reasoning in VLMs using a two-stage reinforcement fine-tuning approach. Check it out: https://arxiv.org/abs/2503.20752\n- *Graph-S3* enhances graph retrieval for LLMs using synthetic supervision, improving task accuracy. Explore: https://arxiv.org/abs/2510.03323\n- *COSPADI* offers a method for compressing LLMs, enhancing accuracy without fine-tuning. More at https://arxiv.org/abs/2509.22075\n- *Moral Anchor System* provides a framework for AI value alignment and drift prevention. Read more: https://arxiv.org/abs/2510.04073\n- *DualBreach* introduces a dual-jailbreaking framework for LLMs, achieving high success rates. Details: https://arxiv.org/abs/2504.18564\n- *Graph Neural Network Models* benchmarked for fault detection in power grids, showing superior performance. More info: https://arxiv.org/abs/2510.03571\n- *FairAgent* democratizes fairness-aware ML development, reducing expertise needed. Learn more: https://arxiv.org/abs/2510.04317"
 }
