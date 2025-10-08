@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 2,
-      "summary": "EvoEngineer optimizes CUDA kernels using LLMs, achieving significant speedups while maintaining code validity.",
-      "link": "https://arxiv.org/abs/2510.03760",
-      "reason_for_choice": "This article bridges the gap between AI research and practical engineering applications, showcasing how LLMs can enhance performance in real-world systems."
+      "item_number": 6,
+      "summary": "Mellum enhances IDE code completion with multi-file context for JetBrains IDEs.",
+      "link": "https://arxiv.org/abs/2510.05788",
+      "reason_for_choice": "This article is relevant for both engineers and managers as it provides a practical solution for improving productivity in software development environments."
     },
     {
-      "item_number": 9,
-      "summary": "TiMi is a novel multi-agent system for quantitative trading, enhancing decision-making while reducing emotional biases.",
-      "link": "https://arxiv.org/abs/2510.04787",
-      "reason_for_choice": "This article provides insights into the intersection of AI and finance, offering stakeholders a glimpse into innovative trading systems that leverage AI for improved outcomes."
+      "item_number": 80,
+      "summary": "2025 DORA Report urges a focus on systems over metrics for AI strategy.",
+      "link": "https://newsletter.getdx.com/p/2025-dora-report-means-for-your-ai-strategy",
+      "reason_for_choice": "The report offers strategic insights for management on integrating AI into engineering practices, making it valuable for decision-makers."
     }
   ],
-  "digest": "- *Video-LMM Post-Training* explores post-training methods for Video-LMMs, detailing challenges in video understanding. More at https://huggingface.co/papers/2510.05034\n- *Small Language Models for Agentic Systems* surveys architectures and deployment strategies for small language models. Read more: https://arxiv.org/abs/2510.03847\n- *Solar Photovoltaic Assessment* uses LLMs for improved solar panel detection, addressing limitations in accuracy. Details at https://arxiv.org/abs/2507.19144\n- *ZSMerge* introduces a novel KV cache compression method for LLMs, enhancing memory efficiency. Learn more: https://arxiv.org/abs/2503.10714\n- *ReTiDe* offers an FPGA-based real-time denoising solution for video processing, enhancing efficiency. More info: https://arxiv.org/abs/2510.03812\n- *Reason-RFT* enhances visual reasoning in VLMs using a two-stage reinforcement fine-tuning approach. Check it out: https://arxiv.org/abs/2503.20752\n- *Graph-S3* enhances graph retrieval for LLMs using synthetic supervision, improving task accuracy. Explore: https://arxiv.org/abs/2510.03323\n- *COSPADI* offers a method for compressing LLMs, enhancing accuracy without fine-tuning. More at https://arxiv.org/abs/2509.22075\n- *Moral Anchor System* provides a framework for AI value alignment and drift prevention. Read more: https://arxiv.org/abs/2510.04073\n- *DualBreach* introduces a dual-jailbreaking framework for LLMs, achieving high success rates. Details: https://arxiv.org/abs/2504.18564\n- *Graph Neural Network Models* benchmarked for fault detection in power grids, showing superior performance. More info: https://arxiv.org/abs/2510.03571\n- *FairAgent* democratizes fairness-aware ML development, reducing expertise needed. Learn more: https://arxiv.org/abs/2510.04317"
+  "digest": "- *ZSMerge* introduces a novel KV cache compression method for LLMs, enhancing memory efficiency and speed without retraining. [Read more](https://arxiv.org/abs/2503.10714)\n- *AMAQ* improves collaborative training of LLMs by adaptively quantizing activations, enhancing accuracy while reducing communication overhead. [Read more](https://arxiv.org/abs/2510.05468)\n- *DeepV* is a model-agnostic framework for RTL code generation, enhancing performance using a high-quality dataset without specific training. [Read more](https://arxiv.org/abs/2510.05327)\n- *MACE* optimizes LLMs for edge servers by balancing retraining and inference, reducing latency by 63% while maintaining high throughput. [Read more](https://arxiv.org/abs/2510.03283)\n- *MetaLLMix* optimizes hyperparameters using meta-learning and XAI, outperforming traditional methods with reduced costs and faster training times. [Read more](https://arxiv.org/abs/2509.09387)\n- *Graph-S3* improves graph retrieval in LLMs using synthetic supervision, enhancing accuracy and F1 scores in complex reasoning tasks. [Read more](https://arxiv.org/abs/2510.03323)\n- *TeachLM* enhances LLMs for education using real student-tutor data, improving dialogue quality and pedagogical effectiveness. [Read more](https://arxiv.org/abs/2510.05087)\n- *FedMentor* enhances privacy in federated LLMs for mental health, balancing confidentiality and utility with domain-aware differential privacy. [Read more](https://arxiv.org/abs/2509.14275)\n- *Tiny but Mighty* optimizes multimodal model inference on small devices, enhancing efficiency and battery life through hardware-software co-design. [Read more](https://arxiv.org/abs/2510.05109)\n- *OpenAI Dev Day 2025* highlighted its commitment to developers with new APIs and tools, emphasizing AGI distribution and app ecosystem growth. [Read more](https://www.latent.space/p/devday-2025)"
 }
