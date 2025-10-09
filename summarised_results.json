@@ -1,17 +1,23 @@
 {
   "picked_headlines": [
     {
-      "item_number": 6,
-      "summary": "Mellum enhances IDE code completion with multi-file context for JetBrains IDEs.",
-      "link": "https://arxiv.org/abs/2510.05788",
-      "reason_for_choice": "This article is relevant for both engineers and managers as it provides a practical solution for improving productivity in software development environments."
+      "item_number": 3,
+      "summary": "Hybrid AI model forecasts commodity price shocks with high accuracy.",
+      "link": "https://arxiv.org/abs/2508.06497",
+      "reason_for_choice": "This article presents a practical application of AI in economic forecasting, relevant for stakeholders in finance and management."
     },
     {
-      "item_number": 80,
-      "summary": "2025 DORA Report urges a focus on systems over metrics for AI strategy.",
-      "link": "https://newsletter.getdx.com/p/2025-dora-report-means-for-your-ai-strategy",
-      "reason_for_choice": "The report offers strategic insights for management on integrating AI into engineering practices, making it valuable for decision-makers."
+      "item_number": 49,
+      "summary": "ChatGPT-based in-vehicle agents enhance driving safety and experience.",
+      "link": "https://arxiv.org/abs/2508.08101",
+      "reason_for_choice": "This study highlights the integration of AI in consumer products, showcasing real-world applications that appeal to both technical and non-technical audiences."
+    },
+    {
+      "item_number": 46,
+      "summary": "Lightweight CNN inspects dragon fruit quality in real-time on mobile.",
+      "link": "https://arxiv.org/abs/2508.07306",
+      "reason_for_choice": "This article demonstrates AI's role in agriculture and product quality control, offering insights into mobile-based AI applications."
     }
   ],
-  "digest": "- *ZSMerge* introduces a novel KV cache compression method for LLMs, enhancing memory efficiency and speed without retraining. [Read more](https://arxiv.org/abs/2503.10714)\n- *AMAQ* improves collaborative training of LLMs by adaptively quantizing activations, enhancing accuracy while reducing communication overhead. [Read more](https://arxiv.org/abs/2510.05468)\n- *DeepV* is a model-agnostic framework for RTL code generation, enhancing performance using a high-quality dataset without specific training. [Read more](https://arxiv.org/abs/2510.05327)\n- *MACE* optimizes LLMs for edge servers by balancing retraining and inference, reducing latency by 63% while maintaining high throughput. [Read more](https://arxiv.org/abs/2510.03283)\n- *MetaLLMix* optimizes hyperparameters using meta-learning and XAI, outperforming traditional methods with reduced costs and faster training times. [Read more](https://arxiv.org/abs/2509.09387)\n- *Graph-S3* improves graph retrieval in LLMs using synthetic supervision, enhancing accuracy and F1 scores in complex reasoning tasks. [Read more](https://arxiv.org/abs/2510.03323)\n- *TeachLM* enhances LLMs for education using real student-tutor data, improving dialogue quality and pedagogical effectiveness. [Read more](https://arxiv.org/abs/2510.05087)\n- *FedMentor* enhances privacy in federated LLMs for mental health, balancing confidentiality and utility with domain-aware differential privacy. [Read more](https://arxiv.org/abs/2509.14275)\n- *Tiny but Mighty* optimizes multimodal model inference on small devices, enhancing efficiency and battery life through hardware-software co-design. [Read more](https://arxiv.org/abs/2510.05109)\n- *OpenAI Dev Day 2025* highlighted its commitment to developers with new APIs and tools, emphasizing AGI distribution and app ecosystem growth. [Read more](https://www.latent.space/p/devday-2025)"
+  "digest": "- *Efficient Edge LLMs Deployment* explores deploying large models on edge devices using Hessian-Aware Quantization, enhancing performance on limited hardware. More at https://arxiv.org/abs/2508.07329.\n- *MASteer* introduces a framework to improve LLM trustworthiness, using adaptive strategies for better model reliability. Details at https://arxiv.org/abs/2508.06963.\n- *CognitiveArm* showcases a real-time EEG-controlled prosthetic arm, highlighting advances in AI-driven healthcare solutions. Read more at https://arxiv.org/abs/2508.07731.\n- *Multimodal AI Systems* enhance poultry welfare assessments, integrating diverse data streams for scalable monitoring. Learn more at https://arxiv.org/abs/2508.07628.\n- *BadPromptFL* warns of backdoor threats in federated learning, emphasizing security risks in AI systems. Explore the study at https://arxiv.org/abs/2508.08040.\n- *ComPEFT* achieves significant model compression, optimizing communication in parameter-efficient updates. More information at https://arxiv.org/abs/2311.13171."
 }
