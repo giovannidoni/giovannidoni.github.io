@@ -5,15 +5,24 @@
     <description>Latest blog posts and LinkedIn updates from Giovanni Doni</description>
     <link>https://</link>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Oct 2025 12:47:11 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 12:47:16 GMT</lastBuildDate>
     <atom:link href="https://rss/feed.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>LinkedIn Post #1</title>
+      <description><![CDATA[View LinkedIn Post #1 by Giovanni Doni]]></description>
+      <link>https://www.linkedin.com/posts/giovanni-doni_7355928384205422592</link>
+      <guid>https://www.linkedin.com/posts/giovanni-doni_7355928384205422592</guid>
+      <pubDate>Thu, 16 Oct 2025 12:47:16 GMT</pubDate>
+      <category>LinkedIn</category>
+      <author>Giovanni Doni</author>
+    </item>
     <item>
       <title>LinkedIn Post #2</title>
       <description><![CDATA[View LinkedIn Post #2 by Giovanni Doni]]></description>
       <link>https://www.linkedin.com/posts/giovanni-doni_7355637024210530304</link>
       <guid>https://www.linkedin.com/posts/giovanni-doni_7355637024210530304</guid>
-      <pubDate>Wed, 15 Oct 2025 12:47:11 GMT</pubDate>
+      <pubDate>Thu, 16 Oct 2025 12:47:16 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -22,7 +31,7 @@
       <description><![CDATA[View LinkedIn Post #3 by Giovanni Doni]]></description>
       <link>https://www.linkedin.com/posts/giovanni-doni_7354061415579561985</link>
       <guid>https://www.linkedin.com/posts/giovanni-doni_7354061415579561985</guid>
-      <pubDate>Wed, 15 Oct 2025 12:47:11 GMT</pubDate>
+      <pubDate>Thu, 16 Oct 2025 12:47:16 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -31,7 +40,7 @@
       <description><![CDATA[View LinkedIn Post #4 by Giovanni Doni]]></description>
       <link>https://www.linkedin.com/posts/giovanni-doni_7339301481948311552</link>
       <guid>https://www.linkedin.com/posts/giovanni-doni_7339301481948311552</guid>
-      <pubDate>Wed, 15 Oct 2025 12:47:11 GMT</pubDate>
+      <pubDate>Thu, 16 Oct 2025 12:47:16 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -40,7 +49,7 @@
       <description><![CDATA[View LinkedIn Post #5 by Giovanni Doni]]></description>
       <link>https://www.linkedin.com/posts/giovanni-doni_7339579159720910848</link>
       <guid>https://www.linkedin.com/posts/giovanni-doni_7339579159720910848</guid>
-      <pubDate>Wed, 15 Oct 2025 12:47:11 GMT</pubDate>
+      <pubDate>Thu, 16 Oct 2025 12:47:16 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -49,16 +58,7 @@
       <description><![CDATA[View LinkedIn Post #6 by Giovanni Doni]]></description>
       <link>https://www.linkedin.com/posts/giovanni-doni_7338097403826196481</link>
       <guid>https://www.linkedin.com/posts/giovanni-doni_7338097403826196481</guid>
-      <pubDate>Wed, 15 Oct 2025 12:47:11 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>LinkedIn Post #1</title>
-      <description><![CDATA[View LinkedIn Post #1 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7355928384205422592</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7355928384205422592</guid>
-      <pubDate>Wed, 15 Oct 2025 12:47:11 GMT</pubDate>
+      <pubDate>Thu, 16 Oct 2025 12:47:16 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
