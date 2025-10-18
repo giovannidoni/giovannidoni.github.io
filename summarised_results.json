@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "Chiplet-based RISC-V SoC boosts AI performance for edge devices.",
-      "link": "https://arxiv.org/abs/2509.18355",
-      "reason_for_choice": "This article highlights a significant advancement in AI hardware, which is crucial for both technical audiences and stakeholders interested in edge computing and AI efficiency."
+      "item_number": 0,
+      "summary": "Generative AI enhances data science with synthetic data, anomaly simulation, and automated feature engineering.",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1o9p25r/generative_ai_in_data_science_use_cases_beyond/",
+      "reason_for_choice": "This article showcases the versatile applications of generative AI in data science, appealing to both technical audiences and stakeholders by demonstrating its impact beyond text generation."
     },
     {
-      "item_number": 5,
-      "summary": "OpenDerisk: AI-driven framework for enhanced SRE efficiency.",
-      "link": "https://arxiv.org/abs/2510.13561",
-      "reason_for_choice": "This article presents an innovative framework that can transform site reliability engineering, appealing to both engineers and management by improving operational efficiency."
+      "item_number": 3,
+      "summary": "A local AI medical assistant built in 4 hours, using open-source tools, prioritizing privacy and multi-hop RAG for better medical insights.",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1o9en0w/built_a_100_local_ai_medical_assistant_in_an/",
+      "reason_for_choice": "This article highlights a practical application of AI in healthcare, showcasing innovation and privacy-focused engineering, appealing to both engineers and product managers."
     }
   ],
-  "digest": "- *xLLM* offers enterprise-grade performance improvements in LLMs with intelligent scheduling: https://arxiv.org/abs/2510.14686\n- *ShishuLM* reduces memory and latency in language models, optimizing transformer architecture: https://arxiv.org/abs/2510.13860\n- *Informed Routing* enhances LLM efficiency by predicting token importance: https://arxiv.org/abs/2510.13831\n- *LiRA* improves cross-lingual LLMs for low-resource languages: https://arxiv.org/abs/2510.14466\n- *Spatial Computing* optimizes multi-user VR in edge computing: https://arxiv.org/abs/2510.14243\n- *Tensor Logic* proposes a new AI programming language unifying neural and symbolic AI: https://arxiv.org/abs/2510.12269\n- *SFTMix* enhances LLM instruction tuning using a Mixup approach: https://arxiv.org/abs/2410.05248\n- *Hi-Agent* introduces a hierarchical vision-language agent for mobile control: https://arxiv.org/abs/2510.14388\n- *OCiC* framework enhances telesurgery by reducing latency: https://arxiv.org/abs/2510.14058\n- *SurgScan* achieves 99.3% accuracy in real-time defect detection in surgical instruments: https://arxiv.org/abs/2510.14525\n- *CyberPal 2.0* introduces small language models for cybersecurity: https://arxiv.org/abs/2510.14113\n- *GenCellAgent* offers a training-free framework for cellular image segmentation: https://arxiv.org/abs/2510.13896\n- *GammaZero* introduces a graph-based approach for guiding POMDP planning: https://arxiv.org/abs/2510.14035\n- *CodeEvolve* combines LLMs with genetic algorithms for algorithm discovery: https://arxiv.org/abs/2510.14150\n- *MAFA* improves FAQ annotation accuracy in banking using diverse agents: https://arxiv.org/abs/2505.13668"
+  "digest": "- *Scaling with Open WebUI + Ollama and multiple GPUs?* explores the challenges and solutions for scaling AI applications to support 1000 users, providing insights valuable to engineers and tech managers. Read more: https://www.reddit.com/r/LocalLLaMA/comments/1o9ssqd/scaling_with_open_webui_ollama_and_multiple_gpus/\n- *After treating RL training like an SRE project, I see why they chose CISPO* offers insights into applying CISPO in RL training, enhancing stability and monitoring, a must-read for engineering teams. Check it out: https://www.reddit.com/r/LocalLLaMA/comments/1o9oqa2/after_treating_rl_training_like_an_sre_project_i/\n- *Show HN: AI code generator with 93% validation success (Python)* demonstrates the potential of AI in generating production-ready code, a significant development for software engineers. Discover more: https://bauform-engine.fly.dev/\n- *Diagnosing layer sensitivity during post training quantization* provides a deep dive into model optimization, crucial for AI researchers and engineers focused on model efficiency. Learn more: https://www.reddit.com/r/LocalLLaMA/comments/1o9glvt/diagnosing_layer_sensitivity_during_post_training/\n- *People will abandon capitalism if AI causes mass starvation* explores the socio-economic implications of AI, sparking discussions among stakeholders about future societal structures. Read further: https://www.reddit.com/r/ArtificialInteligence/comments/1o9btug/people_will_abandon_capitalism_if_ai_causes_mass/\n- *Planning your 2026 AI tooling budget: guidance for engineering leaders* provides strategic insights for engineering leaders on budgeting for AI tools, focusing on cost-effectiveness and ROI. More details here: https://newsletter.getdx.com/p/planning-your-2026-ai-tooling-budget"
 }
