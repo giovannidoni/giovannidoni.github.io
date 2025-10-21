@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 58,
-      "summary": "ML accelerates automotive crash modeling, reducing costs and enhancing design.",
-      "link": "https://arxiv.org/abs/2510.15201",
-      "reason_for_choice": "This article presents a practical application of machine learning in the automotive industry, showcasing significant cost reductions and efficiency improvements. It appeals to both engineers and stakeholders interested in product innovation and cost management."
+      "item_number": 3,
+      "summary": "Chiplet-based RISC-V SoC boosts AI performance, tackling edge AI challenges.",
+      "link": "https://arxiv.org/abs/2509.18355",
+      "reason_for_choice": "This article highlights a significant advancement in AI hardware, which is crucial for both engineers focusing on AI performance and stakeholders interested in edge AI solutions."
     },
     {
-      "item_number": 11,
-      "summary": "Shakti-VLMs excel in multimodal tasks with fewer data, boosting enterprise AI.",
-      "link": "https://arxiv.org/abs/2502.17092",
-      "reason_for_choice": "Shakti-VLMs represent a significant advancement in vision-language models, enhancing efficiency in enterprise AI applications. This appeals to both technical audiences and management by highlighting innovation in AI model development and deployment."
+      "item_number": 95,
+      "summary": "Lenzy AI transforms AI conversations into actionable insights, enhancing analytics.",
+      "link": "https://www.lenzy.ai/",
+      "reason_for_choice": "This product-focused article showcases how AI can be leveraged for business intelligence, appealing to management and technical audiences interested in AI-driven analytics."
     }
   ],
-  "digest": "- *Tequila* improves ternary quantization for LLMs, enhancing edge deployment efficiency. Read more: https://arxiv.org/abs/2509.23809\n- *FPEdit* offers robust LLM fingerprinting, ensuring model integrity with minimal resources. Learn more: https://arxiv.org/abs/2508.02092\n- *GradES* accelerates transformer training with gradient-based early stopping, boosting efficiency in language and vision tasks. Details here: https://arxiv.org/abs/2509.01842\n- *AppCopilot* provides a framework for efficient mobile agents, addressing generalization and resource use challenges. Explore: https://arxiv.org/abs/2509.02444\n- *InfiR2* enhances LLM efficiency with an open-source FP8 training recipe, achieving performance gains. More info: https://arxiv.org/abs/2509.22536\n- *VerlTool* unifies multi-turn reinforcement learning with tools, improving efficiency across domains. Check it out: https://arxiv.org/abs/2509.01055\n- *Cost-Aware Retrieval-Augmentation* reduces costs in question answering tasks with adaptive retrieval depth. Read further: https://arxiv.org/abs/2510.15719\n- *RadarLLM* fine-tunes LLMs for marine radar detection, improving performance in low SCR scenarios. Discover more: https://arxiv.org/abs/2509.12089\n- *Scaling Beyond Context* surveys challenges in multimodal retrieval-augmented generation for document understanding. Learn more: https://arxiv.org/abs/2510.15253\n- *Exploring the Synergy of Quantitative Factors* enhances stock return prediction by combining quantitative factors and newsflow. Details here: https://arxiv.org/abs/2510.15691"
+  "digest": "- *SpikingBrain* introduces brain-inspired models for efficient long-context training, achieving significant speedups and low power operation. Read more: https://arxiv.org/abs/2509.05276\n- *Utility-Diversity Aware Online Batch Selection* improves LLM fine-tuning by balancing utility and diversity, enhancing efficiency and reducing training time. Learn more: https://arxiv.org/abs/2510.16882\n- *A Deep Learning Framework for Real-Time Image Processing* enhances medical diagnostics, improving accuracy and speed across various modalities. Details here: https://arxiv.org/abs/2510.16611\n- *DualTune* enhances local LLMs for tool calling by decoupling tasks, improving accuracy by 46% with efficient on-device orchestration. Explore: https://arxiv.org/abs/2510.00229\n- *Harmony in Divergence* improves zeroth-order LLM fine-tuning, enhancing speed and memory efficiency while outperforming traditional methods. Check it out: https://arxiv.org/abs/2502.03304\n- *RAVEN* enhances ad video violation detection using reinforcement learning, improving accuracy and generalization in real-world applications. Discover more: https://arxiv.org/abs/2510.16455\n- *Trainable Dynamic Mask Sparse Attention* introduces a mechanism that enhances long-context modeling in LLMs with improved efficiency and adaptability. Read further: https://arxiv.org/abs/2508.02124\n- *Video Reasoning without Training* presents V-Reason, a method for video reasoning that improves model efficiency without training, using entropy-based tuning. More info: https://arxiv.org/abs/2510.17045\n- *MoPHES* uses on-device LLMs for mobile mental health support, integrating state assessment and tailored recommendations for better user care. Learn more: https://arxiv.org/abs/2510.16085\n- *Frugal Federated Learning for Violence Detection* compares LoRA-tuned VLMs and personalized CNNs, emphasizing energy efficiency and sustainability in AI deployment. Details: https://arxiv.org/abs/2510.17651"
 }
