@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 3,
-      "summary": "MLX benchmarks transformers on Apple Silicon, showing efficient on-device ML performance compared to NVIDIA GPUs.",
-      "link": "https://arxiv.org/abs/2510.18921",
-      "reason_for_choice": "This article highlights the practical application of ML frameworks on Apple Silicon, appealing to both technical audiences and stakeholders interested in cost-effective AI solutions."
+      "item_number": 6,
+      "summary": "Qualcomm AI 100 vs NVIDIA A100: Energy-efficient LLM inference in HPC clusters.",
+      "link": "https://arxiv.org/abs/2507.00418",
+      "reason_for_choice": "This article provides a comparative analysis of two leading GPU technologies, offering insights into energy efficiency and scalability, crucial for both technical and managerial audiences."
     },
     {
-      "item_number": 91,
-      "summary": "AI helps developers save time, but meetings and interruptions still cause greater productivity loss.",
-      "link": "https://newsletter.getdx.com/p/meetings-and-interruptions-are-still-the-biggest-obstacles-for-developers",
-      "reason_for_choice": "The article addresses a common pain point in engineering management, offering insights into AI's role in enhancing developer productivity."
+      "item_number": 56,
+      "summary": "AI agents reconcile IaC with cloud changes, boosting infrastructure management.",
+      "link": "https://arxiv.org/abs/2510.20211",
+      "reason_for_choice": "The article highlights a practical AI application in cloud infrastructure management, relevant for engineering teams and stakeholders interested in operational efficiency."
     }
   ],
-  "digest": "- *Serverless GPU Architecture for Enterprise HR Analytics* enhances throughput and compliance while reducing costs and latency. Read more: https://arxiv.org/abs/2510.19689\n- *Q-Palette* introduces fractional-bit quantizers for optimal LLM deployment, enhancing efficiency in memory-constrained environments. Check it out: https://arxiv.org/abs/2509.20214\n- *dInfer* enhances the efficiency of inference for diffusion language models, achieving significant speed improvements. Discover more: https://arxiv.org/abs/2510.08666\n- *AgentTTS* optimizes compute resources for multi-stage tasks using LLMs, enhancing performance through intelligent model and budget allocation. Learn more: https://arxiv.org/abs/2508.00890\n- *SORA-ATMAS* enhances smart city governance by integrating multiple LLMs for adaptive, accountable decision-making across domains. Explore further: https://arxiv.org/abs/2510.19327\n- *MoE-Prism* enhances Mixture-of-Experts models by creating elastic services, improving adaptability and efficiency in AI deployments. More details: https://arxiv.org/abs/2510.19366\n- *CoSense-LLM* optimizes edge computing with multimodal sensor data, ensuring privacy and efficiency in AI applications. Read the full article: https://arxiv.org/abs/2510.19670\n- *ModServe* optimizes multimodal model serving with adaptive scaling and scheduling, improving throughput and reducing costs significantly. Find out more: https://arxiv.org/abs/2502.00937\n- *Traffic-R1* is a novel LLM for traffic signal control, enhancing reasoning and efficiency with real-time deployment benefits. Discover the insights: https://arxiv.org/abs/2508.02344\n- *AgentSense* enhances urban sensing with LLMs, improving adaptability and explainability over traditional methods, offering practical insights. Check the details: https://arxiv.org/abs/2510.19661"
+  "digest": "- *SPLite Hand* improves 3D hand pose estimation on edge devices, achieving significant efficiency gains. https://arxiv.org/abs/2510.16396\n- *AI PB* offers personalized investment insights with compliance mechanisms, enhancing financial decision-making. https://arxiv.org/abs/2510.20099\n- *EA4LLM* uses evolutionary algorithms for LLM optimization, reducing hardware demands. https://arxiv.org/abs/2510.10603\n- *HoMer* enhances CTR prediction by addressing heterogeneities in recommender systems. https://arxiv.org/abs/2510.11100\n- *CircuitSeer* improves LLM data selection by focusing on internal reasoning circuits. https://arxiv.org/abs/2510.18470\n- *TianHui* specializes in Traditional Chinese Medicine, offering open-source resources for practical use. https://arxiv.org/abs/2509.19834\n- *Deep Learning in Dental Image Analysis* offers a comprehensive review of methodologies and challenges in the field. https://arxiv.org/abs/2510.20634\n- *FLAS* combines proactive and reactive auto-scaling for distributed services, enhancing adaptability. https://arxiv.org/abs/2510.20388\n- *R2-SVC* achieves state-of-the-art results in singing voice conversion by preserving speaker style. https://arxiv.org/abs/2510.20677\n- *The Reality Gap in Robotics* discusses challenges and solutions for sim-to-real transfer in robotics. https://arxiv.org/abs/2510.20808"
 }
