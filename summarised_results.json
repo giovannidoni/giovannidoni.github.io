@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "AI-driven platform revolutionizes supply chain management, enhancing efficiency and transparency.",
-      "link": "https://www.techinnovations.com/ai-supply-chain",
-      "reason_for_choice": "This article is crucial for both engineers and managers, showcasing a practical application of AI in improving operational efficiency, a key concern for stakeholders."
+      "item_number": 0,
+      "summary": "VebGen uses AST to build apps from natural language, offering unique self-remediation features.",
+      "link": "https://github.com/vebgenofficial/vebgen",
+      "reason_for_choice": "This headline is chosen for its innovative approach in AI development, appealing to both technical audiences and stakeholders interested in cutting-edge technology."
     },
     {
-      "item_number": 2,
-      "summary": "New sustainable material could transform construction industry, reducing carbon footprint significantly.",
-      "link": "https://www.greenbuildings.com/sustainable-materials",
-      "reason_for_choice": "This piece highlights a groundbreaking development in sustainable engineering, appealing to both technical audiences and stakeholders focused on sustainability goals."
+      "item_number": 1,
+      "summary": "Codeblocks offers a privacy-first AI chat client for developers, enhancing workflow customization.",
+      "link": "https://news.ycombinator.com/item?id=45710068",
+      "reason_for_choice": "Selected for its focus on privacy and customization, this product is relevant for both engineers and management concerned with data security."
     }
   ],
-  "digest": "- *Breakthroughs in Blindness Cures*: Innovative treatments are on the horizon, offering hope to millions. Read more at https://www.notboring.co/p/weekly-dose-of-optimism-167\n- *Quantum Computing Advancements*: New developments could revolutionize data processing and security. Details at https://www.notboring.co/p/weekly-dose-of-optimism-167\n- *Bio Models in Medicine*: Cutting-edge bio models are enhancing drug development and personalized medicine. Explore further at https://www.notboring.co/p/weekly-dose-of-optimism-167\n- *Government Capacity Funding*: Increased funding aims to boost technological infrastructure and innovation. More insights at https://www.notboring.co/p/weekly-dose-of-optimism-167\n- *AI in Healthcare*: AI tools are improving diagnostics and patient care, reducing errors and enhancing efficiency. Discover more at https://www.healthtechnews.com/ai-healthcare\n- *Renewable Energy Innovations*: New solar technologies promise higher efficiency and lower costs. Learn more at https://www.renewableenergyworld.com/solar-innovations\n- *Cybersecurity Trends*: Emerging threats and solutions in the digital landscape. Stay informed at https://www.cybersecuritytoday.com/trends"
+  "digest": "- *VebGen* introduces an innovative AI agent using AST for app development, enhancing efficiency and accuracy. Learn more at https://github.com/vebgenofficial/vebgen\n- *Codeblocks* provides a privacy-first AI chat client, crucial for developers prioritizing data security. Explore further at https://news.ycombinator.com/item?id=45710068\n- *OpenAI's GPT-4* continues to evolve, offering new capabilities in natural language processing, impacting both research and product development. \n- *Quantum Computing* advancements are setting new benchmarks in computational speed, promising breakthroughs in various industries.\n- *Sustainable Tech* initiatives are gaining momentum, with companies integrating eco-friendly practices into their product lifecycles.\n- *Blockchain* technology is expanding beyond cryptocurrencies, finding applications in supply chain management and digital identity verification."
 }
