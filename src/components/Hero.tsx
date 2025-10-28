@@ -90,7 +90,7 @@ const Hero = () => {
           {/* LinkedIn Follow Button */}
           <div className="flex justify-center mt-4 md:mt-6">
             <a
-              href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=giovanni-doni"
+              href="https://www.linkedin.com/in/giovanni-doni"
               target="_blank"
               rel="noopener noreferrer"
               className="flex justify-center items-center w-12 h-12 bg-[#0A66C2] rounded-full hover:bg-[#004182] transition-colors shadow-medium"
