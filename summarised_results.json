@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 6,
-      "summary": "NCCLX boosts training on 100k+ GPUs, enhancing throughput and latency.",
-      "link": "https://arxiv.org/abs/2510.20171",
-      "reason_for_choice": "This article presents a significant advancement in distributed computing, crucial for both engineering and management stakeholders interested in large-scale AI deployments."
+      "item_number": 2,
+      "summary": "Optimizing small language models for e-commerce boosts efficiency and cuts costs.",
+      "link": "https://arxiv.org/abs/2510.21970",
+      "reason_for_choice": "This article highlights the practical application of AI in e-commerce, showcasing how smaller models can match larger ones in accuracy while being cost-effective, appealing to both technical and business stakeholders."
     },
     {
-      "item_number": 34,
-      "summary": "ColorAgent enhances OS interaction with personalized AI agents.",
-      "link": "https://arxiv.org/abs/2510.19386",
-      "reason_for_choice": "This article highlights a practical application of AI in product development, appealing to stakeholders interested in user experience and product innovation."
+      "item_number": 11,
+      "summary": "FPGA-based real-time semantic segmentation for autonomous vehicles outperforms GPUs.",
+      "link": "https://arxiv.org/abs/2510.22243",
+      "reason_for_choice": "This piece presents a significant advancement in autonomous vehicle technology, demonstrating the potential of FPGA implementations in real-world engineering applications."
     }
   ],
-  "digest": "- *Tensor Product Attention Is All You Need*: TPA reduces memory usage in language models, enhancing efficiency for longer sequences. [Read more](https://arxiv.org/abs/2501.06425)\n- *GoRA: Gradient-driven Adaptive Low Rank Adaptation*: Introduces a unified framework for adaptive low-rank adaptation in LLMs, improving efficiency. [Read more](https://arxiv.org/abs/2502.12171)\n- *Alert-ME: An Explainability-Driven Defense*: Enhances text classification security by detecting adversarial inputs. [Read more](https://arxiv.org/abs/2307.01225)\n- *SharpZO: Hybrid Sharpness-Aware Vision Language Model*: Improves accuracy without backpropagation, ideal for edge devices. [Read more](https://arxiv.org/abs/2506.20990)\n- *Meta-Learning for Cross-Task Generalization*: Enhances protein mutation prediction with novel encoding strategies. [Read more](https://arxiv.org/abs/2510.20943)\n- *Learning Grouped Lattice Vector Quantizers*: Efficient low-bit compression of LLMs, improving performance. [Read more](https://arxiv.org/abs/2510.20984)\n- *FlexLLM: Token-Level Co-Serving*: Efficient co-serving of LLM inference and finetuning on shared GPUs. [Read more](https://arxiv.org/abs/2402.18789)\n- *Part I: Tricks or Traps?*: Reviews RL techniques for LLM reasoning, providing new insights. [Read more](https://arxiv.org/abs/2508.08221)\n- *MedAlign: A Synergistic Framework*: Enhances LVLMs for healthcare, achieving state-of-the-art results. [Read more](https://arxiv.org/abs/2510.21093)\n- *Memory Constrained Dynamic Subnetwork Update*: Offers a framework for memory-efficient neural network adaptation. [Read more](https://arxiv.org/abs/2510.20979)"
+  "digest": "- *Decoder-Hybrid-Decoder Architecture for Efficient Reasoning with Long Generation*: SambaY improves efficiency in long-context reasoning tasks using GMUs. [Read more](https://arxiv.org/abs/2507.06607)\n- *Vibration-Based Gesture Recognition on Furniture*: Energy-efficient FPGA implementation optimizes neural networks for real-world use. [Read more](https://arxiv.org/abs/2510.23156)\n- *Addressing Corner Cases in Autonomous Driving*: WM-MoE enhances motion forecasting with world models and LLMs. [Read more](https://arxiv.org/abs/2510.21867)\n- *TernaryCLIP*: Compresses vision-language models using ternary weights, achieving efficiency gains. [Read more](https://arxiv.org/abs/2510.21879)\n- *Backward-Friendly Optimization*: GradLite cuts memory use by 50% while maintaining LLM performance. [Read more](https://arxiv.org/abs/2510.22467)\n- *Policies over Poses*: MARL framework for multi-robot SLAM improves accuracy and efficiency. [Read more](https://arxiv.org/abs/2510.22740)\n- *Transformer Based Linear Attention*: Achieves 3.3x speedup and 3.6x memory reduction over state-of-the-art. [Read more](https://arxiv.org/abs/2510.21956)\n- *LightAgent*: Balances on-device efficiency with cloud capabilities for GUI agents. [Read more](https://arxiv.org/abs/2510.22009)\n- *CustomIR*: Enhances dense embedding models for specific corpora using synthetic queries. [Read more](https://arxiv.org/abs/2510.21729)\n- *GigaEmbeddings*: Efficient Russian text embeddings achieve state-of-the-art results. [Read more](https://arxiv.org/abs/2510.22369)"
 }
