@@ -2,22 +2,16 @@
   "picked_headlines": [
     {
       "item_number": 3,
-      "summary": "Hybrid AI model forecasts commodity price shocks with high accuracy.",
-      "link": "https://arxiv.org/abs/2508.06497",
-      "reason_for_choice": "This article presents a practical application of AI in economic forecasting, relevant for stakeholders in finance and management."
+      "summary": "IBM's CUGA deploys generalist agents in enterprise, emphasizing scalability and governance.",
+      "link": "https://arxiv.org/abs/2510.23856",
+      "reason_for_choice": "This article bridges the gap between research and practical enterprise applications, offering insights into deploying AI at scale, which is crucial for both technical and management audiences."
     },
     {
-      "item_number": 49,
-      "summary": "ChatGPT-based in-vehicle agents enhance driving safety and experience.",
-      "link": "https://arxiv.org/abs/2508.08101",
-      "reason_for_choice": "This study highlights the integration of AI in consumer products, showcasing real-world applications that appeal to both technical and non-technical audiences."
-    },
-    {
-      "item_number": 46,
-      "summary": "Lightweight CNN inspects dragon fruit quality in real-time on mobile.",
-      "link": "https://arxiv.org/abs/2508.07306",
-      "reason_for_choice": "This article demonstrates AI's role in agriculture and product quality control, offering insights into mobile-based AI applications."
+      "item_number": 93,
+      "summary": "Kani TTS is a 400M TTS model achieving 5x faster than real-time on RTX 4080.",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oitanf/just_dropped_kani_tts_english_a_400m_tts_model/",
+      "reason_for_choice": "This product-focused article highlights advancements in TTS technology, appealing to engineers and stakeholders interested in practical AI applications."
     }
   ],
-  "digest": "- *Efficient Edge LLMs Deployment* explores deploying large models on edge devices using Hessian-Aware Quantization, enhancing performance on limited hardware. More at https://arxiv.org/abs/2508.07329.\n- *MASteer* introduces a framework to improve LLM trustworthiness, using adaptive strategies for better model reliability. Details at https://arxiv.org/abs/2508.06963.\n- *CognitiveArm* showcases a real-time EEG-controlled prosthetic arm, highlighting advances in AI-driven healthcare solutions. Read more at https://arxiv.org/abs/2508.07731.\n- *Multimodal AI Systems* enhance poultry welfare assessments, integrating diverse data streams for scalable monitoring. Learn more at https://arxiv.org/abs/2508.07628.\n- *BadPromptFL* warns of backdoor threats in federated learning, emphasizing security risks in AI systems. Explore the study at https://arxiv.org/abs/2508.08040.\n- *ComPEFT* achieves significant model compression, optimizing communication in parameter-efficient updates. More information at https://arxiv.org/abs/2311.13171."
+  "digest": "- *MiniOneRec*: An open-source framework for generative recommendations using SID techniques and reinforcement learning. [Read more](https://arxiv.org/abs/2510.24431)\n- *Generative AI for Healthcare*: Transforming healthcare with data-centric systems, emphasizing quality medical data. [Read more](https://arxiv.org/abs/2510.24551)\n- *CustomIR*: Enhances dense embeddings with synthetic queries for efficient retrieval. [Read more](https://arxiv.org/abs/2510.21729)\n- *The Structural Scalpel*: Introduces layer pruning in LLMs, reducing computational costs. [Read more](https://arxiv.org/abs/2510.23652)\n- *Agent Data Protocol*: Unifies datasets for effective AI agent fine-tuning, boosting performance by ~20%. [Read more](https://arxiv.org/abs/2510.24702)\n- *OpenReward*: Enhances reward models for long-form tasks using external tools. [Read more](https://arxiv.org/abs/2510.24636)\n- *From Observability Data to Diagnosis*: OpsAgent enhances incident management in cloud systems. [Read more](https://arxiv.org/abs/2510.24145)\n- *Metadata-Driven Retrieval-Augmented Generation*: Improves financial question answering with contextual embeddings. [Read more](https://arxiv.org/abs/2510.24402)\n- *Serve 100 Large AI Models*: Efficient engine for quick AI model loading on a single GPU. [Read more](https://www.reddit.com/r/LocalLLaMA/comments/1oixju1/serve_100_large_ai_models_on_a_single_gpu_with/)\n- *Agentic AI and Security*: Discusses security risks of agentic AI due to LLMs' instruction-data separation challenges. [Read more](https://martinfowler.com/articles/agentic-ai-security.html)"
 }
