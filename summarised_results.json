@@ -1,17 +1,23 @@
 {
   "picked_headlines": [
     {
-      "item_number": 2,
-      "summary": "Optimizing small language models for e-commerce boosts efficiency and cuts costs.",
-      "link": "https://arxiv.org/abs/2510.21970",
-      "reason_for_choice": "This article highlights the practical application of AI in e-commerce, showcasing how smaller models can match larger ones in accuracy while being cost-effective, appealing to both technical and business stakeholders."
+      "item_number": 3,
+      "summary": "Hybrid AI model forecasts commodity price shocks with high accuracy.",
+      "link": "https://arxiv.org/abs/2508.06497",
+      "reason_for_choice": "This article presents a practical application of AI in economic forecasting, relevant for stakeholders in finance and management."
     },
     {
-      "item_number": 11,
-      "summary": "FPGA-based real-time semantic segmentation for autonomous vehicles outperforms GPUs.",
-      "link": "https://arxiv.org/abs/2510.22243",
-      "reason_for_choice": "This piece presents a significant advancement in autonomous vehicle technology, demonstrating the potential of FPGA implementations in real-world engineering applications."
+      "item_number": 49,
+      "summary": "ChatGPT-based in-vehicle agents enhance driving safety and experience.",
+      "link": "https://arxiv.org/abs/2508.08101",
+      "reason_for_choice": "This study highlights the integration of AI in consumer products, showcasing real-world applications that appeal to both technical and non-technical audiences."
+    },
+    {
+      "item_number": 46,
+      "summary": "Lightweight CNN inspects dragon fruit quality in real-time on mobile.",
+      "link": "https://arxiv.org/abs/2508.07306",
+      "reason_for_choice": "This article demonstrates AI's role in agriculture and product quality control, offering insights into mobile-based AI applications."
     }
   ],
-  "digest": "- *Decoder-Hybrid-Decoder Architecture for Efficient Reasoning with Long Generation*: SambaY improves efficiency in long-context reasoning tasks using GMUs. [Read more](https://arxiv.org/abs/2507.06607)\n- *Vibration-Based Gesture Recognition on Furniture*: Energy-efficient FPGA implementation optimizes neural networks for real-world use. [Read more](https://arxiv.org/abs/2510.23156)\n- *Addressing Corner Cases in Autonomous Driving*: WM-MoE enhances motion forecasting with world models and LLMs. [Read more](https://arxiv.org/abs/2510.21867)\n- *TernaryCLIP*: Compresses vision-language models using ternary weights, achieving efficiency gains. [Read more](https://arxiv.org/abs/2510.21879)\n- *Backward-Friendly Optimization*: GradLite cuts memory use by 50% while maintaining LLM performance. [Read more](https://arxiv.org/abs/2510.22467)\n- *Policies over Poses*: MARL framework for multi-robot SLAM improves accuracy and efficiency. [Read more](https://arxiv.org/abs/2510.22740)\n- *Transformer Based Linear Attention*: Achieves 3.3x speedup and 3.6x memory reduction over state-of-the-art. [Read more](https://arxiv.org/abs/2510.21956)\n- *LightAgent*: Balances on-device efficiency with cloud capabilities for GUI agents. [Read more](https://arxiv.org/abs/2510.22009)\n- *CustomIR*: Enhances dense embedding models for specific corpora using synthetic queries. [Read more](https://arxiv.org/abs/2510.21729)\n- *GigaEmbeddings*: Efficient Russian text embeddings achieve state-of-the-art results. [Read more](https://arxiv.org/abs/2510.22369)"
+  "digest": "- *Efficient Edge LLMs Deployment* explores deploying large models on edge devices using Hessian-Aware Quantization, enhancing performance on limited hardware. More at https://arxiv.org/abs/2508.07329.\n- *MASteer* introduces a framework to improve LLM trustworthiness, using adaptive strategies for better model reliability. Details at https://arxiv.org/abs/2508.06963.\n- *CognitiveArm* showcases a real-time EEG-controlled prosthetic arm, highlighting advances in AI-driven healthcare solutions. Read more at https://arxiv.org/abs/2508.07731.\n- *Multimodal AI Systems* enhance poultry welfare assessments, integrating diverse data streams for scalable monitoring. Learn more at https://arxiv.org/abs/2508.07628.\n- *BadPromptFL* warns of backdoor threats in federated learning, emphasizing security risks in AI systems. Explore the study at https://arxiv.org/abs/2508.08040.\n- *ComPEFT* achieves significant model compression, optimizing communication in parameter-efficient updates. More information at https://arxiv.org/abs/2311.13171."
 }
