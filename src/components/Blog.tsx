@@ -4,7 +4,6 @@ import { Badge } from "@/components/ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { BookOpen, Clock, ArrowRight, Calendar, Tag, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
-import { LinkedInEmbed } from 'react-social-media-embed';
 import linkedinPostsData from "@/data/linkedin-posts.json";
 import blogArticlesData from "@/data/blog-articles.json";
 
@@ -54,21 +53,12 @@ const Blog = () => {
             <Carousel className="w-full max-w-6xl mx-auto">
               <CarouselContent>
                 {linkedinPosts.map((post, index) => {
-                  // Extract the full LinkedIn URL from embedCode
-                  const srcMatch = post.embedCode.match(/src=["']([^"']+)["']/);
-                  const embedUrl = srcMatch ? srcMatch[1] : '';
-                  
                   return (
                     <CarouselItem key={`linkedin-${index}`} className="basis-full md:basis-1/2">
-                      <div className="w-full bg-card rounded-lg border p-4 flex justify-center">
-                        {embedUrl && (
-                          <LinkedInEmbed
-                            url={embedUrl}
-                            width="100%"
-                            height={500}
-                          />
-                        )}
-                      </div>
+                      <div 
+                        className="w-full bg-card rounded-lg border p-4 flex justify-center min-h-[400px]"
+                        dangerouslySetInnerHTML={{ __html: post.embedCode }}
+                      />
                     </CarouselItem>
                   );
                 })}
