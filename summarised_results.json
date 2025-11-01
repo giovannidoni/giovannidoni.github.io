@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 4,
-      "summary": "DINO-YOLO enhances object detection in civil engineering with self-supervised learning, improving accuracy while maintaining real-time performance.",
-      "link": "https://arxiv.org/abs/2510.25140",
-      "reason_for_choice": "This article bridges AI research with practical engineering applications, showcasing advancements in object detection crucial for civil engineering projects."
+      "item_number": 0,
+      "summary": "Jod simplifies log analysis with a chat-based interface, reducing dashboard juggling.",
+      "link": "https://jodmcp.com",
+      "reason_for_choice": "This tool is a game-changer for engineers and IT professionals, offering a practical solution to streamline workflow and enhance productivity."
     },
     {
-      "item_number": 95,
-      "summary": "Stripe's Agentic Commerce Protocol enables AI agents to facilitate transactions, enhancing payment systems and fraud detection in AI commerce.",
-      "link": "https://www.latent.space/p/stripe",
-      "reason_for_choice": "This topic is relevant for stakeholders interested in the intersection of AI and commerce, highlighting innovative approaches to enhance transaction security and efficiency."
+      "item_number": 2,
+      "summary": "Monzo's AI experimentation balances innovation with regulation through structured trials.",
+      "link": "https://newsletter.getdx.com/p/how-monzo-runs-data-driven-ai-experimentation",
+      "reason_for_choice": "This article provides valuable insights into how a leading fintech company successfully integrates AI, making it relevant for both technical and management audiences."
     }
   ],
-  "digest": "- *SPLite Hand* improves 3D hand pose estimation efficiency on edge devices using sparse convolution and a novel decoder, achieving significant speed-ups. [Link](https://arxiv.org/abs/2510.16396)\n- *MossNet* introduces a mixture-of-state-space-experts architecture that enhances multi-head attention, outperforming existing models in efficiency and performance. [Link](https://arxiv.org/abs/2510.26182)\n- *Kimi Linear* offers a new attention architecture that outperforms traditional models in efficiency and performance across various tasks. [Link](https://arxiv.org/abs/2510.26692)\n- *HeLU* is a new activation function that addresses the dying ReLU problem with variable thresholds, enhancing efficiency and model generalization. [Link](https://arxiv.org/abs/2411.10573)\n- *SecureReviewer* enhances LLMs for secure code review, addressing security issues with a tailored dataset and new evaluation metrics. [Link](https://arxiv.org/abs/2510.26457)\n- *Agentic AI Home Energy Management System* uses LLMs for autonomous home energy management, optimizing appliance scheduling from natural language inputs. [Link](https://arxiv.org/abs/2510.26603)\n- *AIMeter* measures AI's energy use and carbon footprint, promoting sustainable practices in AI development. [Link](https://arxiv.org/abs/2506.20535)\n- *FakeZero* is a client-side tool for real-time misinformation detection on social media, ensuring privacy and high accuracy with efficient models. [Link](https://arxiv.org/abs/2510.25932)\n- *SEA-LION* introduces advanced multilingual LLMs for Southeast Asian languages, addressing representation gaps and achieving state-of-the-art performance. [Link](https://arxiv.org/abs/2504.05747)\n- *FinOps Agent* automates cost optimization in IT infrastructure using AI, enhancing financial accountability. [Link](https://arxiv.org/abs/2510.25914)"
+  "digest": "- *AlomWare Toolbox* offers innovative automation and window management features for Windows users, enhancing productivity. Learn more at https://www.alomware.com\n- *Weekly Dose of Optimism #168* explores cutting-edge developments in chip technology, geothermal energy, AI biodefense, and affordable home robotics. Dive deeper at https://www.notboring.co/p/weekly-dose-of-optimism-168"
 }
