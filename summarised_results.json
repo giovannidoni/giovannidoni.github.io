@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "Jod simplifies log analysis with a chat-based interface, reducing dashboard juggling.",
-      "link": "https://jodmcp.com",
-      "reason_for_choice": "This tool is a game-changer for engineers and IT professionals, offering a practical solution to streamline workflow and enhance productivity."
+      "item_number": 1,
+      "summary": "Tongyi DeepResearch rivals OpenAI with innovative data synthesis.",
+      "link": "https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/",
+      "reason_for_choice": "This article highlights a significant advancement in AI research, showcasing an open-source model that competes with industry leaders, appealing to both technical audiences and stakeholders interested in cutting-edge technology."
     },
     {
       "item_number": 2,
-      "summary": "Monzo's AI experimentation balances innovation with regulation through structured trials.",
-      "link": "https://newsletter.getdx.com/p/how-monzo-runs-data-driven-ai-experimentation",
-      "reason_for_choice": "This article provides valuable insights into how a leading fintech company successfully integrates AI, making it relevant for both technical and management audiences."
+      "summary": "Postflare AI revolutionizes social media strategy with automation.",
+      "link": "https://news.ycombinator.com/item?id=45789033",
+      "reason_for_choice": "This piece is crucial for stakeholders in marketing and content creation, offering insights into cost-effective automation tools that can enhance productivity and engagement."
     }
   ],
-  "digest": "- *AlomWare Toolbox* offers innovative automation and window management features for Windows users, enhancing productivity. Learn more at https://www.alomware.com\n- *Weekly Dose of Optimism #168* explores cutting-edge developments in chip technology, geothermal energy, AI biodefense, and affordable home robotics. Dive deeper at https://www.notboring.co/p/weekly-dose-of-optimism-168"
+  "digest": "- *Renewable Energy Transparency*: The Matched Clean Power Index highlights discrepancies in renewable energy claims by UK suppliers, urging consumers to make informed choices. More details at https://matched.energy/blog/matched-clean-power-index-is-live\n- *AI in Social Media*: Postflare AI offers a budget-friendly solution for automating social media strategies, making it accessible for creators. Learn more at https://news.ycombinator.com/item?id=45789033\n- *Open-Source AI Models*: Tongyi DeepResearch introduces a 30B MoE model that rivals OpenAI, showcasing innovative methodologies in data synthesis and training. Explore the full article at https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/"
 }
