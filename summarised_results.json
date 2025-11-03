@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "Tongyi DeepResearch rivals OpenAI with innovative data synthesis.",
-      "link": "https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/",
-      "reason_for_choice": "This article highlights a significant advancement in AI research, showcasing an open-source model that competes with industry leaders, appealing to both technical audiences and stakeholders interested in cutting-edge technology."
+      "item_number": 3,
+      "summary": "DINO-YOLO boosts object detection in civil engineering with self-supervised learning, enhancing data efficiency.",
+      "link": "https://arxiv.org/abs/2510.25140",
+      "reason_for_choice": "This article highlights a significant advancement in engineering applications, showcasing how AI can improve efficiency in real-world scenarios."
     },
     {
-      "item_number": 2,
-      "summary": "Postflare AI revolutionizes social media strategy with automation.",
-      "link": "https://news.ycombinator.com/item?id=45789033",
-      "reason_for_choice": "This piece is crucial for stakeholders in marketing and content creation, offering insights into cost-effective automation tools that can enhance productivity and engagement."
+      "item_number": 8,
+      "summary": "Glia autonomously designs systems using LLMs, offering insights that surpass human experts.",
+      "link": "https://arxiv.org/abs/2510.27176",
+      "reason_for_choice": "Glia represents a breakthrough in AI-driven system design, providing a compelling case for stakeholders interested in cutting-edge technology applications."
     }
   ],
-  "digest": "- *Renewable Energy Transparency*: The Matched Clean Power Index highlights discrepancies in renewable energy claims by UK suppliers, urging consumers to make informed choices. More details at https://matched.energy/blog/matched-clean-power-index-is-live\n- *AI in Social Media*: Postflare AI offers a budget-friendly solution for automating social media strategies, making it accessible for creators. Learn more at https://news.ycombinator.com/item?id=45789033\n- *Open-Source AI Models*: Tongyi DeepResearch introduces a 30B MoE model that rivals OpenAI, showcasing innovative methodologies in data synthesis and training. Explore the full article at https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/"
+  "digest": "- *Fine-Tuning Open Video Generators* enhances video production efficiency with small datasets, crucial for media and entertainment. [Read more](https://arxiv.org/abs/2510.27364)\n- *SageAttention3* introduces FP4 Tensor Cores for efficient attention, promising speedups in AI model training. [Read more](https://arxiv.org/abs/2505.11594)\n- *KAT-Coder* improves coding with LLMs, making it a valuable tool for software developers. [Read more](https://arxiv.org/abs/2510.18779)\n- *SpecAttn* optimizes sparse attention in LLMs, reducing cache accesses and maintaining quality. [Read more](https://arxiv.org/abs/2510.27641)\n- *VeriMoA* enhances HDL generation with a multi-agent framework, improving RTL design efficiency. [Read more](https://arxiv.org/abs/2510.27617)\n- *EnterpriseBench* evaluates LLMs in enterprise settings, revealing low task completion rates, a concern for business applications. [Read more](https://arxiv.org/abs/2510.27287)\n- *LLINK* improves cross-lingual alignment in LLMs, beneficial for low-resource language processing. [Read more](https://arxiv.org/abs/2510.27254)\n- *Visual Backdoor Attacks* highlights security risks in MLLM agents, emphasizing the need for robust AI security measures. [Read more](https://arxiv.org/abs/2510.27623)\n- *TempoPFN* introduces a linear RNN for zero-shot time series forecasting, outperforming existing methods. [Read more](https://arxiv.org/abs/2510.25502)\n- *Mamba-Transformer Hybrids* offers insights into memory use, enhancing language model performance. [Read more](https://arxiv.org/abs/2510.26912)\n- *Universal Video Retrieval* framework improves video embedding generalization, crucial for media retrieval systems. [Read more](https://arxiv.org/abs/2510.27571)\n- *Adaptive Data Flywheel* enhances AI agent accuracy and reduces latency through continuous learning. [Read more](https://arxiv.org/abs/2510.27051)"
 }
