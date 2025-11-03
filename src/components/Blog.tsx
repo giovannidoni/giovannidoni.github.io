@@ -52,16 +52,48 @@ const Blog = () => {
             </div>
             <Carousel className="w-full max-w-6xl mx-auto">
               <CarouselContent>
-                {linkedinPosts.map((post, index) => {
-                  return (
-                    <CarouselItem key={`linkedin-${index}`} className="basis-full md:basis-1/2">
-                      <div 
-                        className="w-full bg-card rounded-lg border p-4 flex justify-center min-h-[400px]"
-                        dangerouslySetInnerHTML={{ __html: post.embedCode }}
-                      />
-                    </CarouselItem>
-                  );
-                })}
+                {linkedinPosts.map((post, index) => (
+                  <CarouselItem key={`linkedin-${index}`} className="basis-full md:basis-1/2">
+                    <a 
+                      href={post.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="block h-full"
+                    >
+                      <Card className="p-6 hover:shadow-medium transition-all duration-300 group cursor-pointer h-[280px] flex flex-col">
+                        <div className="flex items-center gap-2 mb-4">
+                          <Linkedin className="h-5 w-5 text-[#0077B5]" />
+                          <span className="flex items-center gap-1 text-sm text-muted-foreground">
+                            <Calendar className="h-4 w-4" />
+                            {formatDate(post.date)}
+                          </span>
+                        </div>
+
+                        <h4 className="text-xl font-bold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-3">
+                          {post.title}
+                        </h4>
+
+                        <p className="text-muted-foreground line-clamp-3 flex-1 mb-4">
+                          {post.excerpt}
+                        </p>
+
+                        <div className="flex items-center justify-between mt-auto">
+                          <Button 
+                            variant="ghost" 
+                            size="sm"
+                            className="group-hover:text-accent transition-colors"
+                            asChild
+                          >
+                            <span>
+                              View on LinkedIn
+                              <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                            </span>
+                          </Button>
+                        </div>
+                      </Card>
+                    </a>
+                  </CarouselItem>
+                ))}
               </CarouselContent>
               <CarouselPrevious />
               <CarouselNext />

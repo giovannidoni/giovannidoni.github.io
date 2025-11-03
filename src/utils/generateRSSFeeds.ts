@@ -14,8 +14,11 @@ interface BlogArticle {
 
 interface LinkedinPost {
   index: number;
+  title: string;
+  excerpt: string;
+  date: string;
+  url: string;
   type: string;
-  embedCode: string;
 }
 
 interface AIResearchData {
@@ -65,13 +68,13 @@ const generateLinkedInRSSFeed = (): string => {
   const baseUrl = window.location.origin;
   const pubDate = new Date().toUTCString();
 
-  const rssItems = posts.map((post, index) => `
+  const rssItems = posts.map((post) => `
     <item>
-      <title><![CDATA[LinkedIn Post #${post.index}]]></title>
-      <description><![CDATA[${post.embedCode}]]></description>
-      <link>${baseUrl}/#linkedin-post-${post.index}</link>
-      <guid isPermaLink="false">linkedin-post-${post.index}</guid>
-      <pubDate>${new Date(Date.now() - (index * 24 * 60 * 60 * 1000)).toUTCString()}</pubDate>
+      <title><![CDATA[${post.title}]]></title>
+      <description><![CDATA[${post.excerpt}]]></description>
+      <link>${post.url}</link>
+      <guid isPermaLink="true">${post.url}</guid>
+      <pubDate>${new Date(post.date).toUTCString()}</pubDate>
       <category>LinkedIn, Social Media</category>
       <author>Your Name</author>
     </item>`).join('');
@@ -112,13 +115,13 @@ const generateCombinedRSSFeed = (): string => {
       category: article.tags.join(', ')
     })),
     // LinkedIn posts
-    ...posts.map((post, index) => ({
+    ...posts.map((post) => ({
       type: 'linkedin',
-      title: `LinkedIn Post #${post.index}`,
-      description: post.embedCode,
-      link: `${baseUrl}/#linkedin-post-${post.index}`,
-      guid: `linkedin-post-${post.index}`,
-      date: new Date(Date.now() - (index * 24 * 60 * 60 * 1000)),
+      title: post.title,
+      description: post.excerpt,
+      link: post.url,
+      guid: post.url,
+      date: new Date(post.date),
       category: 'LinkedIn, Social Media'
     })),
     // AI Research headlines
