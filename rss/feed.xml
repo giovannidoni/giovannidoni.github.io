@@ -5,81 +5,9 @@
     <description>Latest blog posts and LinkedIn updates from Giovanni Doni</description>
     <link>https://</link>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Nov 2025 12:47:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 20:08:18 GMT</lastBuildDate>
     <atom:link href="https://rss/feed.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>LinkedIn Post #1</title>
-      <description><![CDATA[View LinkedIn Post #1 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7366037340965789697</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7366037340965789697</guid>
-      <pubDate>Mon, 03 Nov 2025 12:47:05 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>LinkedIn Post #2</title>
-      <description><![CDATA[View LinkedIn Post #2 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7386739886822871040</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7386739886822871040</guid>
-      <pubDate>Mon, 03 Nov 2025 12:47:05 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>LinkedIn Post #3</title>
-      <description><![CDATA[View LinkedIn Post #3 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7355928384205422592</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7355928384205422592</guid>
-      <pubDate>Mon, 03 Nov 2025 12:47:05 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>LinkedIn Post #4</title>
-      <description><![CDATA[View LinkedIn Post #4 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7355637024210530304</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7355637024210530304</guid>
-      <pubDate>Mon, 03 Nov 2025 12:47:05 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>LinkedIn Post #5</title>
-      <description><![CDATA[View LinkedIn Post #5 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7354061415579561985</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7354061415579561985</guid>
-      <pubDate>Mon, 03 Nov 2025 12:47:05 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>LinkedIn Post #6</title>
-      <description><![CDATA[View LinkedIn Post #6 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7339301481948311552</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7339301481948311552</guid>
-      <pubDate>Mon, 03 Nov 2025 12:47:05 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>LinkedIn Post #7</title>
-      <description><![CDATA[View LinkedIn Post #7 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7339579159720910848</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7339579159720910848</guid>
-      <pubDate>Mon, 03 Nov 2025 12:47:05 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>LinkedIn Post #8</title>
-      <description><![CDATA[View LinkedIn Post #8 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7338097403826196481</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7338097403826196481</guid>
-      <pubDate>Mon, 03 Nov 2025 12:47:05 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
     <item>
       <title>Fitting Intelligence: A Modular AI Stack for Machine Learning Engineers</title>
       <description><![CDATA[# Fitting intelligence
@@ -218,6 +146,78 @@ We don't need general artificial intelligence everywhere. What we need is an int
       <guid>https://blog/fitting-intelligence</guid>
       <pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate>
       <category>AI Architecture, MLOps, Tech Leadership</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>Building Robust ML Systems at Scale</title>
+      <description><![CDATA[Key lessons learned from deploying machine learning models in production environments. How to handle edge cases, monitoring, and maintaining model performance over time.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7366037340965789697</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7366037340965789697</guid>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate>
+      <category>LinkedIn</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>The Future of AI in Product Development</title>
+      <description><![CDATA[Exploring how AI is transforming the way we build and ship products, from ideation to deployment.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7386739886822871040</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7386739886822871040</guid>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
+      <category>LinkedIn</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>Leadership Lessons from the Mountains</title>
+      <description><![CDATA[What mountaineering teaches us about technical leadership, team dynamics, and managing uncertainty in high-stakes environments.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7355928384205422592</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7355928384205422592</guid>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 GMT</pubDate>
+      <category>LinkedIn</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>Kubernetes Best Practices for ML Workloads</title>
+      <description><![CDATA[Practical tips for orchestrating machine learning pipelines on Kubernetes. From resource allocation to auto-scaling strategies.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7355637024210530304</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7355637024210530304</guid>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 GMT</pubDate>
+      <category>LinkedIn</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>Data Quality: The Hidden ML Challenge</title>
+      <description><![CDATA[Why data quality matters more than model architecture. Lessons from debugging production ML systems and improving data pipelines.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7354061415579561985</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7354061415579561985</guid>
+      <pubDate>Tue, 05 Nov 2024 00:00:00 GMT</pubDate>
+      <category>LinkedIn</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>LLMs in Production: Real-World Experiences</title>
+      <description><![CDATA[Practical insights from deploying large language models at scale. Cost optimization, latency challenges, and quality assurance.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7339579159720910848</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7339579159720910848</guid>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+      <category>LinkedIn</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>Scaling Teams and Systems</title>
+      <description><![CDATA[Reflections on growing engineering teams while maintaining code quality and system reliability. The parallel challenges of people and infrastructure.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7339301481948311552</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7339301481948311552</guid>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
+      <category>LinkedIn</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>The Art of Technical Decision Making</title>
+      <description><![CDATA[How to make better technical decisions under uncertainty. Balancing speed, quality, and long-term maintainability in fast-paced environments.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7338097403826196481</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7338097403826196481</guid>
+      <pubDate>Sat, 12 Oct 2024 00:00:00 GMT</pubDate>
+      <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
