@@ -4,7 +4,6 @@ import { Badge } from "@/components/ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { BookOpen, Clock, ArrowRight, Calendar, Tag, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
-import { LinkedInEmbed } from 'react-social-media-embed';
 import linkedinPostsData from "@/data/linkedin-posts.json";
 import blogArticlesData from "@/data/blog-articles.json";
 
@@ -43,30 +42,6 @@ const Blog = () => {
               Sharing thoughts on machine learning, technical leadership, and the intersection 
               of technology with life experiences. Peak performance in your team and in your production systems.
             </p>
-          </div>
-
-          {/* Latest LinkedIn Posts */}
-          <div className="mb-12">
-            <div className="flex items-center gap-2 mb-6">
-              <Linkedin className="h-5 w-5 text-accent" />
-              <h3 className="text-2xl font-bold text-foreground">Latest LinkedIn Posts</h3>
-            </div>
-            <Carousel className="w-full max-w-6xl mx-auto">
-              <CarouselContent>
-                {linkedinPosts.map((post, index) => (
-                  <CarouselItem key={`linkedin-${index}`} className="basis-full md:basis-1/2">
-                    <div className="flex justify-center">
-                      <LinkedInEmbed
-                        url={post.url}
-                        width="100%"
-                      />
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
-            </Carousel>
           </div>
 
           {/* Blog Articles */}
@@ -123,6 +98,51 @@ const Blog = () => {
                         </div>
                       </Card>
                     </Link>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
+          </div>
+
+          {/* Latest LinkedIn Posts */}
+          <div className="mb-12">
+            <div className="flex items-center gap-2 mb-6">
+              <Linkedin className="h-5 w-5 text-accent" />
+              <h3 className="text-2xl font-bold text-foreground">Latest LinkedIn Posts</h3>
+            </div>
+            <Carousel className="w-full max-w-6xl mx-auto">
+              <CarouselContent>
+                {linkedinPosts.map((post, index) => (
+                  <CarouselItem key={`linkedin-${index}`} className="basis-full md:basis-1/2">
+                    <a 
+                      href={post.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="block h-full"
+                    >
+                      <Card className="p-6 hover:shadow-medium transition-all duration-300 group cursor-pointer h-[200px] flex flex-col items-center justify-center text-center">
+                        <Linkedin className="h-12 w-12 text-[#0077B5] mb-4" />
+                        
+                        <span className="flex items-center gap-1 text-sm text-muted-foreground mb-4">
+                          <Calendar className="h-4 w-4" />
+                          {formatDate(post.date)}
+                        </span>
+
+                        <Button 
+                          variant="outline" 
+                          size="sm"
+                          className="group-hover:text-accent transition-colors"
+                          asChild
+                        >
+                          <span>
+                            View Post on LinkedIn
+                            <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                          </span>
+                        </Button>
+                      </Card>
+                    </a>
                   </CarouselItem>
                 ))}
               </CarouselContent>
