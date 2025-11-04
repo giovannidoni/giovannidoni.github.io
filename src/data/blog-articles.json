@@ -1,5 +1,14 @@
 [
   {
+    "title": "Magma Beneath the Interface: How AI is Shifting Product Development",
+    "excerpt": "Exploring how AI is moving the origin of product ideas deeper into the stack, with backend iteration leading creative processes and context becoming a programmatic layer.",
+    "date": "2025-11-04",
+    "readTime": "4 min",
+    "tags": ["AI", "Product Development", "Tech Leadership"],
+    "slug": "deeper-in-the-stack",
+    "contentFile": "deeper-in-the-stack.md"
+  },
+  {
     "title": "Fitting Intelligence: A Modular AI Stack for Machine Learning Engineers",
     "excerpt": "Senior ML Engineer's guide to building modular AI stacks with selective LLMs, privacy-safe orchestration, and scalable intelligence systems for production environments.",
     "date": "2025-07-31",
