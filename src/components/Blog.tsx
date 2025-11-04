@@ -122,25 +122,36 @@ const Blog = () => {
                       rel="noopener noreferrer"
                       className="block h-full"
                     >
-                      <Card className="p-6 hover:shadow-medium transition-all duration-300 group cursor-pointer h-[200px] flex flex-col items-center justify-center text-center">
-                        <Linkedin className="h-12 w-12 text-[#0077B5] mb-4" />
-                        
-                        <span className="flex items-center gap-1 text-sm text-muted-foreground mb-4">
-                          <Calendar className="h-4 w-4" />
-                          {formatDate(post.date)}
-                        </span>
+                      <Card className="p-6 hover:shadow-medium transition-all duration-300 group cursor-pointer h-full flex flex-col">
+                        <div className="space-y-4">
+                          <div className="flex items-center justify-between">
+                            <Linkedin className="h-8 w-8 text-[#0077B5]" />
+                            <span className="flex items-center gap-1 text-sm text-muted-foreground">
+                              <Calendar className="h-4 w-4" />
+                              {formatDate(post.date)}
+                            </span>
+                          </div>
+                          
+                          <h3 className="text-xl font-bold text-foreground group-hover:text-accent transition-colors line-clamp-2 text-left">
+                            {post.title}
+                          </h3>
 
-                        <Button 
-                          variant="outline" 
-                          size="sm"
-                          className="group-hover:text-accent transition-colors"
-                          asChild
-                        >
-                          <span>
-                            View Post on LinkedIn
-                            <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                          </span>
-                        </Button>
+                          <p className="text-muted-foreground line-clamp-3 text-left flex-grow">
+                            {post.excerpt}
+                          </p>
+
+                          <Button 
+                            variant="outline" 
+                            size="sm"
+                            className="group-hover:text-accent transition-colors w-full mt-auto"
+                            asChild
+                          >
+                            <span>
+                              View Post on LinkedIn
+                              <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                            </span>
+                          </Button>
+                        </div>
                       </Card>
                     </a>
                   </CarouselItem>
