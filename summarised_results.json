@@ -2,16 +2,22 @@
   "picked_headlines": [
     {
       "item_number": 3,
-      "summary": "DINO-YOLO boosts object detection in civil engineering with self-supervised learning, enhancing data efficiency.",
-      "link": "https://arxiv.org/abs/2510.25140",
-      "reason_for_choice": "This article highlights a significant advancement in engineering applications, showcasing how AI can improve efficiency in real-world scenarios."
+      "summary": "Hybrid AI model forecasts commodity price shocks with high accuracy.",
+      "link": "https://arxiv.org/abs/2508.06497",
+      "reason_for_choice": "This article presents a practical application of AI in economic forecasting, relevant for stakeholders in finance and management."
     },
     {
-      "item_number": 8,
-      "summary": "Glia autonomously designs systems using LLMs, offering insights that surpass human experts.",
-      "link": "https://arxiv.org/abs/2510.27176",
-      "reason_for_choice": "Glia represents a breakthrough in AI-driven system design, providing a compelling case for stakeholders interested in cutting-edge technology applications."
+      "item_number": 49,
+      "summary": "ChatGPT-based in-vehicle agents enhance driving safety and experience.",
+      "link": "https://arxiv.org/abs/2508.08101",
+      "reason_for_choice": "This study highlights the integration of AI in consumer products, showcasing real-world applications that appeal to both technical and non-technical audiences."
+    },
+    {
+      "item_number": 46,
+      "summary": "Lightweight CNN inspects dragon fruit quality in real-time on mobile.",
+      "link": "https://arxiv.org/abs/2508.07306",
+      "reason_for_choice": "This article demonstrates AI's role in agriculture and product quality control, offering insights into mobile-based AI applications."
     }
   ],
-  "digest": "- *Fine-Tuning Open Video Generators* enhances video production efficiency with small datasets, crucial for media and entertainment. [Read more](https://arxiv.org/abs/2510.27364)\n- *SageAttention3* introduces FP4 Tensor Cores for efficient attention, promising speedups in AI model training. [Read more](https://arxiv.org/abs/2505.11594)\n- *KAT-Coder* improves coding with LLMs, making it a valuable tool for software developers. [Read more](https://arxiv.org/abs/2510.18779)\n- *SpecAttn* optimizes sparse attention in LLMs, reducing cache accesses and maintaining quality. [Read more](https://arxiv.org/abs/2510.27641)\n- *VeriMoA* enhances HDL generation with a multi-agent framework, improving RTL design efficiency. [Read more](https://arxiv.org/abs/2510.27617)\n- *EnterpriseBench* evaluates LLMs in enterprise settings, revealing low task completion rates, a concern for business applications. [Read more](https://arxiv.org/abs/2510.27287)\n- *LLINK* improves cross-lingual alignment in LLMs, beneficial for low-resource language processing. [Read more](https://arxiv.org/abs/2510.27254)\n- *Visual Backdoor Attacks* highlights security risks in MLLM agents, emphasizing the need for robust AI security measures. [Read more](https://arxiv.org/abs/2510.27623)\n- *TempoPFN* introduces a linear RNN for zero-shot time series forecasting, outperforming existing methods. [Read more](https://arxiv.org/abs/2510.25502)\n- *Mamba-Transformer Hybrids* offers insights into memory use, enhancing language model performance. [Read more](https://arxiv.org/abs/2510.26912)\n- *Universal Video Retrieval* framework improves video embedding generalization, crucial for media retrieval systems. [Read more](https://arxiv.org/abs/2510.27571)\n- *Adaptive Data Flywheel* enhances AI agent accuracy and reduces latency through continuous learning. [Read more](https://arxiv.org/abs/2510.27051)"
+  "digest": "- *Efficient Edge LLMs Deployment* explores deploying large models on edge devices using Hessian-Aware Quantization, enhancing performance on limited hardware. More at https://arxiv.org/abs/2508.07329.\n- *MASteer* introduces a framework to improve LLM trustworthiness, using adaptive strategies for better model reliability. Details at https://arxiv.org/abs/2508.06963.\n- *CognitiveArm* showcases a real-time EEG-controlled prosthetic arm, highlighting advances in AI-driven healthcare solutions. Read more at https://arxiv.org/abs/2508.07731.\n- *Multimodal AI Systems* enhance poultry welfare assessments, integrating diverse data streams for scalable monitoring. Learn more at https://arxiv.org/abs/2508.07628.\n- *BadPromptFL* warns of backdoor threats in federated learning, emphasizing security risks in AI systems. Explore the study at https://arxiv.org/abs/2508.08040.\n- *ComPEFT* achieves significant model compression, optimizing communication in parameter-efficient updates. More information at https://arxiv.org/abs/2311.13171."
 }
