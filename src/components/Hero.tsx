@@ -71,17 +71,17 @@ const Hero = () => {
             </div>
 
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Senior Machine Learning Engineer, AI Engineer & Tech Lead.
+              ML / AI Engineer & Tech Lead.
               Delivering production-scale ML solutions and leading high-performing AI teams that drive innovation.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="accent" size="lg" onClick={() => {console.log('Button clicked!'); scrollToSection("experience");}} className="shadow-strong w-40">
+            <Button variant="outline" size="lg" className="bg-white text-primary border-2 border-white hover:bg-white/90 hover:scale-105 transition-all duration-200 shadow-strong w-40" onClick={() => {console.log('Button clicked!'); scrollToSection("experience");}}>
               <FileText className="h-5 w-5" />
               My Work
             </Button>
-            <Button variant="outline" size="lg" className="bg-white/20 border-white/30 text-white hover:bg-white/30 backdrop-blur-sm w-40" onClick={() => scrollToSection("contact")}>
+            <Button variant="accent" size="lg" onClick={() => scrollToSection("contact")} className="shadow-strong w-40">
               <Calendar className="h-5 w-5" />
               Let's Chat
             </Button>
