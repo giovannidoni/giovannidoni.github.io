@@ -12,6 +12,7 @@ import scalingLlmsContent from '@/data/blog-posts/scaling-llms-production-delive
 import dolomitesContent from '@/data/blog-posts/dolomites-data-mountains-ml.md?raw';
 import kubernetesContent from '@/data/blog-posts/robust-ml-pipelines-kubernetes-argo.md?raw';
 import fittingIntelligenceContent from '@/data/blog-posts/fitting-intelligence.md?raw';
+import deeperInStackContent from '@/data/blog-posts/deeper-in-the-stack.md?raw';
 
 // Create a mapping of content files to their imported content
 const contentMap: Record<string, string> = {
@@ -19,6 +20,7 @@ const contentMap: Record<string, string> = {
   'dolomites-data-mountains-ml.md': dolomitesContent,
   'robust-ml-pipelines-kubernetes-argo.md': kubernetesContent,
   'fitting-intelligence.md': fittingIntelligenceContent,
+  'deeper-in-the-stack.md': deeperInStackContent,
 };
 
 interface BlogArticle {
