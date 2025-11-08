@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "CudaForge optimizes CUDA kernels with a multi-agent framework, boosting speed and correctness.",
-      "link": "https://arxiv.org/abs/2511.01884",
-      "reason_for_choice": "This article presents a significant advancement in CUDA kernel optimization, relevant for both technical audiences and stakeholders interested in performance improvements."
+      "item_number": 2,
+      "summary": "ArahiAI: No-code AI agents for task automation across 2800+ apps.",
+      "link": "https://news.ycombinator.com/item?id=45854963",
+      "reason_for_choice": "This article highlights a product innovation that appeals to both technical and non-technical audiences by simplifying AI integration for small teams."
     },
     {
-      "item_number": 105,
-      "summary": "AI reshapes data engineering, but human expertise remains crucial for infrastructure and data quality.",
-      "link": "https://www.oreilly.com/radar/data-engineering-in-the-age-of-ai/",
-      "reason_for_choice": "This topic is crucial for understanding the evolving role of AI in engineering and management, highlighting the balance between automation and human expertise."
+      "item_number": 3,
+      "summary": "ChatGroq now tracks prompt caching for better token usage.",
+      "link": "https://github.com/langchain-ai/langchain/commit/9383b78be1c69b6b37c2446eb9acc408b8a134e6",
+      "reason_for_choice": "This update is crucial for developers and engineers focused on optimizing AI model performance and resource management."
     }
   ],
-  "digest": "- *CudaForge* introduces a multi-agent framework for CUDA kernel optimization, achieving high correctness and speedup over existing methods. [Read more](https://arxiv.org/abs/2511.01884)\n- *TabTune* unifies workflows for tabular foundation models, enhancing preprocessing, fine-tuning, and evaluation for better deployment. [Read more](https://arxiv.org/abs/2511.02802)\n- *PerfDojo* automates ML library generation for diverse architectures using LLMs and RL, enhancing performance without prior hardware knowledge. [Read more](https://arxiv.org/abs/2511.03586)\n- *RAGalyst* offers a new framework for evaluating domain-specific RAG systems, enhancing alignment with human judgment and addressing context-dependency. [Read more](https://arxiv.org/abs/2511.04502)\n- *Data Engineering in the Age of AI* discusses AI's impact on data engineering, emphasizing the continued need for human expertise. [Read more](https://www.oreilly.com/radar/data-engineering-in-the-age-of-ai/)\n- *Amazon layoffs* raise questions about AI's role in job cuts amidst economic changes, highlighting the intersection of technology and employment. [Read more](https://blog.pragmaticengineer.com/the-pulse-amazon-layoffs/)\n- *AnalogSeeker* is an open-source model for analog circuit design, enhancing training with domain knowledge and achieving notable accuracy improvements. [Read more](https://arxiv.org/abs/2508.10409)\n- *LiveTradeBench* evaluates LLMs in real-time trading, revealing gaps in static tests and highlighting decision-making under uncertainty. [Read more](https://arxiv.org/abs/2511.03628)\n- *EEGReXferNet* is a lightweight AI framework for efficient EEG reconstruction using cross-subject learning, enhancing real-time BCI applications. [Read more](https://arxiv.org/abs/2511.02848)"
+  "digest": "- *fix(core): context preservation in shielded async callbacks* - Ensures compatibility with OpenTelemetry and Python versions, enhancing reliability in asynchronous operations. More details at https://github.com/langchain-ai/langchain/commit/d27211cfa7af351c9206e869fe4e261817c8f270.\n- *fix(huggingface): pass llm params to `ChatHuggingFace`* - Improves usability for developers by allowing LLM parameter inheritance, making it easier to customize AI interactions. Check it out at https://github.com/langchain-ai/langchain/commit/d8b94007c13e7e2c1b2c6cfbc765c6d9a383b410.\n- *Weekly Dose of Optimism #169* - Covers tech and space innovations, including Stripe's new startup support and advancements in nuclear energy, appealing to stakeholders interested in future trends. Read more at https://www.notboring.co/p/weekly-dose-of-optimism-169."
 }
