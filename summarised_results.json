@@ -2,16 +2,16 @@
   "picked_headlines": [
     {
       "item_number": 0,
-      "summary": "Valori is a Python-native vector database designed for simplicity and extensibility, addressing limitations of existing solutions.",
-      "link": "https://news.ycombinator.com/item?id=45864900",
-      "reason_for_choice": "Valori represents a significant advancement in database technology, offering a tool that can be highly beneficial for engineers and developers looking for efficient data management solutions."
+      "summary": "Optimizing LLMs for edge devices through cognitive edge computing.",
+      "link": "https://arxiv.org/abs/2501.03265",
+      "reason_for_choice": "This article provides a comprehensive overview of deploying large language models on edge devices, crucial for engineers and tech stakeholders aiming to enhance AI accessibility and efficiency."
     },
     {
-      "item_number": 2,
-      "summary": "Flashtensors enables fast loading of large AI models on a single GPU, reducing coldstart times significantly for efficient inference.",
-      "link": "https://github.com/leoheuler/flashtensors",
-      "reason_for_choice": "Flashtensors is a breakthrough in AI model deployment, allowing for efficient resource usage and faster processing, which is crucial for both technical teams and decision-makers in AI-driven projects."
+      "item_number": 10,
+      "summary": "Custom RISC-V GPU instructions boost HDC-CNN model performance by 56.2x.",
+      "link": "https://arxiv.org/abs/2511.05053",
+      "reason_for_choice": "This piece highlights significant advancements in energy-efficient computing, appealing to both product engineers and management interested in cutting-edge hardware solutions."
     }
   ],
-  "digest": "- *Valori*: A new Python-native vector database designed for simplicity and extensibility, offering a fresh approach to data management. Explore more at https://news.ycombinator.com/item?id=45864900\n- *Teda.dev*: An intuitive AI app builder that surpasses competitors in UI/UX, providing a seamless experience for developers and end-users alike. Check it out at https://teda.dev\n- *Flashtensors*: Revolutionizes the deployment of large AI models by enabling efficient use of a single GPU, significantly reducing coldstart times. Discover more at https://github.com/leoheuler/flashtensors\n- *Teda.dev*: Offers a streamlined process for creating browser-based AI tools, enhancing productivity and user experience. Visit https://teda.dev for more information"
+  "digest": "- *EncouRAGe* offers a modular framework for RAG systems, enhancing reproducibility and design flexibility. [Read more](https://arxiv.org/abs/2511.04696)\n- *ProRefine* improves AI prompt design using feedback loops, boosting reasoning accuracy. [Read more](https://arxiv.org/abs/2506.05305)\n- *DMA* integrates human feedback into RAG systems for real-time adaptation, enhancing QA task performance. [Read more](https://arxiv.org/abs/2511.04880)\n- *OpsAgent* automates incident management in cloud systems, improving interpretability. [Read more](https://arxiv.org/abs/2510.24145)\n- *PuzzleMoE* compresses MoE models efficiently, maintaining high accuracy. [Read more](https://arxiv.org/abs/2511.04805)\n- *AgentExpt* automates AI experiment design, improving dataset retrieval and research reliability. [Read more](https://arxiv.org/abs/2511.04921)\n- *G-TRACE* quantifies GenAI's carbon emissions, proposing a sustainable AI governance model. [Read more](https://arxiv.org/abs/2511.04776)\n- *LiveStar* enhances real-time video understanding, outperforming existing models. [Read more](https://arxiv.org/abs/2511.05299)\n- *RCCDA* optimizes ML model updates under concept drift, enhancing accuracy and efficiency. [Read more](https://arxiv.org/abs/2505.24149)\n- *Orion-MSP* improves tabular in-context learning with multi-scale processing. [Read more](https://arxiv.org/abs/2511.02818)"
 }
