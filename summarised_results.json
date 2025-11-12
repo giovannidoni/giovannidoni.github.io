@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 17,
-      "summary": "Optimizing HDC-CNN models on RISC-V GPUs with custom instructions for performance gains.",
-      "link": "https://arxiv.org/abs/2511.05053",
-      "reason_for_choice": "This article bridges the gap between product engineering and AI research, showcasing practical applications of AI in hardware optimization."
+      "item_number": 4,
+      "summary": "REIS boosts retrieval in LLMs with 13x performance and 55x energy efficiency.",
+      "link": "https://arxiv.org/abs/2506.16444",
+      "reason_for_choice": "This article highlights a significant advancement in product engineering, showcasing energy-efficient solutions that are crucial for sustainable AI development."
     },
     {
-      "item_number": 88,
-      "summary": "Tool-Neuron enables offline AI on Android, ensuring privacy without cloud reliance.",
-      "link": "https://news.ycombinator.com/item?id=45885091",
-      "reason_for_choice": "This piece highlights a significant advancement in privacy-focused AI deployment, appealing to both technical audiences and stakeholders concerned with data security."
+      "item_number": 31,
+      "summary": "LLM inference's environmental impact is high, offering a sustainability framework.",
+      "link": "https://arxiv.org/abs/2505.09598",
+      "reason_for_choice": "This article addresses the pressing issue of AI's environmental footprint, providing a framework for sustainability, relevant to both technical and management stakeholders."
     }
   ],
-  "digest": "- *Cognitive Edge Computing* explores optimizing LLMs for edge deployment, crucial for IoT applications. [Read more](https://arxiv.org/abs/2501.03265)\n- *High-Performance GPU Resources* are vital for LLMs in radiology, improving diagnostic accuracy. [Read more](https://arxiv.org/abs/2509.16328)\n- *IterResearch* introduces a novel approach to long-horizon reasoning in AI, enhancing dynamic task efficiency. [Read more](https://arxiv.org/abs/2511.07327)\n- *ProRefine* optimizes AI workflows by refining prompts with textual feedback, boosting model performance. [Read more](https://arxiv.org/abs/2506.05305)\n- *OpsAgent* enhances cloud incident management with a self-evolving multi-agent system. [Read more](https://arxiv.org/abs/2510.24145)\n- *EditGRPO* uses reinforcement learning for accurate chest X-ray report generation, improving clinical outcomes. [Read more](https://arxiv.org/abs/2509.22812)\n- *ReCode* updates LLMs' code generation with reinforcement learning, adapting to API changes. [Read more](https://arxiv.org/abs/2506.20495)\n- *LegalEval-Q* benchmarks LLMs in legal text quality, providing insights into model performance. [Read more](https://arxiv.org/abs/2505.24826)\n- *Isaac Lab* offers a GPU-accelerated simulation framework for scalable robot training. [Read more](https://arxiv.org/abs/2511.04831)\n- *Privacy-First AI on Android* with Tool-Neuron enables offline model use, ensuring data privacy. [Read more](https://news.ycombinator.com/item?id=45885091)"
+  "digest": "- *Integrating Artificial Intelligence into Operating Systems* surveys AI integration in OS, highlighting techniques and challenges. Read more: https://arxiv.org/abs/2407.14567\n- *Motif 2 12.7B technical report* introduces a new efficient language model with innovative architecture. More details: https://arxiv.org/abs/2511.07464\n- *Towards Outcome-Oriented, Task-Agnostic Evaluation of AI Agents* proposes 11 outcome-based metrics for AI evaluation. Explore further: https://arxiv.org/abs/2511.08242\n- *ControlMed: Adding Reasoning Control to Medical Language Model* enhances medical LLMs for clinical efficiency. Discover more: https://arxiv.org/abs/2507.22545\n- *AgentFlux: Decoupled Fine-Tuning & Inference for On-Device Agentic Systems* improves task automation with on-device LLMs. Learn more: https://arxiv.org/abs/2510.00229\n- *SpeechJudge: Towards Human-Level Judgment for Speech Naturalness* enhances speech synthesis alignment with human perception. Read here: https://arxiv.org/abs/2511.07931\n- *FedSEA-LLaMA: A Secure, Efficient and Adaptive Federated Splitting Framework* enhances federated learning for LLMs. Check it out: https://arxiv.org/abs/2505.15683\n- *Quantizing Whisper-small: How design choices affect ASR performance* improves deployment efficiency on edge devices. More info: https://arxiv.org/abs/2511.08093\n- *How Hungry is AI? Benchmarking Energy, Water, and Carbon Footprint of LLM Inference* reveals high resource consumption, offering a sustainability framework. Details: https://arxiv.org/abs/2505.09598\n- *AI vs. the cheating: lessons from building a national exam integrity system* reveals an industrialized cheating network, improving exam integrity. Read more: https://news.ycombinator.com/item?id=45898498\n- *The Other 80%: What Productivity Really Means* critiques AI's impact on developer productivity, emphasizing holistic software development. Explore: https://www.oreilly.com/radar/the-other-80-what-productivity-really-means/"
 }
