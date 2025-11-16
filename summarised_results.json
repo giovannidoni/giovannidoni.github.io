@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "Rapid Kubernetes setup with RunOS using KVM and gRPC.",
-      "link": "https://news.ycombinator.com/item?id=45936611",
-      "reason_for_choice": "This article highlights a significant advancement in Kubernetes deployment, appealing to both engineers and stakeholders interested in efficient infrastructure solutions."
+      "item_number": 2,
+      "summary": "vLLM outperforms TensorRT-LLM in benchmarks on H100, showing significant speed advantages in various scenarios.",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oyawkl/why_is_vllm_outperforming_tensorrtllm_nvidias/",
+      "reason_for_choice": "This article highlights a significant advancement in AI model performance, offering valuable insights for engineers and developers seeking efficient deployment solutions."
     },
     {
-      "item_number": 10,
-      "summary": "AI revolutionizes CSR in India with smart donation matching.",
-      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1ox5r54/how_ai_is_changing_csr_in_india_a_case_study_from/",
-      "reason_for_choice": "This case study demonstrates AI's transformative impact on corporate social responsibility, offering insights valuable to both technical and management audiences."
+      "item_number": 3,
+      "summary": "Funcdex is an open-source framework for building function-calling models, outperforming existing models on narrow tasks with a large dataset.",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oyjw7i/announcing_funcdex_the_complete_framework_for/",
+      "reason_for_choice": "Funcdex represents a practical tool for developers, enabling the creation of specialized models, thus appealing to both technical audiences and stakeholders interested in innovative product development."
     }
   ],
-  "digest": "- *MuseGen* unifies generative AI tools for music, video, and images, streamlining creative workflows with a single interface. More at musegen.org.\n- *World models* could revolutionize robotics by providing physical common sense, enabling safer and more adaptable general-purpose robots. Read more on reddit.com/r/MachineLearning/comments/1ox5xu0/d_lets_discuss_world_models/.\n- *Qwen's API* is gaining traction among developers due to competitive performance and cost, signaling a shift towards Chinese AI models. Details at reddit.com/r/ArtificialInteligence/comments/1oxmxqb/ive_been_digging_into_openrouter_lately_and_i/.\n- A new *multimodal AI model* excels in reasoning and efficiency, optimizing performance on limited VRAM for complex tasks. Explore more at reddit.com/r/LocalLLaMA/comments/1oxon89/github/.\n- Enhancements in *Langchain* for executing bash and file tools via ToolNode, improving middleware execution and integration. Check out github.com/langchain-ai/langchain/commit/1bc88028e6f8806b384f2094bda940717b55c2fa.\n- *Meta* will evaluate employees on AI impact in 2026, emphasizing AI integration in performance reviews, reflecting a broader trend in tech. Learn more at reddit.com/r/ArtificialInteligence/comments/1oxkzqa/meta_will_grade_employees_on_their_ai_impact/."
+  "digest": "- *The Obstacles Delaying AGI*: Key structural issues like data limits, talent shortages, and hardware constraints are hindering AGI progress. Explore more at https://www.reddit.com/r/ArtificialInteligence/comments/1oy1j0o/the_obstacles_delaying_agi/\n- *What I think happens after the bubble pops*: The article theorizes on the aftermath of a potential AI bubble burst, predicting shifts in investment and market dynamics. Read more at https://www.reddit.com/r/ArtificialInteligence/comments/1oyemkb/what_i_think_happens_after_the_bubble_pops_if_it/\n- *Systemic Challenges for LLMs*: Modern LLMs prioritize harmony over truth, limiting genuine insight. Dive deeper at https://www.reddit.com/r/ArtificialInteligence/comments/1oy0mib/systemic_challenges_for_llms_harmony_vs_truth/\n- *Beyond Hyperparameters*: New metrics quantify attention head specialization in Transformers, enhancing training efficiency. Learn more at https://www.reddit.com/r/MachineLearning/comments/1oyjt7k/beyond_hyperparameters_were_now_quantifying_and/\n- *New BERT-based Multilingual Chunking Model*: Offers fast inference and low memory usage for semantic text segmentation. Check it out at https://www.reddit.com/r/LocalLLaMA/comments/1oyjzjb/new_bertbased_multilingual_chunking_model/\n- *Show HN: SelenAI*: A terminal-based AI pair-programmer with Lua sandbox for safe coding assistance. Discover more at https://github.com/Almclean/selenai\n- *Show HN: I built E2E Test Agent*: Uses AI to execute tests written in plain English, improving resilience against UI changes. Find out more at https://github.com/armannaj/e2e-test-agent"
 }
