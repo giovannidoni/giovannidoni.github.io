@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 2,
-      "summary": "vLLM outperforms TensorRT-LLM in benchmarks on H100, showing significant speed advantages in various scenarios.",
-      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oyawkl/why_is_vllm_outperforming_tensorrtllm_nvidias/",
-      "reason_for_choice": "This article highlights a significant advancement in AI model performance, offering valuable insights for engineers and developers seeking efficient deployment solutions."
+      "item_number": 0,
+      "summary": "STAGE models LLM workloads for system optimization and architecture exploration.",
+      "link": "https://arxiv.org/abs/2511.10480",
+      "reason_for_choice": "This article presents a framework that could significantly impact both technical and managerial domains by optimizing AI systems and exploring new architectures."
     },
     {
-      "item_number": 3,
-      "summary": "Funcdex is an open-source framework for building function-calling models, outperforming existing models on narrow tasks with a large dataset.",
-      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1oyjw7i/announcing_funcdex_the_complete_framework_for/",
-      "reason_for_choice": "Funcdex represents a practical tool for developers, enabling the creation of specialized models, thus appealing to both technical audiences and stakeholders interested in innovative product development."
+      "item_number": 32,
+      "summary": "AI framework automates e-commerce product knowledge graph construction.",
+      "link": "https://arxiv.org/abs/2511.11017",
+      "reason_for_choice": "This article is relevant for stakeholders interested in product development and engineering, offering insights into automating data integration in e-commerce."
     }
   ],
-  "digest": "- *The Obstacles Delaying AGI*: Key structural issues like data limits, talent shortages, and hardware constraints are hindering AGI progress. Explore more at https://www.reddit.com/r/ArtificialInteligence/comments/1oy1j0o/the_obstacles_delaying_agi/\n- *What I think happens after the bubble pops*: The article theorizes on the aftermath of a potential AI bubble burst, predicting shifts in investment and market dynamics. Read more at https://www.reddit.com/r/ArtificialInteligence/comments/1oyemkb/what_i_think_happens_after_the_bubble_pops_if_it/\n- *Systemic Challenges for LLMs*: Modern LLMs prioritize harmony over truth, limiting genuine insight. Dive deeper at https://www.reddit.com/r/ArtificialInteligence/comments/1oy0mib/systemic_challenges_for_llms_harmony_vs_truth/\n- *Beyond Hyperparameters*: New metrics quantify attention head specialization in Transformers, enhancing training efficiency. Learn more at https://www.reddit.com/r/MachineLearning/comments/1oyjt7k/beyond_hyperparameters_were_now_quantifying_and/\n- *New BERT-based Multilingual Chunking Model*: Offers fast inference and low memory usage for semantic text segmentation. Check it out at https://www.reddit.com/r/LocalLLaMA/comments/1oyjzjb/new_bertbased_multilingual_chunking_model/\n- *Show HN: SelenAI*: A terminal-based AI pair-programmer with Lua sandbox for safe coding assistance. Discover more at https://github.com/Almclean/selenai\n- *Show HN: I built E2E Test Agent*: Uses AI to execute tests written in plain English, improving resilience against UI changes. Find out more at https://github.com/armannaj/e2e-test-agent"
+  "digest": "- *STAGE* models LLM workloads for system optimization and architecture exploration. [Read more](https://arxiv.org/abs/2511.10480)\n- *AI framework* automates e-commerce product knowledge graph construction. [Read more](https://arxiv.org/abs/2511.11017)\n- *MeZO* enhances on-device AI fine-tuning without backpropagation. [Read more](https://arxiv.org/abs/2511.11362)\n- *MoBA* offers efficient attention mechanisms for LLMs with GPU implementation. [Read more](https://arxiv.org/abs/2511.11571)\n- *Text2SQL-Flow* improves Text-to-SQL performance with SQL-aware data augmentation. [Read more](https://arxiv.org/abs/2511.10192)\n- *SemanticNN* ensures semantic correctness in AI offloading for weak devices. [Read more](https://arxiv.org/abs/2511.11038)\n- *MOON* boosts e-commerce ads CTR by 20% with multimodal learning. [Read more](https://arxiv.org/abs/2511.11305)\n- *FakeZero* detects misinformation on social media while preserving privacy. [Read more](https://arxiv.org/abs/2510.25932)\n- *Mining-Gym* offers a new RL benchmarking tool for truck dispatch scheduling. [Read more](https://arxiv.org/abs/2503.19195)\n- *HARNESS* enhances safety in DOE environments through human-agent collaboration. [Read more](https://arxiv.org/abs/2511.10810)\n- *AIonopedia* uses multimodal learning for ionic liquid discovery. [Read more](https://arxiv.org/abs/2511.11257)\n- *StreamDiT* enables real-time text-to-video generation with improved quality. [Read more](https://arxiv.org/abs/2507.03745)\n- *EcoAlign* proposes a cost-effective framework for LVLM alignment. [Read more](https://arxiv.org/abs/2511.11301)\n- *FedALT* enhances federated fine-tuning with adaptive local training. [Read more](https://arxiv.org/abs/2503.11880)\n- *Thinker* structures LLM reasoning hierarchically for better search efficiency. [Read more](https://arxiv.org/abs/2511.07943)"
 }
