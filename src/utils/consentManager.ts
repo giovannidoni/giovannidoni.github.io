@@ -29,6 +29,20 @@ export const updateGoogleAnalyticsConsent = (accepted: boolean) => {
 export const initializeConsentFromStorage = () => {
   const consent = localStorage.getItem('cookie-consent');
   if (consent === 'accepted') {
-    updateGoogleAnalyticsConsent(true);
+    // Wait for gtag to be available before updating consent
+    let attempts = 0;
+    const maxAttempts = 50; // 5 seconds max (50 * 100ms)
+
+    const checkGtag = () => {
+      if (typeof window.gtag === 'function') {
+        updateGoogleAnalyticsConsent(true);
+      } else if (attempts < maxAttempts) {
+        attempts++;
+        setTimeout(checkGtag, 100);
+      } else {
+        console.warn('Google Analytics failed to load within timeout period');
+      }
+    };
+    checkGtag();
   }
 };

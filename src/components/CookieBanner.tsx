@@ -25,8 +25,21 @@ export const CookieBanner = () => {
 
   const handleAccept = () => {
     localStorage.setItem(COOKIE_CONSENT_KEY, "accepted");
-    updateGoogleAnalyticsConsent(true);
     setShowBanner(false);
+
+    // Wait for gtag to be available before updating consent
+    let attempts = 0;
+    const maxAttempts = 50;
+
+    const checkGtag = () => {
+      if (typeof window.gtag === 'function') {
+        updateGoogleAnalyticsConsent(true);
+      } else if (attempts < maxAttempts) {
+        attempts++;
+        setTimeout(checkGtag, 100);
+      }
+    };
+    checkGtag();
   };
 
   const handleDecline = () => {
