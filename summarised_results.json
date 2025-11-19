@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "STAGE models LLM workloads for scalable AI system optimization.",
-      "link": "https://arxiv.org/abs/2511.10480",
-      "reason_for_choice": "STAGE offers a comprehensive framework for distributed AI systems, crucial for engineers and tech leaders aiming to optimize large-scale AI deployments."
+      "item_number": 21,
+      "summary": "DevPiolt enhances IoT device operation recommendations using LLMs, improving user satisfaction and performance metrics significantly.",
+      "link": "https://arxiv.org/abs/2511.14227",
+      "reason_for_choice": "This article bridges the gap between AI and real-world applications, showcasing how LLMs can enhance IoT device operations, making it highly relevant for both technical and managerial audiences."
     },
     {
-      "item_number": 20,
-      "summary": "MOON boosts e-commerce ads CTR by 20% with multimodal learning.",
-      "link": "https://arxiv.org/abs/2511.11305",
-      "reason_for_choice": "MOON's impact on e-commerce through multimodal learning highlights practical applications of AI in product marketing, relevant for both engineers and business stakeholders."
+      "item_number": 97,
+      "summary": "The semantic layer addresses data inconsistencies across teams, enabling a single source of truth for analytics and AI integration.",
+      "link": "https://www.oreilly.com/radar/the-trillion-dollar-problem/",
+      "reason_for_choice": "This article tackles a critical issue in data management and analytics, offering insights valuable to both engineers and stakeholders interested in AI integration and data consistency."
     }
   ],
-  "digest": "- *AI-Salesman* introduces a framework for telemarketing using LLMs, addressing challenges with new datasets and metrics. More details at https://arxiv.org/abs/2511.12133\n- *Uni-MoE-2.0-Omni* advances multimodal AI with dynamic MoE design, achieving SOTA performance on 85 benchmarks. Read more at https://arxiv.org/abs/2511.12609\n- *Characterizing Energy Footprint* evaluates small language models on edge devices, highlighting trade-offs in performance and power consumption. Explore the study at https://arxiv.org/abs/2511.11624\n- *The Anatomy of a Triton Attention Kernel* presents a new kernel for efficient LLM inference across GPUs, achieving significant performance improvements. Find out more at https://arxiv.org/abs/2511.11581\n- *Spark-Prover-X1* enhances theorem proving in LLMs using diverse data and a novel training framework, achieving state-of-the-art results. Discover the framework at https://arxiv.org/abs/2511.13043\n- *WebCoach* enhances web agents with cross-session memory for improved learning and performance in complex browsing tasks. Learn more at https://arxiv.org/abs/2511.12997\n- *DenseAnnotate* offers an audio-driven method for creating dense image and 3D scene annotations, enhancing training data quality for MLLMs. More information at https://arxiv.org/abs/2511.12452\n- *HARNESS* is an AI system for predicting hazards in DOE environments, enhancing safety through human collaboration and adaptive learning. Details available at https://arxiv.org/abs/2511.10810\n- *AI Agent-Driven Framework* automates product knowledge graph construction from unstructured data, enhancing e-commerce data integration and retrieval. Read the full article at https://arxiv.org/abs/2511.11017\n- *StreamDiT* enables real-time text-to-video generation with improved quality and efficiency, achieving 16 FPS on a single GPU. Explore the technology at https://arxiv.org/abs/2507.03745"
+  "digest": "- *Patent Language Model Pretraining with ModernBERT* improves domain-specific NLP tasks, enhancing patent analysis with faster inference. [Read more](https://arxiv.org/abs/2509.14926)\n- *Physics-Informed Neural Networks* are applied for real-time hydrogen crossover prediction in PEM electrolyzers, boosting safety and efficiency. [Read more](https://arxiv.org/abs/2511.05879)\n- *ReflexGrad* achieves zero-shot learning success by integrating LLMs with memory and optimization, a breakthrough in AI learning methods. [Read more](https://arxiv.org/abs/2511.14584)\n- *VULPO* introduces a context-aware vulnerability detection framework, significantly improving existing methods. [Read more](https://arxiv.org/abs/2511.11896)\n- *CoSense-LLM* optimizes edge computing for sensor data, balancing latency, privacy, and cost in AI deployments. [Read more](https://arxiv.org/abs/2510.19670)\n- *Multi-Agent Deep Research* enhances multi-agent systems with M-GRPO, improving performance in specialized tasks. [Read more](https://arxiv.org/abs/2511.13288)\n- *MoM* uses multiple memory states for better linear sequence modeling, outperforming existing models. [Read more](https://arxiv.org/abs/2502.13685)\n- *GCA-ResUNet* improves medical image segmentation with Grouped Coordinate Attention, enhancing accuracy efficiently. [Read more](https://arxiv.org/abs/2511.14087)\n- *Energy Consumption of Dataframe Libraries* analyzes energy use in deep learning pipelines, focusing on performance metrics. [Read more](https://arxiv.org/abs/2511.08644)\n- *DeepDefense* enhances neural network robustness against adversarial attacks by aligning gradients with features. [Read more](https://arxiv.org/abs/2511.13749)"
 }
