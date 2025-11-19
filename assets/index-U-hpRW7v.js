@@ -598,7 +598,7 @@ Remember that the goal isn't to build the most complex system possible, but to b
 
 ## A pragmatic, modular AI stack—smaller models, privacy-safe orchestration, and control without a monolith.
 
-![Image](/assets/monolith_16x9_top_1920x1080.jpg)
+![Image](/assets/monolith_16x9_top_1920x1080.webp)
 
 Not long ago I was thinking that intelligence comes in different forms and sizes. You get a spectrum of intelligences that are often optimised for carrying out a specific set of tasks, often quite fruitful 🐝.
 
@@ -670,7 +670,7 @@ As an ML/AI practitioner, I’ve worked for the better part of the last 10 years
 
 With the advancements in AI over the past few years, we’re now witnessing the creation of entirely new products built around AI from the ground up. This marks a significant shift, clearly reflected in how companies are reorienting their investment focus - from profitability to growth - driven by AI’s tailwinds and promises. 
 
-![Image](/assets/graph-statistics-survey.png)
+![Image](/assets/graph-statistics-survey.webp)
 *source: https://www.bondcao.com/report/pdf/Trends_Artificial_Intelligence.pdf*
 
 How much of this investment will translate into real, incremental revenue is still to be seen.
