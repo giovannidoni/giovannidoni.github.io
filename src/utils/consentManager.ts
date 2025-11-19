@@ -14,6 +14,14 @@ export const updateGoogleAnalyticsConsent = (accepted: boolean) => {
       ad_personalization: accepted ? "denied" : "denied",
     });
     
+    // Send pageview event after granting consent to start tracking
+    if (accepted) {
+      window.gtag('event', 'page_view', {
+        page_path: window.location.pathname,
+        page_title: document.title
+      });
+    }
+    
     console.log(`Google Analytics consent ${accepted ? 'granted' : 'denied'}`);
   }
 };
