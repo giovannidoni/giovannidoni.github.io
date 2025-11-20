@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 21,
-      "summary": "DevPiolt enhances IoT device operation recommendations using LLMs, improving user satisfaction and performance metrics significantly.",
-      "link": "https://arxiv.org/abs/2511.14227",
-      "reason_for_choice": "This article bridges the gap between AI and real-world applications, showcasing how LLMs can enhance IoT device operations, making it highly relevant for both technical and managerial audiences."
+      "item_number": 2,
+      "summary": "Physics-informed neural networks boost safety and efficiency in hydrogen crossover prediction for PEM electrolyzers.",
+      "link": "https://arxiv.org/abs/2511.05879",
+      "reason_for_choice": "This article bridges the gap between AI and engineering by applying neural networks to real-world energy applications, appealing to both technical audiences and stakeholders interested in sustainable technologies."
     },
     {
-      "item_number": 97,
-      "summary": "The semantic layer addresses data inconsistencies across teams, enabling a single source of truth for analytics and AI integration.",
-      "link": "https://www.oreilly.com/radar/the-trillion-dollar-problem/",
-      "reason_for_choice": "This article tackles a critical issue in data management and analytics, offering insights valuable to both engineers and stakeholders interested in AI integration and data consistency."
+      "item_number": 98,
+      "summary": "Martin Fowler explores AI's transformative role in software engineering, focusing on non-determinism and legacy code.",
+      "link": "https://newsletter.pragmaticengineer.com/p/martin-fowler",
+      "reason_for_choice": "This article provides insights into AI's impact on software engineering practices, making it relevant for both engineers and management looking to understand future trends."
     }
   ],
-  "digest": "- *Patent Language Model Pretraining with ModernBERT* improves domain-specific NLP tasks, enhancing patent analysis with faster inference. [Read more](https://arxiv.org/abs/2509.14926)\n- *Physics-Informed Neural Networks* are applied for real-time hydrogen crossover prediction in PEM electrolyzers, boosting safety and efficiency. [Read more](https://arxiv.org/abs/2511.05879)\n- *ReflexGrad* achieves zero-shot learning success by integrating LLMs with memory and optimization, a breakthrough in AI learning methods. [Read more](https://arxiv.org/abs/2511.14584)\n- *VULPO* introduces a context-aware vulnerability detection framework, significantly improving existing methods. [Read more](https://arxiv.org/abs/2511.11896)\n- *CoSense-LLM* optimizes edge computing for sensor data, balancing latency, privacy, and cost in AI deployments. [Read more](https://arxiv.org/abs/2510.19670)\n- *Multi-Agent Deep Research* enhances multi-agent systems with M-GRPO, improving performance in specialized tasks. [Read more](https://arxiv.org/abs/2511.13288)\n- *MoM* uses multiple memory states for better linear sequence modeling, outperforming existing models. [Read more](https://arxiv.org/abs/2502.13685)\n- *GCA-ResUNet* improves medical image segmentation with Grouped Coordinate Attention, enhancing accuracy efficiently. [Read more](https://arxiv.org/abs/2511.14087)\n- *Energy Consumption of Dataframe Libraries* analyzes energy use in deep learning pipelines, focusing on performance metrics. [Read more](https://arxiv.org/abs/2511.08644)\n- *DeepDefense* enhances neural network robustness against adversarial attacks by aligning gradients with features. [Read more](https://arxiv.org/abs/2511.13749)"
+  "digest": "- *ModernBERT* outperforms general models in patent NLP, enhancing speed and accuracy for specialized tasks. [Read more](https://arxiv.org/abs/2509.14926)\n- *RAT* combines RNN efficiency and attention accuracy, improving training speed for long sequences. [Read more](https://arxiv.org/abs/2507.04416)\n- *VULPO* enhances vulnerability detection with context-aware LLM optimization, outperforming traditional methods. [Read more](https://arxiv.org/abs/2511.11896)\n- *MoDES* boosts performance and inference speed in Mixture-of-Experts MLLMs through dynamic expert skipping. [Read more](https://arxiv.org/abs/2511.15690)\n- *DevPiolt* improves IoT device operations with LLM-based recommendations, enhancing user experience. [Read more](https://arxiv.org/abs/2511.14227)\n- *IMSE* introduces innovative methods for lightweight speech enhancement, achieving better efficiency and performance. [Read more](https://arxiv.org/abs/2511.14515)\n- *LeanOS* automates startup operations using AI, supporting both venture and bootstrap business models. [Read more](https://github.com/BellaBe/lean-os)\n- *Agentic AI* empowers architectural governance by enabling automated checks and improving oversight. [Read more](https://www.oreilly.com/radar/how-agentic-ai-empowers-architecture-governance/)"
 }
