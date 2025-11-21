@@ -96,6 +96,10 @@
       const gaMeasurementId = '%VITE_GA_MEASUREMENT_ID%';
 
       if (gaMeasurementId && gaMeasurementId.startsWith('G-')) {
+        // Check if user has already consented
+        const savedConsent = localStorage.getItem('cookie-consent');
+        const hasConsented = savedConsent === 'accepted';
+
         // Load GA script
         const script = document.createElement('script');
         script.async = true;
@@ -106,9 +110,9 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
 
-        // Initialize Consent Mode v2
+        // Initialize Consent Mode v2 with saved consent state
         gtag('consent', 'default', {
-          'analytics_storage': 'denied',
+          'analytics_storage': hasConsented ? 'granted' : 'denied',
           'ad_storage': 'denied',
           'ad_user_data': 'denied',
           'ad_personalization': 'denied',
