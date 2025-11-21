@@ -122,8 +122,9 @@
           'anonymize_ip': true
         });
 
-        // Make gtag available globally
+        // Make gtag and measurement ID available globally
         window.gtag = gtag;
+        window.gaMeasurementId = gaMeasurementId;
       } else {
         // No valid GA ID, create dummy function to prevent errors
         window.gtag = function() {
@@ -131,7 +132,7 @@
         };
       }
     </script>
-    <script type="module" crossorigin src="/assets/index-AqYB5R3A.js"></script>
+    <script type="module" crossorigin src="/assets/index-CvJSprlU.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-DAV3tOya.css">
   </head>
 
