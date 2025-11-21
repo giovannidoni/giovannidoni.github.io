@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 2,
-      "summary": "Physics-informed neural networks boost safety and efficiency in hydrogen crossover prediction for PEM electrolyzers.",
-      "link": "https://arxiv.org/abs/2511.05879",
-      "reason_for_choice": "This article bridges the gap between AI and engineering by applying neural networks to real-world energy applications, appealing to both technical audiences and stakeholders interested in sustainable technologies."
+      "item_number": 11,
+      "summary": "Kandinsky 5.0 introduces advanced models for high-res image and video generation, emphasizing innovative training techniques and open-source accessibility.",
+      "link": "https://arxiv.org/abs/2511.14993",
+      "reason_for_choice": "Kandinsky 5.0 is a significant advancement in image and video generation, appealing to both technical audiences interested in model architecture and stakeholders interested in product development and open-source contributions."
     },
     {
-      "item_number": 98,
-      "summary": "Martin Fowler explores AI's transformative role in software engineering, focusing on non-determinism and legacy code.",
-      "link": "https://newsletter.pragmaticengineer.com/p/martin-fowler",
-      "reason_for_choice": "This article provides insights into AI's impact on software engineering practices, making it relevant for both engineers and management looking to understand future trends."
+      "item_number": 19,
+      "summary": "A Two-Pass Adaptive Inference algorithm optimizes YOLOv10s on consumer GPUs, enhancing performance without architectural changes.",
+      "link": "https://arxiv.org/abs/2509.07928",
+      "reason_for_choice": "This paper offers practical insights into improving AI performance on consumer hardware, making it relevant for engineers and product managers seeking cost-effective solutions."
     }
   ],
-  "digest": "- *ModernBERT* outperforms general models in patent NLP, enhancing speed and accuracy for specialized tasks. [Read more](https://arxiv.org/abs/2509.14926)\n- *RAT* combines RNN efficiency and attention accuracy, improving training speed for long sequences. [Read more](https://arxiv.org/abs/2507.04416)\n- *VULPO* enhances vulnerability detection with context-aware LLM optimization, outperforming traditional methods. [Read more](https://arxiv.org/abs/2511.11896)\n- *MoDES* boosts performance and inference speed in Mixture-of-Experts MLLMs through dynamic expert skipping. [Read more](https://arxiv.org/abs/2511.15690)\n- *DevPiolt* improves IoT device operations with LLM-based recommendations, enhancing user experience. [Read more](https://arxiv.org/abs/2511.14227)\n- *IMSE* introduces innovative methods for lightweight speech enhancement, achieving better efficiency and performance. [Read more](https://arxiv.org/abs/2511.14515)\n- *LeanOS* automates startup operations using AI, supporting both venture and bootstrap business models. [Read more](https://github.com/BellaBe/lean-os)\n- *Agentic AI* empowers architectural governance by enabling automated checks and improving oversight. [Read more](https://www.oreilly.com/radar/how-agentic-ai-empowers-architecture-governance/)"
+  "digest": "- *OpenBioLLM* enhances genomic Q&A with modular multi-agent systems, outperforming GeneGPT in efficiency and accuracy. Read more: https://arxiv.org/abs/2511.15061\n- *Nemotron Elastic* offers a cost-effective framework for multi-scale LLMs, achieving significant training efficiency. Explore: https://arxiv.org/abs/2511.16664\n- *Prism* decouples ranking and explanation in recommendation systems, enhancing personalization. Details: https://arxiv.org/abs/2511.16543\n- *MAIF* proposes an artifact-centric AI paradigm for enhancing trust and regulatory compliance. More info: https://arxiv.org/abs/2511.15097\n- *MergeDNA* introduces dynamic tokenization for genomic modeling, improving DNA task performance. Check it out: https://arxiv.org/abs/2511.14806\n- *AgentSwift* improves LLM agent design via hierarchical search, enhancing performance. Discover: https://arxiv.org/abs/2506.06017\n- *MOON* addresses multimodal challenges in e-commerce product understanding with innovative techniques. Learn more: https://arxiv.org/abs/2508.11999\n- *DriveReg* offers a framework for autonomous vehicles to interpret traffic laws using AI, enhancing safety. Read: https://arxiv.org/abs/2410.04759\n- *FLARE* enhances federated learning's resilience against malicious clients with adaptive reputation scoring. Find out more: https://arxiv.org/abs/2511.14715\n- *DeepThinkVLA* integrates reasoning and action in VLA models, achieving state-of-the-art results. Explore: https://arxiv.org/abs/2511.15669"
 }
