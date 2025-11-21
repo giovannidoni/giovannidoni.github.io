@@ -2,6 +2,7 @@
 declare global {
   interface Window {
     gtag: (...args: any[]) => void;
+    gaMeasurementId?: string;
   }
 }
 
@@ -13,15 +14,17 @@ export const updateGoogleAnalyticsConsent = (accepted: boolean) => {
       ad_user_data: "denied",
       ad_personalization: "denied",
     });
-    
-    // Send pageview event after granting consent to start tracking
-    if (accepted) {
-      window.gtag('event', 'page_view', {
-        page_path: window.location.pathname,
-        page_title: document.title
+
+    // After granting consent, reconfigure GA to start tracking
+    if (accepted && window.gaMeasurementId) {
+      // Send config again to reinitialize with granted consent
+      window.gtag('config', window.gaMeasurementId, {
+        'anonymize_ip': true,
+        'page_path': window.location.pathname,
+        'page_title': document.title
       });
     }
-    
+
     console.log(`Google Analytics consent ${accepted ? 'granted' : 'denied'}`);
   }
 };

@@ -122,8 +122,9 @@
           'anonymize_ip': true
         });
 
-        // Make gtag available globally
+        // Make gtag and measurement ID available globally
         window.gtag = gtag;
+        window.gaMeasurementId = gaMeasurementId;
       } else {
         // No valid GA ID, create dummy function to prevent errors
         window.gtag = function() {

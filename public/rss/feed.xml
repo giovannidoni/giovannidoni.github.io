@@ -5,60 +5,76 @@
     <description>Latest blog posts and LinkedIn updates from Giovanni Doni</description>
     <link>https://giovannidoni.github.io/</link>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Sep 2025 22:00:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 14:31:46 GMT</lastBuildDate>
     <atom:link href="https://giovannidoni.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>LinkedIn Post #2</title>
-      <description><![CDATA[View LinkedIn Post #2 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7355637024210530304</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7355637024210530304</guid>
-      <pubDate>Sat, 20 Sep 2025 22:00:42 GMT</pubDate>
+      <title>From Shazam to the AI Growth Bet</title>
+      <description><![CDATA[Shazam was among the first products built around AI from day one, capturing what was to come. Today’s wave sees business leaders betting on AI for growth rather than efficiency—whether that delivers new revenue or just sharper optimization remains to be seen.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7355928384205422592</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7355928384205422592</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
-      <title>LinkedIn Post #3</title>
-      <description><![CDATA[View LinkedIn Post #3 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7354061415579561985</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7354061415579561985</guid>
-      <pubDate>Sat, 20 Sep 2025 22:00:42 GMT</pubDate>
+      <title>Magma Beneath the Interface: How AI is Shifting Product Development</title>
+      <description><![CDATA[# Magma Beneath the Interface  
+*How AI is shifting the origin of product ideas deeper into the stack*  
+
+![Image](/assets/lava.webp)
+
+
+We often frame idea generation as a matter of direction: **top-down or bottom-up**.  
+In other words, ideas either come from within, through leadership or employees, or from outside, through users and customers.  
+
+That framing focuses on *who* ideas come from. But there is another dimension that matters just as much, especially organisationally: *where in the stack* momentum originates.  
+Maybe it is because I tend to look at the stack cross-sectionally from the backend, but I have often felt that delivery capability used to be capped by the frontend, like a football team with no strikers.  
+
+That was true until recently. **AI seems to be moving the traction point deeper into the backend.**  
+Behavioural prototypes now emerge from model experiments long before any UI exists. In many teams, backend iteration is starting to lead the creative process.  
+
+I used to think you needed all the plumbing in place before focusing on the model. That assumption has flipped.  
+Today, the model often defines the system architecture rather than adapting to it.  
+
+A growing share of products are shaped by **AI-powered behaviours** that emerge from the model itself, not by logic explicitly written by engineers.  
+In some cases, the model even defines the UI surface for each user, deciding what is shown, when, and how.  
+What used to be a static layer is now dynamically generated from backend reasoning.  
+
+You can see this in how the frontend has become less of a blocker for backend progress, at least until the final polish phase.  
+
+The same shift is happening organisationally.  
+Context, once embodied by senior team members, is starting to move into systems.  
+As LLMs absorb documentation and histories of decisions, knowledge is becoming a programmatic layer.  
+
+This raises a question that feels increasingly central:  
+**How can context be represented so it feeds both machines and humans, making ownership a transferable asset instead of a bottleneck?**  
+
+Both reflections point to the same thing.  
+Context is moving.  
+Technically and organisationally, it is drifting deeper into the stack — and with it, the source of momentum for how products evolve.
+]]></description>
+      <link>https://giovannidoni.github.io/blog/deeper-in-the-stack</link>
+      <guid>https://giovannidoni.github.io/blog/deeper-in-the-stack</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
+      <category>AI, Product Development, Tech Leadership</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>Beyond the Linear Chat</title>
+      <description><![CDATA[I keep noticing how difficult it is to find, reference, or organise past conversations in ChatGPT. It’s powerful for thinking but weak for retrieval, still trapped in a linear chat paradigm that limits its potential as a true knowledge base.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7386739886822871040</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7386739886822871040</guid>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
-      <title>LinkedIn Post #4</title>
-      <description><![CDATA[View LinkedIn Post #4 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7339301481948311552</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7339301481948311552</guid>
-      <pubDate>Sat, 20 Sep 2025 22:00:42 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>LinkedIn Post #5</title>
-      <description><![CDATA[View LinkedIn Post #5 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7339579159720910848</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7339579159720910848</guid>
-      <pubDate>Sat, 20 Sep 2025 22:00:42 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>LinkedIn Post #6</title>
-      <description><![CDATA[View LinkedIn Post #6 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7338097403826196481</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7338097403826196481</guid>
-      <pubDate>Sat, 20 Sep 2025 22:00:42 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>LinkedIn Post #1</title>
-      <description><![CDATA[View LinkedIn Post #1 by Giovanni Doni]]></description>
-      <link>https://www.linkedin.com/posts/giovanni-doni_7355928384205422592</link>
-      <guid>https://www.linkedin.com/posts/giovanni-doni_7355928384205422592</guid>
-      <pubDate>Sat, 20 Sep 2025 22:00:42 GMT</pubDate>
+      <title>When Writing Becomes the Interface</title>
+      <description><![CDATA[The share of human thought expressed through writing has risen from ancient scripts to the digital age. With tools like ChatGPT, this shift may accelerate, making written language the primary bridge between humans and intelligent systems.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7366037340965789697</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7366037340965789697</guid>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
       <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
@@ -200,6 +216,33 @@ We don't need general artificial intelligence everywhere. What we need is an int
       <guid>https://giovannidoni.github.io/blog/fitting-intelligence</guid>
       <pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate>
       <category>AI Architecture, MLOps, Tech Leadership</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>How much energy do we consume?</title>
+      <description><![CDATA[How much energy do we consume?.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7338097403826196481</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7338097403826196481</guid>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+      <category>LinkedIn</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>Hidden Patterns in the Latest Y Combinator Startups</title>
+      <description><![CDATA[After reviewing 400 YC startups, I spotted clear patterns in workflow tools and agentic systems, and one idea stood out—making petty-crime prosecution economically viable.]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7354061415579561985</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7354061415579561985</guid>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 GMT</pubDate>
+      <category>LinkedIn</category>
+      <author>Giovanni Doni</author>
+    </item>
+    <item>
+      <title>Bye Deliveroo</title>
+      <description><![CDATA[Bye Deliveroo]]></description>
+      <link>https://www.linkedin.com/feed/update/urn:li:share:7339301481948311552</link>
+      <guid>https://www.linkedin.com/feed/update/urn:li:share:7339301481948311552</guid>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
+      <category>LinkedIn</category>
       <author>Giovanni Doni</author>
     </item>
     <item>
