@@ -9,9 +9,9 @@ export const updateGoogleAnalyticsConsent = (accepted: boolean) => {
   if (typeof window.gtag === 'function') {
     window.gtag("consent", "update", {
       analytics_storage: accepted ? "granted" : "denied",
-      ad_storage: accepted ? "denied" : "denied",
-      ad_user_data: accepted ? "granted" : "denied",
-      ad_personalization: accepted ? "denied" : "denied",
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
     });
     
     // Send pageview event after granting consent to start tracking

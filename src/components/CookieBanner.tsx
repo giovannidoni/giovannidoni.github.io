@@ -37,6 +37,8 @@ export const CookieBanner = () => {
       } else if (attempts < maxAttempts) {
         attempts++;
         setTimeout(checkGtag, 100);
+      } else {
+        console.warn('Google Analytics failed to load within timeout period');
       }
     };
     checkGtag();
