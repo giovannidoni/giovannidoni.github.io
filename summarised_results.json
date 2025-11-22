@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 11,
-      "summary": "Kandinsky 5.0 introduces advanced models for high-res image and video generation, emphasizing innovative training techniques and open-source accessibility.",
-      "link": "https://arxiv.org/abs/2511.14993",
-      "reason_for_choice": "Kandinsky 5.0 is a significant advancement in image and video generation, appealing to both technical audiences interested in model architecture and stakeholders interested in product development and open-source contributions."
+      "item_number": 0,
+      "summary": "Alera simplifies private AI deployment with a browser-based tool, generating a complete package for on-prem use without complex setups.",
+      "link": "https://alerahq.com/",
+      "reason_for_choice": "This headline highlights an innovative product that bridges the gap between AI technology and practical application, making it relevant for both engineers and product managers."
     },
     {
-      "item_number": 19,
-      "summary": "A Two-Pass Adaptive Inference algorithm optimizes YOLOv10s on consumer GPUs, enhancing performance without architectural changes.",
-      "link": "https://arxiv.org/abs/2509.07928",
-      "reason_for_choice": "This paper offers practical insights into improving AI performance on consumer hardware, making it relevant for engineers and product managers seeking cost-effective solutions."
+      "item_number": 1,
+      "summary": "DORA's 2025 research reveals AI amplifies engineering strengths and weaknesses, necessitating new metrics for true impact assessment.",
+      "link": "https://newsletter.getdx.com/p/doras-2025-research-on-the-impact",
+      "reason_for_choice": "This article provides crucial insights into AI's role in engineering, offering valuable perspectives for both technical and managerial audiences."
     }
   ],
-  "digest": "- *OpenBioLLM* enhances genomic Q&A with modular multi-agent systems, outperforming GeneGPT in efficiency and accuracy. Read more: https://arxiv.org/abs/2511.15061\n- *Nemotron Elastic* offers a cost-effective framework for multi-scale LLMs, achieving significant training efficiency. Explore: https://arxiv.org/abs/2511.16664\n- *Prism* decouples ranking and explanation in recommendation systems, enhancing personalization. Details: https://arxiv.org/abs/2511.16543\n- *MAIF* proposes an artifact-centric AI paradigm for enhancing trust and regulatory compliance. More info: https://arxiv.org/abs/2511.15097\n- *MergeDNA* introduces dynamic tokenization for genomic modeling, improving DNA task performance. Check it out: https://arxiv.org/abs/2511.14806\n- *AgentSwift* improves LLM agent design via hierarchical search, enhancing performance. Discover: https://arxiv.org/abs/2506.06017\n- *MOON* addresses multimodal challenges in e-commerce product understanding with innovative techniques. Learn more: https://arxiv.org/abs/2508.11999\n- *DriveReg* offers a framework for autonomous vehicles to interpret traffic laws using AI, enhancing safety. Read: https://arxiv.org/abs/2410.04759\n- *FLARE* enhances federated learning's resilience against malicious clients with adaptive reputation scoring. Find out more: https://arxiv.org/abs/2511.14715\n- *DeepThinkVLA* integrates reasoning and action in VLA models, achieving state-of-the-art results. Explore: https://arxiv.org/abs/2511.15669"
+  "digest": "- *Weekly Dose of Optimism #171* explores recent advancements in AI, robotics, and cloud seeding, fostering a positive outlook on technological progress. Read more at https://www.notboring.co/p/weekly-dose-of-optimism-171\n- A Mongolian startup translated a tech book, highlighting the growth of the local tech ecosystem and the global spread of knowledge. Discover more at https://blog.pragmaticengineer.com/traveling-to-mongolia/"
 }
