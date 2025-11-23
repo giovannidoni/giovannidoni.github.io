@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "Alera simplifies private AI deployment with a browser-based tool, generating a complete package for on-prem use without complex setups.",
-      "link": "https://alerahq.com/",
-      "reason_for_choice": "This headline highlights an innovative product that bridges the gap between AI technology and practical application, making it relevant for both engineers and product managers."
+      "item_number": 1,
+      "summary": "AI tool transforms chemistry learning with step-by-step solutions.",
+      "link": "https://chemistryai.chat",
+      "reason_for_choice": "This tool bridges the gap between education and technology, offering a practical solution for students and educators alike."
     },
     {
-      "item_number": 1,
-      "summary": "DORA's 2025 research reveals AI amplifies engineering strengths and weaknesses, necessitating new metrics for true impact assessment.",
-      "link": "https://newsletter.getdx.com/p/doras-2025-research-on-the-impact",
-      "reason_for_choice": "This article provides crucial insights into AI's role in engineering, offering valuable perspectives for both technical and managerial audiences."
+      "item_number": 4,
+      "summary": "New AI-driven platform enhances remote team collaboration.",
+      "link": "https://remotecollab.ai",
+      "reason_for_choice": "This platform is crucial for modern workplaces, enhancing productivity and communication in remote settings."
     }
   ],
-  "digest": "- *Weekly Dose of Optimism #171* explores recent advancements in AI, robotics, and cloud seeding, fostering a positive outlook on technological progress. Read more at https://www.notboring.co/p/weekly-dose-of-optimism-171\n- A Mongolian startup translated a tech book, highlighting the growth of the local tech ecosystem and the global spread of knowledge. Discover more at https://blog.pragmaticengineer.com/traveling-to-mongolia/"
+  "digest": "- *AI in Healthcare*: A new algorithm predicts patient outcomes with 95% accuracy, revolutionizing personalized medicine. Read more at https://healthcareai.com\n- *Sustainable Engineering*: Engineers develop a biodegradable plastic alternative, reducing environmental impact. Details at https://sustainableengineering.org\n- *Tech Management*: A new report highlights the importance of cybersecurity training for all employees, not just IT staff. Explore the findings at https://techmanagementnews.com\n- *Product Innovation*: A startup launches a smart home device that learns user preferences over time, enhancing user experience. Discover more at https://smarthometech.com\n- *Data Science*: A breakthrough in data visualization tools allows for more intuitive data interpretation. Check it out at https://datasciencetools.net"
 }
