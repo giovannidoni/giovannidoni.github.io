@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "AI tool transforms chemistry learning with step-by-step solutions.",
-      "link": "https://chemistryai.chat",
-      "reason_for_choice": "This tool bridges the gap between education and technology, offering a practical solution for students and educators alike."
+      "item_number": 3,
+      "summary": "Semantic Pyramid Indexing boosts RAG systems' speed in VecDBs.",
+      "link": "https://arxiv.org/abs/2511.16681",
+      "reason_for_choice": "This article presents a significant advancement in database technology, impacting both engineering and management by improving data retrieval efficiency."
     },
     {
-      "item_number": 4,
-      "summary": "New AI-driven platform enhances remote team collaboration.",
-      "link": "https://remotecollab.ai",
-      "reason_for_choice": "This platform is crucial for modern workplaces, enhancing productivity and communication in remote settings."
+      "item_number": 97,
+      "summary": "Syd: Offline AI workstation for secure malware analysis.",
+      "link": "https://www.sydsec.co.uk",
+      "reason_for_choice": "This product-focused article is crucial for cybersecurity stakeholders, offering a new tool for secure offline malware analysis, relevant to both technical teams and management."
     }
   ],
-  "digest": "- *AI in Healthcare*: A new algorithm predicts patient outcomes with 95% accuracy, revolutionizing personalized medicine. Read more at https://healthcareai.com\n- *Sustainable Engineering*: Engineers develop a biodegradable plastic alternative, reducing environmental impact. Details at https://sustainableengineering.org\n- *Tech Management*: A new report highlights the importance of cybersecurity training for all employees, not just IT staff. Explore the findings at https://techmanagementnews.com\n- *Product Innovation*: A startup launches a smart home device that learns user preferences over time, enhancing user experience. Discover more at https://smarthometech.com\n- *Data Science*: A breakthrough in data visualization tools allows for more intuitive data interpretation. Check it out at https://datasciencetools.net"
+  "digest": "- *KRAL* enhances LLMs for clinical antimicrobial therapy, reducing costs and manual data annotation. [Link](https://arxiv.org/abs/2511.15974)\n- *UI-CUBE* benchmarks CUAs for operational reliability, highlighting significant gaps in complex workflows. [Link](https://arxiv.org/abs/2511.17131)\n- *Bench360* simplifies benchmarking local LLM inference, integrating metrics for optimal performance. [Link](https://arxiv.org/abs/2511.16682)\n- *E$^3$-Pruner* proposes a novel framework for efficient layer pruning in large language models. [Link](https://arxiv.org/abs/2511.17205)\n- *ReviewGuard* enhances deficient peer review detection via LLM-driven data augmentation. [Link](https://arxiv.org/abs/2510.16549)\n- *OmniGround* introduces a new benchmark for spatio-temporal video grounding, addressing model limitations. [Link](https://arxiv.org/abs/2511.16937)\n- *FLUID* offers a training-free method for face de-identification using latent space identity substitution. [Link](https://arxiv.org/abs/2511.17005)\n- *AraFinNews* introduces a large Arabic financial news dataset, enhancing summarisation with domain-adapted LLMs. [Link](https://arxiv.org/abs/2511.01265)\n- *MF-GCN* introduces a novel approach for tri-modal depression detection using eye-tracking, audio, and video. [Link](https://arxiv.org/abs/2511.15675)"
 }
