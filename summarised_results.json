@@ -2,16 +2,16 @@
   "picked_headlines": [
     {
       "item_number": 3,
-      "summary": "Semantic Pyramid Indexing boosts RAG systems' speed in VecDBs.",
-      "link": "https://arxiv.org/abs/2511.16681",
-      "reason_for_choice": "This article presents a significant advancement in database technology, impacting both engineering and management by improving data retrieval efficiency."
+      "summary": "Hybrid AI framework enhances decision-making in smart manufacturing.",
+      "link": "https://arxiv.org/abs/2511.18258",
+      "reason_for_choice": "This article bridges technical and managerial interests by showcasing how AI can optimize manufacturing processes, appealing to engineers and stakeholders alike."
     },
     {
-      "item_number": 97,
-      "summary": "Syd: Offline AI workstation for secure malware analysis.",
-      "link": "https://www.sydsec.co.uk",
-      "reason_for_choice": "This product-focused article is crucial for cybersecurity stakeholders, offering a new tool for secure offline malware analysis, relevant to both technical teams and management."
+      "item_number": 89,
+      "summary": "Somos Internet revolutionizes Colombian infrastructure with vertical integration.",
+      "link": "https://www.notboring.co/p/cable-caballero",
+      "reason_for_choice": "This piece highlights a significant product and engineering development, providing insights into infrastructure innovation and its impact on connectivity."
     }
   ],
-  "digest": "- *KRAL* enhances LLMs for clinical antimicrobial therapy, reducing costs and manual data annotation. [Link](https://arxiv.org/abs/2511.15974)\n- *UI-CUBE* benchmarks CUAs for operational reliability, highlighting significant gaps in complex workflows. [Link](https://arxiv.org/abs/2511.17131)\n- *Bench360* simplifies benchmarking local LLM inference, integrating metrics for optimal performance. [Link](https://arxiv.org/abs/2511.16682)\n- *E$^3$-Pruner* proposes a novel framework for efficient layer pruning in large language models. [Link](https://arxiv.org/abs/2511.17205)\n- *ReviewGuard* enhances deficient peer review detection via LLM-driven data augmentation. [Link](https://arxiv.org/abs/2510.16549)\n- *OmniGround* introduces a new benchmark for spatio-temporal video grounding, addressing model limitations. [Link](https://arxiv.org/abs/2511.16937)\n- *FLUID* offers a training-free method for face de-identification using latent space identity substitution. [Link](https://arxiv.org/abs/2511.17005)\n- *AraFinNews* introduces a large Arabic financial news dataset, enhancing summarisation with domain-adapted LLMs. [Link](https://arxiv.org/abs/2511.01265)\n- *MF-GCN* introduces a novel approach for tri-modal depression detection using eye-tracking, audio, and video. [Link](https://arxiv.org/abs/2511.15675)"
+  "digest": "- *From Code Foundation Models to Agents and Applications*: Offers a practical guide on code LLMs, bridging research with real-world applications. [Link](https://arxiv.org/abs/2511.18538)\n- *Explainable Deep Learning for Brain Tumor Classification*: Benchmarks models for brain tumor classification, focusing on interpretability in healthcare. [Link](https://arxiv.org/abs/2511.17655)\n- *Uni-MoE-2.0-Omni*: Enhances multimodal AI with advanced training, achieving state-of-the-art results. [Link](https://arxiv.org/abs/2511.12609)\n- *Dynamic Expert Quantization*: Improves Mixture-of-Experts models by managing quantization, enhancing GPU performance. [Link](https://arxiv.org/abs/2511.15015)\n- *Strategic Decision Framework for Enterprise LLM Adoption*: Offers a framework for adopting LLMs in organizations, addressing security and compliance. [Link](https://arxiv.org/abs/2511.18589)\n- *Revolutionizing Finance with LLMs*: Explores LLM applications in finance, improving efficiency and decision-making. [Link](https://arxiv.org/abs/2401.11641)\n- *SAJD*: Detects jamming attacks in AI-integrated 5G networks, enhancing security. [Link](https://arxiv.org/abs/2511.17519)\n- *Binary BPE*: Introduces efficient tokenizers for binary analysis, enhancing transformer context usage. [Link](https://arxiv.org/abs/2511.17573)\n- *Advancing Multi-Agent RAG Systems*: Enhances reasoning in LLMs using minimalist reinforcement learning. [Link](https://arxiv.org/abs/2505.17086)\n- *Wireless Power Transfer in 6G*: Optimizes AAV-assisted IoT networks using intent-driven methods. [Link](https://arxiv.org/abs/2511.18368)"
 }
