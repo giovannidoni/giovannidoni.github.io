@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 3,
-      "summary": "Hybrid AI framework enhances decision-making in smart manufacturing.",
-      "link": "https://arxiv.org/abs/2511.18258",
-      "reason_for_choice": "This article bridges technical and managerial interests by showcasing how AI can optimize manufacturing processes, appealing to engineers and stakeholders alike."
+      "item_number": 0,
+      "summary": "Explainable AI for brain tumor classification with dual interpretability and deployment focus.",
+      "link": "https://arxiv.org/abs/2511.17655",
+      "reason_for_choice": "This article bridges AI research and practical healthcare applications, making it relevant for both technical and managerial audiences."
     },
     {
-      "item_number": 89,
-      "summary": "Somos Internet revolutionizes Colombian infrastructure with vertical integration.",
-      "link": "https://www.notboring.co/p/cable-caballero",
-      "reason_for_choice": "This piece highlights a significant product and engineering development, providing insights into infrastructure innovation and its impact on connectivity."
+      "item_number": 2,
+      "summary": "Hybrid AI framework for smart manufacturing, enhancing decision-making with LLMs.",
+      "link": "https://arxiv.org/abs/2511.18258",
+      "reason_for_choice": "The integration of AI in manufacturing is a crucial topic for engineering and management, highlighting innovation in industrial applications."
     }
   ],
-  "digest": "- *From Code Foundation Models to Agents and Applications*: Offers a practical guide on code LLMs, bridging research with real-world applications. [Link](https://arxiv.org/abs/2511.18538)\n- *Explainable Deep Learning for Brain Tumor Classification*: Benchmarks models for brain tumor classification, focusing on interpretability in healthcare. [Link](https://arxiv.org/abs/2511.17655)\n- *Uni-MoE-2.0-Omni*: Enhances multimodal AI with advanced training, achieving state-of-the-art results. [Link](https://arxiv.org/abs/2511.12609)\n- *Dynamic Expert Quantization*: Improves Mixture-of-Experts models by managing quantization, enhancing GPU performance. [Link](https://arxiv.org/abs/2511.15015)\n- *Strategic Decision Framework for Enterprise LLM Adoption*: Offers a framework for adopting LLMs in organizations, addressing security and compliance. [Link](https://arxiv.org/abs/2511.18589)\n- *Revolutionizing Finance with LLMs*: Explores LLM applications in finance, improving efficiency and decision-making. [Link](https://arxiv.org/abs/2401.11641)\n- *SAJD*: Detects jamming attacks in AI-integrated 5G networks, enhancing security. [Link](https://arxiv.org/abs/2511.17519)\n- *Binary BPE*: Introduces efficient tokenizers for binary analysis, enhancing transformer context usage. [Link](https://arxiv.org/abs/2511.17573)\n- *Advancing Multi-Agent RAG Systems*: Enhances reasoning in LLMs using minimalist reinforcement learning. [Link](https://arxiv.org/abs/2505.17086)\n- *Wireless Power Transfer in 6G*: Optimizes AAV-assisted IoT networks using intent-driven methods. [Link](https://arxiv.org/abs/2511.18368)"
+  "digest": "- *Filtering with Self-Attention and Storing with MLP* explores foundational transformer mechanisms, offering insights into AI model efficiency. [Read more](https://arxiv.org/abs/2508.00901)\n- *Uni-MoE-2.0-Omni* advances multimodal AI with state-of-the-art results, crucial for AI researchers. [Read more](https://arxiv.org/abs/2511.12609)\n- *Dynamic Expert Quantization* optimizes Mixture-of-Experts models, enhancing AI performance on GPUs. [Read more](https://arxiv.org/abs/2511.15015)\n- *NEZHA* introduces a faster architecture for generative recommendations, relevant for product development teams. [Read more](https://arxiv.org/abs/2511.18793)\n- *SAJD* enhances 5G network security with real-time jamming attack detection, important for telecom stakeholders. [Read more](https://arxiv.org/abs/2511.17519)\n- *Binary BPE* improves binary analysis across platforms, aiding software engineers in AI model efficiency. [Read more](https://arxiv.org/abs/2511.17573)\n- *Wireless Power Transfer and Intent-Driven Network Optimization* proposes a framework for sustainable 6G connectivity, key for telecom and IoT sectors. [Read more](https://arxiv.org/abs/2511.18368)\n- *LLM and Agent-Driven Data Analysis* discusses AI's impact on enterprise data, crucial for business intelligence. [Read more](https://arxiv.org/abs/2511.17676)\n- *Defending Large Language Models Against Jailbreak Exploits* outlines strategies for enhancing AI safety, relevant for AI ethics and security teams. [Read more](https://arxiv.org/abs/2511.18933)\n- *Evaluating Device-First Continuum AI (DFC-AI)* for autonomous energy operations, offering insights into AI's role in energy management. [Read more](https://arxiv.org/abs/2511.17528)"
 }
