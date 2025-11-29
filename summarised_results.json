@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "AI image generator Z-Image Turbo excels in photorealism and efficiency.",
-      "link": "https://z-img.net/",
-      "reason_for_choice": "This tool is a breakthrough in AI technology, offering bilingual capabilities and high-speed image generation, making it relevant for both technical users and creative industries."
+      "item_number": 0,
+      "summary": "Z-Image is a free, fast AI image generator for creators, offering high-quality outputs without cost or complex sign-ups.",
+      "link": "https://aiocmaker.com/z-image",
+      "reason_for_choice": "This tool has a broad appeal across creative industries, offering a cost-effective solution for creators, designers, and marketers. Its accessibility and ease of use can drive innovation and creativity, making it relevant for daily headlines."
     },
     {
-      "item_number": 3,
-      "summary": "New quantum computing framework promises faster problem-solving capabilities.",
-      "link": "https://quantum-computing-framework.com/",
-      "reason_for_choice": "Quantum computing is a transformative technology with potential impacts across industries, from engineering to finance, making it a crucial topic for stakeholders and tech enthusiasts alike."
+      "item_number": 1,
+      "summary": "CORE is an autonomous coding agent achieving 70% success in code generation with a governance framework for safe software evolution.",
+      "link": "https://github.com/DariuszNewecki/CORE",
+      "reason_for_choice": "CORE represents a significant advancement in AI-driven software development, appealing to both engineers and management. Its potential to streamline coding processes while ensuring safety makes it a noteworthy topic for stakeholders."
     }
   ],
-  "digest": "- *AI in Healthcare*: AI-driven diagnostics are improving early detection rates in oncology. Read more at https://ai-healthcare-diagnostics.com/.\n- *Sustainable Energy*: Innovations in solar panel efficiency could reduce global energy costs significantly. Details at https://solar-innovation.com/.\n- *Cybersecurity*: A new encryption method promises enhanced security for online transactions. Explore more at https://cybersecurity-encryption.com/.\n- *Robotics*: Advances in robotic automation are revolutionizing manufacturing processes. Learn more at https://robotics-automation.com/.\n- *Blockchain*: Blockchain technology is reshaping supply chain management, offering transparency and traceability. Check it out at https://blockchain-supplychain.com/."
+  "digest": "- *AI in Healthcare*: AI-driven diagnostics are improving early detection rates for diseases like cancer, enhancing patient outcomes and reducing costs. Learn more: https://healthcareai.com/diagnostics\n- *Sustainable Tech*: Innovations in green technology are paving the way for more sustainable manufacturing processes, reducing carbon footprints. Explore further: https://greentech.org/sustainability\n- *Cybersecurity Advances*: New encryption methods are being developed to protect sensitive data against quantum computing threats. Read about it: https://cybersecure.com/quantum\n- *Education Technology*: EdTech platforms are leveraging AI to personalize learning experiences, increasing student engagement and success rates. Discover more: https://edtechworld.com/personalized-learning\n- *Blockchain in Finance*: Financial institutions are adopting blockchain to enhance transaction security and transparency, revolutionizing the banking sector. Find out more: https://blockchainfinance.com/innovation"
 }
