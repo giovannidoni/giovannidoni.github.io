@@ -2,16 +2,16 @@
   "picked_headlines": [
     {
       "item_number": 1,
-      "summary": "Astra optimizes GPU kernels using LLMs, boosting performance over traditional methods.",
-      "link": "https://arxiv.org/abs/2509.07506",
-      "reason_for_choice": "This article bridges AI research and engineering, showcasing practical applications of LLMs in optimizing GPU performance, relevant to both technical and managerial audiences."
+      "summary": "AI-driven insights for Spotify/Apple Music enhance artists' marketing.",
+      "link": "https://tuned.ws/demo/",
+      "reason_for_choice": "This article offers a practical application of AI in the music industry, appealing to both technical audiences interested in AI and stakeholders in the music business."
     },
     {
-      "item_number": 93,
-      "summary": "AI is reshaping software development, emphasizing communication and foundational skills.",
-      "link": "https://www.oreilly.com/radar/software-in-the-age-of-ai/",
-      "reason_for_choice": "This piece highlights the transformative impact of AI on software development processes, appealing to both engineers and management stakeholders."
+      "item_number": 2,
+      "summary": "Zipline, Dell, and Amazon drive optimism with impactful initiatives.",
+      "link": "https://www.notboring.co/p/weekly-dose-of-optimism-172",
+      "reason_for_choice": "The article highlights significant contributions from major companies, appealing to management and stakeholders interested in corporate social responsibility and technological advancements."
     }
   ],
-  "digest": "- *VS-Graph* enhances graph classification efficiency using Hyperdimensional Computing, achieving competitive accuracy with faster training on resource-constrained devices. [Read more](https://arxiv.org/abs/2512.03394)\n- *UniQL* improves edge LLM deployment with unified quantization and low-rank compression, enhancing efficiency and reducing memory usage. [Read more](https://arxiv.org/abs/2512.03383)\n- *Network of Theseus* allows gradual transformation of neural architectures without losing performance, enhancing design flexibility. [Read more](https://arxiv.org/abs/2512.04198)\n- *PanFoMa* offers a lightweight model for pan-cancer research, improving single-cell RNA analysis with a new benchmark. [Read more](https://arxiv.org/abs/2512.03111)\n- *ThinkDeeper* enhances object localization in autonomous vehicles using a world model to reason about future spatial states and multimodal input. [Read more](https://arxiv.org/abs/2512.03454)\n- *PyroFocus* provides a novel deep learning pipeline for efficient real-time wildfire detection using multispectral imagery. [Read more](https://arxiv.org/abs/2512.03257)\n- *KVNAND* enables efficient LLM inference on edge devices by using DRAM-free in-flash computing, enhancing performance and reducing costs. [Read more](https://arxiv.org/abs/2512.03608)\n- *EvoEdit* introduces Lifelong Free-text Knowledge Editing for LLMs, enhancing knowledge updates while preserving prior information. [Read more](https://arxiv.org/abs/2512.04545)\n- *BlendedNet++* offers a large-scale dataset for BWB aircraft aerodynamics, enabling better predictive modeling and inverse design benchmarks. [Read more](https://arxiv.org/abs/2512.03280)\n- *SPARK* introduces a framework for reference-free reinforcement learning, achieving better results than traditional methods without ground truth. [Read more](https://arxiv.org/abs/2512.03244)"
+  "digest": "- *Daemon-like naming conventions* have a rich history, tracing back to ancient Greece, and continue to influence modern AI systems. Explore the full lineage at https://news.ycombinator.com/item?id=46169773.\n- *AI growth strategist* for musicians, Tuned.ws, provides data-driven insights to enhance marketing strategies on platforms like Spotify and Apple Music. Check out the demo at https://tuned.ws/demo/.\n- *Weekly Dose of Optimism* showcases Zipline's efforts in reducing malnutrition, Dell's substantial donation for children's savings, and Amazon's development of a new AI chip. Dive deeper at https://www.notboring.co/p/weekly-dose-of-optimism-172."
 }
