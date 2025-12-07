@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "AI-driven insights for Spotify/Apple Music enhance artists' marketing.",
-      "link": "https://tuned.ws/demo/",
-      "reason_for_choice": "This article offers a practical application of AI in the music industry, appealing to both technical audiences interested in AI and stakeholders in the music business."
+      "item_number": 0,
+      "summary": "Changelogy offers a customizable, user-friendly changelog platform for SaaS, addressing common issues with existing solutions.",
+      "link": "https://www.changelogy.com/",
+      "reason_for_choice": "This platform is highly relevant for product managers and engineers looking to streamline communication and updates in SaaS environments."
     },
     {
-      "item_number": 2,
-      "summary": "Zipline, Dell, and Amazon drive optimism with impactful initiatives.",
-      "link": "https://www.notboring.co/p/weekly-dose-of-optimism-172",
-      "reason_for_choice": "The article highlights significant contributions from major companies, appealing to management and stakeholders interested in corporate social responsibility and technological advancements."
+      "item_number": 1,
+      "summary": "Tikpal is an AI voice tool aimed at enhancing productivity by reducing screen use and fostering natural voice interactions for creativity.",
+      "link": "https://tikpal.ai",
+      "reason_for_choice": "This tool is significant for both technical and non-technical users seeking innovative ways to boost productivity and creativity through AI."
     }
   ],
-  "digest": "- *Daemon-like naming conventions* have a rich history, tracing back to ancient Greece, and continue to influence modern AI systems. Explore the full lineage at https://news.ycombinator.com/item?id=46169773.\n- *AI growth strategist* for musicians, Tuned.ws, provides data-driven insights to enhance marketing strategies on platforms like Spotify and Apple Music. Check out the demo at https://tuned.ws/demo/.\n- *Weekly Dose of Optimism* showcases Zipline's efforts in reducing malnutrition, Dell's substantial donation for children's savings, and Amazon's development of a new AI chip. Dive deeper at https://www.notboring.co/p/weekly-dose-of-optimism-172."
+  "digest": "- *Changelogy* offers a user-friendly platform for SaaS changelogs, enhancing communication and update management for product teams. More at https://www.changelogy.com/.\n- *Tikpal* introduces an AI voice partner to boost productivity by minimizing screen time and encouraging natural voice interactions. Explore more at https://tikpal.ai.\n- *AI Research*: New algorithms in AI are making strides in natural language processing, improving machine understanding of human language nuances.\n- *Sustainable Tech*: Innovations in green technology are paving the way for more eco-friendly data centers, reducing carbon footprints significantly.\n- *Cybersecurity*: Recent advancements in AI-driven security solutions are providing more robust defenses against evolving cyber threats.\n- *Healthcare AI*: AI applications in healthcare are now focusing on predictive analytics, offering more precise diagnostic tools and personalized treatment plans.\n- *Quantum Computing*: Breakthroughs in quantum computing are setting the stage for unprecedented computational power, promising to revolutionize industries from finance to pharmaceuticals."
 }
