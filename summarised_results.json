@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 26,
-      "summary": "Optimizing video analytics for poultry monitoring achieves 2x speedup with practical strategies.",
-      "link": "https://arxiv.org/abs/2512.07009",
-      "reason_for_choice": "The article presents practical engineering solutions that can be applied across industries, showing significant efficiency improvements in real-world applications."
+      "item_number": 4,
+      "summary": "IBM's CUGA showcases enterprise AI deployment with new benchmarks.",
+      "link": "https://arxiv.org/abs/2510.23856",
+      "reason_for_choice": "This article bridges research and practical application, highlighting IBM's deployment of AI in enterprise settings, making it relevant for both technical and management audiences."
     },
     {
-      "item_number": 95,
-      "summary": "Explores AI's future scenarios, urging robust strategies for potential economic singularity or normalcy.",
-      "link": "https://www.oreilly.com/radar/what-if-ai-in-2026-and-beyond/",
-      "reason_for_choice": "This article is crucial for stakeholders and management to understand potential future impacts of AI, encouraging strategic planning and preparedness."
+      "item_number": 97,
+      "summary": "MCP servers enhance AI capabilities with diverse use cases.",
+      "link": "https://newsletter.pragmaticengineer.com/p/mcp-deepdive",
+      "reason_for_choice": "This piece offers insights into the practical engineering and management aspects of deploying MCP servers, appealing to both technical and stakeholder interests."
     }
   ],
-  "digest": "- *AutoNeural* optimizes Vision-Language Models for NPUs, reducing latency and enhancing efficiency: https://arxiv.org/abs/2512.02924\n- *DataGovBench* benchmarks LLMs for data governance, introducing DataGovAgent for improved task execution: https://arxiv.org/abs/2512.04416\n- *AgenticCyber* enhances cybersecurity with a GenAI multi-agent system, achieving 96.2% detection accuracy: https://arxiv.org/abs/2512.06396\n- *Arc Gradient Descent* outperforms Adam in complex ML tasks, improving accuracy without overfitting: https://arxiv.org/abs/2512.06737\n- *Venus* achieves 15x-131x speedup in video understanding with an efficient edge memory system: https://arxiv.org/abs/2512.07344\n- *ProSocialAlign* enhances language model safety by steering responses towards empathy without retraining: https://arxiv.org/abs/2512.06515\n- *LUNE* introduces an efficient framework for unlearning in LLMs, reducing computational costs: https://arxiv.org/abs/2512.07375\n- *RLAX* enhances LLM quality and convergence on TPUs with scalable RL framework: https://arxiv.org/abs/2512.06392\n- *PrivLLMSwarm* enables secure LLM inference for UAV swarms, balancing privacy and utility: https://arxiv.org/abs/2512.06747\n- *CryptoTensors* offers a secure file format for LLMs, enhancing confidentiality and access control: https://arxiv.org/abs/2512.04580"
+  "digest": "- *MixLM* enhances LLM ranking by reducing input context length, boosting throughput 10x while maintaining relevance. [Link](https://arxiv.org/abs/2512.07846)\n- *ThreadWeaver* achieves high accuracy and reduced latency in LLMs without custom engines. [Link](https://arxiv.org/abs/2512.07843)\n- *Edge Deployment* study compares CPU, GPU, and NPU performance for Small Language Models, highlighting NPUs as the most efficient option. [Link](https://arxiv.org/abs/2511.22334)\n- *MARINE* optimizes multi-agent reasoning in LLMs, enhancing performance with fewer parameters. [Link](https://arxiv.org/abs/2512.07898)\n- *DeepCode* introduces a novel framework for autonomous coding, outperforming existing agents in document-to-code synthesis. [Link](https://arxiv.org/abs/2512.07921)\n- *SolidGPT* is an edge-cloud hybrid AI tool enhancing developer productivity with semantic code navigation. [Link](https://arxiv.org/abs/2512.08286)\n- *CFD-copilot* uses a specialized LLM to automate CFD simulations, enhancing setup and execution. [Link](https://arxiv.org/abs/2512.07917)\n- *PrivTune* enhances privacy in fine-tuning large language models by using Split Learning. [Link](https://arxiv.org/abs/2512.08809)\n- *Aetheria* is a new framework for content safety using multi-agent debate, enhancing accuracy in moderation systems. [Link](https://arxiv.org/abs/2512.02530)\n- *Visionary* is a web-native platform for efficient real-time Gaussian Splatting, enhancing 3D rendering. [Link](https://arxiv.org/abs/2512.08478)"
 }
