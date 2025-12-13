@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "GFM-RAG uses graphs to enhance LLMs' reasoning, achieving state-of-the-art results.",
-      "link": "https://arxiv.org/abs/2502.01113",
-      "reason_for_choice": "This article presents a significant advancement in enhancing LLMs' reasoning capabilities, crucial for both technical and managerial stakeholders interested in AI development."
+      "item_number": 0,
+      "summary": "Open-source AI assistant for League of Legends offers audio coaching via screenshots and voice queries.",
+      "link": "https://github.com/sorena-ai/LeagueAiCoach",
+      "reason_for_choice": "This headline bridges the gap between gaming and AI technology, appealing to both tech enthusiasts and stakeholders interested in AI applications."
     },
     {
-      "item_number": 9,
-      "summary": "UltraCUA improves computer-use agents by integrating GUI actions, boosting efficiency.",
-      "link": "https://arxiv.org/abs/2510.17790",
-      "reason_for_choice": "This article highlights a practical engineering advancement, showcasing improvements in computer-use agents that are relevant to product development and engineering teams."
+      "item_number": 4,
+      "summary": "Guide on evaluating AI engineering tools with data-driven methods for effective adoption and ROI.",
+      "link": "https://newsletter.getdx.com/p/running-data-driven-evaluations-of",
+      "reason_for_choice": "This article provides valuable insights for both engineers and management, emphasizing the importance of data-driven decision-making in AI tool adoption."
     }
   ],
-  "digest": "- *T-SKM-Net* integrates SKM methods into neural networks for efficient constraint satisfaction, achieving significant speedup and maintaining accuracy. [Read more](https://arxiv.org/abs/2512.10461)\n- *Cross-modal Retrieval Models* for binary code retrieval achieve state-of-the-art performance in software security tasks. [Read more](https://arxiv.org/abs/2512.10393)\n- *PaTAS* introduces a framework for trust propagation in neural networks, enhancing reliability assessment in AI systems under uncertainty. [Read more](https://arxiv.org/abs/2511.20586)\n- *RLPA framework* enhances LLMs for personalized dialogue by dynamically modeling user profiles, outperforming existing methods. [Read more](https://arxiv.org/abs/2505.15456)\n- *SWEnergy* study reveals inefficiencies in agentic frameworks using SLMs, suggesting new architectures are needed for energy efficiency. [Read more](https://arxiv.org/abs/2512.09543)\n- *SyGra* is a framework for scalable synthetic data generation, enhancing quality tagging for LLM training with minimal manual effort. [Read more](https://arxiv.org/abs/2508.15432)\n- *Graph Neural Network* framework enhances threat detection in IAM logs, outperforming traditional methods in cloud security. [Read more](https://arxiv.org/abs/2512.10280)\n- *A Privacy-Preserving Cloud Architecture* integrates federated learning and differential privacy, ensuring compliance and security in distributed ML. [Read more](https://arxiv.org/abs/2512.10341)\n- *Clustered Federated Learning* with hierarchical knowledge distillation improves model accuracy and efficiency. [Read more](https://arxiv.org/abs/2512.10443)\n- *PlanetServe* proposes a decentralized overlay for scalable LLM serving, addressing key challenges in privacy and resource efficiency. [Read more](https://arxiv.org/abs/2504.20101)"
+  "digest": "- *Real-time collaboration*: Tandem is a **real-time collaborative editor** with AI integration, offering features like version history and document sharing. Check it out at https://github.com/lmanchu/tandem/tree/v3.\n- *AI memory discussion*: Explore methods for giving local AI models **long-term memory** using Vector DBs and custom memory modules. Join the discussion at https://news.ycombinator.com/item?id=46252809.\n- *Langchain fix*: A fix for **multithreading race condition** in Langchain's shell output ensures correct stderr capture in Python 3.10. More details at https://github.com/langchain-ai/langchain/commit/54241f4d06949dee46a4522a0fac5a725202a50b.\n- *Weekly optimism*: Discover breakthroughs in **space solar power**, neuroscience, aging research, and AI advancements in math competitions in the Weekly Dose of Optimism #173 at https://www.notboring.co/p/weekly-dose-of-optimism-173."
 }
