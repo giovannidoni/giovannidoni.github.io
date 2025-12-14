@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 0,
-      "summary": "Open-source AI assistant for League of Legends offers audio coaching via screenshots and voice queries.",
-      "link": "https://github.com/sorena-ai/LeagueAiCoach",
-      "reason_for_choice": "This headline bridges the gap between gaming and AI technology, appealing to both tech enthusiasts and stakeholders interested in AI applications."
+      "item_number": 2,
+      "summary": "Efficient Virtuoso excels in AV trajectory planning using a single RTX 3090.",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1plzkzu/r_efficient_virtuoso_a_latent_diffusion/",
+      "reason_for_choice": "This article showcases a significant advancement in autonomous vehicle technology, demonstrating high efficiency and accuracy, which is crucial for both engineers and stakeholders in the automotive industry."
     },
     {
-      "item_number": 4,
-      "summary": "Guide on evaluating AI engineering tools with data-driven methods for effective adoption and ROI.",
-      "link": "https://newsletter.getdx.com/p/running-data-driven-evaluations-of",
-      "reason_for_choice": "This article provides valuable insights for both engineers and management, emphasizing the importance of data-driven decision-making in AI tool adoption."
+      "item_number": 3,
+      "summary": "AMP enhances AI memory retention with open-source solutions.",
+      "link": "https://github.com/akshayaggarwal99/amp",
+      "reason_for_choice": "The introduction of AMP as an open-source memory server for AI agents presents a novel approach to improving AI systems' efficiency and context awareness, appealing to both technical audiences and product managers."
     }
   ],
-  "digest": "- *Real-time collaboration*: Tandem is a **real-time collaborative editor** with AI integration, offering features like version history and document sharing. Check it out at https://github.com/lmanchu/tandem/tree/v3.\n- *AI memory discussion*: Explore methods for giving local AI models **long-term memory** using Vector DBs and custom memory modules. Join the discussion at https://news.ycombinator.com/item?id=46252809.\n- *Langchain fix*: A fix for **multithreading race condition** in Langchain's shell output ensures correct stderr capture in Python 3.10. More details at https://github.com/langchain-ai/langchain/commit/54241f4d06949dee46a4522a0fac5a725202a50b.\n- *Weekly optimism*: Discover breakthroughs in **space solar power**, neuroscience, aging research, and AI advancements in math competitions in the Weekly Dose of Optimism #173 at https://www.notboring.co/p/weekly-dose-of-optimism-173."
+  "digest": "- *AI's Role in Job Replacement*: Despite fears, AI's technical inefficiencies and need for human oversight limit its potential to replace jobs at scale. [Read more](https://www.reddit.com/r/ArtificialInteligence/comments/1plpzgn/i_dont_think_ai_can_actually_replace_jobs_at_scale/)\n- *Mistral 3 and DeepSeek V3*: Mistral 3's architecture mirrors DeepSeek V3, highlighting open-source efficiency in model design. [Explore further](https://www.reddit.com/r/LocalLLaMA/comments/1plpc6h/mistral_3_large_is_deepseek_v3/)\n- *Building a High-Power GPU Server*: An 8x RTX Pro 6000 server build tackles cooling, power, and connectivity challenges, offering insights for tech enthusiasts. [Learn more](https://www.reddit.com/r/LocalLLaMA/comments/1plwgun/8x_rtx_pro_6000_server_complete/)\n- *AI in Software Architecture*: Testing LLMs on architecture tasks reveals AI's current limitations in deep architectural thinking. [Discover insights](https://www.reddit.com/r/ArtificialInteligence/comments/1pm0zcl/can_ai_replace_software_architects_i_put_4_llms/)\n- *Emerging Business Trends via AI*: Using AI to scan Reddit comments for 'Blue Ocean' ideas emphasizes the importance of market signals. [Find out more](https://blog.vect.pro/trend-hacking-guide)\n- *AI Executive Order Controversy*: The new executive order prioritizes unchecked AI innovation, raising concerns over state-level protections. [Read the full article](https://www.reddit.com/r/ArtificialInteligence/comments/1plx6qa/trumps_eo_banning_states_regulating_ai/)\n- *AI Hiring Trends*: Fei-Fei Li advocates for skill-based hiring over degrees, highlighting adaptability and tool proficiency. [Read more](https://fortune.com/2025/12/12/fei-fei-li-stanford-professor-godmother-ai-college-degrees-skills-talent-ceo/)"
 }
