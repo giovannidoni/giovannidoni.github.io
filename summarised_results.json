@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 2,
-      "summary": "Efficient Virtuoso excels in AV trajectory planning using a single RTX 3090.",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1plzkzu/r_efficient_virtuoso_a_latent_diffusion/",
-      "reason_for_choice": "This article showcases a significant advancement in autonomous vehicle technology, demonstrating high efficiency and accuracy, which is crucial for both engineers and stakeholders in the automotive industry."
+      "item_number": 1,
+      "summary": "AdaSD: Hyperparameter-free LLM inference with speedup and minimal accuracy loss.",
+      "link": "https://arxiv.org/abs/2512.11280",
+      "reason_for_choice": "AdaSD offers a significant advancement in LLM inference, appealing to both engineers and managers by reducing complexity and improving efficiency."
     },
     {
-      "item_number": 3,
-      "summary": "AMP enhances AI memory retention with open-source solutions.",
-      "link": "https://github.com/akshayaggarwal99/amp",
-      "reason_for_choice": "The introduction of AMP as an open-source memory server for AI agents presents a novel approach to improving AI systems' efficiency and context awareness, appealing to both technical audiences and product managers."
+      "item_number": 7,
+      "summary": "Dora: Optimizes QoE in distributed edge AI, enhancing performance.",
+      "link": "https://arxiv.org/abs/2512.10990",
+      "reason_for_choice": "Dora's focus on distributed edge AI is crucial for product development, making it relevant for both technical and strategic stakeholders."
     }
   ],
-  "digest": "- *AI's Role in Job Replacement*: Despite fears, AI's technical inefficiencies and need for human oversight limit its potential to replace jobs at scale. [Read more](https://www.reddit.com/r/ArtificialInteligence/comments/1plpzgn/i_dont_think_ai_can_actually_replace_jobs_at_scale/)\n- *Mistral 3 and DeepSeek V3*: Mistral 3's architecture mirrors DeepSeek V3, highlighting open-source efficiency in model design. [Explore further](https://www.reddit.com/r/LocalLLaMA/comments/1plpc6h/mistral_3_large_is_deepseek_v3/)\n- *Building a High-Power GPU Server*: An 8x RTX Pro 6000 server build tackles cooling, power, and connectivity challenges, offering insights for tech enthusiasts. [Learn more](https://www.reddit.com/r/LocalLLaMA/comments/1plwgun/8x_rtx_pro_6000_server_complete/)\n- *AI in Software Architecture*: Testing LLMs on architecture tasks reveals AI's current limitations in deep architectural thinking. [Discover insights](https://www.reddit.com/r/ArtificialInteligence/comments/1pm0zcl/can_ai_replace_software_architects_i_put_4_llms/)\n- *Emerging Business Trends via AI*: Using AI to scan Reddit comments for 'Blue Ocean' ideas emphasizes the importance of market signals. [Find out more](https://blog.vect.pro/trend-hacking-guide)\n- *AI Executive Order Controversy*: The new executive order prioritizes unchecked AI innovation, raising concerns over state-level protections. [Read the full article](https://www.reddit.com/r/ArtificialInteligence/comments/1plx6qa/trumps_eo_banning_states_regulating_ai/)\n- *AI Hiring Trends*: Fei-Fei Li advocates for skill-based hiring over degrees, highlighting adaptability and tool proficiency. [Read more](https://fortune.com/2025/12/12/fei-fei-li-stanford-professor-godmother-ai-college-degrees-skills-talent-ceo/)"
+  "digest": "- *ASR-KF-EGR* optimizes LLM inference by reducing memory usage without losing context, offering a practical solution for deployment. [Link](https://arxiv.org/abs/2512.11221)\n- *FutureWeaver* enhances compute allocation in multi-agent systems, improving collaboration and performance under budget constraints. [Link](https://arxiv.org/abs/2512.11213)\n- *Dynamic scheduling* improves GPU cluster utilization and reduces job starvation, outperforming static policies with innovative methods. [Link](https://arxiv.org/abs/2512.10980)\n- *HyperAdaLoRA* enhances LoRA training speed using hypernetworks for dynamic rank allocation, improving convergence without performance loss. [Link](https://arxiv.org/abs/2510.02630)\n- *Deep Learning--Accelerated Multi-Start Large Neighborhood Search* presents a novel hybrid approach using deep learning and metaheuristics for efficient freight bundling in logistics. [Link](https://arxiv.org/abs/2512.11187)\n- *Agent-Based Modular Learning* enhances multimodal emotion recognition in human-agent systems, improving efficiency and flexibility. [Link](https://arxiv.org/abs/2512.10975)\n- *Towards Privacy-Preserving Code Generation* evaluates Differential Privacy in CodeLLMs, showing it reduces memorization while maintaining code generation performance. [Link](https://arxiv.org/abs/2512.11482)\n- *CREW-WILDFIRE* benchmarks scalable multi-agent AI in complex wildfire scenarios, addressing key performance gaps. [Link](https://arxiv.org/abs/2507.05178)\n- *Benchmarking Automatic Speech Recognition Models* for 13 African languages reveals insights on model efficiency and data scaling in low-resource settings. [Link](https://arxiv.org/abs/2512.10968)\n- *ReCode* unifies planning and action in LLMs, enhancing decision granularity and efficiency through recursive code generation. [Link](https://arxiv.org/abs/2510.23564)"
 }
