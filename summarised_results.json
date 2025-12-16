@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 1,
-      "summary": "AdaSD: Hyperparameter-free LLM inference with speedup and minimal accuracy loss.",
-      "link": "https://arxiv.org/abs/2512.11280",
-      "reason_for_choice": "AdaSD offers a significant advancement in LLM inference, appealing to both engineers and managers by reducing complexity and improving efficiency."
+      "item_number": 5,
+      "summary": "Optimizing EV charging with Smart2ChargeApp for efficiency gains.",
+      "link": "https://arxiv.org/abs/2512.12048",
+      "reason_for_choice": "This article highlights a practical application of AI in optimizing electric vehicle charging, appealing to both engineering and management audiences due to its potential impact on energy efficiency and sustainability."
     },
     {
-      "item_number": 7,
-      "summary": "Dora: Optimizes QoE in distributed edge AI, enhancing performance.",
-      "link": "https://arxiv.org/abs/2512.10990",
-      "reason_for_choice": "Dora's focus on distributed edge AI is crucial for product development, making it relevant for both technical and strategic stakeholders."
+      "item_number": 24,
+      "summary": "Survey on financial foundation models in finance.",
+      "link": "https://arxiv.org/abs/2507.18577",
+      "reason_for_choice": "This article provides a comprehensive overview of the applications and challenges of financial foundation models, relevant for stakeholders interested in the intersection of AI and finance."
     }
   ],
-  "digest": "- *ASR-KF-EGR* optimizes LLM inference by reducing memory usage without losing context, offering a practical solution for deployment. [Link](https://arxiv.org/abs/2512.11221)\n- *FutureWeaver* enhances compute allocation in multi-agent systems, improving collaboration and performance under budget constraints. [Link](https://arxiv.org/abs/2512.11213)\n- *Dynamic scheduling* improves GPU cluster utilization and reduces job starvation, outperforming static policies with innovative methods. [Link](https://arxiv.org/abs/2512.10980)\n- *HyperAdaLoRA* enhances LoRA training speed using hypernetworks for dynamic rank allocation, improving convergence without performance loss. [Link](https://arxiv.org/abs/2510.02630)\n- *Deep Learning--Accelerated Multi-Start Large Neighborhood Search* presents a novel hybrid approach using deep learning and metaheuristics for efficient freight bundling in logistics. [Link](https://arxiv.org/abs/2512.11187)\n- *Agent-Based Modular Learning* enhances multimodal emotion recognition in human-agent systems, improving efficiency and flexibility. [Link](https://arxiv.org/abs/2512.10975)\n- *Towards Privacy-Preserving Code Generation* evaluates Differential Privacy in CodeLLMs, showing it reduces memorization while maintaining code generation performance. [Link](https://arxiv.org/abs/2512.11482)\n- *CREW-WILDFIRE* benchmarks scalable multi-agent AI in complex wildfire scenarios, addressing key performance gaps. [Link](https://arxiv.org/abs/2507.05178)\n- *Benchmarking Automatic Speech Recognition Models* for 13 African languages reveals insights on model efficiency and data scaling in low-resource settings. [Link](https://arxiv.org/abs/2512.10968)\n- *ReCode* unifies planning and action in LLMs, enhancing decision granularity and efficiency through recursive code generation. [Link](https://arxiv.org/abs/2510.23564)"
+  "digest": "- *Enhancing Urban Visual Place Recognition*: VPR-AttLLM improves flood imagery recognition, crucial for crisis response. [Read more](https://arxiv.org/abs/2512.11811)\n- *Fine-tuned LLM-based Code Migration*: Automates SQL code migration, boosting database transformation efficiency. [Read more](https://arxiv.org/abs/2512.13515)\n- *V-Rex Acceleration*: Enhances real-time video processing for edge deployment. [Read more](https://arxiv.org/abs/2512.12284)\n- *Cisco AI Security Framework*: Comprehensive approach to AI risks in various applications. [Read more](https://arxiv.org/abs/2512.12921)\n- *Vision Foundry*: Simplifies training of vision AI models for clinical use, reducing barriers. [Read more](https://arxiv.org/abs/2512.11837)\n- *AI Hypertrophy Coaching*: Uses sensors for real-time feedback in resistance training. [Read more](https://arxiv.org/abs/2512.11854)\n- *Automated Plant Disease Detection*: Hybrid model for offline use in resource-limited areas. [Read more](https://arxiv.org/abs/2512.11871)\n- *EmeraldMind for Greenwashing Detection*: Enhances transparency in sustainability claims. [Read more](https://arxiv.org/abs/2512.11506)\n- *AI Transparency Atlas*: Evaluates AI model documentation for safety compliance. [Read more](https://arxiv.org/abs/2512.12443)\n- *Adaptive Edge-Cloud Inference*: Optimizes voice command processing, balancing latency and privacy. [Read more](https://arxiv.org/abs/2512.12769)"
 }
