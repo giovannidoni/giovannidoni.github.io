@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 5,
-      "summary": "Optimizing EV charging with Smart2ChargeApp for efficiency gains.",
-      "link": "https://arxiv.org/abs/2512.12048",
-      "reason_for_choice": "This article highlights a practical application of AI in optimizing electric vehicle charging, appealing to both engineering and management audiences due to its potential impact on energy efficiency and sustainability."
+      "item_number": 29,
+      "summary": "PortAgent automates vehicle dispatching in ports using LLMs, reducing reliance on specialists and data, and speeding up deployment.",
+      "link": "https://arxiv.org/abs/2512.14417",
+      "reason_for_choice": "This article highlights a practical application of LLMs in logistics and transportation, showcasing innovation in engineering and management. It demonstrates the impact of AI on operational efficiency and decision-making in real-world scenarios."
     },
     {
-      "item_number": 24,
-      "summary": "Survey on financial foundation models in finance.",
-      "link": "https://arxiv.org/abs/2507.18577",
-      "reason_for_choice": "This article provides a comprehensive overview of the applications and challenges of financial foundation models, relevant for stakeholders interested in the intersection of AI and finance."
+      "item_number": 98,
+      "summary": "AWS's recent 15-hour outage stemmed from a DNS issue in DynamoDB, revealing insights into their incident response and resilience strategies.",
+      "link": "https://newsletter.pragmaticengineer.com/p/how-aws-deals-with-a-major-outage",
+      "reason_for_choice": "This article provides valuable insights into incident management and resilience strategies, crucial for stakeholders in technology management and engineering leadership. It offers lessons on handling large-scale disruptions effectively."
     }
   ],
-  "digest": "- *Enhancing Urban Visual Place Recognition*: VPR-AttLLM improves flood imagery recognition, crucial for crisis response. [Read more](https://arxiv.org/abs/2512.11811)\n- *Fine-tuned LLM-based Code Migration*: Automates SQL code migration, boosting database transformation efficiency. [Read more](https://arxiv.org/abs/2512.13515)\n- *V-Rex Acceleration*: Enhances real-time video processing for edge deployment. [Read more](https://arxiv.org/abs/2512.12284)\n- *Cisco AI Security Framework*: Comprehensive approach to AI risks in various applications. [Read more](https://arxiv.org/abs/2512.12921)\n- *Vision Foundry*: Simplifies training of vision AI models for clinical use, reducing barriers. [Read more](https://arxiv.org/abs/2512.11837)\n- *AI Hypertrophy Coaching*: Uses sensors for real-time feedback in resistance training. [Read more](https://arxiv.org/abs/2512.11854)\n- *Automated Plant Disease Detection*: Hybrid model for offline use in resource-limited areas. [Read more](https://arxiv.org/abs/2512.11871)\n- *EmeraldMind for Greenwashing Detection*: Enhances transparency in sustainability claims. [Read more](https://arxiv.org/abs/2512.11506)\n- *AI Transparency Atlas*: Evaluates AI model documentation for safety compliance. [Read more](https://arxiv.org/abs/2512.12443)\n- *Adaptive Edge-Cloud Inference*: Optimizes voice command processing, balancing latency and privacy. [Read more](https://arxiv.org/abs/2512.12769)"
+  "digest": "- *Enhancing Geo-localization for Crowdsourced Flood Imagery via LLM-Guided Attention* improves urban monitoring accuracy without retraining models. [Read more](https://arxiv.org/abs/2512.11811)\n- *ProtoFlow* offers interpretable surgical workflow modeling, enhancing accuracy in limited data scenarios. [Read more](https://arxiv.org/abs/2512.14092)\n- *A LoRA-Based Approach* fine-tunes LLMs for academic advising in low-resource settings, achieving high efficiency. [Read more](https://arxiv.org/abs/2504.15610)\n- *Training Multi-Image Vision Agents* enhances VLM tool use with end-to-end RL, reducing the need for supervised data. [Read more](https://arxiv.org/abs/2512.08980)\n- *SASQ* introduces efficient activation quantization for LLMs, improving deployment without altering weights. [Read more](https://arxiv.org/abs/2512.14481)\n- *Privacy-Enhancing Infant Cry Classification* uses federated transformers for high performance with low data upload. [Read more](https://arxiv.org/abs/2512.13880)\n- *Towards Nepali-language LLMs* improves NLP for low-resource Nepali language with a custom BPE tokenizer. [Read more](https://arxiv.org/abs/2512.14585)\n- *FreeKV* boosts KV cache retrieval for LLMs, achieving up to 13x speedup. [Read more](https://arxiv.org/abs/2505.13109)\n- *Complex Mathematical Expression Recognition* introduces CMER-Bench and new datasets for improved performance. [Read more](https://arxiv.org/abs/2512.13731)\n- *Generative AI for Video Translation* addresses latency in multilingual conferencing with a scalable architecture. [Read more](https://arxiv.org/abs/2512.13904)"
 }
