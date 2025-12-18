@@ -1,17 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 29,
-      "summary": "PortAgent automates vehicle dispatching in ports using LLMs, reducing reliance on specialists and data, and speeding up deployment.",
-      "link": "https://arxiv.org/abs/2512.14417",
-      "reason_for_choice": "This article highlights a practical application of LLMs in logistics and transportation, showcasing innovation in engineering and management. It demonstrates the impact of AI on operational efficiency and decision-making in real-world scenarios."
+      "item_number": 12,
+      "summary": "Real-time video translation using generative AI for multilingual conferencing.",
+      "link": "https://arxiv.org/abs/2512.13904",
+      "reason_for_choice": "This article presents a practical application of generative AI in video translation, addressing latency and complexity issues, making it relevant for both technical and managerial audiences interested in product innovation and operational efficiency."
     },
     {
-      "item_number": 98,
-      "summary": "AWS's recent 15-hour outage stemmed from a DNS issue in DynamoDB, revealing insights into their incident response and resilience strategies.",
-      "link": "https://newsletter.pragmaticengineer.com/p/how-aws-deals-with-a-major-outage",
-      "reason_for_choice": "This article provides valuable insights into incident management and resilience strategies, crucial for stakeholders in technology management and engineering leadership. It offers lessons on handling large-scale disruptions effectively."
+      "item_number": 29,
+      "summary": "Automated vehicle dispatching in ports with LLMs, reducing specialist reliance.",
+      "link": "https://arxiv.org/abs/2512.14417",
+      "reason_for_choice": "The integration of LLMs in automating port logistics offers significant operational improvements, appealing to stakeholders in engineering and management by showcasing a tangible application of AI in industry."
     }
   ],
-  "digest": "- *Enhancing Geo-localization for Crowdsourced Flood Imagery via LLM-Guided Attention* improves urban monitoring accuracy without retraining models. [Read more](https://arxiv.org/abs/2512.11811)\n- *ProtoFlow* offers interpretable surgical workflow modeling, enhancing accuracy in limited data scenarios. [Read more](https://arxiv.org/abs/2512.14092)\n- *A LoRA-Based Approach* fine-tunes LLMs for academic advising in low-resource settings, achieving high efficiency. [Read more](https://arxiv.org/abs/2504.15610)\n- *Training Multi-Image Vision Agents* enhances VLM tool use with end-to-end RL, reducing the need for supervised data. [Read more](https://arxiv.org/abs/2512.08980)\n- *SASQ* introduces efficient activation quantization for LLMs, improving deployment without altering weights. [Read more](https://arxiv.org/abs/2512.14481)\n- *Privacy-Enhancing Infant Cry Classification* uses federated transformers for high performance with low data upload. [Read more](https://arxiv.org/abs/2512.13880)\n- *Towards Nepali-language LLMs* improves NLP for low-resource Nepali language with a custom BPE tokenizer. [Read more](https://arxiv.org/abs/2512.14585)\n- *FreeKV* boosts KV cache retrieval for LLMs, achieving up to 13x speedup. [Read more](https://arxiv.org/abs/2505.13109)\n- *Complex Mathematical Expression Recognition* introduces CMER-Bench and new datasets for improved performance. [Read more](https://arxiv.org/abs/2512.13731)\n- *Generative AI for Video Translation* addresses latency in multilingual conferencing with a scalable architecture. [Read more](https://arxiv.org/abs/2512.13904)"
+  "digest": "- *Enhancing Geo-localization for Crowdsourced Flood Imagery*: VPR-AttLLM uses LLMs for better retrieval in crisis scenarios. [Link](https://arxiv.org/abs/2512.11811)\n- *Artificial Hippocampus Networks*: Efficient long-context modeling in LLMs, reducing resource usage. [Link](https://arxiv.org/abs/2510.07318)\n- *ProtoFlow*: Interpretable surgical AI models using dynamic scene graphs for improved accuracy. [Link](https://arxiv.org/abs/2512.14092)\n- *Privacy-Enhancing Infant Cry Classification*: Federated transformers enhance privacy and noise robustness. [Link](https://arxiv.org/abs/2512.13880)\n- *Complex Mathematical Expression Recognition*: CMER-Bench introduces new datasets for improved accuracy. [Link](https://arxiv.org/abs/2512.13731)\n- *MCP-SafetyBench*: Benchmarks LLM safety, revealing vulnerabilities in real-world scenarios. [Link](https://arxiv.org/abs/2512.15163)\n- *MIDUS*: Memory-infused depth up-scaling improves LLM efficiency. [Link](https://arxiv.org/abs/2512.13751)\n- *Towards Nepali-language LLMs*: Efficient GPT training with a Nepali BPE tokenizer. [Link](https://arxiv.org/abs/2512.14585)\n- *Residual GRU+MHSA*: Lightweight model for cardiovascular disease detection. [Link](https://arxiv.org/abs/2512.14563)\n- *SASQ*: Optimizes quantization for LLMs, enhancing accuracy and efficiency. [Link](https://arxiv.org/abs/2512.14481)"
 }
