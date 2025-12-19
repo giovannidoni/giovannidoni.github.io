@@ -1,17 +1,23 @@
 {
   "picked_headlines": [
     {
-      "item_number": 12,
-      "summary": "Real-time video translation using generative AI for multilingual conferencing.",
-      "link": "https://arxiv.org/abs/2512.13904",
-      "reason_for_choice": "This article presents a practical application of generative AI in video translation, addressing latency and complexity issues, making it relevant for both technical and managerial audiences interested in product innovation and operational efficiency."
+      "item_number": 3,
+      "summary": "Hybrid AI model forecasts commodity price shocks with high accuracy.",
+      "link": "https://arxiv.org/abs/2508.06497",
+      "reason_for_choice": "This article presents a practical application of AI in economic forecasting, relevant for stakeholders in finance and management."
     },
     {
-      "item_number": 29,
-      "summary": "Automated vehicle dispatching in ports with LLMs, reducing specialist reliance.",
-      "link": "https://arxiv.org/abs/2512.14417",
-      "reason_for_choice": "The integration of LLMs in automating port logistics offers significant operational improvements, appealing to stakeholders in engineering and management by showcasing a tangible application of AI in industry."
+      "item_number": 49,
+      "summary": "ChatGPT-based in-vehicle agents enhance driving safety and experience.",
+      "link": "https://arxiv.org/abs/2508.08101",
+      "reason_for_choice": "This study highlights the integration of AI in consumer products, showcasing real-world applications that appeal to both technical and non-technical audiences."
+    },
+    {
+      "item_number": 46,
+      "summary": "Lightweight CNN inspects dragon fruit quality in real-time on mobile.",
+      "link": "https://arxiv.org/abs/2508.07306",
+      "reason_for_choice": "This article demonstrates AI's role in agriculture and product quality control, offering insights into mobile-based AI applications."
     }
   ],
-  "digest": "- *Enhancing Geo-localization for Crowdsourced Flood Imagery*: VPR-AttLLM uses LLMs for better retrieval in crisis scenarios. [Link](https://arxiv.org/abs/2512.11811)\n- *Artificial Hippocampus Networks*: Efficient long-context modeling in LLMs, reducing resource usage. [Link](https://arxiv.org/abs/2510.07318)\n- *ProtoFlow*: Interpretable surgical AI models using dynamic scene graphs for improved accuracy. [Link](https://arxiv.org/abs/2512.14092)\n- *Privacy-Enhancing Infant Cry Classification*: Federated transformers enhance privacy and noise robustness. [Link](https://arxiv.org/abs/2512.13880)\n- *Complex Mathematical Expression Recognition*: CMER-Bench introduces new datasets for improved accuracy. [Link](https://arxiv.org/abs/2512.13731)\n- *MCP-SafetyBench*: Benchmarks LLM safety, revealing vulnerabilities in real-world scenarios. [Link](https://arxiv.org/abs/2512.15163)\n- *MIDUS*: Memory-infused depth up-scaling improves LLM efficiency. [Link](https://arxiv.org/abs/2512.13751)\n- *Towards Nepali-language LLMs*: Efficient GPT training with a Nepali BPE tokenizer. [Link](https://arxiv.org/abs/2512.14585)\n- *Residual GRU+MHSA*: Lightweight model for cardiovascular disease detection. [Link](https://arxiv.org/abs/2512.14563)\n- *SASQ*: Optimizes quantization for LLMs, enhancing accuracy and efficiency. [Link](https://arxiv.org/abs/2512.14481)"
+  "digest": "- *Efficient Edge LLMs Deployment* explores deploying large models on edge devices using Hessian-Aware Quantization, enhancing performance on limited hardware. More at https://arxiv.org/abs/2508.07329.\n- *MASteer* introduces a framework to improve LLM trustworthiness, using adaptive strategies for better model reliability. Details at https://arxiv.org/abs/2508.06963.\n- *CognitiveArm* showcases a real-time EEG-controlled prosthetic arm, highlighting advances in AI-driven healthcare solutions. Read more at https://arxiv.org/abs/2508.07731.\n- *Multimodal AI Systems* enhance poultry welfare assessments, integrating diverse data streams for scalable monitoring. Learn more at https://arxiv.org/abs/2508.07628.\n- *BadPromptFL* warns of backdoor threats in federated learning, emphasizing security risks in AI systems. Explore the study at https://arxiv.org/abs/2508.08040.\n- *ComPEFT* achieves significant model compression, optimizing communication in parameter-efficient updates. More information at https://arxiv.org/abs/2311.13171."
 }
