@@ -1,23 +1,17 @@
 {
   "picked_headlines": [
     {
-      "item_number": 3,
-      "summary": "Hybrid AI model forecasts commodity price shocks with high accuracy.",
-      "link": "https://arxiv.org/abs/2508.06497",
-      "reason_for_choice": "This article presents a practical application of AI in economic forecasting, relevant for stakeholders in finance and management."
+      "item_number": 17,
+      "summary": "Real-world AI agents break due to memory drift, unreliable tools, evaluation difficulties, cost/latency limits & trust erosion. System design > model tuning.",
+      "link": "https://news.ycombinator.com/item?id=46497654",
+      "reason_for_choice": "Highlights practical challenges in deploying AI agents, relevant to both technical and management audiences. It emphasizes system design over model tuning, a crucial point for successful AI implementation."
     },
     {
-      "item_number": 49,
-      "summary": "ChatGPT-based in-vehicle agents enhance driving safety and experience.",
-      "link": "https://arxiv.org/abs/2508.08101",
-      "reason_for_choice": "This study highlights the integration of AI in consumer products, showcasing real-world applications that appeal to both technical and non-technical audiences."
-    },
-    {
-      "item_number": 46,
-      "summary": "Lightweight CNN inspects dragon fruit quality in real-time on mobile.",
-      "link": "https://arxiv.org/abs/2508.07306",
-      "reason_for_choice": "This article demonstrates AI's role in agriculture and product quality control, offering insights into mobile-based AI applications."
+      "item_number": 20,
+      "summary": "AI-native productivity suite unifying tools with intelligent chat, project management, file sharing, and workflow automation. Integrates with Google Meet.",
+      "link": "https://getblimpy.cloud",
+      "reason_for_choice": "Showcases a real-world application of AI in a productivity suite. It is a tangible example of how AI is being integrated into everyday tools, appealing to a broad audience."
     }
   ],
-  "digest": "- *Efficient Edge LLMs Deployment* explores deploying large models on edge devices using Hessian-Aware Quantization, enhancing performance on limited hardware. More at https://arxiv.org/abs/2508.07329.\n- *MASteer* introduces a framework to improve LLM trustworthiness, using adaptive strategies for better model reliability. Details at https://arxiv.org/abs/2508.06963.\n- *CognitiveArm* showcases a real-time EEG-controlled prosthetic arm, highlighting advances in AI-driven healthcare solutions. Read more at https://arxiv.org/abs/2508.07731.\n- *Multimodal AI Systems* enhance poultry welfare assessments, integrating diverse data streams for scalable monitoring. Learn more at https://arxiv.org/abs/2508.07628.\n- *BadPromptFL* warns of backdoor threats in federated learning, emphasizing security risks in AI systems. Explore the study at https://arxiv.org/abs/2508.08040.\n- *ComPEFT* achieves significant model compression, optimizing communication in parameter-efficient updates. More information at https://arxiv.org/abs/2311.13171."
+  "digest": "*TabiBERT*: A Large-Scale ModernBERT Foundation Model and Unified Benchmarking Framework for Turkish. See more at: https://arxiv.org/abs/2512.23065\n\n*PatchBlock*: A Lightweight Defense Against Adversarial Patches for Embedded EdgeAI Devices. Check it out: https://arxiv.org/abs/2601.00367\n\n*FlashInfer-Bench*: Building the Virtuous Cycle for AI-driven LLM Systems. Find details here: https://arxiv.org/abs/2601.00227\n\n*Yahtzee* as RL benchmark: A2C robustly trains self-play agents, nearing optimal scores. Challenges remain in long-horizon credit assignment: https://arxiv.org/abs/2601.00007\n\n*VisNet*: Efficient person ReID model using feature fusion, semantic clustering, and dynamic multi-task learning. Achieves 87.05% Rank-1 on Market-1501: https://arxiv.org/abs/2601.00307\n\n*The Trojan in the Vocabulary*: Stealthy Sabotage of LLM Composition: https://arxiv.org/abs/2601.00065\n\n*AnyMS*: Training-free framework for layout-guided multi-subject customization: https://arxiv.org/abs/2512.23537\n\n*DepFlow* mitigates semantic bias in depression detection by disentangling speech generation: https://arxiv.org/abs/2601.00303\n\n*Satellite to Street*: Disaster Impact Estimator: https://arxiv.org/abs/2512.00065\n\nDeep learning model (Swin Transformer) for skin disease classification achieved 87.71% accuracy on ISIC2019: https://arxiv.org/abs/2601.00286\n\n*StockBot 2.0*: Vanilla LSTMs Outperform Transformer-based Forecasting for Stock Prices: https://arxiv.org/abs/2601.00197\n\n*Deep Delta Learning* (DDL) modulates residual connections with a learnable geometric transformation: https://arxiv.org/abs/2601.00417\n\n*Memory Bank Compression* for Continual Adaptation of Large Language Models: https://arxiv.org/abs/2601.00756\n\nSemantic methods enhance team sports tactics by modeling tactical configurations as semantic structures: https://arxiv.org/abs/2601.00421\n\nAddresses key considerations for large-scale photonic AI: dynamic tensor support, overhead management, and hardware robustness: https://arxiv.org/abs/2601.00129\n\n*UltraGS*: Real-time ultrasound novel view synthesis using Gaussian Splatting with physics-inspired acoustic modeling: https://arxiv.org/abs/2511.07743\n\n*Agentu*: Python framework for building AI agents with sequential/parallel steps, sessions, evaluation, observability, skills, and tool search: https://news.ycombinator.com/item?id=46495628\n\nAsk HN: Why don't we have \"Guilds\" for solo AI founders yet?: https://news.ycombinator.com/item?id=46497617\n\nAI creates \"unhackable code\" (Void Shield) that self-destructs under analysis: https://news.ycombinator.com/item?id=46496612\n\n*Agentic AI* uses RAG to 'know' and MCP to 'do,' enabling actions based on retrieved knowledge: https://toknow.ai/posts/rag-agents-mcp/\n\n*MCPs* extend beyond IDEs, integrating AI into dev workflows across platforms: https://www.oreilly.com/radar/mcps-for-developers-who-think-they-dont-need-mcps/\n\nMolly Graham's frameworks for leading through chaos, change, and scale: https://www.lennysnewsletter.com/p/the-high-growth-handbook-molly-graham"
 }
