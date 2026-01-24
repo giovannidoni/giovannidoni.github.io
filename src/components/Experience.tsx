@@ -11,15 +11,30 @@ import {
 const Experience = () => {
   const experiences = [
     {
+      company: "Zenvi",
+      role: "Founding Tech Lead",
+      period: "June 2025 - Present",
+      location: "London, UK (remote)",
+      description: "Founding Tech Lead / Head of AI, owning the technical and analytical foundations of Zenvi from zero to first product.",
+      achievements: [
+        "Shaped the core business model by translating unit economics, market constraints, and regulatory structure into optimisation and decision frameworks",
+        "Designed and implemented optimisation models for battery-portfolio dispatch and value stacking across flexibility markets",
+        "Built the initial ML/AI architecture, including evaluation pipelines and production-ready foundations",
+        "Delivered an end-to-end proof of concept for an agent-based automation product, covering extraction, reasoning, and retrieval",
+        "Took full ownership of technical direction under extreme ambiguity, operating pre-revenue and pre-team"
+      ],
+      tech: ["Python", "Pyomo", "OR-Tools", "vLLM", "AWS", "Docker", "Terraform", "MLOps"]
+    },
+    {
       company: "Deliveroo",
       role: "Senior Machine Learning Engineer",
       period: "Feb 2021 - Present",
       location: "London, UK",
-      description: "Leading ML initiatives across the logistics optimization stack, delivering transformative business impact through advanced machine learning solutions.",
+      description: "Deliveroo needed scalable logistics optimization. Decision: Led ML/AI initiatives and owned advanced solution delivery. Outcome: Shipped systems that transformed business impact.",
       achievements: [
         "Fine-tuned and deployed LLMs and visual transformers for attribute extraction",
-        "Developed ML models for network optimization achieving £20M+ in cost savings",
-        "Built and maintained production ML systems serving millions of users",
+        "Developed ML/AI models for network optimization achieving £20M+ in cost savings",
+        "Built and maintained production ML/AI systems serving millions of users",
         "Mentored senior ICs and coordinated cross-team initiatives",
         "Expertise in microservices architecture and real-time streaming systems"
       ],
@@ -30,12 +45,12 @@ const Experience = () => {
       role: "Research Advisor",
       period: "Mar 2020 - Feb 2022",
       location: "Switzerland",
-      description: "Applied advanced data science techniques to materials research, bridging academic rigor with industry best practices.",
+      description: "Materials research required modern data science. Decision: Applied advanced ML/AI and bridged academic and industry standards. Outcome: Delivered research and mentored teams to success.",
       achievements: [
         "Applied density-based clustering to high-dimensional molecular descriptors",
         "Published research in high-impact journals on self-assembling polymers",
         "Mentored PhD students in modern data science frameworks",
-        "Established industry-standard ML practices in academic environment"
+        "Established industry-standard ML/AI practices in academic environment"
       ],
       tech: ["Python", "Scikit-learn", "Research", "Publications"]
     },
@@ -44,10 +59,10 @@ const Experience = () => {
       role: "Senior Machine Learning Engineer",
       period: "Jul 2018 - Sep 2020",
       location: "London, UK",
-      description: "Architected ML-driven pricing solutions for a £300M business unit, combining optimization algorithms with distributed computing.",
+      description: "Tesco's £300M unit needed ML/AI-driven pricing. Decision: Architected and led delivery of scalable optimization solutions. Outcome: Improved profit and system performance at scale.",
       achievements: [
-        "Led development of ML-powered price recommendation service",
-        "Integrated ML models with mixed-integer optimizers on distributed infrastructure",
+        "Led development of ML/AI-powered price recommendation service",
+        "Integrated ML/AI models with mixed-integer optimizers on distributed infrastructure",
         "Achieved 1%+ increase in retained profit across business unit",
         "Optimized ETL pipelines achieving 5x performance improvement",
         "Built scalable solutions on on-premise Hadoop clusters"
@@ -59,9 +74,9 @@ const Experience = () => {
       role: "Senior Data Scientist",
       period: "Aug 2015 - May 2018",
       location: "London, UK",
-      description: "Delivered high-stakes predictive modeling solutions across diverse sectors, including political campaigns and enterprise consulting.",
+      description: "High-stakes projects in politics and enterprise. Decision: Led predictive modeling and owned delivery across sectors. Outcome: Shipped ML/AI solutions for analytics, insurance, and litigation.",
       achievements: [
-        "Built ML models for £10M+ worth of complex data-intensive projects",
+        "Built ML/AI models for £10M+ worth of complex data-intensive projects",
         "Worked on 2016 US Presidential Elections analytics",
         "Delivered solutions across insurance, healthcare, and patent litigation"
       ],

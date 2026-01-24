@@ -64,16 +64,15 @@ const Hero = () => {
             {/* Profile Picture */}
             <div className="flex justify-center mb-6">
               <img 
-                src={profilePicture}
-                alt="Giovanni Doni - Senior ML Engineer & AI Tech Lead"
+                  src={profilePicture}
+                  alt="Giovanni Doni - Tech Lead, Machine Learning & AI"
                 className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white/20 shadow-strong"
               />
             </div>
 
-            <p className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              ML / AI Engineer & Tech Lead.
-              Delivering production-scale ML solutions and leading high-performing AI teams that drive innovation.
-            </p>
+              <h1 className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed font-bold">
+                Tech Lead building ML/AI systems from problem framing to production
+              </h1>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

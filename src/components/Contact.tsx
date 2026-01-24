@@ -8,12 +8,12 @@ const Contact = () => {
 
   const serviceOptions = [
     {
-      title: "ML Strategy & Implementation",
-      description: "End-to-end machine learning solutions from concept to production deployment"
+      title: "ML & AI Strategy & Implementation",
+      description: "End-to-end machine learning and AI solutions from concept to production deployment"
     },
     {
       title: "Career Mentoring Sessions", 
-      description: "Personal guidance for data scientists and ML engineers advancing their careers"
+      description: "Personal guidance for data scientists and ML/AI engineers advancing their careers"
     },
     {
       title: "Team Leadership Consulting",
@@ -46,7 +46,7 @@ const Contact = () => {
               </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Whether you're looking to scale your ML initiatives, need strategic guidance, 
+              Whether you're looking to scale your ML/AI initiatives, need strategic guidance, 
               or want to discuss the latest in AI, I'd love to hear from you.
             </p>
           </div>

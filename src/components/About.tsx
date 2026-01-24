@@ -14,7 +14,7 @@ const About = () => {
     {
       icon: Brain,
       title: "Technical Excellence",
-      description: "Deep expertise in ML and AI and data science, from research to production deployment."
+      description: "Deep expertise in ML/AI and data science, from research to production deployment."
     },
     {
       icon: Users,
@@ -43,14 +43,10 @@ const About = () => {
               About Me
             </Badge>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Senior ML Engineer &{" "}
-              <span className="bg-gradient-accent bg-clip-text text-transparent">
-                AI Tech Lead
-              </span>
+              Tech Lead, Machine Learning & AI
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Senior Machine Learning Engineer and AI Tech Lead with 10+ years delivering scalable ML solutions.
-              PhD Data Scientist specializing in MLOps, LLMs, and AI system architecture that drives business value.
+              Tech Lead with 10+ years owning the delivery and direction of ML/AI systems—mentoring teams, setting technical vision, and shipping production solutions that drive business value.
             </p>
           </div>
 
@@ -59,20 +55,13 @@ const About = () => {
               <h3 className="text-2xl font-bold text-foreground">My Journey</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  With a PhD in Physics from King's College London and over 5 years of hands-on 
-                  experience at companies like Deliveroo and Tesco, I've developed a unique perspective 
-                  on turning complex data into actionable insights.
+                  PhD in Physics from King's College London. Led ML/AI delivery at Deliveroo and Tesco, turning complex data into business results.
                 </p>
                 <p>
-                  From optimizing delivery networks that save millions to fine-tuning LLMs for 
-                  production systems, I specialize in the full ML and AI lifecycle - from research and 
-                  experimentation to deployment and monitoring.
+                  Owned the full ML/AI lifecycle: designed, shipped, and scaled production systems, from network optimization to LLM deployment.
                 </p>
                 <p>
-                  When I'm not building ML and AI pipelines, you'll find me exploring mountains, 
-                  training for ultramarathons, or discovering new places. This passion 
-                  for exploration and endurance directly informs my approach to tackling 
-                  technical challenges.
+                  Outside work, I train for ultramarathons and summit mountains—bringing the same endurance and focus to technical leadership.
                 </p>
               </div>
             </div>

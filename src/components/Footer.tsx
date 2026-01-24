@@ -50,8 +50,7 @@ const Footer = () => {
                 <span className="text-2xl font-bold">Giovanni Doni</span>
               </div>
               <p className="text-white/80 max-w-md">
-                Senior ML and AI Engineer bridging the precision of Alpine adventures with
-                the innovation of machine learning. Building scalable solutions that matter.
+                Tech Lead, Machine Learning & AI. Bridging technical direction and delivery with the precision of Alpine adventures. Leading teams to build scalable ML/AI solutions that matter.
               </p>
               <div className="flex items-center gap-2">
                 <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
@@ -60,7 +59,7 @@ const Footer = () => {
                 </Badge>
                 <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
                   <Code className="h-3 w-3 mr-1" />
-                  ML and AI Engineer
+                  Tech Lead, Machine Learning & AI
                 </Badge>
               </div>
             </div>

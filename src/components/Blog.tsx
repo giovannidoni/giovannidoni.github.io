@@ -39,7 +39,7 @@ const Blog = () => {
               </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Sharing thoughts on machine learning, technical leadership, and the intersection 
+              Sharing thoughts on machine learning and AI, technical leadership, and the intersection 
               of technology with life experiences. Peak performance in your team and in your production systems.
             </p>
           </div>
