@@ -1,9 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowDown, Mountain, Calendar, FileText, Linkedin } from "lucide-react";
+import { ArrowDown, Mountain, Calendar, FileText, Linkedin, FlaskConical, ArrowRight, Clock } from "lucide-react";
 import AIResearchDigest from "@/components/AIResearchDigest";
 import profilePicture from "@/assets/profile-picture.png";
+import blogArticles from "@/data/blog-articles.json";
+import { Link } from "react-router-dom";
+
 const Hero = () => {
+  const latestPost = blogArticles[0];
   const scrollToSection = (sectionId: string) => {
     // Use the same mobile detection logic as Index component
     const viewportWidth = window.innerWidth;
@@ -103,6 +107,49 @@ const Hero = () => {
           <div className="mt-6">
             <AIResearchDigest />
           </div>
+
+          {/* Latest LabNote */}
+          {latestPost && (
+            <div className="mt-8 mb-8 md:mb-16 max-w-2xl mx-auto">
+              <Link to={`/blog/${latestPost.slug}`} className="block group">
+                <div className="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 hover:bg-white/15 hover:border-white/30 transition-all duration-300">
+                  <div className="flex items-center gap-2 mb-3">
+                    <FlaskConical className="h-4 w-4 text-accent" />
+                    <span className="text-sm font-medium text-white/80">LabNotes</span>
+                    <Badge className="bg-accent/80 text-white text-xs px-2 py-0.5">
+                      New
+                    </Badge>
+                  </div>
+                  
+                  <h3 className="text-lg md:text-xl font-bold text-white group-hover:text-accent transition-colors mb-2">
+                    {latestPost.title}
+                  </h3>
+                  
+                  <p className="text-white/70 text-sm line-clamp-2 mb-3">
+                    {latestPost.excerpt}
+                  </p>
+                  
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3 text-xs text-white/60">
+                      <span>{new Date(latestPost.date).toLocaleDateString('en-US', { 
+                        month: 'short', 
+                        day: 'numeric' 
+                      })}</span>
+                      <span className="flex items-center gap-1">
+                        <Clock className="h-3 w-3" />
+                        {latestPost.readTime}
+                      </span>
+                    </div>
+                    
+                    <span className="flex items-center text-accent text-sm font-medium group-hover:translate-x-1 transition-transform">
+                      Read
+                      <ArrowRight className="h-3 w-3 ml-1" />
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          )}
 
         </div>
 

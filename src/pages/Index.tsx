@@ -6,6 +6,7 @@ import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import AIResearchDigest from "@/components/AIResearchDigest";
+
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ChevronDown, User, Briefcase, FileText } from "lucide-react";
 import { useState, useEffect } from "react";
