@@ -1,5 +1,14 @@
 [
   {
+    "title": "How to Set Up Maltbot in a VM: Beginner's Guide to Safe AI Automation",
+    "excerpt": "Step-by-step guide to running Maltbot in a secure virtual machine with access to thousands of apps via Zapier MCP, without giving AI full control of your real computer.",
+    "date": "2026-01-30",
+    "readTime": "10 min",
+    "tags": ["AI Automation", "AI Agents", "Security"],
+    "slug": "maltbot-howto",
+    "contentFile": "maltbot-howto.md"
+  },
+  {
     "title": "Magma Beneath the Interface: How AI is Shifting Product Development",
     "excerpt": "Exploring how AI is moving the origin of product ideas deeper into the stack, with backend iteration leading creative processes and context becoming a programmatic layer.",
     "date": "2025-11-04",

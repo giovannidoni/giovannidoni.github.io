@@ -13,6 +13,7 @@ import dolomitesContent from '@/data/blog-posts/dolomites-data-mountains-ml.md?r
 import kubernetesContent from '@/data/blog-posts/robust-ml-pipelines-kubernetes-argo.md?raw';
 import fittingIntelligenceContent from '@/data/blog-posts/fitting-intelligence.md?raw';
 import deeperInStackContent from '@/data/blog-posts/deeper-in-the-stack.md?raw';
+import maltbotHowtoContent from '@/data/blog-posts/maltbot-howto.md?raw';
 
 // Create a mapping of content files to their imported content
 const contentMap: Record<string, string> = {
@@ -21,6 +22,7 @@ const contentMap: Record<string, string> = {
   'robust-ml-pipelines-kubernetes-argo.md': kubernetesContent,
   'fitting-intelligence.md': fittingIntelligenceContent,
   'deeper-in-the-stack.md': deeperInStackContent,
+  'maltbot-howto.md': maltbotHowtoContent,
 };
 
 interface BlogArticle {
