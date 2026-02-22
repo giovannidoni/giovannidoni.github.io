@@ -49,6 +49,9 @@ jobs:
     - name: Generate SEO files (sitemap & RSS)
       run: npm run generate:seo
 
+    - name: Generate llms.txt files
+      run: node scripts/generate-llms-txt.js
+
     - name: Build
       run: npm run build
       env:

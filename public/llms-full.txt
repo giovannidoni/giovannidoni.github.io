@@ -1,0 +1,9 @@
+# Giovanni Doni — Full Content
+
+> Tech Lead building ML/AI systems from problem framing to production.
+
+This file contains the full text of all blog posts and LinkedIn content by Giovanni Doni.
+For a summary version, see /llms.txt
+
+This file is auto-generated at build time by scripts/generate-llms-txt.js.
+Run `npm run generate:llms` to regenerate.
