@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Giovanni Doni - Blog &amp; LinkedIn</title>
-    <description>Latest blog posts and LinkedIn updates from Giovanni Doni</description>
-    <link>https://</link>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 22 Feb 2026 13:51:17 GMT</lastBuildDate>
-    <atom:link href="https://rss/feed.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>How to Set Up Maltbot in a VM: Beginner's Guide to Safe AI Automation</title>
-      <description><![CDATA[# How to Set Up Maltbot in a VM How-To
+# Giovanni Doni — Full Content
+
+> Tech Lead building ML/AI systems from problem framing to production.
+
+This file contains the full text of all blog posts and LinkedIn content by Giovanni Doni.
+For a summary version, see /llms.txt
+
+---
+
+## How to Set Up Maltbot in a VM: Beginner's Guide to Safe AI Automation
+
+**Date**: 2026-01-30 | **Read time**: 10 min | **Tags**: AI Automation, AI Agents, Security
+**URL**: https://blog/maltbot-howto
+
+# How to Set Up Maltbot in a VM How-To
 
 This guide shows how to run Maltbot (formerly Claudebot) in a sandboxed, secure setup, with access to thousands of apps via Zapier MCP, without giving an AI full control of your real computer.
 
@@ -238,25 +240,16 @@ This setup gives you:
 - Full OS control
 - Strong isolation
 
-All without cloud VMs, extra hardware, or complex DevOps.]]></description>
-      <link>https://blog/maltbot-howto</link>
-      <guid>https://blog/maltbot-howto</guid>
-      <pubDate>Fri, 30 Jan 2026 00:00:00 GMT</pubDate>
-      <category>AI Automation, AI Agents, Security</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>From Shazam to the AI Growth Bet</title>
-      <description><![CDATA[Shazam was among the first products built around AI from day one, capturing what was to come. Today’s wave sees business leaders betting on AI for growth rather than efficiency—whether that delivers new revenue or just sharper optimization remains to be seen.]]></description>
-      <link>https://www.linkedin.com/feed/update/urn:li:share:7355928384205422592</link>
-      <guid>https://www.linkedin.com/feed/update/urn:li:share:7355928384205422592</guid>
-      <pubDate>Mon, 10 Nov 2025 00:00:00 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>Magma Beneath the Interface: How AI is Shifting Product Development</title>
-      <description><![CDATA[# Magma Beneath the Interface  
+All without cloud VMs, extra hardware, or complex DevOps.
+
+---
+
+## Magma Beneath the Interface: How AI is Shifting Product Development
+
+**Date**: 2025-11-04 | **Read time**: 4 min | **Tags**: AI, Product Development, Tech Leadership
+**URL**: https://blog/deeper-in-the-stack
+
+# Magma Beneath the Interface  
 *How AI is shifting the origin of product ideas deeper into the stack*  
 
 ![Image](/assets/lava.webp)
@@ -290,34 +283,16 @@ This raises a question that feels increasingly central:
 Both reflections point to the same thing.  
 Context is moving.  
 Technically and organisationally, it is drifting deeper into the stack — and with it, the source of momentum for how products evolve.
-]]></description>
-      <link>https://blog/deeper-in-the-stack</link>
-      <guid>https://blog/deeper-in-the-stack</guid>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
-      <category>AI, Product Development, Tech Leadership</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>Beyond the Linear Chat</title>
-      <description><![CDATA[I keep noticing how difficult it is to find, reference, or organise past conversations in ChatGPT. It’s powerful for thinking but weak for retrieval, still trapped in a linear chat paradigm that limits its potential as a true knowledge base.]]></description>
-      <link>https://www.linkedin.com/feed/update/urn:li:share:7386739886822871040</link>
-      <guid>https://www.linkedin.com/feed/update/urn:li:share:7386739886822871040</guid>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>When Writing Becomes the Interface</title>
-      <description><![CDATA[The share of human thought expressed through writing has risen from ancient scripts to the digital age. With tools like ChatGPT, this shift may accelerate, making written language the primary bridge between humans and intelligent systems.]]></description>
-      <link>https://www.linkedin.com/feed/update/urn:li:share:7366037340965789697</link>
-      <guid>https://www.linkedin.com/feed/update/urn:li:share:7366037340965789697</guid>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>Fitting Intelligence: A Modular AI Stack for Machine Learning Engineers</title>
-      <description><![CDATA[# Fitting intelligence
+
+
+---
+
+## Fitting Intelligence: A Modular AI Stack for Machine Learning Engineers
+
+**Date**: 2025-07-31 | **Read time**: 15 min | **Tags**: AI Architecture, MLOps, Tech Leadership
+**URL**: https://blog/fitting-intelligence
+
+# Fitting intelligence
 
 ## A pragmatic, modular AI stack—smaller models, privacy-safe orchestration, and control without a monolith.
 
@@ -448,43 +423,16 @@ A privacy-safe, locally adapted stack combining:
 - An orchestration layer to blend reasoning, retrieval, and human-in-the-loop
 
 We don't need general artificial intelligence everywhere. What we need is an intelligence stack - where plenty of fruit comes just thanks to bees that pollinates with just 1 million neurons.
-]]></description>
-      <link>https://blog/fitting-intelligence</link>
-      <guid>https://blog/fitting-intelligence</guid>
-      <pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate>
-      <category>AI Architecture, MLOps, Tech Leadership</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>How much energy do we consume?</title>
-      <description><![CDATA[How much energy do we consume?.]]></description>
-      <link>https://www.linkedin.com/feed/update/urn:li:share:7338097403826196481</link>
-      <guid>https://www.linkedin.com/feed/update/urn:li:share:7338097403826196481</guid>
-      <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>Hidden Patterns in the Latest Y Combinator Startups</title>
-      <description><![CDATA[After reviewing 400 YC startups, I spotted clear patterns in workflow tools and agentic systems, and one idea stood out—making petty-crime prosecution economically viable.]]></description>
-      <link>https://www.linkedin.com/feed/update/urn:li:share:7354061415579561985</link>
-      <guid>https://www.linkedin.com/feed/update/urn:li:share:7354061415579561985</guid>
-      <pubDate>Sat, 05 Jul 2025 00:00:00 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>Bye Deliveroo</title>
-      <description><![CDATA[Bye Deliveroo]]></description>
-      <link>https://www.linkedin.com/feed/update/urn:li:share:7339301481948311552</link>
-      <guid>https://www.linkedin.com/feed/update/urn:li:share:7339301481948311552</guid>
-      <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
-      <category>LinkedIn</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>Scaling LLMs in Production: ML Engineer's Guide from Deliveroo Experience</title>
-      <description><![CDATA[# Scaling LLMs in Production: Lessons from Deliveroo
+
+
+---
+
+## Scaling LLMs in Production: ML Engineer's Guide from Deliveroo Experience
+
+**Date**: 2024-01-15 | **Read time**: 8 min | **Tags**: LLMs, Production MLOps, Tech Leadership
+**URL**: https://blog/scaling-llms-production-deliveroo
+
+# Scaling LLMs in Production: Lessons from Deliveroo
 
 ## The Challenge of Scale
 
@@ -546,16 +494,16 @@ As the LLM landscape continues to evolve rapidly, we're focusing on:
 - **Fine-tuning**: Customizing models for our specific use cases
 - **Cost optimization**: Continuously improving our cost per request
 
-The key to success with LLMs in production is treating them as part of a larger system, not as magic solutions. Proper engineering practices, monitoring, and gradual rollouts are just as important as choosing the right model.]]></description>
-      <link>https://blog/scaling-llms-production-deliveroo</link>
-      <guid>https://blog/scaling-llms-production-deliveroo</guid>
-      <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-      <category>LLMs, Production MLOps, Tech Leadership</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>From the Dolomites to Data: What Mountains Teach ML Engineers About Success</title>
-      <description><![CDATA[# From the Dolomites to Data: What Mountains Teach Us About ML
+The key to success with LLMs in production is treating them as part of a larger system, not as magic solutions. Proper engineering practices, monitoring, and gradual rollouts are just as important as choosing the right model.
+
+---
+
+## From the Dolomites to Data: What Mountains Teach ML Engineers About Success
+
+**Date**: 2023-12-20 | **Read time**: 5 min | **Tags**: ML Career, Tech Leadership, Professional Growth
+**URL**: https://blog/dolomites-data-mountains-ml
+
+# From the Dolomites to Data: What Mountains Teach Us About ML
 
 ## The Summit Mindset
 
@@ -632,16 +580,16 @@ Apply this same mindset to your ML projects:
 - Share knowledge with your team
 - Identify areas for improvement in your next project
 
-The mountain will always be there, ready for your next attempt. And each climb makes you better prepared for the challenges ahead.]]></description>
-      <link>https://blog/dolomites-data-mountains-ml</link>
-      <guid>https://blog/dolomites-data-mountains-ml</guid>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 GMT</pubDate>
-      <category>ML Career, Tech Leadership, Professional Growth</category>
-      <author>Giovanni Doni</author>
-    </item>
-    <item>
-      <title>Building Robust ML Pipelines: Senior Engineer's Guide to Kubernetes and Argo</title>
-      <description><![CDATA[# Building Robust ML Pipelines with Kubernetes and Argo
+The mountain will always be there, ready for your next attempt. And each climb makes you better prepared for the challenges ahead.
+
+---
+
+## Building Robust ML Pipelines: Senior Engineer's Guide to Kubernetes and Argo
+
+**Date**: 2023-11-28 | **Read time**: 12 min | **Tags**: Kubernetes MLOps, AI Infrastructure, DevOps Engineering
+**URL**: https://blog/robust-ml-pipelines-kubernetes-argo
+
+# Building Robust ML Pipelines with Kubernetes and Argo
 
 ## The Need for Orchestration
 
@@ -847,12 +795,56 @@ Building robust ML pipelines requires more than just good algorithms—it requir
 
 The key is to start simple and iterate. Focus on getting the basics right: version control, monitoring, and failure handling. As your needs grow, you can add more sophisticated features and optimizations.
 
-Remember that the goal isn't to build the most complex system possible, but to build a system that reliably delivers value to your users while being maintainable by your team.]]></description>
-      <link>https://blog/robust-ml-pipelines-kubernetes-argo</link>
-      <guid>https://blog/robust-ml-pipelines-kubernetes-argo</guid>
-      <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
-      <category>Kubernetes MLOps, AI Infrastructure, DevOps Engineering</category>
-      <author>Giovanni Doni</author>
-    </item>
-  </channel>
-</rss>
+Remember that the goal isn't to build the most complex system possible, but to build a system that reliably delivers value to your users while being maintainable by your team.
+
+---
+
+## LinkedIn Posts
+
+### When Writing Becomes the Interface
+
+**Date**: 2025-09-15 | **URL**: https://www.linkedin.com/feed/update/urn:li:share:7366037340965789697
+
+The share of human thought expressed through writing has risen from ancient scripts to the digital age. With tools like ChatGPT, this shift may accelerate, making written language the primary bridge between humans and intelligent systems.
+
+---
+
+### Beyond the Linear Chat
+
+**Date**: 2025-10-28 | **URL**: https://www.linkedin.com/feed/update/urn:li:share:7386739886822871040
+
+I keep noticing how difficult it is to find, reference, or organise past conversations in ChatGPT. It’s powerful for thinking but weak for retrieval, still trapped in a linear chat paradigm that limits its potential as a true knowledge base.
+
+---
+
+### From Shazam to the AI Growth Bet
+
+**Date**: 2025-11-10 | **URL**: https://www.linkedin.com/feed/update/urn:li:share:7355928384205422592
+
+Shazam was among the first products built around AI from day one, capturing what was to come. Today’s wave sees business leaders betting on AI for growth rather than efficiency—whether that delivers new revenue or just sharper optimization remains to be seen.
+
+---
+
+### Hidden Patterns in the Latest Y Combinator Startups
+
+**Date**: 2025-07-05 | **URL**: https://www.linkedin.com/feed/update/urn:li:share:7354061415579561985
+
+After reviewing 400 YC startups, I spotted clear patterns in workflow tools and agentic systems, and one idea stood out—making petty-crime prosecution economically viable.
+
+---
+
+### Bye Deliveroo
+
+**Date**: 2025-06-15 | **URL**: https://www.linkedin.com/feed/update/urn:li:share:7339301481948311552
+
+Bye Deliveroo
+
+---
+
+### How much energy do we consume?
+
+**Date**: 2025-07-12 | **URL**: https://www.linkedin.com/feed/update/urn:li:share:7338097403826196481
+
+How much energy do we consume?.
+
+---
