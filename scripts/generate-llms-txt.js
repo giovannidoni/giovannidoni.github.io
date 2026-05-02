@@ -29,9 +29,9 @@ function generateLlmsTxt() {
 
   lines.push('# Giovanni Doni');
   lines.push('');
-  lines.push('> Tech Lead building ML/AI systems from problem framing to production.');
+  lines.push('> Tech Lead specialising in ML systems for energy and operational domains — BESS dispatch optimization, production forecasting, and distributed energy management.');
   lines.push('');
-  lines.push('Giovanni Doni is a Tech Lead with 10+ years owning the delivery and direction of ML/AI systems — mentoring teams, setting technical vision, and shipping production solutions that drive business value. PhD in Physics from King\'s College London.');
+  lines.push('Giovanni Doni is an AI/ML Engineer and Tech Lead with a PhD in Computational Physics. He works at the intersection of machine learning, optimisation, and energy systems — including BESS optimisation, dispatch algorithms, and grid services. 10+ years owning the delivery of ML/AI systems in production, mentoring teams, and setting technical vision.');
   lines.push('');
   lines.push('## Contact');
   lines.push('');
@@ -90,7 +90,7 @@ function generateLlmsFullTxt() {
   // Start with the same summary
   lines.push('# Giovanni Doni — Full Content');
   lines.push('');
-  lines.push('> Tech Lead building ML/AI systems from problem framing to production.');
+  lines.push('> Tech Lead specialising in ML systems for energy and operational domains — BESS dispatch optimization, production forecasting, and distributed energy management.');
   lines.push('');
   lines.push('This file contains the full text of all blog posts and LinkedIn content by Giovanni Doni.');
   lines.push('For a summary version, see /llms.txt');

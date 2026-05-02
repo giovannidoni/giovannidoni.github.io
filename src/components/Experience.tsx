@@ -15,7 +15,7 @@ const Experience = () => {
       role: "Founding Tech Lead",
       period: "June 2025 - Present",
       location: "",
-      description: "Founding Tech Lead / Head of AI, owning the technical and analytical foundations of Zenvi from zero to first product.",
+      description: "Founding Tech Lead / Head of AI, owning the technical and analytical foundations of Zenvi from zero to first product, focusing on dispatch optimization, energy forecasting, and BESS control systems.",
       achievements: [
         "Shaped the core business model by translating unit economics, market constraints, and regulatory structure into optimisation and decision frameworks",
         "Designed and implemented optimisation models for battery-portfolio dispatch and value stacking across flexibility markets",
