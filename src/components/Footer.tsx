@@ -54,10 +54,6 @@ const Footer = () => {
               </p>
               <div className="flex items-center gap-2">
                 <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
-                  <Mountain className="h-3 w-3 mr-1" />
-                  London-based
-                </Badge>
-                <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
                   <Code className="h-3 w-3 mr-1" />
                   Tech Lead, Machine Learning & AI
                 </Badge>

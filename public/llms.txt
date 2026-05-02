@@ -1,8 +1,8 @@
 # Giovanni Doni
 
-> Tech Lead building ML/AI systems from problem framing to production.
+> AI/ML Engineer and Tech Lead. PhD in Computational Physics. Working at the intersection of machine learning, optimisation, and energy systems (BESS, dispatch, grid services).
 
-Giovanni Doni is a Tech Lead with 10+ years owning the delivery and direction of ML/AI systems — mentoring teams, setting technical vision, and shipping production solutions that drive business value. PhD in Physics from King's College London.
+Giovanni Doni is an AI/ML Engineer and Tech Lead with a PhD in Computational Physics. He works at the intersection of machine learning, optimisation, and energy systems — including BESS optimisation, dispatch algorithms, and grid services. 10+ years owning the delivery of ML/AI systems in production, mentoring teams, and setting technical vision.
 
 ## Contact
 

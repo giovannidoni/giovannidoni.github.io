@@ -3,23 +3,22 @@
 
 ## Primary Keywords
 Giovanni Doni
-Senior Machine Learning Engineer
-AI Engineer
+AI/ML Engineer
 Tech Lead
+Machine Learning Engineer
 Data Scientist
-ML Engineer
 
 ## Secondary Keywords
 Machine Learning Engineering
 Artificial Intelligence Engineer
 Technical Leadership
 MLOps Engineer
-Deep Learning Engineer
+BESS Optimisation
+Energy Systems ML
+Dispatch Optimisation
+Grid Services AI
 AI Tech Lead
 Senior Data Scientist
-London ML Engineer
-UK AI Engineer
-Freelance ML Engineer
 
 ## Skills and Technologies
 Python Machine Learning
@@ -31,21 +30,27 @@ Docker Containers
 Spark Big Data
 Scala Programming
 SQL Data Engineering
-Computer Vision
 Natural Language Processing
 Large Language Models
 LLMs
 Deep Learning
 Neural Networks
-Data Science
+Optimisation Algorithms
 Statistical Modeling
+Energy Storage Systems
+Battery Management Systems
 
-## Company Experience
-Deliveroo ML Engineer
-Tesco Data Scientist
-King's College London PhD
-PhD Data Science
-London Tech Industry
+## Domain Expertise
+BESS Dispatch Optimisation
+Flexibility Market Algorithms
+Grid Services Machine Learning
+Energy System Modelling
+Production ML Deployment
+
+## Education
+King's College London PhD Physics
+Computational Physics PhD
+University of Trieste Engineering
 
 ## Services and Expertise
 ML System Architecture
@@ -57,10 +62,3 @@ Scalable AI Systems
 Data Pipeline Engineering
 Model Training and Optimization
 AI Strategy Consulting
-
-## Location and Availability
-London ML Engineer
-UK AI Engineer
-Remote ML Consultant
-European AI Tech Lead
-Freelance ML Engineer London

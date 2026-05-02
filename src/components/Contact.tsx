@@ -2,7 +2,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Mail, Calendar, Linkedin, MessageSquare, MapPin, Mountain, Clock } from "lucide-react";
+import { Mail, Calendar, Linkedin, MessageSquare, Mountain, Clock } from "lucide-react";
 
 const Contact = () => {
 
@@ -56,10 +56,6 @@ const Contact = () => {
             <Card className="p-6 md:p-8 lg:p-12 bg-gradient-to-br from-accent/5 via-accent/10 to-accent/5 border-accent/20 hover:shadow-medium transition-all duration-300">
               {/* Location Info Header */}
               <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 mb-6 md:mb-8 pb-6 md:pb-8 border-b border-accent/20">
-                <div className="flex items-center gap-2 text-foreground">
-                  <MapPin className="h-5 w-5 text-accent" />
-                  <span className="font-medium">Based in London</span>
-                </div>
                 <div className="flex items-center gap-2 text-foreground">
                   <Mountain className="h-5 w-5 text-accent" />
                   <span className="font-medium">Peak performance</span>

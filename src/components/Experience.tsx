@@ -14,7 +14,7 @@ const Experience = () => {
       company: "Zenvi",
       role: "Founding Tech Lead",
       period: "June 2025 - Present",
-      location: "London, UK (remote)",
+      location: "",
       description: "Founding Tech Lead / Head of AI, owning the technical and analytical foundations of Zenvi from zero to first product.",
       achievements: [
         "Shaped the core business model by translating unit economics, market constraints, and regulatory structure into optimisation and decision frameworks",
@@ -29,7 +29,7 @@ const Experience = () => {
       company: "Deliveroo",
       role: "Senior Machine Learning Engineer",
       period: "Feb 2021 - Present",
-      location: "London, UK",
+      location: "",
       description: "Deliveroo needed scalable logistics optimization. Decision: Led ML/AI initiatives and owned advanced solution delivery. Outcome: Shipped systems that transformed business impact.",
       achievements: [
         "Fine-tuned and deployed LLMs and visual transformers for attribute extraction",
@@ -58,7 +58,7 @@ const Experience = () => {
       company: "Tesco",
       role: "Senior Machine Learning Engineer",
       period: "Jul 2018 - Sep 2020",
-      location: "London, UK",
+      location: "",
       description: "Tesco's £300M unit needed ML/AI-driven pricing. Decision: Architected and led delivery of scalable optimization solutions. Outcome: Improved profit and system performance at scale.",
       achievements: [
         "Led development of ML/AI-powered price recommendation service",
@@ -73,7 +73,7 @@ const Experience = () => {
       company: "SCL Elections",
       role: "Senior Data Scientist",
       period: "Aug 2015 - May 2018",
-      location: "London, UK",
+      location: "",
       description: "High-stakes projects in politics and enterprise. Decision: Led predictive modeling and owned delivery across sectors. Outcome: Shipped ML/AI solutions for analytics, insurance, and litigation.",
       achievements: [
         "Built ML/AI models for £10M+ worth of complex data-intensive projects",
@@ -145,7 +145,6 @@ const Experience = () => {
                             <Calendar className="h-4 w-4" />
                             {exp.period}
                           </span>
-                          <span>{exp.location}</span>
                         </div>
                       </div>
                     </div>

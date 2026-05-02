@@ -55,7 +55,7 @@ const About = () => {
               <h3 className="text-2xl font-bold text-foreground">My Journey</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  PhD in Physics from King's College London. Led ML/AI delivery at Deliveroo and Tesco, turning complex data into business results.
+                  PhD in Physics from King's College London. Working at the intersection of machine learning, optimisation, and energy systems — BESS dispatch, grid services, and scalable production ML.
                 </p>
                 <p>
                   Owned the full ML/AI lifecycle: designed, shipped, and scaled production systems, from network optimization to LLM deployment.
