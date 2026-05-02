@@ -1,8 +1,8 @@
 # Giovanni Doni
 
-> Tech Lead building ML/AI systems from problem framing to production.
+> Tech Lead specialising in ML systems for energy and operational domains — BESS dispatch optimization, production forecasting, and distributed energy management.
 
-Giovanni Doni is a Tech Lead with 10+ years owning the delivery and direction of ML/AI systems — mentoring teams, setting technical vision, and shipping production solutions that drive business value. PhD in Physics from King's College London.
+Giovanni Doni is an AI/ML Engineer and Tech Lead with a PhD in Computational Physics. He works at the intersection of machine learning, optimisation, and energy systems — including BESS optimisation, dispatch algorithms, and grid services. 10+ years owning the delivery of ML/AI systems in production, mentoring teams, and setting technical vision.
 
 ## Contact
 
@@ -32,12 +32,12 @@ Giovanni Doni is a Tech Lead with 10+ years owning the delivery and direction of
 
 ## Blog Posts (LabNotes)
 
-- [How to Set Up Maltbot in a VM: Beginner's Guide to Safe AI Automation](https://blog/maltbot-howto): Step-by-step guide to running Maltbot in a secure virtual machine with access to thousands of apps via Zapier MCP, without giving AI full control of your real computer.
-- [Magma Beneath the Interface: How AI is Shifting Product Development](https://blog/deeper-in-the-stack): Exploring how AI is moving the origin of product ideas deeper into the stack, with backend iteration leading creative processes and context becoming a programmatic layer.
-- [Fitting Intelligence: A Modular AI Stack for Machine Learning Engineers](https://blog/fitting-intelligence): Senior ML Engineer's guide to building modular AI stacks with selective LLMs, privacy-safe orchestration, and scalable intelligence systems for production environments.
-- [Scaling LLMs in Production: ML Engineer's Guide from Deliveroo Experience](https://blog/scaling-llms-production-deliveroo): Senior ML Engineer's deep dive into challenges and solutions for deploying large language models at scale in production environments, with real-world lessons from leading tech companies.
-- [From the Dolomites to Data: What Mountains Teach ML Engineers About Success](https://blog/dolomites-data-mountains-ml): Senior ML Engineer's insights on drawing parallels between mountain climbing and machine learning career development - patience, preparation, and strategic thinking for tech leadership success.
-- [Building Robust ML Pipelines: Senior Engineer's Guide to Kubernetes and Argo](https://blog/robust-ml-pipelines-kubernetes-argo): Comprehensive MLOps guide from a Senior ML Engineer on orchestrating production machine learning workflows using Kubernetes, Argo, and modern container orchestration for scalable AI systems.
+- [How to Set Up Maltbot in a VM: Beginner's Guide to Safe AI Automation](https://giovannidoni.github.io/blog/maltbot-howto): Step-by-step guide to running Maltbot in a secure virtual machine with access to thousands of apps via Zapier MCP, without giving AI full control of your real computer.
+- [Magma Beneath the Interface: How AI is Shifting Product Development](https://giovannidoni.github.io/blog/deeper-in-the-stack): Exploring how AI is moving the origin of product ideas deeper into the stack, with backend iteration leading creative processes and context becoming a programmatic layer.
+- [Fitting Intelligence: A Modular AI Stack for Machine Learning Engineers](https://giovannidoni.github.io/blog/fitting-intelligence): Senior ML Engineer's guide to building modular AI stacks with selective LLMs, privacy-safe orchestration, and scalable intelligence systems for production environments.
+- [Scaling LLMs in Production: ML Engineer's Guide from Deliveroo Experience](https://giovannidoni.github.io/blog/scaling-llms-production-deliveroo): Senior ML Engineer's deep dive into challenges and solutions for deploying large language models at scale in production environments, with real-world lessons from leading tech companies.
+- [From the Dolomites to Data: What Mountains Teach ML Engineers About Success](https://giovannidoni.github.io/blog/dolomites-data-mountains-ml): Senior ML Engineer's insights on drawing parallels between mountain climbing and machine learning career development - patience, preparation, and strategic thinking for tech leadership success.
+- [Building Robust ML Pipelines: Senior Engineer's Guide to Kubernetes and Argo](https://giovannidoni.github.io/blog/robust-ml-pipelines-kubernetes-argo): Comprehensive MLOps guide from a Senior ML Engineer on orchestrating production machine learning workflows using Kubernetes, Argo, and modern container orchestration for scalable AI systems.
 
 ## LinkedIn Posts
 
@@ -45,10 +45,8 @@ Giovanni Doni is a Tech Lead with 10+ years owning the delivery and direction of
 - [Beyond the Linear Chat](https://www.linkedin.com/feed/update/urn:li:share:7386739886822871040): I keep noticing how difficult it is to find, reference, or organise past conversations in ChatGPT. It’s powerful for thinking but weak for retrieval, still trapped in a linear chat paradigm that limits its potential as a true knowledge base.
 - [From Shazam to the AI Growth Bet](https://www.linkedin.com/feed/update/urn:li:share:7355928384205422592): Shazam was among the first products built around AI from day one, capturing what was to come. Today’s wave sees business leaders betting on AI for growth rather than efficiency—whether that delivers new revenue or just sharper optimization remains to be seen.
 - [Hidden Patterns in the Latest Y Combinator Startups](https://www.linkedin.com/feed/update/urn:li:share:7354061415579561985): After reviewing 400 YC startups, I spotted clear patterns in workflow tools and agentic systems, and one idea stood out—making petty-crime prosecution economically viable.
-- [Bye Deliveroo](https://www.linkedin.com/feed/update/urn:li:share:7339301481948311552): Bye Deliveroo
-- [How much energy do we consume?](https://www.linkedin.com/feed/update/urn:li:share:7338097403826196481): How much energy do we consume?.
 
 ## Optional
 
-- [Full content version](https://llms-full.txt): Complete blog post content for deeper context.
-- [RSS Feed](https://rss/feed.xml): Subscribe to updates.
+- [Full content version](https://giovannidoni.github.io/llms-full.txt): Complete blog post content for deeper context.
+- [RSS Feed](https://giovannidoni.github.io/rss/feed.xml): Subscribe to updates.

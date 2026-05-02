@@ -1,6 +1,6 @@
 # Giovanni Doni — Full Content
 
-> Tech Lead building ML/AI systems from problem framing to production.
+> Tech Lead specialising in ML systems for energy and operational domains — BESS dispatch optimization, production forecasting, and distributed energy management.
 
 This file contains the full text of all blog posts and LinkedIn content by Giovanni Doni.
 For a summary version, see /llms.txt
@@ -10,7 +10,7 @@ For a summary version, see /llms.txt
 ## How to Set Up Maltbot in a VM: Beginner's Guide to Safe AI Automation
 
 **Date**: 2026-01-30 | **Read time**: 10 min | **Tags**: AI Automation, AI Agents, Security
-**URL**: https://blog/maltbot-howto
+**URL**: https://giovannidoni.github.io/blog/maltbot-howto
 
 # How to Set Up Maltbot in a VM How-To
 
@@ -247,7 +247,7 @@ All without cloud VMs, extra hardware, or complex DevOps.
 ## Magma Beneath the Interface: How AI is Shifting Product Development
 
 **Date**: 2025-11-04 | **Read time**: 4 min | **Tags**: AI, Product Development, Tech Leadership
-**URL**: https://blog/deeper-in-the-stack
+**URL**: https://giovannidoni.github.io/blog/deeper-in-the-stack
 
 # Magma Beneath the Interface  
 *How AI is shifting the origin of product ideas deeper into the stack*  
@@ -290,7 +290,7 @@ Technically and organisationally, it is drifting deeper into the stack — and w
 ## Fitting Intelligence: A Modular AI Stack for Machine Learning Engineers
 
 **Date**: 2025-07-31 | **Read time**: 15 min | **Tags**: AI Architecture, MLOps, Tech Leadership
-**URL**: https://blog/fitting-intelligence
+**URL**: https://giovannidoni.github.io/blog/fitting-intelligence
 
 # Fitting intelligence
 
@@ -430,7 +430,7 @@ We don't need general artificial intelligence everywhere. What we need is an int
 ## Scaling LLMs in Production: ML Engineer's Guide from Deliveroo Experience
 
 **Date**: 2024-01-15 | **Read time**: 8 min | **Tags**: LLMs, Production MLOps, Tech Leadership
-**URL**: https://blog/scaling-llms-production-deliveroo
+**URL**: https://giovannidoni.github.io/blog/scaling-llms-production-deliveroo
 
 # Scaling LLMs in Production: Lessons from Deliveroo
 
@@ -501,7 +501,7 @@ The key to success with LLMs in production is treating them as part of a larger 
 ## From the Dolomites to Data: What Mountains Teach ML Engineers About Success
 
 **Date**: 2023-12-20 | **Read time**: 5 min | **Tags**: ML Career, Tech Leadership, Professional Growth
-**URL**: https://blog/dolomites-data-mountains-ml
+**URL**: https://giovannidoni.github.io/blog/dolomites-data-mountains-ml
 
 # From the Dolomites to Data: What Mountains Teach Us About ML
 
@@ -587,7 +587,7 @@ The mountain will always be there, ready for your next attempt. And each climb m
 ## Building Robust ML Pipelines: Senior Engineer's Guide to Kubernetes and Argo
 
 **Date**: 2023-11-28 | **Read time**: 12 min | **Tags**: Kubernetes MLOps, AI Infrastructure, DevOps Engineering
-**URL**: https://blog/robust-ml-pipelines-kubernetes-argo
+**URL**: https://giovannidoni.github.io/blog/robust-ml-pipelines-kubernetes-argo
 
 # Building Robust ML Pipelines with Kubernetes and Argo
 
@@ -830,21 +830,5 @@ Shazam was among the first products built around AI from day one, capturing what
 **Date**: 2025-07-05 | **URL**: https://www.linkedin.com/feed/update/urn:li:share:7354061415579561985
 
 After reviewing 400 YC startups, I spotted clear patterns in workflow tools and agentic systems, and one idea stood out—making petty-crime prosecution economically viable.
-
----
-
-### Bye Deliveroo
-
-**Date**: 2025-06-15 | **URL**: https://www.linkedin.com/feed/update/urn:li:share:7339301481948311552
-
-Bye Deliveroo
-
----
-
-### How much energy do we consume?
-
-**Date**: 2025-07-12 | **URL**: https://www.linkedin.com/feed/update/urn:li:share:7338097403826196481
-
-How much energy do we consume?.
 
 ---

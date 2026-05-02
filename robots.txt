@@ -64,10 +64,10 @@ User-agent: Wayback
 Allow: /
 
 # Sitemap location
-Sitemap: https://sitemap.xml
+Sitemap: https://giovannidoni.github.io/sitemap.xml
 
 # RSS feed location
-Sitemap: https://rss/feed.xml
+Sitemap: https://giovannidoni.github.io/rss/feed.xml
 
 # Content keywords for better understanding
 # Giovanni Doni - AI/ML Engineer, Tech Lead
