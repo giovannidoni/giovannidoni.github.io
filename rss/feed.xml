@@ -5,7 +5,7 @@
     <description>Latest blog posts and LinkedIn updates from Giovanni Doni</description>
     <link>https://giovannidoni.github.io/</link>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 May 2026 17:32:59 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 17:38:50 GMT</lastBuildDate>
     <atom:link href="https://giovannidoni.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -13,8 +13,6 @@
       <description><![CDATA[# Charged
 *How Zenvi happened*
  
-![San Sebastián Beach](/assets/charged.jpg)
-
 It started with a few calls. Pablo and Manuel were pitching their new early stage startup in energy space and they wanted me on board as Head of LLMs. I knew one of them well. I knew what he was capable of. With the other I clicked with immediately. Together, I thought, we could cover a great deal of what a successful venture actually needs.
 
 After the first couple of calls, I took a week off. End of April, the Camino del Norte, starting from Irun.
@@ -24,6 +22,8 @@ M and P happened to be there that same weekend. If it wasn’t for a nasty cough
 First leg: Irun to San Sebastián. Thirty kilometres. Breathtaking views. And then the beach, that famous San Sebastián beach, with a sea-view beer and no mobile signal.
 
 How come? It was 28th of April 2025: the blackout.
+
+![San Sebastián Beach](/assets/charged.jpg)
 
 5 days walking the Basque countries. In that moment, I also reconnected with something I’d half-forgotten: what Europe means. Not the headlines, not the numbers. Not the continuous beating of the public discourse. A way of life tested over centuries. I connected with the people. And something clicked that had been quietly forming for months: the parallel between Italy and Spain, two almost identical twins that could do so much together. Europe runs on two triads: wine, olive oil and sun in the south; beer, butter and wind in the north. A Southern European startup working on energy felt not just logical, but right.
 
@@ -40,6 +40,8 @@ But here we are. Ready to deploy.
 Not just software. Energy storage.
 
 In other words, **Zenvi**.
+
+![Zenvi](/assets/charged.jpg)
 ]]></description>
       <link>https://giovannidoni.github.io/blog/charged</link>
       <guid>https://giovannidoni.github.io/blog/charged</guid>
