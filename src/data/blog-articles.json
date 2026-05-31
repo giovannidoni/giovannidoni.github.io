@@ -1,5 +1,14 @@
 [
   {
+    "title": "Charged",
+    "excerpt": "From a few calls pitching an energy startup to the Camino del Norte: how a walk in the Basque Country and memories of university physics ignited the spark for Zenvi, a new venture in energy storage.",
+    "date": "2026-05-31",
+    "readTime": "3 min",
+    "tags": ["Startup", "Energy Storage", "Zenvi", "Tech Leadership"],
+    "slug": "charged",
+    "contentFile": "charged.md"
+  },
+  {
     "title": "How to Set Up Maltbot in a VM: Beginner's Guide to Safe AI Automation",
     "excerpt": "Step-by-step guide to running Maltbot in a secure virtual machine with access to thousands of apps via Zapier MCP, without giving AI full control of your real computer.",
     "date": "2026-01-30",
