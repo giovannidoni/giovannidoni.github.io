@@ -20,6 +20,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://giovannidoni.github.io/blog/charged</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://giovannidoni.github.io/blog/maltbot-howto</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
