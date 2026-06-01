@@ -1,4 +1,4 @@
-# Charged
+# Getting charged ⚡️
 *How Zenvi happened*
  
 It started with a few calls. Pablo and Manuel were pitching their new early stage startup in energy space and they wanted me on board as Head of LLMs. I knew one of them well. I knew what he was capable of. With the other I clicked with immediately. Together, I thought, we could cover a great deal of what a successful venture actually needs.
@@ -29,4 +29,4 @@ Not just software. Energy storage.
 
 In other words, **Zenvi**.
 
-![Zenvi](/assets/zenvi.jpg)
+![Zenvi](/assets/zenvi_cover.jpg)
