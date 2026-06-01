@@ -29,4 +29,4 @@ Not just software. Energy storage.
 
 In other words, **Zenvi**.
 
-![Zenvi](/assets/zenvi_cover.jpg)
+![Zenvi](/assets/zenvi_cover.png)
