@@ -5,12 +5,12 @@
     <description>Latest blog posts and LinkedIn updates from Giovanni Doni</description>
     <link>https://giovannidoni.github.io/</link>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 May 2026 17:38:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 05:41:10 GMT</lastBuildDate>
     <atom:link href="https://giovannidoni.github.io/rss/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Charged</title>
-      <description><![CDATA[# Charged
+      <description><![CDATA[# Getting charged ⚡️
 *How Zenvi happened*
  
 It started with a few calls. Pablo and Manuel were pitching their new early stage startup in energy space and they wanted me on board as Head of LLMs. I knew one of them well. I knew what he was capable of. With the other I clicked with immediately. Together, I thought, we could cover a great deal of what a successful venture actually needs.
@@ -41,7 +41,7 @@ Not just software. Energy storage.
 
 In other words, **Zenvi**.
 
-![Zenvi](/assets/charged.jpg)
+![Zenvi](/assets/zenvi_cover.jpg)
 ]]></description>
       <link>https://giovannidoni.github.io/blog/charged</link>
       <guid>https://giovannidoni.github.io/blog/charged</guid>
